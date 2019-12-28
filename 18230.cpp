@@ -44,7 +44,7 @@ int Calculate(int *onetile, int *twotile, int tilesize, int onesize, int twosize
             }
             break; //반복문 빠져 나옴
         }
-        else if (primary >= onesize)
+        else if (primary >= onesize || secondery >= onesize)
         { //2x1 타일을 다 사용했을 경우(인덱스가 벗어났기 때문)
             for (int i = primary_t; tilesize != 0; i++)
             {
