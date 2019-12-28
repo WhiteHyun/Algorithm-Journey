@@ -39,7 +39,7 @@ int Calculate(int *onetile, int *twotile, int tilesize, int onesize, int twosize
         { //2x2 타일을 다 사용했을 경우(인덱스가 벗어났기 때문)
             for (int i = primary; tilesize != 0; i++)
             {
-                max_size += onetile[primary]; //타일을 다 채울 때까지 넣음.
+                max_size += onetile[i]; //타일을 다 채울 때까지 넣음.
                 tilesize--;                   //타일 사이즈 감소
             }
             break; //반복문 빠져 나옴
@@ -48,7 +48,7 @@ int Calculate(int *onetile, int *twotile, int tilesize, int onesize, int twosize
         { //2x1 타일을 다 사용했을 경우(인덱스가 벗어났기 때문)
             for (int i = primary_t; tilesize != 0; i++)
             {
-                max_size += twotile[primary_t]; //타일을 다 채울 때까지 넣음
+                max_size += twotile[i]; //타일을 다 채울 때까지 넣음
                 tilesize -= 2;                  //타일 사이즈 감소
             }
             break; //반복문 빠져 나옴
