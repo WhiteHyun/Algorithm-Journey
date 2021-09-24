@@ -51,14 +51,3 @@ if __name__ == "__main__":
                             elif i == (len(palindrome) >> 1) - 1:
                                 palindrome = f"{palindrome[:len(palindrome)>>1]}{alphabet*length}{palindrome[len(palindrome)>>1:]}"
             print(palindrome)
-
-
-# palindrome = f"""
-#                                                 0: {palindrome[:i]}
-#                                                 1: {alphabet*((length-1)>>1)}
-#                                                 2: {palindrome[i:len(palindrome)>>1]}
-#                                                 3: {alphabet}
-#                                                 4: {palindrome[len(palindrome)>>1:(len(palindrome)>>1)*2-i]}
-#                                                 5: {alphabet*((length-1)>>1)}
-#                                                 6: {palindrome[(len(palindrome)>>1)*2-i:]}
-#                                                 """
