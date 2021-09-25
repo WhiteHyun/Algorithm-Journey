@@ -7,6 +7,7 @@
 - [Yangjojang of the Year(#11557)](boj/11557.py)
 - [나무조각(#2947)](boj/2947.py)
 - [Base Conversion(#11576)](boj/11576.py)
+- [빙고(#2578)](boj/2578.py)
 
 ## 실버 IV
 
