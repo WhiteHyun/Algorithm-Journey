@@ -24,7 +24,7 @@ problem_name=$(curl -s -N "$problem_link" | sed -n "s/^.*<title>\(.*\)<\/title>.
 
 echo "# $problem_name" >> "$solution_file"
 echo "# $problem_link" >> "$solution_file"
-echo -e "\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
+echo -e "\n\nfrom sys import stdin\ninput = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
 
 echo "$problem_name"
 echo "$solution_file"
