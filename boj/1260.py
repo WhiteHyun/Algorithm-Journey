@@ -19,17 +19,17 @@ class DFS:
             self.graph[key] = deque(sorted(graph[key], reverse=True))
 
     def process(self) -> Generator:
-        dfs_node = deque()
+        visit_node = deque()
 
         while self.__stack:
-            node = self.__stack.pop()
-            if node in self.graph:
-                self.__stack.extend(self.graph[node])
-                del self.graph[node]
-            if node not in dfs_node:
-                dfs_node.append(node)
+            node = self.__stack.pop()  # 스택에 있는 값을 팝
+            if node in self.graph:  # 만약 해당 노드가 방문해야하는 노드가 있는 경우
+                self.__stack.extend(self.graph[node])  # 스택에 저장
+                del self.graph[node]  # 방문한 노드는 딕셔너리에서 삭제!
+            if node not in visit_node:  # 이미 방문했었으면 그냥 넘어가고, 아니면 방문 노드에 넣어두자
+                visit_node.append(node)
 
-        yield from dfs_node
+        yield from visit_node
 
 
 class BFS:
@@ -42,18 +42,18 @@ class BFS:
             self.graph[key] = deque(sorted(graph[key]))
 
     def process(self) -> Generator:
-        bfs_node = deque()
+        visit_node = deque()
 
         while self.__queue:
-            node = self.__queue.popleft()
-            if node in self.graph:
-                self.__queue.extend(self.graph[node])
-                del self.graph[node]
+            node = self.__queue.popleft()  # queue에 있는 노드를 팝
+            if node in self.graph:  # 노드에서 방문해야되는 노드가 있을 때
+                self.__queue.extend(self.graph[node])  # 방문해야할 노드들을 큐에 저장
+                del self.graph[node]  # 방금 방문한 노드는 딕셔너리에서 삭제!
 
-            if node not in bfs_node:
-                bfs_node.append(node)
+            if node not in visit_node:  # 만약 방금 방문한 노드가 첫 방문이면 방문노드 큐에 넣어줌
+                visit_node.append(node)
 
-        yield from bfs_node
+        yield from visit_node
 
 
 def graph_input(count: int) -> dict:
@@ -61,10 +61,10 @@ def graph_input(count: int) -> dict:
     for _ in range(count):
         node1, node2 = map(int, input().split())  # 간선 간의 관계를 입력받음, 서로 양방향.
         if node1 not in graph_dict:  # dict에 해당 노드가 없을 경우
-            # 노드를 키값으로 하여 다른 노드와의 연결고리를 리스트로 만듦
+            # 노드를 키값으로 하여 다른 노드와의 연결고리를 deque로 만듦
             graph_dict[node1] = deque([node2])
         else:
-            graph_dict[node1].append(node2)  # 이미 존재한다면 리스트에 node 추가
+            graph_dict[node1].append(node2)  # 이미 존재한다면 deque에 node 추가
 
         if node2 not in graph_dict:  # 위에랑 마찬가지!
             graph_dict[node2] = deque([node1])
