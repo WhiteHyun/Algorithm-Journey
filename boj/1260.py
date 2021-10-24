@@ -2,95 +2,92 @@
 # https://www.acmicpc.net/problem/1260
 
 
-if __name__ == "__main__":
-    length, count, start_node = map(int, input().split())
+from sys import stdin
+from collections import deque
+from typing import Generator
+input = stdin.readline
 
+
+class DFS:
+
+    def __init__(self, start_node: int, graph: dict) -> None:
+        self.__stack = deque([start_node])
+        self.graph = {}
+        # 입력받은 값들(graph_dict)은 정렬되지 않은 상태
+        for key in graph:
+            # stack 이면서 가장 작은 것부터 방문해야 하기 때문에 역순으로 정렬
+            self.graph[key] = deque(sorted(graph[key], reverse=True))
+
+    def process(self) -> Generator:
+        dfs_node = deque()
+
+        while self.__stack:
+            node = self.__stack.pop()
+            if node in self.graph:
+                self.__stack.extend(self.graph[node])
+                del self.graph[node]
+            if node not in dfs_node:
+                dfs_node.append(node)
+
+        yield from dfs_node
+
+
+class BFS:
+
+    def __init__(self, start_node: int, graph: dict) -> None:
+        self.__queue = deque([start_node])
+        self.graph = {}
+        # 입력받은 값들(graph_dict)은 정렬되지 않은 상태
+        for key in graph:
+            self.graph[key] = deque(sorted(graph[key]))
+
+    def process(self) -> Generator:
+        bfs_node = deque()
+
+        while self.__queue:
+            node = self.__queue.popleft()
+            if node in self.graph:
+                self.__queue.extend(self.graph[node])
+                del self.graph[node]
+
+            if node not in bfs_node:
+                bfs_node.append(node)
+
+        yield from bfs_node
+
+
+def graph_input(count: int) -> dict:
     graph_dict = {}
-    for i in range(count):
-        node1, node2 = map(int, input().split())
-        if node1 not in graph_dict:
-            graph_dict[node1] = [node2]
+    for _ in range(count):
+        node1, node2 = map(int, input().split())  # 간선 간의 관계를 입력받음, 서로 양방향.
+        if node1 not in graph_dict:  # dict에 해당 노드가 없을 경우
+            # 노드를 키값으로 하여 다른 노드와의 연결고리를 리스트로 만듦
+            graph_dict[node1] = deque([node2])
         else:
-            graph_dict[node1].append(node2)
+            graph_dict[node1].append(node2)  # 이미 존재한다면 리스트에 node 추가
 
-        if node2 not in graph_dict:
-            graph_dict[node2] = [node1]
+        if node2 not in graph_dict:  # 위에랑 마찬가지!
+            graph_dict[node2] = deque([node1])
         else:
             graph_dict[node2].append(node1)
 
-    bfs = {}
-    dfs = {}
+    return graph_dict
 
-    for key in graph_dict:
-        # stack에서 가장 낮은 수부터 방문하기 위함
-        dfs[key] = sorted(graph_dict[key], reverse=True)
-        bfs[key] = sorted(graph_dict[key])  # queue에서 가장 낮은 수부터 방문하기 위함
 
-    """
-    ex)
-    4 5 1
-    1 2
-    1 3
-    1 4
-    2 4
-    3 4
+if __name__ == "__main__":
+    # length: 정점의 길이
+    # count: 간선의 개수, 해당 수만큼 반복해서 간선을 입력받는다.
+    # start_node: 첫 시작 노드
+    length, count, start_node = map(int, input().split())
 
-    bfs = {
-        1: [2, 3, 4],
-        2: [1, 4],
-        3: [1, 4],
-        4: [1, 2, 3]
-        }
+    graph_dict = graph_input(count)
 
-    설명: bfs의 시작노드가 1이면 1의 value값인 [2, 3, 4]를 큐에 그대로 저장한다.
-    그리고 해당 key인 `1`을 dictionary상에서 삭제하고 출력리스트에 append한다.
-    큐는 FIFO 이므로 꺼낸다면 `2`를 꺼내게 될 것이고, 2에 있는 [1, 4]를 그대로 큐에 또 저장하고 key가 `2`인 것들을 삭제한다.
-    그러면 현재 큐는 [3, 4, 1, 4]가 되고 남은 bfs 값은
-    {3: [1, 4], 4: [1, 2, 3]}이 된다.
-    이 때 출력할 노드 리스트는 [1, 2]가 된다.
-    이렇게 bfs dictionary에 있는 값들을 큐에 저장하면서 반복하다가 팝한 노드값이 bfs에 없다면 이미 방문한 노드이기 때문에 그대로 넘어간다.
+    dfs = DFS(start_node, graph_dict)
+    bfs = BFS(start_node, graph_dict)
 
-    dfs = {
-        1: [4, 3, 2],
-        2: [4, 1],
-        3: [4, 1],
-        4: [3, 2, 1]
-    }
-
-    설명: dfs의 시작노드가 1이면 1의 value값인 [4, 3, 2]를 스택에 그대로 저장한다.
-    그리고 해당 key인 `1`을 dictionary상에서 삭제하고 출력리스트에 append한다.
-    스택은 FILO 이므로 꺼낸다면 `2`를 꺼내게 될 것이고, 2에 있는 [4, 1]를 그대로 스택에 또 저장하고 key가 `2`인 것들을 삭제한다.
-    그러면 현재 스택은 [3, 2, 4, 1]이 되고 남은 dfs 값은
-    {3: [4, 1], 4: [3, 2, 1]}이 된다.
-    이 때 출력할 노드 리스트는 [1, 2]가 된다.
-    이렇게 dfs dictionary에 있는 값들을 스택에 저장하면서 반복하다가 팝한 노드값이 dfs에 없다면 이미 방문한 노드이기 때문에 그대로 넘어간다.
-    
-    """
-
-    # dfs
-    dfs_node = []
-    dfs_stack = [start_node]
-    while dfs_stack:
-        node = dfs_stack.pop()
-        if node in dfs:
-            dfs_stack.extend(dfs[node])
-            del dfs[node]
-            dfs_node.append(node)
-
-    # bfs
-    bfs_node = []
-    bfs_stack = [start_node]
-    while bfs_stack:
-        node = bfs_stack.pop(0)
-        if node in bfs:
-            bfs_stack.extend(bfs[node])
-            del bfs[node]
-            bfs_node.append(node)
-
-    for node in dfs_node:
+    for node in dfs.process():
         print(node, end=" ")
     print()
-
-    for node in bfs_node:
+    for node in bfs.process():
         print(node, end=" ")
     print()
