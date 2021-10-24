@@ -3,15 +3,16 @@
 
 # input 받는 시간을 줄이기 위해 sys import
 from sys import stdin
+input = stdin.readline
 
 if __name__ == "__main__":
-    input_length, find_length = map(int, stdin.readline().split())
+    input_length, find_length = map(int, input().split())
 
     pass_dict = {}
     for _ in range(input_length):
-        site, password = stdin.readline().split()
+        site, password = input().split()
         pass_dict[site] = password
 
     for _ in range(find_length):
-        site = stdin.readline().strip()
+        site = input().strip()
         print(pass_dict[site])
