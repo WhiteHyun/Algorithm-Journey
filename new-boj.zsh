@@ -29,7 +29,7 @@ python_version=$(python --version)
 echo "# $problem_name" >> "$solution_file"
 echo "# $problem_link" >> "$solution_file"
 echo "# Version: $python_version" >> "$solution_file"
-echo -e "\n\nfrom sys import stdin\ninput = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
+echo -e "\n\nfrom sys import stdin\n\ninput = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
 
 echo "$problem_name"
 echo "$solution_file"
