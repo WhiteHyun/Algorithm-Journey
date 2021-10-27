@@ -7,7 +7,7 @@
 # - 문제 번호를 이름으로 가지는
 # 파이썬 파일을 생성함.
 #
-# 사용법: ./new-boj [문제 번호]
+# 사용법: ./new-boj.zsh [문제 번호]
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
@@ -24,12 +24,12 @@ problem_link="https://www.acmicpc.net/problem/$problem_number"
 problem_name=$(curl -s -N "$problem_link" | sed -n "s/^.*<title>\(.*\)<\/title>.*$/\1/p")
 
 # python version
-python_version=$(python --version)
+python_version=$(python3 --version)
 
 echo "# $problem_name" >> "$solution_file"
 echo "# $problem_link" >> "$solution_file"
 echo "# Version: $python_version" >> "$solution_file"
-echo -e "\n\nfrom sys import stdin\n\ninput = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
+echo -e "\n\nfrom sys import stdin\n\nread = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
 
 echo "$problem_name"
 echo "$solution_file"
