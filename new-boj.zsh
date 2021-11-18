@@ -43,8 +43,8 @@ if [ "$2" = "python" ]; then
 # [제출 언어]가 swift인 경우
 elif [ "$2" = "swift" ]; then
   echo "//" >> "$solution_file"
-  echo "// $problem_name" >> "$solution_file"
-  echo "// $problem_link" >> "$solution_file"
+  echo "//  $problem_name" >> "$solution_file"
+  echo "//  $problem_link" >> "$solution_file"
   echo "//" >> "$solution_file"
   echo "//  Created by WhiteHyun on $today." >> "$solution_file"
   echo "//" >> "$solution_file"

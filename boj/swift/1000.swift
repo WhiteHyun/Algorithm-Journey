@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  boj
+//  1000번: A+B
+//  https://www.acmicpc.net/problem/1000
 //
-//  Created by 홍승현 on 2021/11/17.
+//  Created by WhiteHyun on 2021/11/18.
 //
 
 import Foundation

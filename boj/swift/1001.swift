@@ -1,8 +1,8 @@
 //
-// 1001번: A-B
-// https://www.acmicpc.net/problem/1001
+//  1001번: A-B
+//  https://www.acmicpc.net/problem/1001
 //
-//  Created by WhiteHyun on 2021/11/18.
+// Created by WhiteHyun on 2021/11/18.
 //
 
 import Foundation
