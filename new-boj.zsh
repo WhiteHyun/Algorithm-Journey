@@ -19,7 +19,7 @@ else
 fi
 
 # problem name
-solution_file="$DIR/boj/$problem_number.py"
+solution_file="$DIR/boj/python/$problem_number.py"
 problem_link="https://www.acmicpc.net/problem/$problem_number"
 problem_name=$(curl -s -N "$problem_link" | sed -n "s/^.*<title>\(.*\)<\/title>.*$/\1/p")
 
