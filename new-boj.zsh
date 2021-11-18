@@ -7,7 +7,7 @@
 # - 문제 번호를 이름으로 가지는
 # 파이썬 파일을 생성함.
 #
-# 사용법: ./new-boj.zsh [문제 번호]
+# 사용법: ./new-boj.zsh [문제 번호] [제출 언어]
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
@@ -19,17 +19,37 @@ else
 fi
 
 # problem name
-solution_file="$DIR/boj/python/$problem_number.py"
+if [ "$2" = "python" ]; then
+  solution_file="$DIR/boj/python/$problem_number.py"
+elif [ "$2" = "swift" ]; then
+  solution_file="$DIR/boj/swift/$problem_number.swift"
+fi
+
 problem_link="https://www.acmicpc.net/problem/$problem_number"
 problem_name=$(curl -s -N "$problem_link" | sed -n "s/^.*<title>\(.*\)<\/title>.*$/\1/p")
 
 # python version
 python_version=$(python3 --version)
 
-echo "# $problem_name" >> "$solution_file"
-echo "# $problem_link" >> "$solution_file"
-echo "# Version: $python_version" >> "$solution_file"
-echo -e "\n\nfrom sys import stdin\n\nread = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
+# today's date
+today=$(date "+%Y/%m/%d")
+
+# [제출 언어]가 파이썬인 경우
+if [ "$2" = "python" ]; then
+  echo "# $problem_name" >> "$solution_file"
+  echo "# $problem_link" >> "$solution_file"
+  echo "# Version: $python_version" >> "$solution_file"
+  echo -e "\n\nfrom sys import stdin\n\nread = stdin.readline\n\nif __name__ == \"__main__\":\n    pass" >> "$solution_file"
+# [제출 언어]가 swift인 경우
+elif [ "$2" = "swift" ]; then
+  echo "//" >> "$solution_file"
+  echo "// $problem_name" >> "$solution_file"
+  echo "// $problem_link" >> "$solution_file"
+  echo "//" >> "$solution_file"
+  echo "//  Created by WhiteHyun on $today." >> "$solution_file"
+  echo "//" >> "$solution_file"
+  echo -e "\nimport Foundation" >> "$solution_file"
+fi
 
 echo "$problem_name"
 echo "$solution_file"
