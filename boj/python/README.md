@@ -8,6 +8,7 @@
 - [16진수(#1550)](bronze5/1550.py)
 - [Hello World(#2557)](bronze5/2557.py)
 - [저작권(#2914)](bronze5/2914.py)
+- [R2(#3046)](bronze5/3046.py)
 
 ## 브론즈 IV
 
