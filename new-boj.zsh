@@ -61,7 +61,7 @@ fi
 difficulty_tier="$tier$stage"
 
 
-solution_file="$DIR/boj/python/$difficulty_tier/$problem_number.py"
+solution_file="$DIR/boj/$difficulty_tier/$problem_number.py"
 
 
 
