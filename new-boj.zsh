@@ -34,15 +34,15 @@ else
 fi
 
 # 백준 문제 티어 가져오기
-if [ $((difficulty / 5)) -eq 0 ]; then
+if [ $(((difficulty-1) / 5)) -eq 0 ]; then
     tier="bronze"
-elif [ $((difficulty / 5)) -eq 1 ]; then
+elif [ $(((difficulty-1) / 5)) -eq 1 ]; then
     tier="silver"
-elif [ $((difficulty / 5)) -eq 2 ]; then
+elif [ $(((difficulty-1) / 5)) -eq 2 ]; then
     tier="gold"
-elif [ $((difficulty / 5)) -eq 3 ]; then
+elif [ $(((difficulty-1) / 5)) -eq 3 ]; then
     tier="platinum"
-elif [ $((difficulty / 5)) -eq 4 ]; then
+elif [ $(((difficulty-1) / 5)) -eq 4 ]; then
     tier="diamond"
 fi
 
