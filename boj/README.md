@@ -192,6 +192,8 @@
 
 ## Gold III
 
+- [마트료시카(#23845)](gold3/23845.py)
+
 ## Gold II
 
 ## Gold I
