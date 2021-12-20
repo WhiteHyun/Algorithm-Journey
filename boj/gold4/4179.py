@@ -13,18 +13,14 @@ if __name__ == "__main__":
     maze = [list(read().rstrip()) for _ in range(row)]
     fire_queue = deque([])  # 불 bfs
     person_queue = deque([])  # 사람 bfs
-    count = 0
+
     for x in range(row):
         for y in range(col):
             if maze[x][y] == "J":
                 person_queue.append((x, y))
+
             elif maze[x][y] == "F":
                 fire_queue.append((x, y))
-            elif count == 2:  # 시작점을 전부 찾았다면 전부 다 돌 필요는 없음
-                break
-        else:  # for - else 문
-            continue
-        break
 
     hour = 0
     while fire_queue or person_queue:
