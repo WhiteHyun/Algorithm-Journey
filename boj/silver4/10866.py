@@ -1,6 +1,10 @@
-# 10866번: 덱
-# https://www.acmicpc.net/problem/10866
-# Version: Python 3.9.7
+#
+#  10866번: 덱
+#  https://www.acmicpc.net/problem/10866
+#  Version: Python 3.9.7
+#
+#  Created by WhiteHyun on 2021/12/26.
+#
 
 
 from sys import stdin
@@ -9,37 +13,24 @@ from collections import deque
 read = stdin.readline
 
 if __name__ == "__main__":
-    sequence = deque([])
+    sequence = deque()
     for _ in range(int(read())):
-        command = read().rstrip()
-        if command.find(" ") != -1:
-            command, number = command.split()
-            if command == "push_back":
-                sequence.append(number)
-            else:
-                sequence.appendleft(number)
-        elif command == "front":
-            if len(sequence) == 0:
-                print(-1)
-            else:
-                print(sequence[0])
-        elif command == "back":
-            if len(sequence) == 0:
-                print(-1)
-            else:
-                print(sequence[-1])
+        command, *args = read().split()
+        if command == "push_front":
+            sequence.appendleft(args[0])
+        elif command == "push_back":
+            sequence.append(args[0])
         elif command == "size":
             print(len(sequence))
         elif command == "empty":
-            print(1 if len(sequence) == 0 else 0)
+            print(0 if sequence else 1)
+        elif not sequence:
+            print(-1)
+        elif command == "front":
+            print(sequence[0])
+        elif command == "back":
+            print(sequence[-1])
         elif command == "pop_front":
-            if len(sequence) == 0:
-                print(-1)
-            else:
-                print(sequence.popleft())
+            print(sequence.popleft())
         elif command == "pop_back":
-            if len(sequence) == 0:
-                print(-1)
-            else:
-                print(sequence.pop())
-
+            print(sequence.pop())
