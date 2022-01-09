@@ -7,7 +7,7 @@
 # - 문제 번호를 이름으로 가지는
 # 파이썬 파일을 생성함.
 #
-# 사용법: ./new-boj.zsh [문제 번호] [제출 언어]
+# 사용법: ./boj.zsh [문제 번호]
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
