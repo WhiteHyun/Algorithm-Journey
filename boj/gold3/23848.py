@@ -13,13 +13,12 @@ read = stdin.readline
 
 
 def geometric_sequence(accumulated: int):
-    for a in range(1, accumulated // 3):
-        for r in range(2, accumulated // 3):
-            n = 3
-            while (value := a * (r ** n - 1) // (r - 1)) < accumulated:
-                n += 1
-            if value == accumulated:
-                return (n, a, r)
+    for r in range(2, int(accumulated ** 0.5) + 1):
+        n = 3
+        while (value := (r ** n - 1) // (r - 1)) <= accumulated:
+            if accumulated % value == 0:
+                return (n, accumulated // value, r)
+            n += 1
     return -1
 
 
