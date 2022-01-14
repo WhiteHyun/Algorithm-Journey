@@ -254,6 +254,7 @@
 
 ## Gold V
 
+- [Fly me to the Alpha Centauri(#1011)](gold5/1011.py)
 - [트리(#1068)](gold5/1068.py)
 - [선 긋기(#2170)](gold5/2170.py)
 - [AC(#5430)](gold5/5430.py)
