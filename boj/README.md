@@ -142,6 +142,7 @@
 - [돌 게임2(#9656)](silver5/9656.py)
 - [30(#10610)](silver5/10610.py)
 - [중복 빼고 정렬하기(#10867)](silver5/10867.py)
+- [수 정렬하기 3(#10989)](silver5/10989.py)
 - [Yangjojang of the Year(#11557)](silver5/11557.py)
 - [Base Conversion(#11576)](silver5/11576.py)
 - [좌표 정렬하기(#11650)](silver5/11650.py)
