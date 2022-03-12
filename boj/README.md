@@ -282,6 +282,7 @@
 - [Fly me to the Alpha Centauri(#1011)](gold5/1011.py)
 - [트리(#1068)](gold5/1068.py)
 - [선 긋기(#2170)](gold5/2170.py)
+- [스타트링크(#5014)](gold5/5014.py)
 - [AC(#5430)](gold5/5430.py)
 - [상범 빌딩(#6593)](gold5/6593.py)
 - [N-Queen(#9663)](gold5/9663.py)
