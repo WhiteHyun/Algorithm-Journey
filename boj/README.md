@@ -316,6 +316,4 @@
 
 ## Gold I
 
-## Platinum V
-
 - [할 수 있다(#1287)](platinum5/1287.py)
