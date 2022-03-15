@@ -18,12 +18,17 @@ else
   problem_number="$1"
 fi
 
+api_result=$(curl --request GET \
+  --url "https://solved.ac/api/v3/search/problem?query=${problem_number}&page=1&sort=id&direction=asc" \
+  --header 'Content-Type: application/json' | jq ".items | .[0]")
 
-problem_link="https://www.acmicpc.net/problem/$problem_number"
-tier_link="https://solved.ac/api/v3/problem/show?problemId=$problem_number"
+problem_name=$(echo "$api_result" | jq ".titleKo")
+problem_name=${problem_name#\"}
+problem_name=${problem_name%\"}
+problem_name="${problem_number}번: $problem_name"
+difficulty=$(echo "$api_result" | jq ".level")
 
-problem_name=$(curl -s -N "$problem_link" | sed -n "s/^.*<title>\(.*\)<\/title>.*$/\1/p")
-difficulty=$(curl -s -N "$tier_link" | jq ".level")
+
 
 # difficulty must be a number.
 if [ -n $difficulty ] && [ $difficulty -eq $difficulty ] 2>/dev/null; then
@@ -73,7 +78,7 @@ today=$(date "+%Y/%m/%d")
 
 echo "#" >> "$solution_file"
 echo "#  $problem_name" >> "$solution_file"
-echo "#  $problem_link" >> "$solution_file"
+echo "#  https://www.acmicpc.net/problem/$problem_number" >> "$solution_file"
 echo "#  Version: $python_version" >> "$solution_file"
 echo "#" >> "$solution_file"
 echo "#  Created by WhiteHyun on $today." >> "$solution_file"
