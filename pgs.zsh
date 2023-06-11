@@ -13,13 +13,10 @@
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
 if [ "$#" -eq 0 ]; then
-  echo -n "프로그래머스 문제 번호: "
+  echo -n "프로그래머스 문제 번호 또는 링크: "
   read -r problem_info
-  echo -n "닉네임: "
-  read -r nickname
-elif [ "$#" -eq 2 ]; then
+elif [ "$#" -eq 1 ]; then
   problem_info="$1"
-  nickname="$2"
 else
   exit 1
 fi
@@ -44,7 +41,7 @@ fi
 # 
 
 # make directory if not exist.
-solution_folder="$DIR/programmers/$nickname"
+solution_folder="$DIR/pgs"
 mkdir -p "$solution_folder"
 
 problem_link="https://school.programmers.co.kr/learn/courses/30/lessons/$problem_number"
@@ -52,11 +49,6 @@ problem_link="https://school.programmers.co.kr/learn/courses/30/lessons/$problem
 # 파일 이름을 문제 이름으로 설정합니다.
 problem_name=$(curl -s -N "$problem_link" | sed -n "s/^.*<title>코딩테스트 연습 - \(.*\) \| 프로그래머스 스쿨<\/title>.*$/\1/p")
 solution_file="$solution_folder/$problem_name.py"
-
-# 닉네임 뒤에 '/' 기호와 함께 level을 표시할 수도 있습니다. 이를 나누어주어야합니다.
-if [[ $nickname =~ "/" ]]; then
-  nickname="${nickname%%/*}"
-fi
 
 # python version
 python_version=$(python3 --version)
@@ -70,7 +62,7 @@ today=$(date "+%Y/%m/%d")
   echo "#  $problem_link"
   echo "#  Version: $python_version"
   echo "#"
-  echo "#  Created by $nickname on $today."
+  echo "#  Created by WhiteHyun on $today."
   echo "#"
   echo -e "\n\n"
 } >> "$solution_file"
