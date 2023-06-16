@@ -28,8 +28,13 @@ solution_folder="$DIR/leetcode"
 mkdir -p "$solution_folder"
 
 # 파일 이름을 문제 이름으로 설정합니다.
-problem_name=$(curl -s -N "https://leetcode.com/problems/word-ladder/description/" | sed -n -e 's/^.*<span class="mr-2 text-label-1 dark:text-dark-label-1 text-lg font-medium">\(.*\)<\/span>.*$/\1/p')
+problem_name=$(curl -s -N "$problem_link" | sed -n -e 's/^.*<span class="mr-2 text-label-1 dark:text-dark-label-1 text-lg font-medium">\(.*\)<\/span>.*$/\1/p')
 problem_name="${problem_name//<!-- -->/}" # LeetCode에서 문제 이름 중간중간에 들어있는 `<!-- -->`를 제거.
+difficulty=$(curl -s -N "$problem_link" | sed -n -e 's/^.*<div class="mt-3 flex space-x-4">\(.*\)<\/div>.*$/\1/p')
+difficulty=$(echo "$difficulty" | awk -F'<div' '{print $2}' | awk -F'>' '{print $2}' | awk -F'<\/div>' '{print $1}' | sed 's/<\/div//g')
+
+solution_folder="$solution_folder/$difficulty"
+mkdir -p "$solution_folder"
 
 
 solution_file="$solution_folder/$problem_name.py"
