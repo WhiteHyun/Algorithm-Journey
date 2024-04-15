@@ -1,10 +1,6 @@
-![algorithm](algorithm.png)
+![algorithm](../algorithm.png)
 
-# Algorithm-Journey
-
-- [BOJ 티어별 문제](boj/README.md)
-
-## 문제 풀이 사이트별 자동화 스크립트
+## 문제 풀이 사이트별 자동화 스크립트 - (Swift)
 
 > **Note**: 만약 사용하실 거면, chmod로 파일 실행 권한을 설정하셔야 합니다. `chmod +x 파일이름.sh`를 터미널에 입력한 뒤에 사용하세요 :)
 
