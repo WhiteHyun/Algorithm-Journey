@@ -34,6 +34,10 @@
 
 ### 리트코드(LeetCode)
 
+|                                                                     실행 화면                                                                     |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Screen Recording 2024-04-15 at 4 19 11 PM](https://github.com/WhiteHyun/Algorithm-Journey/assets/57972338/92e6a360-d83c-4c61-bfa1-7267f0a53693) |
+
 - URL 또는 `title-slug`를 보내주시면 됩니다.
 - 난이도(Easy, Medium, Hard)에 따라 폴더가 생성되고, 문제 제목을 파일명으로 하여 Swift 코드가 생성됩니다.
 
@@ -41,6 +45,7 @@
 
 ```bash
 ./leetcode.zsh https://leetcode.com/problems/word-ladder/description/
+./leetcode.zsh word-ladder
 ```
 
 ## References

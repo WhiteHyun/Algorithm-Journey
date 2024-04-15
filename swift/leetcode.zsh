@@ -148,5 +148,5 @@ echo "LeetCode에서 문제 세부정보 응답 수신 완료"
 # Create the Swift file
 create_swift_file "$response"
 
-echo "Xcode 프로젝트 열기: Algorithm.xcodeproj"
+echo "Xcode 프로젝트 여는 중..."
 open Algorithm.xcodeproj
