@@ -39,6 +39,11 @@ create_swift_file() {
     echo "$swift_code"
   } >> "$solution_file"
 
+
+  # Add Swift file to Xcode Project
+  ./add_to_xcode_project.rb "$solution_file"
+
+
   echo "Swift 파일이 생성되었습니다: $file_name"
 }
 
@@ -74,6 +79,3 @@ echo "$response"
 
 # Create the Swift file
 create_swift_file "$response"
-
-# Add Swift file to Xcode Project
-./add_to_xcode_project.rb "$solution_file"

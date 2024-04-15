@@ -83,8 +83,32 @@
 		BA6B50192BCA35AE00B1715B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				BACABE0B2BCD0565005A197C /* Hard */,
+				BACABE0A2BCD0555005A197C /* Medium */,
+				BACABE092BCD0551005A197C /* Easy */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		BACABE092BCD0551005A197C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		BACABE0A2BCD0555005A197C /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		BACABE0B2BCD0565005A197C /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
 			sourceTree = "<group>";
 		};
 		BAF746D2299B78D600182311 = {
