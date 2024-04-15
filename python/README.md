@@ -2,8 +2,7 @@
 
 # Algorithm-Journey
 
-- [Python](python/README.md)
-- [Swift](swift/README.md)
+- [BOJ 티어별 문제](boj/README.md)
 
 ## 문제 풀이 사이트별 자동화 스크립트
 
