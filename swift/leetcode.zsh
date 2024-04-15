@@ -41,8 +41,7 @@ create_swift_file() {
 
 
   # Add Swift file to Xcode Project
-  ./add_to_xcode_project.rb "$solution_file"
-
+  ./add_to_xcode_project.rb "$solution_file" "$difficulty"
 
   echo "Swift 파일이 생성되었습니다: $file_name"
 }
