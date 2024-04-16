@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05BB03033C19747B0BDDA1DC /* 85. Maximal Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */; };
+		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
 		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
 		BA2A48E22A938ABB00E03967 /* 합승 택시 요금.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */; };
@@ -47,6 +48,7 @@
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "85. Maximal Rectangle.swift"; sourceTree = "<group>"; };
+		78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "84. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "합승 택시 요금.swift"; sourceTree = "<group>"; };
 		BA309308299F837800FCD5F3 /* 미로 탈출.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "미로 탈출.swift"; sourceTree = "<group>"; };
 		BA30930A299F84CB00FCD5F3 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */,
 				689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */,
+				78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */,
 				FF44CB3EB03092BEEBD8215E /* 42. Trapping Rain Water.swift in Sources */,
 				05BB03033C19747B0BDDA1DC /* 85. Maximal Rectangle.swift in Sources */,
+				7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
