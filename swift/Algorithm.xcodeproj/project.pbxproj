@@ -27,6 +27,7 @@
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
 		BAF746EF299B851000182311 /* 호텔 대실.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746EE299B851000182311 /* 호텔 대실.swift */; };
 		BAF746F3299CEA0B00182311 /* 둘만의 암호.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746F2299CEA0B00182311 /* 둘만의 암호.swift */; };
+		FF44CB3EB03092BEEBD8215E /* 42. Trapping Rain Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		BAF746DE299B78D600182311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BAF746EE299B851000182311 /* 호텔 대실.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "호텔 대실.swift"; sourceTree = "<group>"; };
 		BAF746F2299CEA0B00182311 /* 둘만의 암호.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "둘만의 암호.swift"; sourceTree = "<group>"; };
+		CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42. Trapping Rain Water.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		BACABE0B2BCD0565005A197C /* Hard */ = {
 			isa = PBXGroup;
 			children = (
+				CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				BAEC25132A0C9FEF006A8F3D /* 광물 캐기.swift in Sources */,
 				AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */,
 				9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */,
+				FF44CB3EB03092BEEBD8215E /* 42. Trapping Rain Water.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
