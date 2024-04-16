@@ -18,13 +18,11 @@ final class LeetCodeSolution42 {
     var puddleArea = 0
 
     while startIndex < endIndex {
-
       if height[startIndex] <= height[endIndex] {
         if height[startIndex] > leftWall { leftWall = height[startIndex] }
         else { puddleArea += leftWall - height[startIndex] }
         startIndex += 1
-      }
-      else {
+      } else {
         if height[endIndex] > rightWall { rightWall = height[endIndex] }
         else { puddleArea += rightWall - height[endIndex] }
         endIndex -= 1

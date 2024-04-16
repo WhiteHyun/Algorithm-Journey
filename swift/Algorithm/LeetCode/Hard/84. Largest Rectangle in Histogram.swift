@@ -20,7 +20,7 @@ final class LeetCodeSolution84 {
       }
 
       var start = index
-      while !stack.isEmpty && stack.last!.height > height {
+      while !stack.isEmpty, stack.last!.height > height {
         let (i, h) = stack.popLast()!
         start = i
         answer = max(answer, h * (index - i))
