@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
 		BA2A48E22A938ABB00E03967 /* 합승 택시 요금.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */; };
 		BA309309299F837800FCD5F3 /* 미로 탈출.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA309308299F837800FCD5F3 /* 미로 탈출.swift */; };
 		BA30930B299F84CB00FCD5F3 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30930A299F84CB00FCD5F3 /* Deque.swift */; };
@@ -21,6 +22,7 @@
 		BAE311A72A8BA07000D1CD45 /* 미로 탈출 명령어.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE311A62A8BA07000D1CD45 /* 미로 탈출 명령어.swift */; };
 		BAE4E48E299D233700C8550A /* 무인도 여행.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4E48D299D233700C8550A /* 무인도 여행.swift */; };
 		BAEC25132A0C9FEF006A8F3D /* 광물 캐기.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC25122A0C9FEF006A8F3D /* 광물 캐기.swift */; };
+		BAF443E42BCD1256007D25A6 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF443E32BCD1256007D25A6 /* ListNode.swift */; };
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
 		BAF746EF299B851000182311 /* 호텔 대실.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746EE299B851000182311 /* 호텔 대실.swift */; };
 		BAF746F3299CEA0B00182311 /* 둘만의 암호.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746F2299CEA0B00182311 /* 둘만의 암호.swift */; };
@@ -39,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
 		BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "합승 택시 요금.swift"; sourceTree = "<group>"; };
 		BA309308299F837800FCD5F3 /* 미로 탈출.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "미로 탈출.swift"; sourceTree = "<group>"; };
 		BA30930A299F84CB00FCD5F3 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		BAE311A62A8BA07000D1CD45 /* 미로 탈출 명령어.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "미로 탈출 명령어.swift"; sourceTree = "<group>"; };
 		BAE4E48D299D233700C8550A /* 무인도 여행.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "무인도 여행.swift"; sourceTree = "<group>"; };
 		BAEC25122A0C9FEF006A8F3D /* 광물 캐기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "광물 캐기.swift"; sourceTree = "<group>"; };
+		BAF443E32BCD1256007D25A6 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		BAF746DB299B78D600182311 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF746DE299B78D600182311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BAF746EE299B851000182311 /* 호텔 대실.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "호텔 대실.swift"; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				BA30930A299F84CB00FCD5F3 /* Deque.swift */,
 				BA30930C299F850400FCD5F3 /* Point.swift */,
 				BA402F562B848BC600E86AAD /* Utils.swift */,
+				BAF443E32BCD1256007D25A6 /* ListNode.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 		BACABE0A2BCD0555005A197C /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF746E2299B78D600182311 /* Build configuration list for PBXNativeTarget "Algorithm" */;
 			buildPhases = (
+				BAF443E52BCE18DE007D25A6 /* SwiftFormat */,
 				BAF746D7299B78D600182311 /* Sources */,
 				BAF746D8299B78D600182311 /* Frameworks */,
 				BAF746D9299B78D600182311 /* CopyFiles */,
+				BAF443E62BCE18E3007D25A6 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -194,7 +202,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					BAF746DA299B78D600182311 = {
 						CreatedOnToolsVersion = 14.2;
@@ -219,6 +227,47 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAF443E52BCE18DE007D25A6 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat > /dev/null; then\n    swiftformat .\nelse\n    echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		BAF443E62BCE18E3007D25A6 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint --config \"$SRCROOT/.swiftlint.yml\"\n    # swiftlint --fix && swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAF746D7299B78D600182311 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -233,6 +282,7 @@
 				BAF746F3299CEA0B00182311 /* 둘만의 암호.swift in Sources */,
 				BA30930B299F84CB00FCD5F3 /* Deque.swift in Sources */,
 				BAF746EF299B851000182311 /* 호텔 대실.swift in Sources */,
+				BAF443E42BCD1256007D25A6 /* ListNode.swift in Sources */,
 				BA402F572B848BC600E86AAD /* Utils.swift in Sources */,
 				BA6833B02A0739B10004D572 /* 요격 시스템.swift in Sources */,
 				BA30930D299F850400FCD5F3 /* Point.swift in Sources */,
@@ -241,6 +291,7 @@
 				BA3C8E002A0A94C400F7E98E /* 연속된 부분 수열의 합.swift in Sources */,
 				BA309309299F837800FCD5F3 /* 미로 탈출.swift in Sources */,
 				BAEC25132A0C9FEF006A8F3D /* 광물 캐기.swift in Sources */,
+				AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -280,9 +332,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -297,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -311,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -340,9 +395,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -351,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -364,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2ZQR76M3UH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2ZQR76M3UH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
