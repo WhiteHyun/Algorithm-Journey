@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05BB03033C19747B0BDDA1DC /* 85. Maximal Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */; };
+		15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
 		246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */; };
 		647453E29C0FB86384D43325 /* 987. Reveal Cards In Increasing Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */; };
 		65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */; };
@@ -52,6 +53,7 @@
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "85. Maximal Rectangle.swift"; sourceTree = "<group>"; };
+		6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "53. Maximum Subarray.swift"; sourceTree = "<group>"; };
 		78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "84. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "347. Top K Frequent Elements.swift"; sourceTree = "<group>"; };
 		BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "합승 택시 요금.swift"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */,
 				3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */,
 				A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */,
+				6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				647453E29C0FB86384D43325 /* 987. Reveal Cards In Increasing Order.swift in Sources */,
 				65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */,
 				246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */,
+				15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
