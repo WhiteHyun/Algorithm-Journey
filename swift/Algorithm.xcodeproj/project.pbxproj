@@ -14,6 +14,7 @@
 		65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
+		ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */; };
 		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
 		BA2A48E22A938ABB00E03967 /* 합승 택시 요금.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */; };
 		BA309309299F837800FCD5F3 /* 미로 탈출.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA309308299F837800FCD5F3 /* 미로 탈출.swift */; };
@@ -52,6 +53,7 @@
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
+		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
 		689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "85. Maximal Rectangle.swift"; sourceTree = "<group>"; };
 		6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "53. Maximum Subarray.swift"; sourceTree = "<group>"; };
 		78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "84. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */,
 				A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */,
 				6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */,
+				61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */,
 				246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */,
 				15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */,
+				ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
