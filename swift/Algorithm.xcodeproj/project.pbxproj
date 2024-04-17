@@ -35,6 +35,7 @@
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
 		BAF746EF299B851000182311 /* 호텔 대실.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746EE299B851000182311 /* 호텔 대실.swift */; };
 		BAF746F3299CEA0B00182311 /* 둘만의 암호.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746F2299CEA0B00182311 /* 둘만의 암호.swift */; };
+		F33D623C2BB190E54E3D207D /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
 		FF44CB3EB03092BEEBD8215E /* 42. Trapping Rain Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
+		1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */,
 				61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */,
 				66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */,
+				1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */,
 				ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */,
 				42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */,
+				F33D623C2BB190E54E3D207D /* 55. Jump Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
