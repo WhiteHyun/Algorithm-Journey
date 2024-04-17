@@ -7,9 +7,6 @@
 
 import Foundation
 
-print(LeetCodeSolution678().checkValidString("(((((*(((((*((**(((*)*((((**))*)*)))))))))((*(((((**(**)"))
-print(LeetCodeSolution678().checkValidString("(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())"))
-print(LeetCodeSolution678().checkValidString("(((***"))
-print(LeetCodeSolution678().checkValidString("((*()))))"))
-print(LeetCodeSolution678().checkValidString("(((*(*)(**(*"))
-print(LeetCodeSolution678().checkValidString("***(()"))
+print(LeetCodeSolution1030().smallestFromLeaf([0, 1, 2, 3, 4, 3, 4]))
+print(LeetCodeSolution1030().smallestFromLeaf([25, 1, 3, 1, 3, 0, 2]))
+print(LeetCodeSolution1030().smallestFromLeaf([2, 2, 1, nil, 1, 0, nil, 0]))

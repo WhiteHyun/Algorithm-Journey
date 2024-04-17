@@ -1,5 +1,5 @@
 //
-//  ListNode.swift
+//  TreeNode.swift
 //  Algorithm
 //
 //  Created by 홍승현 on 4/15/24.
@@ -27,37 +27,35 @@ extension TreeNode: ExpressibleByArrayLiteral {
   typealias ArrayLiteralElement = Int?
 
   convenience init(arrayLiteral elements: ArrayLiteralElement...) {
-    guard elements.isEmpty == false else {
+    guard elements.isEmpty == false
+    else {
       self.init(0)
       return
     }
     self.init(elements[0]!)
-    var queue: [(node: TreeNode, index: Int)] = [(self, 0)]
-    var index = 0
+    var queue: [TreeNode] = [self]
 
+    var index = 1
     while !queue.isEmpty {
-      let (node, nodeIndex) = queue.removeFirst()
+      let node = queue.removeFirst()
 
-      guard nodeIndex < elements.count
-      else {
-        continue
+      if index < elements.count {
+        if let leftValue = elements[index] {
+          let leftNode = TreeNode(leftValue)
+          node.left = leftNode
+          queue.append(leftNode)
+        }
+        index += 1
       }
 
-      if let value = elements[nodeIndex] {
-        node.val = value
-        let leftIndex = nodeIndex * 2 + 1
-        let rightIndex = nodeIndex * 2 + 2
-
-        if leftIndex < elements.count, elements[leftIndex] != nil {
-          node.left = .init(0)
-          queue.append((node.left!, leftIndex))
+      if index < elements.count {
+        if let rightValue = elements[index] {
+          let rightNode = TreeNode(rightValue)
+          node.right = rightNode
+          queue.append(rightNode)
         }
-        if rightIndex < elements.count, elements[rightIndex] != nil {
-          node.right = .init(0)
-          queue.append((node.right!, rightIndex))
-        }
+        index += 1
       }
-      index += 1
     }
   }
 }
