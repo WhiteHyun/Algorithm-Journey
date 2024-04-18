@@ -82,8 +82,9 @@ save_swift_file() {
 add_to_xcode_project() {
   local solution_file="$1.swift"
   local difficulty="$2"
+  local ps="LeetCode"
 
-  ./add_to_xcode_project.rb "$solution_file" "$difficulty"
+  ./add_to_xcode_project.rb "$solution_file" "$difficulty" "$ps"
   echo "Xcode 프로젝트에 Swift 파일 추가 완료: $solution_file"
 }
 

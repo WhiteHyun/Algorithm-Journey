@@ -9,93 +9,161 @@
 #
 # 사용법: ./boj.zsh [문제 번호]
 
-DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+# Check if a command is installed
+check_command() {
+  local command="$1"
+  if ! command -v "$command" &> /dev/null; then
+    echo "$command 명령어가 설치되어 있지 않습니다."
+    read -p "$command을 설치하시겠습니까? (Y/n): " install_command
+    case "$install_command" in
+      [nN] | [nN][oO])
+        echo "$command 설치가 거부되었습니다. 스크립트를 종료합니다."
+        exit 1
+        ;;
+      *)
+        echo "$command 설치를 진행합니다..."
+        brew install "$command"
+        ;;
+    esac
+  fi
+}
 
-if [ "$#" -eq 0 ]; then
-  echo -n "백준 문제 번호: "
-  read -r problem_number
+# Extract the problem name from the LeetCode URL
+extract_problem_number() {
+  local url="$1"
+  echo "$url" | grep -oE "[0-9]+$"
+}
+
+# Create the Swift code snippet
+create_swift_code_snippet() {
+  local question_id="$1"
+
+ local swift_code="final class BOJSolution${question_id} {
+ func solution(<#parameters#>) -> <#return type#> {
+   <#function body#>
+ }
+}"
+
+ echo "$swift_code"
+}
+
+# Create the Swift file content
+create_swift_file_content() {
+  local file_name="$1"
+  local swift_code="$2"
+
+  local today=$(date "+%Y/%m/%d")
+
+  local content=$(cat <<EOF
+//
+//  $file_name
+//  https://www.acmicpc.net/problem/1759
+//  Algorithm
+//
+//  Created by 홍승현 on $today.
+//
+
+import Foundation
+
+$swift_code
+EOF
+)
+
+  echo "$content"
+}
+
+# Save the Swift file
+save_swift_file() {
+  local file_name="$1"
+  local difficulty="$2"
+  local content="$3"
+
+  local DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+  local solution_folder="$DIR/Algorithm/BOJ/$difficulty"
+  mkdir -p "$solution_folder"
+
+  local solution_file="$solution_folder/$file_name.swift"
+  echo "$content" > "$solution_file"
+  echo "Swift 파일 생성 완료: $file_name"
+}
+
+# Add the Swift file to Xcode project
+add_to_xcode_project() {
+  local solution_file="$1.swift"
+  local difficulty="$2"
+  local ps="BOJ"
+
+  ./add_to_xcode_project.rb "$solution_file" "$difficulty" "$ps"
+  echo "Xcode 프로젝트에 Swift 파일 추가 완료: $solution_file"
+}
+
+# Create a Swift file for the LeetCode problem
+create_swift_file() {
+  local json_data="$1"
+  local question_id=$(echo "$json_data" | jq ".problemId")
+  local title=$(echo "$json_data" | jq ".titleKo")
+  title=${title#\"}
+  title=${title%\"}
+  local difficulty=$(echo "$json_data" | jq ".level")
+
+  # difficulty must be a number.
+  if [ -z $difficulty ] || [ $difficulty -ne $difficulty ] 2>/dev/null; then
+      echo "difficulty must be a number."
+      exit 1
+  fi
+
+  case $(((difficulty-1) / 5)) in
+      0) rank="Bronze"   ;;
+      1) rank="Silver"   ;;
+      2) rank="Gold"     ;;
+      3) rank="Platinum" ;;
+      4) rank="Diamond"  ;;
+      *) rank="Unknown"  ;;
+  esac
+
+  local swift_code=$(create_swift_code_snippet "$question_id")
+  local file_name="${question_id}. ${title}"
+  local content=$(create_swift_file_content "$file_name" "$swift_code")
+
+  save_swift_file "$file_name" "$rank" "$content"
+  add_to_xcode_project "$file_name" "$rank"
+}
+
+
+# Check if required commands are installed
+check_command "jq"
+
+# Check if the problem number or URL is provided
+if [ "$#" -eq 1 ]; then
+  input="$1"
+  if [[ "$input" == *"https://www.acmicpc.net/problem/"* ]]; then
+      # If the input is a BOJ URL
+      problem_number=$(extract_problem_number "$input")
+  elif [[ "$input" =~ ^[0-9]+$ ]]; then
+      # If the input is already a Number
+      problem_number="$input"
+  fi
 else
-  problem_number="$1"
+  echo "BOJ 문제번호 또는 URL을 입력해야 합니다."
+  exit 1
 fi
 
-api_result=$(curl --request GET \
+echo "Problem Number: $problem_number"
+
+response=$(curl --request GET \
   --url "https://solved.ac/api/v3/search/problem?query=${problem_number}&page=1&sort=id&direction=asc" \
   --header 'Content-Type: application/json' | jq ".items | .[0]")
 
-problem_name=$(echo "$api_result" | jq ".titleKo")
-problem_name=${problem_name#\"}
-problem_name=${problem_name%\"}
-problem_name="${problem_number}번: $problem_name"
-difficulty=$(echo "$api_result" | jq ".level")
 
-
-
-# difficulty must be a number.
-if [ -n $difficulty ] && [ $difficulty -eq $difficulty ] 2>/dev/null; then
-    # OK. It is a number.
-else
-    echo "difficulty must be a number."
-    exit 1
+if ! echo "$response" | jq -e '.titleKo' >/dev/null 2>&1; then
+  echo "solved.ac API로부터 유효한 응답을 받지 못했습니다. 스크립트를 종료합니다."
+  exit 1
 fi
 
-# 백준 문제 티어 가져오기
-if [ $(((difficulty-1) / 5)) -eq 0 ]; then
-    tier="bronze"
-elif [ $(((difficulty-1) / 5)) -eq 1 ]; then
-    tier="silver"
-elif [ $(((difficulty-1) / 5)) -eq 2 ]; then
-    tier="gold"
-elif [ $(((difficulty-1) / 5)) -eq 3 ]; then
-    tier="platinum"
-elif [ $(((difficulty-1) / 5)) -eq 4 ]; then
-    tier="diamond"
-fi
+echo "solved.ac API로 응답 수신 완료"
 
-if [ $((difficulty % 5)) -eq 1 ]; then
-    stage="5"
-elif [ $((difficulty % 5)) -eq 2 ]; then
-    stage="4"
-elif [ $((difficulty % 5)) -eq 3 ]; then
-    stage="3"
-elif [ $((difficulty % 5)) -eq 4 ]; then
-    stage="2"
-elif [ $((difficulty % 5)) -eq 0 ]; then
-    stage="1"
-fi
+# Create the Swift file
+create_swift_file "$response"
 
-difficulty_tier="$tier$stage"
-
-
-solution_file="$DIR/boj/$difficulty_tier/$problem_number.py"
-
-
-# python version
-python_version=$(python3 --version)
-
-# today's date
-today=$(date "+%Y/%m/%d")
-
-{
-  echo "//"
-  echo "//  $problem_name"
-  echo "//  $problem_link"
-  echo "//"
-  echo "//  Created by $nickname on $today."
-  echo "//\n"
-  echo "import Foundation\n"
-  echo "struct Number$problem_number {\n\n"
-  echo "}"
-
-} >> "$solution_file"
-
-echo "#" >> "$solution_file"
-echo "#  $problem_name" >> "$solution_file"
-echo "#  https://www.acmicpc.net/problem/$problem_number" >> "$solution_file"
-echo "#  Version: $python_version" >> "$solution_file"
-echo "#" >> "$solution_file"
-echo "#  Created by WhiteHyun on $today." >> "$solution_file"
-echo "#" >> "$solution_file"
-
-
-echo "$problem_name"
-echo "$solution_file"
+echo "Xcode 프로젝트 여는 중..."
+open Algorithm.xcodeproj

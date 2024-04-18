@@ -8,6 +8,7 @@ project_path = 'Algorithm.xcodeproj'
 # 추가할 Swift 파일의 상대 경로와 난이도
 swift_file_path = ARGV[0]
 difficulty = ARGV[1]
+problem_folder = ARGV[2]
 
 # Xcode 프로젝트 열기
 project = Xcodeproj::Project.open(project_path)
@@ -18,11 +19,11 @@ target = project.targets.first
 # "Algorithm" 그룹 찾기
 algorithm_group = project.main_group.find_subpath('Algorithm', true)
 
-# "Algorithm" 그룹 찾기
-leetcode_group = algorithm_group.find_subpath('LeetCode', true)
+# "문제풀이 사이트" 그룹 찾기
+ps_group = algorithm_group.find_subpath(problem_folder, true)
 
 # 난이도에 따라 해당 그룹 찾기 또는 생성하기
-difficulty_group = leetcode_group.find_subpath(difficulty, true)
+difficulty_group = ps_group.find_subpath(difficulty, true)
 
 # 새 파일을 난이도 그룹에 추가
 file_ref = difficulty_group.new_reference(swift_file_path)
