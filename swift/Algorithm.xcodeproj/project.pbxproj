@@ -14,6 +14,7 @@
 		647453E29C0FB86384D43325 /* 987. Reveal Cards In Increasing Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */; };
 		65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
+		9653D5809AF9F31705F2CAEF /* 1759. 암호 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. 암호 만들기.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
 		ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */; };
 		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
@@ -56,6 +57,7 @@
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
 		1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "463. Island Perimeter.swift"; sourceTree = "<group>"; };
+		2B1177A4EC4AE5AD874BF77F /* 1759. 암호 만들기.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1759. 암호 만들기.swift"; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA03EE6C2BD0BDA900F1DF61 /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				BA03EE6E2BD0BDCF00F1DF61 /* Bronze */,
+				BA03EE6F2BD0BDD300F1DF61 /* Silver */,
+				BA03EE6D2BD0BDB100F1DF61 /* Gold */,
+				BA03EE702BD0BDDA00F1DF61 /* Platinum */,
+				BA03EE712BD0BDE000F1DF61 /* Diamond */,
+				BA03EE722BD0BDE300F1DF61 /* Unknown */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		BA03EE6D2BD0BDB100F1DF61 /* Gold */ = {
+			isa = PBXGroup;
+			children = (
+				2B1177A4EC4AE5AD874BF77F /* 1759. 암호 만들기.swift */,
+			);
+			path = Gold;
+			sourceTree = "<group>";
+		};
+		BA03EE6E2BD0BDCF00F1DF61 /* Bronze */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bronze;
+			sourceTree = "<group>";
+		};
+		BA03EE6F2BD0BDD300F1DF61 /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
+		BA03EE702BD0BDDA00F1DF61 /* Platinum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Platinum;
+			sourceTree = "<group>";
+		};
+		BA03EE712BD0BDE000F1DF61 /* Diamond */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Diamond;
+			sourceTree = "<group>";
+		};
+		BA03EE722BD0BDE300F1DF61 /* Unknown */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Unknown;
+			sourceTree = "<group>";
+		};
 		BA30930E299F851800FCD5F3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +230,7 @@
 		BAF746DD299B78D600182311 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				BA03EE6C2BD0BDA900F1DF61 /* BOJ */,
 				BAF746DE299B78D600182311 /* main.swift */,
 				BA6B50192BCA35AE00B1715B /* LeetCode */,
 				BAF746E6299B7C4A00182311 /* Programmers */,
@@ -340,6 +399,7 @@
 				42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */,
 				F33D623C2BB190E54E3D207D /* 55. Jump Game.swift in Sources */,
 				FC374C1BAB7BC1184094E7E6 /* 463. Island Perimeter.swift in Sources */,
+				9653D5809AF9F31705F2CAEF /* 1759. 암호 만들기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
