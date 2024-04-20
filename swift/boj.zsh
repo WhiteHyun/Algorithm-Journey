@@ -93,7 +93,7 @@ add_to_xcode_project() {
   local difficulty="$2"
   local ps="BOJ"
 
-  ./add_to_xcode_project.rb "$solution_file" "$difficulty" "$ps"
+  ./add_to_xcode_project.rb "$solution_file" "$ps" "$difficulty"
   echo "Xcode 프로젝트에 Swift 파일 추가 완료: $solution_file"
 }
 
