@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number178870 {
+final class ProgrammersSolution178870 {
   func solution(_ sequence: [Int], _ k: Int) -> [Int] {
     var start = 0
     var end = 0

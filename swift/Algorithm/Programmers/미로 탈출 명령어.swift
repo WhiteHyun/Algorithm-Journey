@@ -95,9 +95,9 @@ private enum Direction: String, CaseIterable {
   }
 }
 
-// MARK: - Number150365
+// MARK: - ProgrammersSolution150365
 
-struct Number150365 {
+final class ProgrammersSolution150365 {
   struct MazeInfo {
     let x: Int
     let y: Int

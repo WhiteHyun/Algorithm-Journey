@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number155652 {
+final class ProgrammersSolution155652 {
   func solution(_ string: String, _ skip: String, _ index: Int) -> String {
     let indexArray = Array(97 ... 122).map { String(UnicodeScalar($0)) }.filter { !skip.contains($0) }
 

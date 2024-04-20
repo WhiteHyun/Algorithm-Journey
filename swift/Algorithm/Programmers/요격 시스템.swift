@@ -8,7 +8,7 @@
 import Foundation
 
 /// 요격 시스템
-struct Number181188 {
+final class ProgrammersSolution181188 {
   func solution(_ input: [[Int]]) -> Int {
     var missilePosition = 0
     var answer = 0

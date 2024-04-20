@@ -45,9 +45,9 @@ extension MountainClimbingInfo: Comparable {
   }
 }
 
-// MARK: - Number118669
+// MARK: - ProgrammersSolution118669
 
-struct Number118669 {
+final class ProgrammersSolution118669 {
   /// 등산코스 정하기 문제 풀이
   /// - Parameters:
   ///   - n: 산 중턱 개수

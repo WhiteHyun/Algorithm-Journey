@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number176962 {
+final class ProgrammersSolution176962 {
   struct Homework {
     /// 과제 제목
     let subject: String

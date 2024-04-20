@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number154540 {
+final class ProgrammersSolution154540 {
   func solution(_ maps: [String]) -> [Int] {
     if maps.filter({ $0.count != $0.filter { $0 == "X" }.count }).isEmpty { return [-1] }
     let maps = maps.map { $0.map { String($0) } }

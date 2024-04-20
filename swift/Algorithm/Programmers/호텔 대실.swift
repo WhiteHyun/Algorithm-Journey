@@ -7,12 +7,12 @@
 
 import Foundation
 
-// MARK: - Number155651
+// MARK: - ProgrammersSolution155651
 
-struct Number155651 {
+final class ProgrammersSolution155651 {
   private var queue = [DateTime]()
 
-  mutating func solution(_ bookTime: [[String]]) -> Int {
+  func solution(_ bookTime: [[String]]) -> Int {
     // DateTime 타입으로 전부 변환 -> 시간 순으로 오름차순 정렬
     let sortedBookingTime = bookTime.map { $0.map { DateTime(dateString: $0) } }
       .sorted { lhs, rhs in
@@ -46,9 +46,9 @@ struct Number155651 {
   }
 }
 
-// MARK: Number155651.DateTime
+// MARK: ProgrammersSolution155651.DateTime
 
-extension Number155651 {
+extension ProgrammersSolution155651 {
   private struct DateTime: Comparable, CustomStringConvertible {
     static func < (lhs: DateTime, rhs: DateTime) -> Bool {
       if lhs.hour != rhs.hour {

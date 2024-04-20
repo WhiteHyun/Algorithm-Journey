@@ -8,7 +8,7 @@
 import Foundation
 
 /// 합승 택시 요금 문제 풀이
-struct Number72413 {
+final class ProgrammersSolution72413 {
   /// 합승 택시 요금 문제 풀이
   /// - Parameters:
   ///   - n: 지점의 개수

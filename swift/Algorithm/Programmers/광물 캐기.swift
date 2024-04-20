@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number172927 {
+final class ProgrammersSolution172927 {
   func solution(_ picks: [Int], _ minerals: [String]) -> Int {
     let pickaxeUsage = picks.reduce(0, +) * 5
     let minerals = Array(minerals.prefix(pickaxeUsage))

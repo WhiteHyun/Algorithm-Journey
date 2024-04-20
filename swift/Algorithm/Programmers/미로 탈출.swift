@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number159993 {
+final class ProgrammersSolution159993 {
   struct CustomPoint: Equatable {
     let x: Int
     let y: Int

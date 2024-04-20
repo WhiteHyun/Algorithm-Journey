@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Number181187 {
+final class ProgrammersSolution181187 {
   func solution(_ r1Radius: Int, _ r2Radius: Int) -> Int {
     var r1Count = 1
     var r2Count = 1
