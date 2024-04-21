@@ -15,6 +15,7 @@
 		246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */; };
 		35F6CFD292D74C88726B9A70 /* 42883. 큰 수 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */; };
 		42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */; };
+		5B1407FC43CB7EB8D99A308B /* 3404. Minimum Number of Operations to Satisfy Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */; };
 		647453E29C0FB86384D43325 /* 987. Reveal Cards In Increasing Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */; };
 		65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
@@ -80,6 +81,7 @@
 		7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2121. Find if Path Exists in Graph.swift"; sourceTree = "<group>"; };
 		837C0064F1B04FF020088628 /* 200. Number of Islands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
 		A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "347. Top K Frequent Elements.swift"; sourceTree = "<group>"; };
+		AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3404. Minimum Number of Operations to Satisfy Conditions.swift"; sourceTree = "<group>"; };
 		B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3405. Count the Number of Special Characters II.swift"; sourceTree = "<group>"; };
 		BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "합승 택시 요금.swift"; sourceTree = "<group>"; };
 		BA309308299F837800FCD5F3 /* 미로 탈출.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "미로 탈출.swift"; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				837C0064F1B04FF020088628 /* 200. Number of Islands.swift */,
 				54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */,
 				B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */,
+				AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				D1CD436EF833C0306B3F4F8A /* 3408. Count the Number of Special Characters I.swift in Sources */,
 				ED659B162A0990858CF4DA6F /* 3405. Count the Number of Special Characters II.swift in Sources */,
 				0298F96EDD1C0CEE2F678853 /* 2121. Find if Path Exists in Graph.swift in Sources */,
+				5B1407FC43CB7EB8D99A308B /* 3404. Minimum Number of Operations to Satisfy Conditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
