@@ -15,7 +15,6 @@ only_rules:
   - unowned_variable_capture
   - custom_rules
   - trailing_comma
-  - line_length
 
 excluded:
   - Carthage
@@ -29,9 +28,6 @@ indentation: 2
 
 trailing_comma:
   mandatory_comma: true
-
-line_length:
-  warning: 150
 
 custom_rules:
   no_objcMembers:
