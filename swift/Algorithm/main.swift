@@ -6,5 +6,3 @@
 //
 
 import Foundation
-
-BOJSolution10844().solution()
