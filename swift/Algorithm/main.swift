@@ -7,7 +7,6 @@
 
 import Foundation
 
-print(BOJSolution9935().solution(string: "mirkovC4nizCC44", bomb: "C4"))
-print(BOJSolution9935().solution(string: "12ab112ab2ab", bomb: "12ab"))
-print(BOJSolution9935().solution(string: "AABC", bomb: "ABC"))
-print(BOJSolution9935().solution(string: "CC44", bomb: "C4C4"))
+print(BOJSolution3111().solution("ne", "lukanevolisarmu"))
+print(BOJSolution3111().solution("aba", "ababacccababa"))
+print(BOJSolution3111().solution("banana", "babananananadeda"))
