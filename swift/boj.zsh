@@ -38,10 +38,10 @@ extract_problem_number() {
 create_swift_code_snippet() {
   local question_id="$1"
 
- local swift_code="final class BOJSolution${question_id} {
- func solution(<#parameters#>) -> <#return type#> {
-   <#function body#>
- }
+  local swift_code="final class BOJSolution${question_id} {
+  func solution(<#parameters#>) -> <#return type#> {
+    <#function body#>
+  }
 }"
 
  echo "$swift_code"
@@ -97,6 +97,23 @@ add_to_xcode_project() {
   echo "Xcode 프로젝트에 Swift 파일 추가 완료: $solution_file"
 }
 
+# Translate the file name to English using DeepL API
+translate_file_name() {
+  local file_name="$1"
+  local auth_key=$(cat secrets/deepL.txt)
+  local translated_title=$(curl -s -X POST 'https://api-free.deepl.com/v2/translate' \
+    --header "Authorization: DeepL-Auth-Key $auth_key" \
+    --header 'Content-Type: application/json' \
+    --data "{
+      \"text\": [
+        \"$file_name\"
+      ],
+      \"target_lang\": \"EN\"
+    }" | jq -r '.translations[0].text')
+
+  echo $translated_title
+}
+
 # Create a Swift file for the LeetCode problem
 create_swift_file() {
   local json_data="$1"
@@ -123,6 +140,9 @@ create_swift_file() {
 
   local swift_code=$(create_swift_code_snippet "$question_id")
   local file_name="${question_id}. ${title}"
+  if [ -d "secrets" ] && [ -f "secrets/deepL.txt" ]; then
+    file_name=$(translate_file_name "$file_name")
+  fi
   local content=$(create_swift_file_content "$file_name" "$swift_code")
 
   save_swift_file "$file_name" "$rank" "$content"

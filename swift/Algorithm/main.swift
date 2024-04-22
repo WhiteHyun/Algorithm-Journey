@@ -7,6 +7,7 @@
 
 import Foundation
 
-print(LeetCodeSolution753().openLock(["0201", "0101", "0102", "1212", "2002"], "0202"))
-print(LeetCodeSolution753().openLock(["8888"], "0009"))
-print(LeetCodeSolution753().openLock(["8887", "8889", "8878", "8898", "8788", "8988", "7888", "9888"], "8888"))
+print(BOJSolution9935().solution(string: "mirkovC4nizCC44", bomb: "C4"))
+print(BOJSolution9935().solution(string: "12ab112ab2ab", bomb: "12ab"))
+print(BOJSolution9935().solution(string: "AABC", bomb: "ABC"))
+print(BOJSolution9935().solution(string: "CC44", bomb: "C4C4"))

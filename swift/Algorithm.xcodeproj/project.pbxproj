@@ -11,15 +11,15 @@
 		04BBC7F80E4CDDD129B927E7 /* 2103. Find All Groups of Farmland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */; };
 		05BB03033C19747B0BDDA1DC /* 85. Maximal Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */; };
 		15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
-		1799268B03B55CF7E545D978 /* 10844. 쉬운 계단 수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D78E8D5FB97DD85B8931E8 /* 10844. 쉬운 계단 수.swift */; };
+		1799268B03B55CF7E545D978 /* 10844. number of easy stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */; };
 		246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */; };
-		35F6CFD292D74C88726B9A70 /* 42883. 큰 수 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */; };
+		35F6CFD292D74C88726B9A70 /* 42883. 큰 수 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */; };
 		42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */; };
 		5B1407FC43CB7EB8D99A308B /* 3404. Minimum Number of Operations to Satisfy Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */; };
 		647453E29C0FB86384D43325 /* 987. Reveal Cards In Increasing Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */; };
 		65C21D1432E3C8E2D257AF6D /* 402. Remove K Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
-		9653D5809AF9F31705F2CAEF /* 1759. 암호 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. 암호 만들기.swift */; };
+		9653D5809AF9F31705F2CAEF /* 1759. Create a password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
 		9E92CAA8692DE34C31A0793A /* 200. Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C0064F1B04FF020088628 /* 200. Number of Islands.swift */; };
 		ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */; };
@@ -36,6 +36,7 @@
 		BA9BA9662BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */; };
 		BA9BA9682BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */; };
 		BABA322F2A8F9B35002E11C6 /* 등산코스 정하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA322E2A8F9B35002E11C6 /* 등산코스 정하기.swift */; };
+		BABB062D2BD62FAE00D71FF7 /* 9935. string explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB062C2BD62FAE00D71FF7 /* 9935. string explosion.swift */; };
 		BAE311A72A8BA07000D1CD45 /* 미로 탈출 명령어.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE311A62A8BA07000D1CD45 /* 미로 탈출 명령어.swift */; };
 		BAE4E48E299D233700C8550A /* 무인도 여행.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4E48D299D233700C8550A /* 무인도 여행.swift */; };
 		BAEC25132A0C9FEF006A8F3D /* 광물 캐기.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEC25122A0C9FEF006A8F3D /* 광물 캐기.swift */; };
@@ -65,14 +66,14 @@
 
 /* Begin PBXFileReference section */
 		13B38C15278D20C7C8261D0C /* 3408. Count the Number of Special Characters I.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3408. Count the Number of Special Characters I.swift"; sourceTree = "<group>"; };
-		17D78E8D5FB97DD85B8931E8 /* 10844. 쉬운 계단 수.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10844. 쉬운 계단 수.swift"; sourceTree = "<group>"; };
+		17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10844. number of easy stairs.swift"; sourceTree = "<group>"; };
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
 		1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "463. Island Perimeter.swift"; sourceTree = "<group>"; };
-		2B1177A4EC4AE5AD874BF77F /* 1759. 암호 만들기.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1759. 암호 만들기.swift"; sourceTree = "<group>"; };
+		2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1759. Create a password.swift"; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
-		46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. 큰 수 만들기.swift"; sourceTree = "<group>"; };
+		46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. 큰 수 만들기.swift"; sourceTree = "<group>"; };
 		54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2103. Find All Groups of Farmland.swift"; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
 		66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1030. Smallest String Starting From Leaf.swift"; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100294. Count the Number of Special Characters I.swift"; sourceTree = "<group>"; };
 		BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100291. Count the Number of Special Characters II.swift"; sourceTree = "<group>"; };
 		BABA322E2A8F9B35002E11C6 /* 등산코스 정하기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "등산코스 정하기.swift"; sourceTree = "<group>"; };
+		BABB062C2BD62FAE00D71FF7 /* 9935. string explosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "9935. string explosion.swift"; sourceTree = "<group>"; };
 		BAE311A62A8BA07000D1CD45 /* 미로 탈출 명령어.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "미로 탈출 명령어.swift"; sourceTree = "<group>"; };
 		BAE4E48D299D233700C8550A /* 무인도 여행.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "무인도 여행.swift"; sourceTree = "<group>"; };
 		BAEC25122A0C9FEF006A8F3D /* 광물 캐기.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "광물 캐기.swift"; sourceTree = "<group>"; };
@@ -136,7 +138,8 @@
 		BA03EE6D2BD0BDB100F1DF61 /* Gold */ = {
 			isa = PBXGroup;
 			children = (
-				2B1177A4EC4AE5AD874BF77F /* 1759. 암호 만들기.swift */,
+				2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */,
+				BABB062C2BD62FAE00D71FF7 /* 9935. string explosion.swift */,
 			);
 			path = Gold;
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 		BA03EE6F2BD0BDD300F1DF61 /* Silver */ = {
 			isa = PBXGroup;
 			children = (
-				17D78E8D5FB97DD85B8931E8 /* 10844. 쉬운 계단 수.swift */,
+				17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
@@ -268,11 +271,11 @@
 		BAF746DD299B78D600182311 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				BA03EE6C2BD0BDA900F1DF61 /* BOJ */,
 				BAF746DE299B78D600182311 /* main.swift */,
+				BA30930E299F851800FCD5F3 /* Base */,
+				BA03EE6C2BD0BDA900F1DF61 /* BOJ */,
 				BA6B50192BCA35AE00B1715B /* LeetCode */,
 				BAF746E6299B7C4A00182311 /* Programmers */,
-				BA30930E299F851800FCD5F3 /* Base */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -292,7 +295,7 @@
 				BA6833AF2A0739B10004D572 /* 요격 시스템.swift */,
 				BA2A48E12A938ABB00E03967 /* 합승 택시 요금.swift */,
 				BAF746EE299B851000182311 /* 호텔 대실.swift */,
-				46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */,
+				46DE31A3ADB54D2F40ACC97B /* 42883. 큰 수 만들기.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				BA3C8DFE2A092A8E00F7E98E /* 두 원 사이의 정수 쌍.swift in Sources */,
 				BAF746DF299B78D600182311 /* main.swift in Sources */,
 				BAE311A72A8BA07000D1CD45 /* 미로 탈출 명령어.swift in Sources */,
+				BABB062D2BD62FAE00D71FF7 /* 9935. string explosion.swift in Sources */,
 				BAF746F3299CEA0B00182311 /* 둘만의 암호.swift in Sources */,
 				BA30930B299F84CB00FCD5F3 /* Deque.swift in Sources */,
 				BAF746EF299B851000182311 /* 호텔 대실.swift in Sources */,
@@ -429,11 +433,11 @@
 				42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */,
 				F33D623C2BB190E54E3D207D /* 55. Jump Game.swift in Sources */,
 				FC374C1BAB7BC1184094E7E6 /* 463. Island Perimeter.swift in Sources */,
-				9653D5809AF9F31705F2CAEF /* 1759. 암호 만들기.swift in Sources */,
+				9653D5809AF9F31705F2CAEF /* 1759. Create a password.swift in Sources */,
 				9E92CAA8692DE34C31A0793A /* 200. Number of Islands.swift in Sources */,
 				04BBC7F80E4CDDD129B927E7 /* 2103. Find All Groups of Farmland.swift in Sources */,
-				35F6CFD292D74C88726B9A70 /* 42883. 큰 수 만들기.swift in Sources */,
-				1799268B03B55CF7E545D978 /* 10844. 쉬운 계단 수.swift in Sources */,
+				35F6CFD292D74C88726B9A70 /* 42883. 큰 수 만들기.swift in Sources */,
+				1799268B03B55CF7E545D978 /* 10844. number of easy stairs.swift in Sources */,
 				BA9BA9682BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift in Sources */,
 				D1CD436EF833C0306B3F4F8A /* 3408. Count the Number of Special Characters I.swift in Sources */,
 				ED659B162A0990858CF4DA6F /* 3405. Count the Number of Special Characters II.swift in Sources */,

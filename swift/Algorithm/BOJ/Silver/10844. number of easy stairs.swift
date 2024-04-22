@@ -1,5 +1,5 @@
 //
-//  10844. 쉬운 계단 수
+//  10844. number of easy stairs
 //  https://www.acmicpc.net/problem/1759
 //  Algorithm
 //

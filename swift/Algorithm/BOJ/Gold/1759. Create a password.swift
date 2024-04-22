@@ -1,5 +1,5 @@
 //
-//  1759. 암호 만들기
+//  1759. Create a password
 //  https://www.acmicpc.net/problem/1759
 //  Algorithm
 //
