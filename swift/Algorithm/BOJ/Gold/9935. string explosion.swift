@@ -1,6 +1,6 @@
 //
 //  9935. string explosion
-//  https://www.acmicpc.net/problem/1759
+//  https://www.acmicpc.net/problem/9935
 //  Algorithm
 //
 //  Created by 홍승현 on 2024/04/22.

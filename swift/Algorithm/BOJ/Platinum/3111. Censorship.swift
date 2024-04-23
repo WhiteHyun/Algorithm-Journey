@@ -1,6 +1,6 @@
 //
 //  3111. Censorship
-//  https://www.acmicpc.net/problem/1759
+//  https://www.acmicpc.net/problem/3111
 //  Algorithm
 //
 //  Created by 홍승현 on 2024/04/22.

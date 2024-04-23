@@ -1,6 +1,6 @@
 //
 //  18231. destroyed city
-//  https://www.acmicpc.net/problem/1759
+//  https://www.acmicpc.net/problem/18231
 //  Algorithm
 //
 //  Created by 홍승현 on 2024/04/23.

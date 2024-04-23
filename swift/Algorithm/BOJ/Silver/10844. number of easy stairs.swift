@@ -1,6 +1,6 @@
 //
 //  10844. number of easy stairs
-//  https://www.acmicpc.net/problem/1759
+//  https://www.acmicpc.net/problem/10844
 //  Algorithm
 //
 //  Created by 홍승현 on 2024/04/20.
