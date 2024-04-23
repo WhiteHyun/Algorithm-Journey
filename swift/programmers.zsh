@@ -19,7 +19,7 @@ extract_problem_number() {
   local problem_info=$1
   if [[ $problem_info =~ ^[0-9]+$ ]]; then
     echo "$problem_info"
-  elif [[ $problem_info =~ ^https://school.programmers.co.kr/learn/courses/30/lessons/[0-9]+($|\?.*) ]]; then
+  elif [[ $problem_info =~ ^https://school.programmers.co.kr/learn/courses/30/lessons/[0-9]+ ]]; then
     echo "$problem_info" | sed -n "s/^.*https:\/\/school\.programmers\.co\.kr\/learn\/courses\/30\/lessons\/\([0-9]*\).*$/\1/p"
   else
     echo "문제 번호 또는 링크가 필요합니다!" >&2
@@ -38,6 +38,23 @@ process_swift_code() {
   swift_code=$(echo "$swift_code" | sed 's/^/  /')
   echo "$problem_name"
   echo "$swift_code"
+}
+
+# Translate the file name to English using DeepL API
+translate_file_name() {
+  local file_name="$1"
+  local auth_key=$(cat secrets/deepL.txt)
+  local translated_title=$(curl -s -X POST 'https://api-free.deepl.com/v2/translate' \
+    --header "Authorization: DeepL-Auth-Key $auth_key" \
+    --header 'Content-Type: application/json' \
+    --data "{
+      \"text\": [
+        \"$file_name\"
+      ],
+      \"target_lang\": \"EN\"
+    }" | jq -r '.translations[0].text')
+
+  echo $translated_title
 }
 
 # 프로그래머스 문제 풀이 파일 생성 함수
@@ -102,6 +119,9 @@ main() {
   local problem_name
   local swift_code
   IFS=$'\n' read -r -d '' problem_name swift_code < <(process_swift_code "$problem_link")
+  if [ -d "secrets" ] && [ -f "secrets/deepL.txt" ]; then
+    problem_name=$(translate_file_name "$problem_name")
+  fi
 
   create_programmers_solution_file "$problem_number" "$problem_name" "$swift_code" "$solution_folder"
 

@@ -1,5 +1,5 @@
 //
-//  42883. 큰 수 만들기.swift
+//  42883. Create a large number.swift
 //  https://school.programmers.co.kr/learn/courses/30/lessons/42883?language=swift
 //  Algorithm
 //
