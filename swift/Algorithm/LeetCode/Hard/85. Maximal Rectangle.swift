@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution85 {
+final class LeetCode85 {
   func maximalRectangle(_ matrix: [[Character]]) -> Int {
     var answer = 0
 

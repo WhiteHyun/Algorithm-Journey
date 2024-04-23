@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution678 {
+final class LeetCode678 {
   func checkValidString(_ s: String) -> Bool {
     var leftParenthesisMin = 0
     var leftParenthesisMax = 0

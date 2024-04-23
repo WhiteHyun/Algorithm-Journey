@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - LeetCodeSolution2103
 
-final class LeetCodeSolution2103 {
+final class LeetCode2103 {
   func findFarmland(_ land: [[Int]]) -> [[Int]] {
     var visited: [[Bool]] = .init(repeating: .init(repeating: false, count: land[0].count), count: land.count)
     var answer: [[Int]] = []

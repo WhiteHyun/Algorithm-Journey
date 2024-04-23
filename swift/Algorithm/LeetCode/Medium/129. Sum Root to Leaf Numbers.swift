@@ -21,7 +21,7 @@ import Foundation
 ///         self.right = right
 ///     }
 /// }
-class LeetCodeSolution129 {
+class LeetCode129 {
   func sumNumbers(_ node: TreeNode?, _ sum: Int = 0) -> Int {
     let sum = sum * 10 + node!.val
 

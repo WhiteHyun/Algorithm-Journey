@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class BOJSolution10844 {
+final class BOJ10844 {
   func solution() {
     guard let number = Int(readLine() ?? "")
     else {

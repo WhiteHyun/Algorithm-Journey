@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution84 {
+final class LeetCode84 {
   func largestRectangleArea(_ heights: [Int]) -> Int {
     var answer = 0
     var stack: [(index: Int, height: Int)] = []

@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class BOJSolution18231 {
+final class BOJ18231 {
   func solution(_ n: Int, _ edges: [[Int]], _ destroyed: Set<Int>) -> Set<Int> {
     let destroyed: Set<Int> = .init(destroyed.map { $0 - 1 })
     var graph: [Set<Int>] = .init(repeating: .init(), count: n)

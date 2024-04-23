@@ -8,7 +8,7 @@
 import XCTest
 
 final class BOJSolution18429Tests: XCTestCase {
-  private let problem = BOJSolution18429()
+  private let problem = BOJ18429()
   func testExample1() {
     let result = problem.solution([3, 7, 5], 4)
     XCTAssertTrue(result == 4)

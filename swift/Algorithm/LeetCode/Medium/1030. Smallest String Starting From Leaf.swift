@@ -21,7 +21,7 @@ import Foundation
 ///         self.right = right
 ///     }
 /// }
-final class LeetCodeSolution1030 {
+final class LeetCode1030 {
   func smallestFromLeaf(_ node: TreeNode?) -> String {
     let array = recursion(node: node!, string: "").map { String($0.reversed()) }.sorted()
     return array.first!

@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution3405 {
+final class LeetCode3405 {
   func numberOfSpecialChars(_ word: String) -> Int {
     var dictionary: [Character: Int] = [:]
     for (index, element) in word.enumerated() where element.isLowercase || dictionary[element] == nil {

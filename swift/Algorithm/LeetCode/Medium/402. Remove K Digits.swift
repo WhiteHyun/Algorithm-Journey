@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution402 {
+final class LeetCode402 {
   func removeKdigits(_ num: String, _ k: Int) -> String {
     if num.count == k { return "0" }
     var count = k

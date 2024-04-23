@@ -95,9 +95,9 @@ enum CensorFlag {
   }
 }
 
-// MARK: - BOJSolution3111
+// MARK: - BOJ3111
 
-final class BOJSolution3111 {
+final class BOJ3111 {
   func solution(_ censoredString: String, _ text: String) -> String {
     var leftStack: [Character] = []
     var rightStack: [Character] = []

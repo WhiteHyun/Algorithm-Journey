@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class BOJSolution1759 {
+final class BOJ1759 {
   func solution() {
     guard let count = readLine()?.components(separatedBy: .whitespaces).compactMap(Int.init).first,
           let sortedArray = readLine()?.components(separatedBy: .whitespaces).sorted()

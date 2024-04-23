@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution55 {
+final class LeetCode55 {
   func canJump(_ numbers: [Int]) -> Bool {
     var goal = numbers.endIndex - 1
 

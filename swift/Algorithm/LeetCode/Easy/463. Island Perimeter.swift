@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution463 {
+final class LeetCode463 {
   func islandPerimeter(_ grid: [[Int]]) -> Int {
     var perimeter = 0
 

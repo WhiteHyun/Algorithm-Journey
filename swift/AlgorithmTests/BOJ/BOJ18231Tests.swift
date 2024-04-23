@@ -8,7 +8,7 @@
 import XCTest
 
 final class BOJSolution18231Tests: XCTestCase {
-  private let solution = BOJSolution18231()
+  private let solution = BOJ18231()
   func testExample1() {
     let answer = solution.solution(5, [[1, 2], [1, 3], [1, 4], [1, 5], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5], [4, 5]], [1, 2, 3, 4])
     XCTAssertTrue(answer == [-1])

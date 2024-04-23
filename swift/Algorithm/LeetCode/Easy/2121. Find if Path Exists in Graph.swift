@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution2121 {
+final class LeetCode2121 {
   private func parentVertex(array: [Int], vertex: Int) -> Int {
     if array[vertex] == vertex { return vertex }
     return parentVertex(array: array, vertex: array[vertex])

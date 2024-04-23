@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution3408 {
+final class LeetCode3408 {
   func numberOfSpecialChars(_ word: String) -> Int {
     let uppercaseSet = Set(word.filter(\.isUppercase))
     let lowercaseSet = Set(word.filter(\.isLowercase))

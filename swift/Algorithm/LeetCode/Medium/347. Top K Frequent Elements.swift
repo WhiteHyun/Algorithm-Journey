@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution347 {
+final class LeetCode347 {
   func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
     var dictionary: [Int: Int] = [:]
     var answer: Set<Int> = []

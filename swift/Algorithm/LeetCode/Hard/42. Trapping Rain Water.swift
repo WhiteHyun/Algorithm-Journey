@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution42 {
+final class LeetCode42 {
   func trap(_ height: [Int]) -> Int {
     var leftWall = 0
     var rightWall = 0

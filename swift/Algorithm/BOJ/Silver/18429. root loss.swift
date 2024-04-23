@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class BOJSolution18429 {
+final class BOJ18429 {
   func solution(_ array: [Int], _ k: Int) -> Int {
     var visited: [Bool] = .init(repeating: false, count: array.count)
     var count = 0

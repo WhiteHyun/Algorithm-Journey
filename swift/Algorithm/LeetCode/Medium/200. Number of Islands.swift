@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution200 {
+final class LeetCode200 {
   func numIslands(_ grid: [[Character]]) -> Int {
     var visited: [[Bool]] = .init(repeating: .init(repeating: false, count: grid[0].count), count: grid.count)
 

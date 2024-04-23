@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class ProgrammersSolution42883 {
+final class Programmers42883 {
   func solution(_ number: String, _ k: Int) -> String {
     var count = k
     var stack: [Character] = []

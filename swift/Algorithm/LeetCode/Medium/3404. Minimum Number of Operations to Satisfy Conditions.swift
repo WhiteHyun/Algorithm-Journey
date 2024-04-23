@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution3404 {
+final class LeetCode3404 {
   func minimumOperations(_ grid: [[Int]]) -> Int {
     let m = grid[0].count
     let n = grid.count

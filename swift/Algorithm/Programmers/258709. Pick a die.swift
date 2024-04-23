@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class ProgrammersSolution258709 {
+final class Programmers258709 {
   func solution(_ dice: [[Int]]) -> [Int] {
     var combinations: [[Int]] = []
     var visited: [Bool] = .init(repeating: false, count: dice.count)

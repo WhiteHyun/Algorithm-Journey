@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution53 {
+final class LeetCode53 {
   func maxSubArray(_ numbers: [Int]) -> Int {
     var tracking = numbers[0]
     var answer = numbers[0]

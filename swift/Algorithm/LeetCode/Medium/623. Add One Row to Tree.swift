@@ -21,7 +21,7 @@ import Foundation
 ///         self.right = right
 ///     }
 /// }
-final class LeetCodeSolution623 {
+final class LeetCode623 {
   func addOneRow(_ root: TreeNode?, _ val: Int, _ depth: Int) -> TreeNode? {
     if depth == 1 {
       return TreeNode(val, root, nil)

@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution310 {
+final class LeetCode310 {
   func findMinHeightTrees(_ n: Int, _ edges: [[Int]]) -> [Int] {
     guard n != 1 else { return [0] }
     var n = n

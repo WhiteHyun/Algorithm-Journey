@@ -40,9 +40,9 @@ private struct Queue<Element>: ExpressibleByArrayLiteral {
   }
 }
 
-// MARK: - LeetCodeSolution753
+// MARK: - LeetCode753
 
-final class LeetCodeSolution753 {
+final class LeetCode753 {
   func openLock(_ deadends: [String], _ target: String) -> Int {
     var deadends: Set<String> = .init(deadends)
     if deadends.contains("0000") { return -1 }

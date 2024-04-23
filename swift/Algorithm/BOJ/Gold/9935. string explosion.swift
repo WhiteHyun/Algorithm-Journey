@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class BOJSolution9935 {
+final class BOJ9935 {
   func solution(string: String, bomb: String) -> String {
     var stack: [Character] = []
     let bomb = ArraySlice(bomb)

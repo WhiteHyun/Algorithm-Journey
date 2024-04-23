@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCodeSolution987 {
+final class LeetCode987 {
   func deckRevealedIncreasing(_ deck: [Int]) -> [Int] {
     let sortedDeck = deck.sorted()
     var answer: [Int] = [sortedDeck.last!]
