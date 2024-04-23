@@ -27,12 +27,15 @@
 		9E92CAA8692DE34C31A0793A /* 200. Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C0064F1B04FF020088628 /* 200. Number of Islands.swift */; };
 		ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */; };
 		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
+		BA1BB8882BD75C9800CA174B /* BOJSolution18231Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BB8872BD75C9800CA174B /* BOJSolution18231Tests.swift */; };
+		BA1BB88F2BD75E8400CA174B /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
 		BA30930D299F850400FCD5F3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30930C299F850400FCD5F3 /* Point.swift */; };
 		BA402F572B848BC600E86AAD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA402F562B848BC600E86AAD /* Utils.swift */; };
 		BA9BA9662BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */; };
 		BA9BA9682BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */; };
 		BAF443E42BCD1256007D25A6 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF443E32BCD1256007D25A6 /* TreeNode.swift */; };
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
+		C499DD65E10628A9B228AC27 /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
 		CE6A213992B34D2B4ABF6816 /* 9935. string explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294EF7DF806D781B692BB270 /* 9935. string explosion.swift */; };
 		D1CD436EF833C0306B3F4F8A /* 3408. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B38C15278D20C7C8261D0C /* 3408. Count the Number of Special Characters I.swift */; };
 		ED659B162A0990858CF4DA6F /* 3405. Count the Number of Special Characters II.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */; };
@@ -77,6 +80,8 @@
 		A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "347. Top K Frequent Elements.swift"; sourceTree = "<group>"; };
 		AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3404. Minimum Number of Operations to Satisfy Conditions.swift"; sourceTree = "<group>"; };
 		B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3405. Count the Number of Special Characters II.swift"; sourceTree = "<group>"; };
+		BA1BB8852BD75C9800CA174B /* AlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1BB8872BD75C9800CA174B /* BOJSolution18231Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJSolution18231Tests.swift; sourceTree = "<group>"; };
 		BA30930C299F850400FCD5F3 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		BA402F562B848BC600E86AAD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100294. Count the Number of Special Characters I.swift"; sourceTree = "<group>"; };
@@ -86,12 +91,20 @@
 		BAF746DE299B78D600182311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42. Trapping Rain Water.swift"; sourceTree = "<group>"; };
 		D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "987. Reveal Cards In Increasing Order.swift"; sourceTree = "<group>"; };
+		DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "18231. destroyed city.swift"; sourceTree = "<group>"; };
 		EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "310. Minimum Height Trees.swift"; sourceTree = "<group>"; };
 		EE44BB7EF7D2687E3DF8BC15 /* 258709. Pick a die.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "258709. Pick a die.swift"; sourceTree = "<group>"; };
 		F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "753. Open the Lock.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BA1BB8822BD75C9800CA174B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAF746D8299B78D600182311 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +133,7 @@
 			children = (
 				2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */,
 				294EF7DF806D781B692BB270 /* 9935. string explosion.swift */,
+				DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */,
 			);
 			path = Gold;
 			sourceTree = "<group>";
@@ -159,6 +173,38 @@
 			children = (
 			);
 			path = Unknown;
+			sourceTree = "<group>";
+		};
+		BA1BB8862BD75C9800CA174B /* AlgorithmTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1BB88E2BD75CE400CA174B /* Programmers */,
+				BA1BB88D2BD75CDF00CA174B /* LeetCode */,
+				BA1BB88C2BD75CDC00CA174B /* BOJ */,
+			);
+			path = AlgorithmTests;
+			sourceTree = "<group>";
+		};
+		BA1BB88C2BD75CDC00CA174B /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				BA1BB8872BD75C9800CA174B /* BOJSolution18231Tests.swift */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		BA1BB88D2BD75CDF00CA174B /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		BA1BB88E2BD75CE400CA174B /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Programmers;
 			sourceTree = "<group>";
 		};
 		BA30930E299F851800FCD5F3 /* Base */ = {
@@ -237,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				BAF746DD299B78D600182311 /* Algorithm */,
+				BA1BB8862BD75C9800CA174B /* AlgorithmTests */,
 				BAF746DC299B78D600182311 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -245,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				BAF746DB299B78D600182311 /* Algorithm */,
+				BA1BB8852BD75C9800CA174B /* AlgorithmTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,6 +321,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BA1BB8842BD75C9800CA174B /* AlgorithmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1BB88B2BD75C9800CA174B /* Build configuration list for PBXNativeTarget "AlgorithmTests" */;
+			buildPhases = (
+				BA1BB8812BD75C9800CA174B /* Sources */,
+				BA1BB8822BD75C9800CA174B /* Frameworks */,
+				BA1BB8832BD75C9800CA174B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgorithmTests;
+			productName = AlgorithmTests;
+			productReference = BA1BB8852BD75C9800CA174B /* AlgorithmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BAF746DA299B78D600182311 /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF746E2299B78D600182311 /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -299,9 +364,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					BA1BB8842BD75C9800CA174B = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					BAF746DA299B78D600182311 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -321,9 +389,20 @@
 			projectRoot = "";
 			targets = (
 				BAF746DA299B78D600182311 /* Algorithm */,
+				BA1BB8842BD75C9800CA174B /* AlgorithmTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1BB8832BD75C9800CA174B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		BAF443E52BCE18DE007D25A6 /* SwiftFormat */ = {
@@ -367,6 +446,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BA1BB8812BD75C9800CA174B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1BB8882BD75C9800CA174B /* BOJSolution18231Tests.swift in Sources */,
+				BA1BB88F2BD75E8400CA174B /* 18231. destroyed city.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAF746D7299B78D600182311 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,12 +492,50 @@
 				936DBA36E92A4264C883C2E6 /* 3111. Censorship.swift in Sources */,
 				45BF9B669CF9B05251086F6B /* 258709. Pick a die.swift in Sources */,
 				065FB6159E74C405D97C95C8 /* 310. Minimum Height Trees.swift in Sources */,
+				C499DD65E10628A9B228AC27 /* 18231. destroyed city.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BA1BB8892BD75C9800CA174B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZQR76M3UH;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyeonhaeng.AlgorithmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA1BB88A2BD75C9800CA174B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZQR76M3UH;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyeonhaeng.AlgorithmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BAF746E0299B78D600182311 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,6 +682,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BA1BB88B2BD75C9800CA174B /* Build configuration list for PBXNativeTarget "AlgorithmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1BB8892BD75C9800CA174B /* Debug */,
+				BA1BB88A2BD75C9800CA174B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BAF746D6299B78D600182311 /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
