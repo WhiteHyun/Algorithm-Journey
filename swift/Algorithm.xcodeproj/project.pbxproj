@@ -10,6 +10,7 @@
 		0298F96EDD1C0CEE2F678853 /* 2121. Find if Path Exists in Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */; };
 		04BBC7F80E4CDDD129B927E7 /* 2103. Find All Groups of Farmland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */; };
 		05BB03033C19747B0BDDA1DC /* 85. Maximal Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */; };
+		065FB6159E74C405D97C95C8 /* 310. Minimum Height Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */; };
 		15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
 		1799268B03B55CF7E545D978 /* 10844. number of easy stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */; };
 		246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */; };
@@ -85,6 +86,7 @@
 		BAF746DE299B78D600182311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42. Trapping Rain Water.swift"; sourceTree = "<group>"; };
 		D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "987. Reveal Cards In Increasing Order.swift"; sourceTree = "<group>"; };
+		EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "310. Minimum Height Trees.swift"; sourceTree = "<group>"; };
 		EE44BB7EF7D2687E3DF8BC15 /* 258709. Pick a die.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "258709. Pick a die.swift"; sourceTree = "<group>"; };
 		F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "753. Open the Lock.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +218,7 @@
 				B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */,
 				AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */,
 				F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */,
+				EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				CE6A213992B34D2B4ABF6816 /* 9935. string explosion.swift in Sources */,
 				936DBA36E92A4264C883C2E6 /* 3111. Censorship.swift in Sources */,
 				45BF9B669CF9B05251086F6B /* 258709. Pick a die.swift in Sources */,
+				065FB6159E74C405D97C95C8 /* 310. Minimum Height Trees.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
