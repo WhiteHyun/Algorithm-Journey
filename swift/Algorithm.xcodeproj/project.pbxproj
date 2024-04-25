@@ -14,6 +14,7 @@
 		15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
 		1799268B03B55CF7E545D978 /* 10844. number of easy stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */; };
 		246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */; };
+		24ABAE9803AC8108CAE8F7B9 /* 3197. The Lake of Swan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */; };
 		261265B42F0696E0300B0DAD /* 10775. Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD96A68B432584E37757B6A /* 10775. Airport.swift */; };
 		35F6CFD292D74C88726B9A70 /* 42883. Create a large number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */; };
 		42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */; };
@@ -27,6 +28,7 @@
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
 		86113DAC5600E7252DC6E18E /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
 		936DBA36E92A4264C883C2E6 /* 3111. Censorship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3121C728E9655DC400056 /* 3111. Censorship.swift */; };
+		9397FCD75FC827375DD22D50 /* BOJ3197Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */; };
 		9653D5809AF9F31705F2CAEF /* 1759. Create a password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
 		9E92CAA8692DE34C31A0793A /* 200. Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C0064F1B04FF020088628 /* 200. Number of Islands.swift */; };
@@ -43,6 +45,7 @@
 		BA9BA9662BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */; };
 		BA9BA9682BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */; };
 		BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */; };
+		BAA8B6572BD9FF560016D105 /* 3197. The Lake of Swan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */; };
 		BAF443E42BCD1256007D25A6 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF443E32BCD1256007D25A6 /* TreeNode.swift */; };
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
 		C499DD65E10628A9B228AC27 /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
@@ -89,11 +92,13 @@
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. Create a large number.swift"; sourceTree = "<group>"; };
 		54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2103. Find All Groups of Farmland.swift"; sourceTree = "<group>"; };
+		577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3197. The Lake of Swan.swift"; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
 		66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1030. Smallest String Starting From Leaf.swift"; sourceTree = "<group>"; };
 		689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "85. Maximal Rectangle.swift"; sourceTree = "<group>"; };
 		6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "53. Maximum Subarray.swift"; sourceTree = "<group>"; };
 		78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "84. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
+		7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ3197Tests.swift; sourceTree = "<group>"; };
 		7C1FA8C7552D8770B7B523B7 /* LeetCode2370Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2370Tests.swift; sourceTree = "<group>"; };
 		7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2121. Find if Path Exists in Graph.swift"; sourceTree = "<group>"; };
 		837C0064F1B04FF020088628 /* 200. Number of Islands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				2EC3121C728E9655DC400056 /* 3111. Censorship.swift */,
+				577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */,
 			);
 			path = Platinum;
 			sourceTree = "<group>";
@@ -218,6 +224,7 @@
 				BA1BB8902BD78F8700CA174B /* BOJ18429Tests.swift */,
 				1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */,
 				3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */,
+				7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -492,8 +499,10 @@
 				428CA4392D21B77061E8F1DB /* LeetCode1236Tests.swift in Sources */,
 				CD31C9625EC944EF8846F1C6 /* BOJ1894Tests.swift in Sources */,
 				6927F41D517BB843E0F76606 /* BOJ10775Tests.swift in Sources */,
+				BAA8B6572BD9FF560016D105 /* 3197. The Lake of Swan.swift in Sources */,
 				BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */,
 				563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */,
+				9397FCD75FC827375DD22D50 /* BOJ3197Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +548,7 @@
 				D5A7A34381EB73112802F70B /* 1894. 4th dot.swift in Sources */,
 				261265B42F0696E0300B0DAD /* 10775. Airport.swift in Sources */,
 				E7F90C1C3425675050CD71B8 /* 2370. Longest Ideal Subsequence.swift in Sources */,
+				24ABAE9803AC8108CAE8F7B9 /* 3197. The Lake of Swan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
