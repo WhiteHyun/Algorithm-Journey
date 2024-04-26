@@ -13,6 +13,7 @@
 		065FB6159E74C405D97C95C8 /* 310. Minimum Height Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */; };
 		15A8637E4077E16D9675D702 /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
 		1799268B03B55CF7E545D978 /* 10844. number of easy stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */; };
+		197093287BFABCAD763F943A /* 20366. Do you want to build a snowman?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6154F0EB89616D7B975570 /* 20366. Do you want to build a snowman?.swift */; };
 		246764F8389A24E26E4F8BA5 /* 347. Top K Frequent Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */; };
 		24ABAE9803AC8108CAE8F7B9 /* 3197. The Lake of Swan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */; };
 		261265B42F0696E0300B0DAD /* 10775. Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD96A68B432584E37757B6A /* 10775. Airport.swift */; };
@@ -43,6 +44,7 @@
 		BA2A2B962BDA44930099FF73 /* 4. Median of Two Sorted Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CE8D6A99A3965125CCB78 /* 4. Median of Two Sorted Arrays.swift */; };
 		BA402F572B848BC600E86AAD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA402F562B848BC600E86AAD /* Utils.swift */; };
 		BA63C1CA2BDB37F500CF76E8 /* 1289. Minimum Falling Path Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */; };
+		BA63C1CB2BDB3F9600CF76E8 /* 20366. Do you want to build a snowman?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6154F0EB89616D7B975570 /* 20366. Do you want to build a snowman?.swift */; };
 		BA9328742BDA71E40060E7CD /* 2212. Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */; };
 		BA98BB3D2BD8D81200C85E77 /* 1236. N-th Tribonacci Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A2B3410312D7B5AB8A9E7 /* 1236. N-th Tribonacci Number.swift */; };
 		BA98BB3E2BD8DF2400C85E77 /* 1894. 4th dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654BDFD6554D5245BBFAB72 /* 1894. 4th dot.swift */; };
@@ -59,6 +61,7 @@
 		CE6A213992B34D2B4ABF6816 /* 9935. string explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294EF7DF806D781B692BB270 /* 9935. string explosion.swift */; };
 		D1CD436EF833C0306B3F4F8A /* 3408. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B38C15278D20C7C8261D0C /* 3408. Count the Number of Special Characters I.swift */; };
 		D5A7A34381EB73112802F70B /* 1894. 4th dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654BDFD6554D5245BBFAB72 /* 1894. 4th dot.swift */; };
+		E4B77CCE7DCC09274BA44ECE /* BOJ20366Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FA62507F6B97F5DA77C08 /* BOJ20366Tests.swift */; };
 		E4E957C7A58659AF82B00781 /* LeetCode1289Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F5DE74AF4F048447835D /* LeetCode1289Tests.swift */; };
 		E6402D73EB141156F1D4F6E1 /* 4. Median of Two Sorted Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CE8D6A99A3965125CCB78 /* 4. Median of Two Sorted Arrays.swift */; };
 		E7F90C1C3425675050CD71B8 /* 2370. Longest Ideal Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */; };
@@ -84,6 +87,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		043FA62507F6B97F5DA77C08 /* BOJ20366Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ20366Tests.swift; sourceTree = "<group>"; };
+		0B6154F0EB89616D7B975570 /* 20366. Do you want to build a snowman?.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "20366. Do you want to build a snowman?.swift"; sourceTree = "<group>"; };
 		13B38C15278D20C7C8261D0C /* 3408. Count the Number of Special Characters I.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3408. Count the Number of Special Characters I.swift"; sourceTree = "<group>"; };
 		17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10844. number of easy stairs.swift"; sourceTree = "<group>"; };
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
@@ -179,6 +184,7 @@
 				DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */,
 				1BD96A68B432584E37757B6A /* 10775. Airport.swift */,
 				B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */,
+				0B6154F0EB89616D7B975570 /* 20366. Do you want to build a snowman?.swift */,
 			);
 			path = Gold;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 				3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */,
 				7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */,
 				8E0425866283B95D0634005E /* BOJ2212Tests.swift */,
+				043FA62507F6B97F5DA77C08 /* BOJ20366Tests.swift */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -526,10 +533,12 @@
 				BAA8B6572BD9FF560016D105 /* 3197. The Lake of Swan.swift in Sources */,
 				BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */,
 				563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */,
+				BA63C1CB2BDB3F9600CF76E8 /* 20366. Do you want to build a snowman?.swift in Sources */,
 				9397FCD75FC827375DD22D50 /* BOJ3197Tests.swift in Sources */,
 				C87E44BC725BBCA98CA8D8E4 /* LeetCode4Tests.swift in Sources */,
 				B25327AB7F233F884E784562 /* BOJ2212Tests.swift in Sources */,
 				E4E957C7A58659AF82B00781 /* LeetCode1289Tests.swift in Sources */,
+				E4B77CCE7DCC09274BA44ECE /* BOJ20366Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +588,7 @@
 				E6402D73EB141156F1D4F6E1 /* 4. Median of Two Sorted Arrays.swift in Sources */,
 				F34928B1B8FFFC0C8B142662 /* 2212. Sensors.swift in Sources */,
 				276AFFC688E963A4CE1C5424 /* 1289. Minimum Falling Path Sum II.swift in Sources */,
+				197093287BFABCAD763F943A /* 20366. Do you want to build a snowman?.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
