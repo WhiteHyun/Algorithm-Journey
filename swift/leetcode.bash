@@ -34,6 +34,7 @@ function main() {
 
   # Check if the response contains valid data
   if ! echo -E "$response" | jq -e '.data.question' >/dev/null 2>&1; then
+    echo -E "$response"
     echo "Failed to receive a valid response from the LeetCode API. Exiting the script."
     exit 1
   fi
