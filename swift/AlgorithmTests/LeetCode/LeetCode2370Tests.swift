@@ -33,7 +33,6 @@ final class LeetCode2370Tests: XCTestCase {
   func testExample5() {
     let expectation = XCTestExpectation(description: "Timeout expectation")
 
-    // 3초 후에 expectation이 충족되도록 설정
     DispatchQueue.global().async {
       let result = self.problem.longestIdealString("dyyonfvzsretqxucmavxegvlnnjubqnwrhwikmnnrpzdovjxqdsatwzpdjdsneyqvtvorlwbkb", 7)
       XCTAssertTrue(result == 42)
