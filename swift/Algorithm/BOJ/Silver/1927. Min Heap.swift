@@ -1,25 +1,21 @@
 //
-//  11279. Max Heap.swift
-//  https://www.acmicpc.net/problem/11279
+//  1927. Min Heap.swift
+//  https://www.acmicpc.net/problem/1927
 //  Algorithm
 //
-//  Created by 홍승현 on 2024/05/01.
+//  Created by 홍승현 on 2024/05/02.
 //
 
 import Foundation
 
-// MARK: - MaxHeap
+// MARK: - MinHeap
 
-struct MaxHeap<Element: Comparable> {
+struct MinHeap<Element: Comparable> {
   private var elements: [Element] = []
 
-  var isEmpty: Bool {
-    elements.isEmpty
-  }
+  var isEmpty: Bool { elements.isEmpty }
 
-  var count: Int {
-    elements.count
-  }
+  var count: Int { elements.count }
 
   mutating func insert(_ element: Element) {
     elements.append(element)
@@ -27,26 +23,26 @@ struct MaxHeap<Element: Comparable> {
   }
 
   mutating func remove() -> Element? {
-    guard !isEmpty else { return nil }
+    guard !elements.isEmpty else { return nil }
     elements.swapAt(0, elements.endIndex - 1)
-    let removedElement = elements.removeLast()
+    let removeElement = elements.removeLast()
     siftDown(from: 0)
 
-    return removedElement
+    return removeElement
   }
 
   mutating func siftUp(from index: Int) {
     var child = index
     var parent = parentIndex(of: child)
 
-    while child > 0, elements[child] > elements[parent] {
-      elements.swapAt(child, parent)
+    while child > 0, elements[parent] > elements[child] {
+      elements.swapAt(parent, child)
       child = parent
       parent = parentIndex(of: child)
     }
   }
 
-  private mutating func siftDown(from index: Int) {
+  mutating func siftDown(from index: Int) {
     var parent = index
 
     while true {
@@ -55,11 +51,10 @@ struct MaxHeap<Element: Comparable> {
 
       var candidate = parent
 
-      if left < count, elements[left] > elements[candidate] {
+      if left < count, elements[left] < elements[candidate] {
         candidate = left
       }
-
-      if right < count, elements[right] > elements[candidate] {
+      if right < count, elements[right] < elements[candidate] {
         candidate = right
       }
 
@@ -83,16 +78,18 @@ struct MaxHeap<Element: Comparable> {
   }
 }
 
-// MARK: - BOJ11279
+// MARK: - BOJ1927
 
-final class BOJ11279 {
-  func solution(_ commands: [Int]) -> [Int] {
+final class BOJ1927 {
+  func solution(_ inputs: [Int]) -> [Int] {
     var answer: [Int] = []
-    var heap: MaxHeap<Int> = .init()
-
-    for command in commands {
-      if command == 0 { answer.append(heap.remove() ?? 0) }
-      else { heap.insert(command) }
+    var minHeap: MinHeap<Int> = .init()
+    for input in inputs {
+      if input == 0 {
+        answer.append(minHeap.remove() ?? 0)
+      } else {
+        minHeap.insert(input)
+      }
     }
 
     return answer
