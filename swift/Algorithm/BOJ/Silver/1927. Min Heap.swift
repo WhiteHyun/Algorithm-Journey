@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - MinHeap
 
-struct MinHeap<Element: Comparable> {
+private struct MinHeap<Element: Comparable> {
   private var elements: [Element] = []
 
   var isEmpty: Bool { elements.isEmpty }

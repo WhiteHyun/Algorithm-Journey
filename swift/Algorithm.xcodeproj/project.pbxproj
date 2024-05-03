@@ -45,6 +45,7 @@
 		732E5A5C32D44BE1962A1981 /* LeetCode242Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */; };
 		760102D79A16D3CC121F2DFD /* 1927. Min Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DADA5B240793D631B03452 /* 1927. Min Heap.swift */; };
 		769AF1997B87BFA79723DEC1 /* LeetCode125Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757659B4899D65BB002B18CF /* LeetCode125Tests.swift */; };
+		7CD2F76BE035760F99EF54BA /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
 		7D15BE7562BD0E4035409427 /* LeetCode2441Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F401BE5947BD76732FF4E56 /* LeetCode2441Tests.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
 		86113DAC5600E7252DC6E18E /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
@@ -59,7 +60,9 @@
 		ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */; };
 		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
 		B25327AB7F233F884E784562 /* BOJ2212Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0425866283B95D0634005E /* BOJ2212Tests.swift */; };
+		B7F3A07EF15436FAA05A09FA /* BOJ1753Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F13A2B4FFCE06383B23F69 /* BOJ1753Tests.swift */; };
 		BA137FC42BE49E1700F50CB7 /* 165. Compare Version Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */; };
+		BA137FC52BE4A3F900F50CB7 /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
 		BA1B02E02BE1D6AD0018D1BE /* 2000. Reverse Prefix of Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */; };
 		BA1B02E12BE1D9F20018D1BE /* 11279. Max Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4355CF2E7964954EB5340 /* 11279. Max Heap.swift */; };
 		BA1BB8882BD75C9800CA174B /* BOJ18231Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BB8872BD75C9800CA174B /* BOJ18231Tests.swift */; };
@@ -164,6 +167,7 @@
 		2FEBCA0B65FDEEBA0DF66309 /* LeetCode1236Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1236Tests.swift; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		361C44D5034B31F591112626 /* 121. Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "121. Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
+		39F13A2B4FFCE06383B23F69 /* BOJ1753Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1753Tests.swift; sourceTree = "<group>"; };
 		3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ10775Tests.swift; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		3DA4355CF2E7964954EB5340 /* 11279. Max Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11279. Max Heap.swift"; sourceTree = "<group>"; };
@@ -198,6 +202,7 @@
 		98D342EDAEB07E6B3A842E02 /* BOJ17298Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ17298Tests.swift; sourceTree = "<group>"; };
 		9CA40A6D6DFE07127610B7AD /* 17298. Right Larger Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "17298. Right Larger Numbers.swift"; sourceTree = "<group>"; };
 		A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "347. Top K Frequent Elements.swift"; sourceTree = "<group>"; };
+		A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1753. Shortest path.swift"; sourceTree = "<group>"; };
 		A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2370. Longest Ideal Subsequence.swift"; sourceTree = "<group>"; };
 		A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ15686Tests.swift; sourceTree = "<group>"; };
 		AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3404. Minimum Number of Operations to Satisfy Conditions.swift"; sourceTree = "<group>"; };
@@ -269,6 +274,7 @@
 		BA03EE6D2BD0BDB100F1DF61 /* Gold */ = {
 			isa = PBXGroup;
 			children = (
+				A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */,
 				2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */,
 				B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */,
 				61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */,
@@ -338,6 +344,7 @@
 		BA1BB88C2BD75CDC00CA174B /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				39F13A2B4FFCE06383B23F69 /* BOJ1753Tests.swift */,
 				1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */,
 				FD533B3B32865E5AAF282E48 /* BOJ1927Tests.swift */,
 				8E0425866283B95D0634005E /* BOJ2212Tests.swift */,
@@ -670,6 +677,7 @@
 				563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */,
 				BA63C1CB2BDB3F9600CF76E8 /* 20366. Do you want to build a snowman?.swift in Sources */,
 				BA59CCB52BDFD3B600219E83 /* 15686. Chicken delivery.swift in Sources */,
+				BA137FC52BE4A3F900F50CB7 /* 1753. Shortest path.swift in Sources */,
 				9397FCD75FC827375DD22D50 /* BOJ3197Tests.swift in Sources */,
 				C87E44BC725BBCA98CA8D8E4 /* LeetCode4Tests.swift in Sources */,
 				BA6EBDD92BDBD07500FAC927 /* 1. Two Sum.swift in Sources */,
@@ -701,6 +709,7 @@
 				7D15BE7562BD0E4035409427 /* LeetCode2441Tests.swift in Sources */,
 				13B2FC575BC0C08C5F7E88D3 /* BOJ1927Tests.swift in Sources */,
 				EB2F8B6BD40873DC6C7979A3 /* LeetCode165Tests.swift in Sources */,
+				B7F3A07EF15436FAA05A09FA /* BOJ1753Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +778,7 @@
 				53660B840A04131325C6A739 /* 2441. Largest Positive Integer That Exists With Its Negative.swift in Sources */,
 				760102D79A16D3CC121F2DFD /* 1927. Min Heap.swift in Sources */,
 				18FF4EE16FC147EAA1A00EA3 /* 165. Compare Version Numbers.swift in Sources */,
+				7CD2F76BE035760F99EF54BA /* 1753. Shortest path.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

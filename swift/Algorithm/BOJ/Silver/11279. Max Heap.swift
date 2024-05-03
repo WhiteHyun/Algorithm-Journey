@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - MaxHeap
 
-struct MaxHeap<Element: Comparable> {
+private struct MaxHeap<Element: Comparable> {
   private var elements: [Element] = []
 
   var isEmpty: Bool {
