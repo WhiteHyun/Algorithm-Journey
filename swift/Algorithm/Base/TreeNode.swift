@@ -21,6 +21,14 @@ final class TreeNode {
   }
 }
 
+// MARK: Equatable
+
+extension TreeNode: Equatable {
+  static func == (lhs: TreeNode, rhs: TreeNode) -> Bool {
+    lhs.val == rhs.val && lhs.left == rhs.left && lhs.right == rhs.right
+  }
+}
+
 // MARK: ExpressibleByArrayLiteral
 
 extension TreeNode: ExpressibleByArrayLiteral {
