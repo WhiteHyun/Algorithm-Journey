@@ -9,11 +9,11 @@ import Foundation
 
 // MARK: - ListNode
 
-final class ListNode {
-  var val: Int
-  var next: ListNode?
+public final class ListNode {
+  public var val: Int
+  public var next: ListNode?
 
-  init(_ val: Int = 0, _ next: ListNode? = nil) {
+  public init(_ val: Int = 0, _ next: ListNode? = nil) {
     self.val = val
     self.next = next
   }
@@ -21,17 +21,17 @@ final class ListNode {
 
 // MARK: ExpressibleByArrayLiteral
 
-extension ListNode: ExpressibleByArrayLiteral {
-  typealias ArrayLiteralElement = Int
+extension ListNode?: ExpressibleByArrayLiteral {
+  public typealias ArrayLiteralElement = Int
 
-  convenience init(arrayLiteral elements: ArrayLiteralElement...) {
+  public init(arrayLiteral elements: ArrayLiteralElement...) {
     guard elements.isEmpty == false
     else {
-      self.init(0)
+      self = nil
       return
     }
 
-    self.init(elements.first ?? 0)
+    self = .init(elements.first!)
 
     var node: ListNode? = self
     for element in elements.dropFirst() {
@@ -48,7 +48,7 @@ extension ListNode: CustomStringConvertible {
     var array: [String] = []
     var node: ListNode? = self
     while node != nil {
-      array.append(String(val))
+      array.append(String(node!.val))
       node = node?.next
     }
 
@@ -59,7 +59,7 @@ extension ListNode: CustomStringConvertible {
 // MARK: Equatable
 
 extension ListNode: Equatable {
-  static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+  public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
     var leftNode: ListNode? = lhs
     var rightNode: ListNode? = rhs
 
