@@ -38,6 +38,7 @@
 		428CA4392D21B77061E8F1DB /* LeetCode1236Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBCA0B65FDEEBA0DF66309 /* LeetCode1236Tests.swift */; };
 		45BF9B669CF9B05251086F6B /* 258709. Pick a die.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44BB7EF7D2687E3DF8BC15 /* 258709. Pick a die.swift */; };
 		4BEBA57EC537F4869C12FEA8 /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E28D860D68BF5CB1DC2EDA /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift */; };
+		4CDEA531960EB2203089A2B7 /* 3015. Reunite Oasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547FFA100039B8D4F9AE1A2 /* 3015. Reunite Oasis.swift */; };
 		4DE10A7E1B762225A2189222 /* 21. Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE1A49B2D41F136145257B /* 21. Merge Two Sorted Lists.swift */; };
 		4EC93C2E678396AFB1C0C6F9 /* 1915. Number of Wonderful Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8BDBAF6EA5458270E68E6E /* 1915. Number of Wonderful Substrings.swift */; };
 		51138571E50094B927D8F70D /* 2000. Reverse Prefix of Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */; };
@@ -62,6 +63,7 @@
 		7CD2F76BE035760F99EF54BA /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
 		7D15BE7562BD0E4035409427 /* LeetCode2441Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F401BE5947BD76732FF4E56 /* LeetCode2441Tests.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
+		81888093F324533D436DF72E /* BOJ3015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3202F340A9A0C188BB50C7E /* BOJ3015Tests.swift */; };
 		86113DAC5600E7252DC6E18E /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
 		8BD03C69B8AEA87FC9494733 /* 141. Linked List Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCACC4A2219E858E855786 /* 141. Linked List Cycle.swift */; };
 		8BEE20091C43BC7EC2617BD2 /* BOJ1987Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BA27100E41536B5B83C90 /* BOJ1987Tests.swift */; };
@@ -132,6 +134,7 @@
 		BAC965FD2BE7406D00F4BE29 /* 237. Delete Node in a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */; };
 		BAC965FE2BE74B3100F4BE29 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
 		BAD0548D2BE9B7A700B89545 /* 2816. Double a Number Represented as a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEE6982567BFF76EA5593B /* 2816. Double a Number Represented as a Linked List.swift */; };
+		BAD0548E2BE9BB9400B89545 /* 3015. Reunite Oasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547FFA100039B8D4F9AE1A2 /* 3015. Reunite Oasis.swift */; };
 		BAF443E42BCD1256007D25A6 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF443E32BCD1256007D25A6 /* TreeNode.swift */; };
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
 		BE61E278EC8D865A0D5A4726 /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD461AA03CE1540F9C579B /* 125. Valid Palindrome.swift */; };
@@ -303,8 +306,10 @@
 		ED3CE8D6A99A3965125CCB78 /* 4. Median of Two Sorted Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "4. Median of Two Sorted Arrays.swift"; sourceTree = "<group>"; };
 		EE44BB7EF7D2687E3DF8BC15 /* 258709. Pick a die.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "258709. Pick a die.swift"; sourceTree = "<group>"; };
 		F0859ED575E0C28AA90DBFF2 /* LeetCode1915Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1915Tests.swift; sourceTree = "<group>"; };
+		F3202F340A9A0C188BB50C7E /* BOJ3015Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ3015Tests.swift; sourceTree = "<group>"; };
 		F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11279Tests.swift; sourceTree = "<group>"; };
 		F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "753. Open the Lock.swift"; sourceTree = "<group>"; };
+		F547FFA100039B8D4F9AE1A2 /* 3015. Reunite Oasis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3015. Reunite Oasis.swift"; sourceTree = "<group>"; };
 		F7DB1131C4C54FE59859EFC3 /* BOJ2580Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2580Tests.swift; sourceTree = "<group>"; };
 		FD533B3B32865E5AAF282E48 /* BOJ1927Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1927Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -384,6 +389,7 @@
 		BA03EE702BD0BDDA00F1DF61 /* Platinum */ = {
 			isa = PBXGroup;
 			children = (
+				F547FFA100039B8D4F9AE1A2 /* 3015. Reunite Oasis.swift */,
 				2EC3121C728E9655DC400056 /* 3111. Censorship.swift */,
 				577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */,
 			);
@@ -426,6 +432,7 @@
 				2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */,
 				F7DB1131C4C54FE59859EFC3 /* BOJ2580Tests.swift */,
 				B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */,
+				F3202F340A9A0C188BB50C7E /* BOJ3015Tests.swift */,
 				7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */,
 				3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */,
 				F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */,
@@ -804,6 +811,7 @@
 				ED860DD7204EFEFED588EA5F /* LeetCode514Tests.swift in Sources */,
 				F10BA05B916C440AD7BF14C7 /* BOJ17298Tests.swift in Sources */,
 				BA5F43E22BE61D64000AE158 /* 206. Reverse Linked List.swift in Sources */,
+				BAD0548E2BE9BB9400B89545 /* 3015. Reunite Oasis.swift in Sources */,
 				71BCF67A948FE6952FE0A3FC /* LeetCode834Tests.swift in Sources */,
 				BA8AF8602BE63C6800D1737E /* 226. Invert Binary Tree.swift in Sources */,
 				BA57DEE32BE09BA000073C18 /* 1915. Number of Wonderful Substrings.swift in Sources */,
@@ -834,6 +842,7 @@
 				1DEA772E676BD75354229402 /* BOJ2580Tests.swift in Sources */,
 				C8ECE6E8F967AF9BDCD9EEE8 /* BOJ1912Tests.swift in Sources */,
 				D4F0D8E8E663A63F336D9EB8 /* LeetCode2816Tests.swift in Sources */,
+				81888093F324533D436DF72E /* BOJ3015Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,6 +926,7 @@
 				72D150AF878FB509D0C744BA /* 2580. Sudoku.swift in Sources */,
 				9266939C2A222E285DF9FBBA /* 1912. Continuous sum.swift in Sources */,
 				D63B9DC8BCAF86678DFBA708 /* 2816. Double a Number Represented as a Linked List.swift in Sources */,
+				4CDEA531960EB2203089A2B7 /* 3015. Reunite Oasis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
