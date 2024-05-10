@@ -52,6 +52,7 @@
 		58E24341C4C5DA5B7FB80224 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
 		5A45056D20272E3F85346400 /* BOJ1005Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D181C311A7DDCA5F3850FC6 /* BOJ1005Tests.swift */; };
 		5B1407FC43CB7EB8D99A308B /* 3404. Minimum Number of Operations to Satisfy Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */; };
+		5BDCB9416AD674C9A470BFED /* 786. K-th Smallest Prime Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */; };
 		5D990747032C8514E7CFC029 /* 237. Delete Node in a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */; };
 		5E34A0B13371633E581E9DB3 /* 1916. Finding the minimum cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F8A8FF238D33C140B41A9 /* 1916. Finding the minimum cost.swift */; };
 		647453E29C0FB86384D43325 /* 987. Reveal Cards In Increasing Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */; };
@@ -84,6 +85,7 @@
 		A1D260FBE826ED2057AC26A2 /* 15686. Chicken delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */; };
 		A3A83F852CFB29C40FB8306F /* 121. Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C44D5034B31F591112626 /* 121. Best Time to Buy and Sell Stock.swift */; };
 		A91BBBAADAC5753B36B20622 /* LeetCode881Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */; };
+		A9D1F499D140D497D5916EC6 /* LeetCode786Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */; };
 		ACB86D2B638188017CB2D792 /* 3075. Maximize Happiness of Selected Children.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908B4DB71CEB907BD3C0040 /* 3075. Maximize Happiness of Selected Children.swift */; };
 		ADAC39048810E6DC3D734B58 /* 678. Valid Parenthesis String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */; };
 		AF2867E443D338416AD5647D /* 129. Sum Root to Leaf Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */; };
@@ -99,6 +101,7 @@
 		BA1BB8912BD78F8700CA174B /* BOJ18429Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BB8902BD78F8700CA174B /* BOJ18429Tests.swift */; };
 		BA1BB8922BD78F9600CA174B /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
 		BA2A2B962BDA44930099FF73 /* 4. Median of Two Sorted Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CE8D6A99A3965125CCB78 /* 4. Median of Two Sorted Arrays.swift */; };
+		BA3C4ECA2BEDE3F500EFE29C /* 786. K-th Smallest Prime Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */; };
 		BA402F572B848BC600E86AAD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA402F562B848BC600E86AAD /* Utils.swift */; };
 		BA44EB312BE32ED800A94445 /* 2441. Largest Positive Integer That Exists With Its Negative.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722E04FFE82A2B956AF18DE /* 2441. Largest Positive Integer That Exists With Its Negative.swift */; };
 		BA44EB322BE3305500A94445 /* 1927. Min Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DADA5B240793D631B03452 /* 1927. Min Heap.swift */; };
@@ -242,6 +245,7 @@
 		42E1992B902D7E9702913D47 /* 2805. Cutting trees.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2805. Cutting trees.swift"; sourceTree = "<group>"; };
 		46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. Create a large number.swift"; sourceTree = "<group>"; };
 		4ABF450DB14C27EF0F8A56AD /* 514. Freedom Trail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "514. Freedom Trail.swift"; sourceTree = "<group>"; };
+		528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "786. K-th Smallest Prime Fraction.swift"; sourceTree = "<group>"; };
 		54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2103. Find All Groups of Farmland.swift"; sourceTree = "<group>"; };
 		54C261A52F46C78784388968 /* 2487. Remove Nodes From Linked List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2487. Remove Nodes From Linked List.swift"; sourceTree = "<group>"; };
 		56BEBFF0AA74E88C6C4DE1B7 /* 2580. Sudoku.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2580. Sudoku.swift"; sourceTree = "<group>"; };
@@ -316,6 +320,7 @@
 		D79CECEB223628824707EB8A /* 834. Sum of Distances in Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "834. Sum of Distances in Tree.swift"; sourceTree = "<group>"; };
 		D87B14AA5D812EB60792F396 /* 881. Boats to Save People.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "881. Boats to Save People.swift"; sourceTree = "<group>"; };
 		D908B4DB71CEB907BD3C0040 /* 3075. Maximize Happiness of Selected Children.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3075. Maximize Happiness of Selected Children.swift"; sourceTree = "<group>"; };
+		DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode786Tests.swift; sourceTree = "<group>"; };
 		DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1289. Minimum Falling Path Sum II.swift"; sourceTree = "<group>"; };
 		DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "18231. destroyed city.swift"; sourceTree = "<group>"; };
 		E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11286Tests.swift; sourceTree = "<group>"; };
@@ -488,6 +493,7 @@
 				6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */,
 				6675D2B6E805D98D70F92C30 /* LeetCode506Tests.swift */,
 				95E754B77DED66104FACA354 /* LeetCode514Tests.swift */,
+				DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */,
 				82D69CA0894C6FD6FE7966D7 /* LeetCode834Tests.swift */,
 				18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */,
 				2FEBCA0B65FDEEBA0DF66309 /* LeetCode1236Tests.swift */,
@@ -580,6 +586,7 @@
 				35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */,
 				61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */,
 				F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */,
+				528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */,
 				D87B14AA5D812EB60792F396 /* 881. Boats to Save People.swift */,
 				D6A5B22EF9060EAFEBF07B26 /* 987. Reveal Cards In Increasing Order.swift */,
 				66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */,
@@ -802,6 +809,7 @@
 				BA137FC42BE49E1700F50CB7 /* 165. Compare Version Numbers.swift in Sources */,
 				BA57F1DC2BE8BCE300569604 /* 2580. Sudoku.swift in Sources */,
 				BA1BB88F2BD75E8400CA174B /* 18231. destroyed city.swift in Sources */,
+				BA3C4ECA2BEDE3F500EFE29C /* 786. K-th Smallest Prime Fraction.swift in Sources */,
 				BA1BB8912BD78F8700CA174B /* BOJ18429Tests.swift in Sources */,
 				428CA4392D21B77061E8F1DB /* LeetCode1236Tests.swift in Sources */,
 				CD31C9625EC944EF8846F1C6 /* BOJ1894Tests.swift in Sources */,
@@ -879,6 +887,7 @@
 				2F04F3B2171C143F43B93171 /* LeetCode506Tests.swift in Sources */,
 				437714D47CFDB2780613E7D3 /* LeetCode3075Tests.swift in Sources */,
 				5A45056D20272E3F85346400 /* BOJ1005Tests.swift in Sources */,
+				A9D1F499D140D497D5916EC6 /* LeetCode786Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,6 +976,7 @@
 				E0FCA9FF1181808EAC80F4C3 /* 506. Relative Ranks.swift in Sources */,
 				ACB86D2B638188017CB2D792 /* 3075. Maximize Happiness of Selected Children.swift in Sources */,
 				2814DA6A2FCECAA8CEDE6FE1 /* 1005. ACM Craft.swift in Sources */,
+				5BDCB9416AD674C9A470BFED /* 786. K-th Smallest Prime Fraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
