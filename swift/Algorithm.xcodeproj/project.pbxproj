@@ -34,6 +34,7 @@
 		2EBAAA36C5A141AE714E507C /* 11286. Heap of absolute values.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF44397ABA3BCF3D536FCF /* 11286. Heap of absolute values.swift */; };
 		2EC991651E7EA33215056405 /* LeetCode2487Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3942C765BFAFC86A35616 /* LeetCode2487Tests.swift */; };
 		2F04F3B2171C143F43B93171 /* LeetCode506Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675D2B6E805D98D70F92C30 /* LeetCode506Tests.swift */; };
+		343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D919DC8C04DDB9B25B48D /* LeetCode70Tests.swift */; };
 		35F6CFD292D74C88726B9A70 /* 42883. Create a large number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */; };
 		39EC1CFB669DBB0D92864C7B /* 2293. Coin I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */; };
 		3C2F7ABAD91AB5B16A9A0158 /* 206. Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD471E88F348763DE06068C3 /* 206. Reverse Linked List.swift */; };
@@ -74,6 +75,7 @@
 		7CD2F76BE035760F99EF54BA /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
 		7D15BE7562BD0E4035409427 /* LeetCode2441Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F401BE5947BD76732FF4E56 /* LeetCode2441Tests.swift */; };
 		7E7BED2D34087F88D2F5A70B /* 84. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */; };
+		7EC3DE335660AE5578CB4A1D /* 70. Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */; };
 		81888093F324533D436DF72E /* BOJ3015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3202F340A9A0C188BB50C7E /* BOJ3015Tests.swift */; };
 		86113DAC5600E7252DC6E18E /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
 		8BD03C69B8AEA87FC9494733 /* 141. Linked List Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCACC4A2219E858E855786 /* 141. Linked List Cycle.swift */; };
@@ -157,6 +159,7 @@
 		BAD3DBA12BEE40FF002463B7 /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BF9363AAAC650FF0B4316B /* 104. Maximum Depth of Binary Tree.swift */; };
 		BAD3DBA22BEE427A002463B7 /* 100. Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C4DECC07106ABC9E50C69 /* 100. Same Tree.swift */; };
 		BAD3DBA32BEE448A002463B7 /* 572. Subtree of Another Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */; };
+		BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */; };
 		BAD951152BEBC5D600806D4C /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
 		BAF443E42BCD1256007D25A6 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF443E32BCD1256007D25A6 /* TreeNode.swift */; };
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
@@ -282,6 +285,7 @@
 		78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "84. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ3197Tests.swift; sourceTree = "<group>"; };
 		7C1FA8C7552D8770B7B523B7 /* LeetCode2370Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2370Tests.swift; sourceTree = "<group>"; };
+		7C5D919DC8C04DDB9B25B48D /* LeetCode70Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode70Tests.swift; sourceTree = "<group>"; };
 		7D287623F0A62B85E02F4D05 /* LeetCode141Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode141Tests.swift; sourceTree = "<group>"; };
 		7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2121. Find if Path Exists in Graph.swift"; sourceTree = "<group>"; };
 		82D69CA0894C6FD6FE7966D7 /* LeetCode834Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode834Tests.swift; sourceTree = "<group>"; };
@@ -301,6 +305,7 @@
 		A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1753. Shortest path.swift"; sourceTree = "<group>"; };
 		A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2370. Longest Ideal Subsequence.swift"; sourceTree = "<group>"; };
 		A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ15686Tests.swift; sourceTree = "<group>"; };
+		A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "70. Climbing Stairs.swift"; sourceTree = "<group>"; };
 		AEAC63455092B7CADE8BC1D3 /* LeetCode226Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode226Tests.swift; sourceTree = "<group>"; };
 		AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3404. Minimum Number of Operations to Satisfy Conditions.swift"; sourceTree = "<group>"; };
 		AF8C4DECC07106ABC9E50C69 /* 100. Same Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
@@ -504,6 +509,7 @@
 				B9F7AF8067DBDA8FB2A7C63A /* LeetCode4Tests.swift */,
 				5BF3DC8E73D00FE03B5E51F7 /* LeetCode20Tests.swift */,
 				CCC3D26754D7DEA7563FA858 /* LeetCode21Tests.swift */,
+				7C5D919DC8C04DDB9B25B48D /* LeetCode70Tests.swift */,
 				F4080FDE3168F5FE2F89131B /* LeetCode100Tests.swift */,
 				DC3C93A2B422600D1B326813 /* LeetCode104Tests.swift */,
 				02675C8C1A774912BE4B1B2B /* LeetCode121Tests.swift */,
@@ -578,6 +584,7 @@
 				401F91F5488CA9C6DBCA1C51 /* 1. Two Sum.swift */,
 				BEBB2A9785CDCC37CA437705 /* 20. Valid Parentheses.swift */,
 				B4DE1A49B2D41F136145257B /* 21. Merge Two Sorted Lists.swift */,
+				A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */,
 				AF8C4DECC07106ABC9E50C69 /* 100. Same Tree.swift */,
 				C5BF9363AAAC650FF0B4316B /* 104. Maximum Depth of Binary Tree.swift */,
 				361C44D5034B31F591112626 /* 121. Best Time to Buy and Sell Stock.swift */,
@@ -850,6 +857,7 @@
 				BA1B02E12BE1D9F20018D1BE /* 11279. Max Heap.swift in Sources */,
 				BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */,
 				BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */,
+				BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */,
 				BA59CCB42BDFB94200219E83 /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift in Sources */,
 				BA4C95E32BEA00C300E80D08 /* 1916. Finding the minimum cost.swift in Sources */,
 				563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */,
@@ -924,6 +932,7 @@
 				BAD3DBA32BEE448A002463B7 /* 572. Subtree of Another Tree.swift in Sources */,
 				EFAF18D58C399F9720BE65DA /* LeetCode100Tests.swift in Sources */,
 				DB36B23DCEE11927089EAC04 /* LeetCode572Tests.swift in Sources */,
+				343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1017,6 +1026,7 @@
 				15FEB4185CB82F43AE345640 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				63CF486202E3291B4E9CA38E /* 100. Same Tree.swift in Sources */,
 				A012C31B7C91B79C0BE6BD54 /* 572. Subtree of Another Tree.swift in Sources */,
+				7EC3DE335660AE5578CB4A1D /* 70. Climbing Stairs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
