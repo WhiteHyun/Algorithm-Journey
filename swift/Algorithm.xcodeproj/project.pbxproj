@@ -39,6 +39,7 @@
 		39EC1CFB669DBB0D92864C7B /* 2293. Coin I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */; };
 		3C2F7ABAD91AB5B16A9A0158 /* 206. Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD471E88F348763DE06068C3 /* 206. Reverse Linked List.swift */; };
 		3C8A1E8794F04E4A675BFD87 /* 20. Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB2A9785CDCC37CA437705 /* 20. Valid Parentheses.swift */; };
+		3F23228450060BE574C01F7A /* LeetCode857Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */; };
 		403FBDB8CB8A5BA4AF296E75 /* BOJ1916Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795AE9006C2E57A5B349F34 /* BOJ1916Tests.swift */; };
 		410E9BE82EC1D30D80C2ED52 /* 514. Freedom Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF450DB14C27EF0F8A56AD /* 514. Freedom Trail.swift */; };
 		42515CC0F9B451335AD25BAD /* 1030. Smallest String Starting From Leaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C9219452620AC2E6A3EC0D /* 1030. Smallest String Starting From Leaf.swift */; };
@@ -160,6 +161,7 @@
 		BAD3DBA22BEE427A002463B7 /* 100. Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C4DECC07106ABC9E50C69 /* 100. Same Tree.swift */; };
 		BAD3DBA32BEE448A002463B7 /* 572. Subtree of Another Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */; };
 		BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */; };
+		BAD3DBA52BEF0036002463B7 /* 857. Minimum Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */; };
 		BAD951152BEBC5D600806D4C /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
 		BAF443E42BCD1256007D25A6 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF443E32BCD1256007D25A6 /* TreeNode.swift */; };
 		BAF746DF299B78D600182311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF746DE299B78D600182311 /* main.swift */; };
@@ -184,6 +186,7 @@
 		DF1E85940105D4845A53B0B0 /* BOJ15686Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */; };
 		E0FCA9FF1181808EAC80F4C3 /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
 		E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */; };
+		E35D9CC0ED1381DA48C88546 /* 857. Minimum Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */; };
 		E36093434D7C646997140739 /* 217. Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122732CAE39B4149F5A7DFB8 /* 217. Contains Duplicate.swift */; };
 		E4B77CCE7DCC09274BA44ECE /* BOJ20366Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FA62507F6B97F5DA77C08 /* BOJ20366Tests.swift */; };
 		E4E957C7A58659AF82B00781 /* LeetCode1289Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F5DE74AF4F048447835D /* LeetCode1289Tests.swift */; };
@@ -303,6 +306,7 @@
 		A0EE7C29B8BC41A11489EA46 /* LeetCode206Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode206Tests.swift; sourceTree = "<group>"; };
 		A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "347. Top K Frequent Elements.swift"; sourceTree = "<group>"; };
 		A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1753. Shortest path.swift"; sourceTree = "<group>"; };
+		A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "857. Minimum Cost to Hire K Workers.swift"; sourceTree = "<group>"; };
 		A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2370. Longest Ideal Subsequence.swift"; sourceTree = "<group>"; };
 		A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ15686Tests.swift; sourceTree = "<group>"; };
 		A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "70. Climbing Stairs.swift"; sourceTree = "<group>"; };
@@ -312,6 +316,7 @@
 		AFBF44397ABA3BCF3D536FCF /* 11286. Heap of absolute values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11286. Heap of absolute values.swift"; sourceTree = "<group>"; };
 		B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2805Tests.swift; sourceTree = "<group>"; };
 		B226D6181F521969A817995D /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
+		B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode857Tests.swift; sourceTree = "<group>"; };
 		B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "15686. Chicken delivery.swift"; sourceTree = "<group>"; };
 		B4DE1A49B2D41F136145257B /* 21. Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "21. Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
 		B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2212. Sensors.swift"; sourceTree = "<group>"; };
@@ -526,6 +531,7 @@
 				9939BA1CD352A285D9630ADD /* LeetCode572Tests.swift */,
 				DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */,
 				82D69CA0894C6FD6FE7966D7 /* LeetCode834Tests.swift */,
+				B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */,
 				18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */,
 				2FEBCA0B65FDEEBA0DF66309 /* LeetCode1236Tests.swift */,
 				2366F5DE74AF4F048447835D /* LeetCode1289Tests.swift */,
@@ -647,6 +653,7 @@
 				689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */,
 				4ABF450DB14C27EF0F8A56AD /* 514. Freedom Trail.swift */,
 				D79CECEB223628824707EB8A /* 834. Sum of Distances in Tree.swift */,
+				A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */,
 				DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */,
 			);
 			path = Hard;
@@ -869,6 +876,7 @@
 				BA58C3D22BE5DFFD00EF519E /* 881. Boats to Save People.swift in Sources */,
 				C87E44BC725BBCA98CA8D8E4 /* LeetCode4Tests.swift in Sources */,
 				BA6EBDD92BDBD07500FAC927 /* 1. Two Sum.swift in Sources */,
+				BAD3DBA52BEF0036002463B7 /* 857. Minimum Cost to Hire K Workers.swift in Sources */,
 				B25327AB7F233F884E784562 /* BOJ2212Tests.swift in Sources */,
 				BAD0548D2BE9B7A700B89545 /* 2816. Double a Number Represented as a Linked List.swift in Sources */,
 				BA6EBDDC2BDCA93900FAC927 /* 514. Freedom Trail.swift in Sources */,
@@ -933,6 +941,7 @@
 				EFAF18D58C399F9720BE65DA /* LeetCode100Tests.swift in Sources */,
 				DB36B23DCEE11927089EAC04 /* LeetCode572Tests.swift in Sources */,
 				343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */,
+				3F23228450060BE574C01F7A /* LeetCode857Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,6 +1036,7 @@
 				63CF486202E3291B4E9CA38E /* 100. Same Tree.swift in Sources */,
 				A012C31B7C91B79C0BE6BD54 /* 572. Subtree of Another Tree.swift in Sources */,
 				7EC3DE335660AE5578CB4A1D /* 70. Climbing Stairs.swift in Sources */,
+				E35D9CC0ED1381DA48C88546 /* 857. Minimum Cost to Hire K Workers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
