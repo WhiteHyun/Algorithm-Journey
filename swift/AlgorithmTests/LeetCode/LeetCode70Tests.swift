@@ -19,4 +19,9 @@ final class LeetCode70Tests: XCTestCase {
     let result = problem.climbStairs(3)
     XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
   }
+
+  func testExample3() {
+    let result = problem.climbStairs(1)
+    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+  }
 }
