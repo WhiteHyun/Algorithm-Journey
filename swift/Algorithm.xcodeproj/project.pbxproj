@@ -51,6 +51,7 @@
 		437714D47CFDB2780613E7D3 /* LeetCode3075Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD12E2682F48E315A7CD1C2 /* LeetCode3075Tests.swift */; };
 		450755F5CE5103192C27FCE2 /* 16953. A → B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D9D3EC37E9944A29D71964 /* 16953. A → B.swift */; };
 		45BF9B669CF9B05251086F6B /* 258709. Pick a die.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44BB7EF7D2687E3DF8BC15 /* 258709. Pick a die.swift */; };
+		47539B1D2033692B4F6051B6 /* BOJ2252Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76474C6CF18E3D4878DF80F7 /* BOJ2252Tests.swift */; };
 		4BEBA57EC537F4869C12FEA8 /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E28D860D68BF5CB1DC2EDA /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift */; };
 		4CDEA531960EB2203089A2B7 /* 3015. Reunite Oasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547FFA100039B8D4F9AE1A2 /* 3015. Reunite Oasis.swift */; };
 		4DE10A7E1B762225A2189222 /* 21. Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE1A49B2D41F136145257B /* 21. Merge Two Sorted Lists.swift */; };
@@ -71,6 +72,7 @@
 		6716C73AF1F01020B7AD7E62 /* 881. Boats to Save People.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B14AA5D812EB60792F396 /* 881. Boats to Save People.swift */; };
 		6927F41D517BB843E0F76606 /* BOJ10775Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */; };
 		6A0C7E0B4631B3B549EB835F /* LeetCode20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3DC8E73D00FE03B5E51F7 /* LeetCode20Tests.swift */; };
+		6FF2498DF4E1C7B29E00165C /* 2252. Line up.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FC06B7489280A4132DEFD8 /* 2252. Line up.swift */; };
 		71BCF67A948FE6952FE0A3FC /* LeetCode834Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D69CA0894C6FD6FE7966D7 /* LeetCode834Tests.swift */; };
 		72B519C20C01453ABD1D690C /* BOJ2805Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */; };
 		72D150AF878FB509D0C744BA /* 2580. Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEBFF0AA74E88C6C4DE1B7 /* 2580. Sudoku.swift */; };
@@ -164,6 +166,7 @@
 		BA9BA9682BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */; };
 		BA9F02B52BE8A255007B8DB5 /* 2487. Remove Nodes From Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C261A52F46C78784388968 /* 2487. Remove Nodes From Linked List.swift */; };
 		BAA50C7A2BF1BBF70079ECDE /* 861. Score After Flipping Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */; };
+		BAA50C7B2BF1CFB50079ECDE /* 2252. Line up.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FC06B7489280A4132DEFD8 /* 2252. Line up.swift */; };
 		BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */; };
 		BAA8B6572BD9FF560016D105 /* 3197. The Lake of Swan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */; };
 		BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E1992B902D7E9702913D47 /* 2805. Cutting trees.swift */; };
@@ -305,6 +308,7 @@
 		74DADA5B240793D631B03452 /* 1927. Min Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1927. Min Heap.swift"; sourceTree = "<group>"; };
 		757659B4899D65BB002B18CF /* LeetCode125Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode125Tests.swift; sourceTree = "<group>"; };
 		762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "165. Compare Version Numbers.swift"; sourceTree = "<group>"; };
+		76474C6CF18E3D4878DF80F7 /* BOJ2252Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2252Tests.swift; sourceTree = "<group>"; };
 		7751B3D59332952585B66641 /* LeetCode2816Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2816Tests.swift; sourceTree = "<group>"; };
 		78984E96C41AE5A4354C6562 /* 84. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "84. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ3197Tests.swift; sourceTree = "<group>"; };
@@ -344,6 +348,7 @@
 		B4DE1A49B2D41F136145257B /* 21. Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "21. Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
 		B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2212. Sensors.swift"; sourceTree = "<group>"; };
 		B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3405. Count the Number of Special Characters II.swift"; sourceTree = "<group>"; };
+		B8FC06B7489280A4132DEFD8 /* 2252. Line up.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2252. Line up.swift"; sourceTree = "<group>"; };
 		B9F7AF8067DBDA8FB2A7C63A /* LeetCode4Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode4Tests.swift; sourceTree = "<group>"; };
 		BA1BB8852BD75C9800CA174B /* AlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1BB8872BD75C9800CA174B /* BOJ18231Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ18231Tests.swift; sourceTree = "<group>"; };
@@ -438,6 +443,7 @@
 				122859837263588F523ABD9A /* 1987. Alphabet.swift */,
 				82960BC39F0459586BDA0FA7 /* 2110. Installing a router.swift */,
 				B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */,
+				B8FC06B7489280A4132DEFD8 /* 2252. Line up.swift */,
 				61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */,
 				56BEBFF0AA74E88C6C4DE1B7 /* 2580. Sudoku.swift */,
 				294EF7DF806D781B692BB270 /* 9935. string explosion.swift */,
@@ -521,6 +527,7 @@
 				D05BA27100E41536B5B83C90 /* BOJ1987Tests.swift */,
 				15A1B68DE9D7AAC7BF2B065B /* BOJ2110Tests.swift */,
 				8E0425866283B95D0634005E /* BOJ2212Tests.swift */,
+				76474C6CF18E3D4878DF80F7 /* BOJ2252Tests.swift */,
 				2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */,
 				F7DB1131C4C54FE59859EFC3 /* BOJ2580Tests.swift */,
 				B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */,
@@ -1000,6 +1007,8 @@
 				B3CB0C50A0F5B375CA944754 /* BOJ16953Tests.swift in Sources */,
 				A6CC1AF0F31C3135CE20D40A /* LeetCode252Tests.swift in Sources */,
 				F01E4AB8A934DD5C4EDE3469 /* LeetCode861Tests.swift in Sources */,
+				47539B1D2033692B4F6051B6 /* BOJ2252Tests.swift in Sources */,
+				BAA50C7B2BF1CFB50079ECDE /* 2252. Line up.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1101,6 +1110,7 @@
 				450755F5CE5103192C27FCE2 /* 16953. A → B.swift in Sources */,
 				7B0EA7CB6F912B549A2151E5 /* 252. Meeting Rooms.swift in Sources */,
 				081303FE1C1151966DE5A514 /* 861. Score After Flipping Matrix.swift in Sources */,
+				6FF2498DF4E1C7B29E00165C /* 2252. Line up.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
