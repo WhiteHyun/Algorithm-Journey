@@ -65,6 +65,7 @@
 		563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FA8C7552D8770B7B523B7 /* LeetCode2370Tests.swift */; };
 		58E24341C4C5DA5B7FB80224 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
 		5A45056D20272E3F85346400 /* BOJ1005Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D181C311A7DDCA5F3850FC6 /* BOJ1005Tests.swift */; };
+		5AE46419931029708EFEEA9B /* 1520. Downhill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */; };
 		5B1407FC43CB7EB8D99A308B /* 3404. Minimum Number of Operations to Satisfy Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */; };
 		5BC50B19D37B97F97B237B96 /* BOJ11404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC7696D84A75501A0276D3 /* BOJ11404Tests.swift */; };
 		5BDCB9416AD674C9A470BFED /* 786. K-th Smallest Prime Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */; };
@@ -123,6 +124,7 @@
 		B3CB0C50A0F5B375CA944754 /* BOJ16953Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A06489A8904D2578136A47 /* BOJ16953Tests.swift */; };
 		B7F3A07EF15436FAA05A09FA /* BOJ1753Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F13A2B4FFCE06383B23F69 /* BOJ1753Tests.swift */; };
 		B7F424D20403BAF71E4AC202 /* 2331. Evaluate Boolean Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8938A99B39EC2FEEF8D47 /* 2331. Evaluate Boolean Binary Tree.swift */; };
+		BA0611A12BF873630020C171 /* 1520. Downhill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */; };
 		BA137FC42BE49E1700F50CB7 /* 165. Compare Version Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */; };
 		BA137FC52BE4A3F900F50CB7 /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
 		BA1B02E02BE1D6AD0018D1BE /* 2000. Reverse Prefix of Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */; };
@@ -229,6 +231,7 @@
 		DB36B23DCEE11927089EAC04 /* LeetCode572Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BA1CD352A285D9630ADD /* LeetCode572Tests.swift */; };
 		DC35452B7543C80A9E697A6C /* LeetCode2000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705063D013249906171AC36F /* LeetCode2000Tests.swift */; };
 		DC87DB72942D3E8CEA455C82 /* LeetCode141Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D287623F0A62B85E02F4D05 /* LeetCode141Tests.swift */; };
+		DCCE62ECAAA47022BB402F68 /* BOJ1520Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7650FEA6EC97A508555F856 /* BOJ1520Tests.swift */; };
 		DF1E85940105D4845A53B0B0 /* BOJ15686Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */; };
 		E0FCA9FF1181808EAC80F4C3 /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
 		E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */; };
@@ -364,6 +367,7 @@
 		8784D7009EDBBB8EA1134978 /* LeetCode1Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1Tests.swift; sourceTree = "<group>"; };
 		8BD56FC85E69265FC58F6317 /* LeetCode2997Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2997Tests.swift; sourceTree = "<group>"; };
 		8C7E64B68DF4A72665C46ED8 /* LeetCode979Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode979Tests.swift; sourceTree = "<group>"; };
+		8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1520. Downhill.swift"; sourceTree = "<group>"; };
 		8E0425866283B95D0634005E /* BOJ2212Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2212Tests.swift; sourceTree = "<group>"; };
 		93F79F456DF0F686DC7D37F3 /* BOJ1010Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1010Tests.swift; sourceTree = "<group>"; };
 		9529500EC53BD87590C5280C /* BOJ14500Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ14500Tests.swift; sourceTree = "<group>"; };
@@ -435,6 +439,7 @@
 		E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "861. Score After Flipping Matrix.swift"; sourceTree = "<group>"; };
 		E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11286Tests.swift; sourceTree = "<group>"; };
 		E597ED2DD3226A1D40D826B8 /* LeetCode165Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode165Tests.swift; sourceTree = "<group>"; };
+		E7650FEA6EC97A508555F856 /* BOJ1520Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1520Tests.swift; sourceTree = "<group>"; };
 		EA0A2B3410312D7B5AB8A9E7 /* 1236. N-th Tribonacci Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1236. N-th Tribonacci Number.swift"; sourceTree = "<group>"; };
 		EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "310. Minimum Height Trees.swift"; sourceTree = "<group>"; };
 		ECEB003F406B5E78BDE4A2A4 /* LeetCode217Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode217Tests.swift; sourceTree = "<group>"; };
@@ -486,6 +491,7 @@
 			children = (
 				3629B8E93D8A6CEA5CF1EA8B /* 1005. ACM Craft.swift */,
 				32769F20766FEEC70896B8F0 /* 1238. Parties.swift */,
+				8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */,
 				A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */,
 				2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */,
 				CC86E8C20D73FF121631CA8A /* 1806. Partial sum.swift */,
@@ -572,6 +578,7 @@
 				3D181C311A7DDCA5F3850FC6 /* BOJ1005Tests.swift */,
 				93F79F456DF0F686DC7D37F3 /* BOJ1010Tests.swift */,
 				A8255C48D493D5D4123554B4 /* BOJ1238Tests.swift */,
+				E7650FEA6EC97A508555F856 /* BOJ1520Tests.swift */,
 				39F13A2B4FFCE06383B23F69 /* BOJ1753Tests.swift */,
 				5DBB345D543A97AF2D54115C /* BOJ1806Tests.swift */,
 				1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */,
@@ -1039,6 +1046,7 @@
 				BAD951152BEBC5D600806D4C /* 506. Relative Ranks.swift in Sources */,
 				DC35452B7543C80A9E697A6C /* LeetCode2000Tests.swift in Sources */,
 				BA5F43E32BE62003000AE158 /* ListNode.swift in Sources */,
+				BA0611A12BF873630020C171 /* 1520. Downhill.swift in Sources */,
 				E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */,
 				7D15BE7562BD0E4035409427 /* LeetCode2441Tests.swift in Sources */,
 				13B2FC575BC0C08C5F7E88D3 /* BOJ1927Tests.swift in Sources */,
@@ -1095,6 +1103,7 @@
 				C530A0FCD842D8CF1DA82E6E /* LeetCode1325Tests.swift in Sources */,
 				F9793127364A2E8B02D9FCED /* BOJ1806Tests.swift in Sources */,
 				150F01B1AFE39E6872990BCE /* LeetCode979Tests.swift in Sources */,
+				DCCE62ECAAA47022BB402F68 /* BOJ1520Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1207,6 +1216,7 @@
 				CA135C55F174CA9DC56742DA /* 1325. Delete Leaves With a Given Value.swift in Sources */,
 				B3790EC1E48A360121C5DE4A /* 1806. Partial sum.swift in Sources */,
 				54280C5E4C61E0C91DB2126D /* 979. Distribute Coins in Binary Tree.swift in Sources */,
+				5AE46419931029708EFEEA9B /* 1520. Downhill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
