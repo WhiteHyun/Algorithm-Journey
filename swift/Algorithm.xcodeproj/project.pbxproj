@@ -131,6 +131,7 @@
 		B7F424D20403BAF71E4AC202 /* 2331. Evaluate Boolean Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8938A99B39EC2FEEF8D47 /* 2331. Evaluate Boolean Binary Tree.swift */; };
 		BA0611A12BF873630020C171 /* 1520. Downhill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */; };
 		BA1093782BFA1831005CF176 /* 338. Counting Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA523F29A5BF8B4ACBD38EB /* 338. Counting Bits.swift */; };
+		BA1093792BFACE5C005CF176 /* 49. Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A296F4B09694A8C56F644 /* 49. Group Anagrams.swift */; };
 		BA137FC42BE49E1700F50CB7 /* 165. Compare Version Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */; };
 		BA137FC52BE4A3F900F50CB7 /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
 		BA1B02E02BE1D6AD0018D1BE /* 2000. Reverse Prefix of Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */; };
@@ -1029,6 +1030,7 @@
 				BAA8B6572BD9FF560016D105 /* 3197. The Lake of Swan.swift in Sources */,
 				BAC965FE2BE74B3100F4BE29 /* 1987. Alphabet.swift in Sources */,
 				BA1B02E12BE1D9F20018D1BE /* 11279. Max Heap.swift in Sources */,
+				BA1093792BFACE5C005CF176 /* 49. Group Anagrams.swift in Sources */,
 				BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */,
 				BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */,
 				BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */,
