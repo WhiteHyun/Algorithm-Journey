@@ -108,6 +108,7 @@
 		9266939C2A222E285DF9FBBA /* 1912. Continuous sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17584F85B15167F0281E936C /* 1912. Continuous sum.swift */; };
 		936DBA36E92A4264C883C2E6 /* 3111. Censorship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3121C728E9655DC400056 /* 3111. Censorship.swift */; };
 		9397FCD75FC827375DD22D50 /* BOJ3197Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */; };
+		93F2A7CB6F8AC8F9B984B42B /* 12100. 2048 (Easy).swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */; };
 		9653D5809AF9F31705F2CAEF /* 1759. Create a password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
 		9E42D726992875BD0FEDC467 /* 49. Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1A296F4B09694A8C56F644 /* 49. Group Anagrams.swift */; };
@@ -213,6 +214,7 @@
 		BAD3DBA32BEE448A002463B7 /* 572. Subtree of Another Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */; };
 		BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */; };
 		BAD3DBA52BEF0036002463B7 /* 857. Minimum Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */; };
+		BAD520372BFAE84900DBDA88 /* 12100. 2048 (Easy).swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */; };
 		BAD749022BF31FA000E7D03E /* 1219. Path with Maximum Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A65F1F433F358F7B44B51D /* 1219. Path with Maximum Gold.swift */; };
 		BAD749032BF330BA00E7D03E /* 14500. Tetromino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AFE589B88D6D629D074AB3 /* 14500. Tetromino.swift */; };
 		BAD951152BEBC5D600806D4C /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
@@ -268,6 +270,7 @@
 		F01E4AB8A934DD5C4EDE3469 /* LeetCode861Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393B15FFEF0FA1E4E889E89 /* LeetCode861Tests.swift */; };
 		F02CE7E02C1CBEE220F63E8E /* 3152. Special Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */; };
 		F10BA05B916C440AD7BF14C7 /* BOJ17298Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D342EDAEB07E6B3A842E02 /* BOJ17298Tests.swift */; };
+		F133405F354E742CDC577B17 /* BOJ12100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */; };
 		F17B6C1DBECDBCAC30C386EE /* 1010. Laying bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157712F738600FFC186461AB /* 1010. Laying bridges.swift */; };
 		F1EC137A1A30900D9031EE8E /* LeetCode1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784D7009EDBBB8EA1134978 /* LeetCode1Tests.swift */; };
 		F33D623C2BB190E54E3D207D /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
@@ -398,6 +401,7 @@
 		8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1520. Downhill.swift"; sourceTree = "<group>"; };
 		8E0425866283B95D0634005E /* BOJ2212Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2212Tests.swift; sourceTree = "<group>"; };
 		93F79F456DF0F686DC7D37F3 /* BOJ1010Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1010Tests.swift; sourceTree = "<group>"; };
+		94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "12100. 2048 (Easy).swift"; sourceTree = "<group>"; };
 		9529500EC53BD87590C5280C /* BOJ14500Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ14500Tests.swift; sourceTree = "<group>"; };
 		95E754B77DED66104FACA354 /* LeetCode514Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode514Tests.swift; sourceTree = "<group>"; };
 		9654BDFD6554D5245BBFAB72 /* 1894. 4th dot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1894. 4th dot.swift"; sourceTree = "<group>"; };
@@ -446,6 +450,7 @@
 		BEBB2A9785CDCC37CA437705 /* 20. Valid Parentheses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "20. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		C5BF9363AAAC650FF0B4316B /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		C5E28D860D68BF5CB1DC2EDA /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2997. Minimum Number of Operations to Make Array XOR Equal to K.swift"; sourceTree = "<group>"; };
+		C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ12100Tests.swift; sourceTree = "<group>"; };
 		C7D1561A456343A9A05F2640 /* 226. Invert Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "226. Invert Binary Tree.swift"; sourceTree = "<group>"; };
 		CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42. Trapping Rain Water.swift"; sourceTree = "<group>"; };
 		CC86E8C20D73FF121631CA8A /* 1806. Partial sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1806. Partial sum.swift"; sourceTree = "<group>"; };
@@ -535,6 +540,7 @@
 				294EF7DF806D781B692BB270 /* 9935. string explosion.swift */,
 				1BD96A68B432584E37757B6A /* 10775. Airport.swift */,
 				481F5A81F0BC23E082090BAA /* 11404. Floyd.swift */,
+				94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */,
 				35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */,
 				12AFE589B88D6D629D074AB3 /* 14500. Tetromino.swift */,
 				B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */,
@@ -629,6 +635,7 @@
 				F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */,
 				E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */,
 				77DC7696D84A75501A0276D3 /* BOJ11404Tests.swift */,
+				C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */,
 				40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */,
 				9529500EC53BD87590C5280C /* BOJ14500Tests.swift */,
 				A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */,
@@ -1038,6 +1045,7 @@
 				BAC965FE2BE74B3100F4BE29 /* 1987. Alphabet.swift in Sources */,
 				BA1B02E12BE1D9F20018D1BE /* 11279. Max Heap.swift in Sources */,
 				BA1093792BFACE5C005CF176 /* 49. Group Anagrams.swift in Sources */,
+				BAD520372BFAE84900DBDA88 /* 12100. 2048 (Easy).swift in Sources */,
 				BAA8B6562BD9F6B40016D105 /* 2370. Longest Ideal Subsequence.swift in Sources */,
 				BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */,
 				BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */,
@@ -1158,6 +1166,7 @@
 				5F3B6A4CB3B479A91620AA47 /* LeetCode338Tests.swift in Sources */,
 				E5CCCC8B01E71408C0CC1E92 /* LeetCode49Tests.swift in Sources */,
 				C8291FE3A2C5B478865C028E /* LeetCode1863Tests.swift in Sources */,
+				F133405F354E742CDC577B17 /* BOJ12100Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1277,6 +1286,7 @@
 				CF51D795B88F0BD8833FBA1D /* 338. Counting Bits.swift in Sources */,
 				9E42D726992875BD0FEDC467 /* 49. Group Anagrams.swift in Sources */,
 				CDE0CB5B9C4F4F405831619B /* 1863. Sum of All Subset XOR Totals.swift in Sources */,
+				93F2A7CB6F8AC8F9B984B42B /* 12100. 2048 (Easy).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
