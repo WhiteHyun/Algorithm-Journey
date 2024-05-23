@@ -7,15 +7,17 @@
 --importgrouping alpha
 --emptybraces "linebreak"
 --enable acronyms
---acronyms "URL, ID, UUID, CVS"
+--acronyms "URL, ID, UUID"
 --enable blankLineAfterImports
 --enable blankLinesAroundMark
 --enable blockComments
---enable docComments
+--enable doccomments
 --enable isEmpty
 --enable markTypes
 --enable sortSwitchCases
 --enable wrapEnumCases
 --enable wrapSwitchCases
+
+--doccomments "preserve"
 
 --disable wrapMultilineStatementBraces
