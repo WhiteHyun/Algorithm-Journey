@@ -5,8 +5,6 @@
 //  Created by 홍승현 on 5/15/24.
 //
 
-import Foundation
-
 // MARK: - Heap
 
 struct Heap<Element> {
