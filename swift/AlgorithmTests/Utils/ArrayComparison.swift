@@ -23,3 +23,16 @@ func areEquivalent<T: Hashable>(_ lhs: [[T]], _ rhs: [[T]]) -> Bool {
   let rhsSet = rhs.map { Set($0) }
   return Set(lhsSet) == Set(rhsSet)
 }
+
+/// Checks if two 1D arrays contain the same elements regardless of order.
+///
+/// This function compares two 1D arrays and returns true if they contain the
+/// same elements, regardless of the order of the elements.
+///
+/// - Parameters:
+///   - lhs: The first 1D array to compare.
+///   - rhs: The second 1D array to compare.
+/// - Returns: A Boolean value indicating whether the two 1D arrays are equivalent.
+func areEquivalent<T: Hashable>(_ lhs: [T], _ rhs: [T]) -> Bool {
+  Set(lhs) == Set(rhs)
+}
