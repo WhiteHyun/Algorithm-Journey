@@ -13,18 +13,18 @@ extension Array {
   }
 }
 
-func measureTimeUsingDate(operation: () -> Void) {
+func measureTimeUsingDate(label: String, operation: () -> Void) {
   let startTime = Date()
   operation()
   let diff = Date().timeIntervalSince(startTime)
-  print("Took \(diff) seconds")
+  print("[\(label)]: Took \(diff) seconds")
 }
 
-func measureTimeUsingCFAbsoluteTime(operation: () -> Void) {
+func measureTimeUsingCFAbsoluteTime(label: String, operation: () -> Void) {
   let startTime = CFAbsoluteTimeGetCurrent()
   operation()
   let diff = CFAbsoluteTimeGetCurrent() - startTime
-  print("Took \(diff) seconds")
+  print("[\(label)]: Took \(diff) seconds")
 }
 
 // MARK: - Memory
