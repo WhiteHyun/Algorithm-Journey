@@ -117,6 +117,7 @@
 		84DCB8940CED0A7A29A5FDCB /* BOJ2560Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F438571965CEE96F3D2641ED /* BOJ2560Tests.swift */; };
 		86017F9E5B57AAC1EABF763D /* 14500. Tetromino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AFE589B88D6D629D074AB3 /* 14500. Tetromino.swift */; };
 		86113DAC5600E7252DC6E18E /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
+		86E93AF6D67BFDC991376AD9 /* 14503. Robot vacuum cleaners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */; };
 		8BD03C69B8AEA87FC9494733 /* 141. Linked List Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCACC4A2219E858E855786 /* 141. Linked List Cycle.swift */; };
 		8BEE20091C43BC7EC2617BD2 /* BOJ1987Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BA27100E41536B5B83C90 /* BOJ1987Tests.swift */; };
 		8E91B5FF24DDAE2C6F650A37 /* 226. Invert Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1561A456343A9A05F2640 /* 226. Invert Binary Tree.swift */; };
@@ -226,6 +227,7 @@
 		BA9BA9662BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */; };
 		BA9BA9682BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */; };
 		BA9DD9A12C02EA07000E523F /* 552. Student Attendance Record II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA261349D24273C2DADC36 /* 552. Student Attendance Record II.swift */; };
+		BA9DD9A22C0308C4000E523F /* 14503. Robot vacuum cleaners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */; };
 		BA9F02B52BE8A255007B8DB5 /* 2487. Remove Nodes From Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C261A52F46C78784388968 /* 2487. Remove Nodes From Linked List.swift */; };
 		BAA50C7A2BF1BBF70079ECDE /* 861. Score After Flipping Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */; };
 		BAA50C7B2BF1CFB50079ECDE /* 2252. Line up.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FC06B7489280A4132DEFD8 /* 2252. Line up.swift */; };
@@ -295,6 +297,7 @@
 		E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */; };
 		E35D9CC0ED1381DA48C88546 /* 857. Minimum Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */; };
 		E36093434D7C646997140739 /* 217. Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122732CAE39B4149F5A7DFB8 /* 217. Contains Duplicate.swift */; };
+		E4624DDA6D53C3129D21DF44 /* BOJ14503Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */; };
 		E4B77CCE7DCC09274BA44ECE /* BOJ20366Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FA62507F6B97F5DA77C08 /* BOJ20366Tests.swift */; };
 		E4E957C7A58659AF82B00781 /* LeetCode1289Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F5DE74AF4F048447835D /* LeetCode1289Tests.swift */; };
 		E5B4D9ED3F67E52CC775F6C2 /* LeetCode2331Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155ACD12A8FE9FD20B545FC7 /* LeetCode2331Tests.swift */; };
@@ -430,6 +433,7 @@
 		689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "85. Maximal Rectangle.swift"; sourceTree = "<group>"; };
 		6A33C56937039E913D28DD87 /* 1255. Maximum Score Words Formed by Letters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1255. Maximum Score Words Formed by Letters.swift"; sourceTree = "<group>"; };
 		6A4F8A8FF238D33C140B41A9 /* 1916. Finding the minimum cost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1916. Finding the minimum cost.swift"; sourceTree = "<group>"; };
+		6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ14503Tests.swift; sourceTree = "<group>"; };
 		6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "53. Maximum Subarray.swift"; sourceTree = "<group>"; };
 		6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode242Tests.swift; sourceTree = "<group>"; };
 		705063D013249906171AC36F /* LeetCode2000Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2000Tests.swift; sourceTree = "<group>"; };
@@ -448,6 +452,7 @@
 		7D287623F0A62B85E02F4D05 /* LeetCode141Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode141Tests.swift; sourceTree = "<group>"; };
 		7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2121. Find if Path Exists in Graph.swift"; sourceTree = "<group>"; };
 		7DC1DE7592B6CDCA00FB7EF0 /* LeetCode252Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode252Tests.swift; sourceTree = "<group>"; };
+		7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "14503. Robot vacuum cleaners.swift"; sourceTree = "<group>"; };
 		7F1B3178886B2D58AB8A39B2 /* 2294. Coins II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2294. Coins II.swift"; sourceTree = "<group>"; };
 		7F5B0F2F8608BFB99EC437BF /* LeetCode552Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode552Tests.swift; sourceTree = "<group>"; };
 		82960BC39F0459586BDA0FA7 /* 2110. Installing a router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2110. Installing a router.swift"; sourceTree = "<group>"; };
@@ -620,6 +625,7 @@
 				94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */,
 				35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */,
 				12AFE589B88D6D629D074AB3 /* 14500. Tetromino.swift */,
+				7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */,
 				B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */,
 				9CA40A6D6DFE07127610B7AD /* 17298. Right Larger Numbers.swift */,
 				DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */,
@@ -721,6 +727,7 @@
 				C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */,
 				40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */,
 				9529500EC53BD87590C5280C /* BOJ14500Tests.swift */,
+				6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */,
 				A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */,
 				D7A06489A8904D2578136A47 /* BOJ16953Tests.swift */,
 				98D342EDAEB07E6B3A842E02 /* BOJ17298Tests.swift */,
@@ -1122,6 +1129,7 @@
 				BA1BB8922BD78F9600CA174B /* 18429. root loss.swift in Sources */,
 				BA2A2B962BDA44930099FF73 /* 4. Median of Two Sorted Arrays.swift in Sources */,
 				BA2DE3C82BF485EE003BC8FA /* 1238. Parties.swift in Sources */,
+				BA9DD9A22C0308C4000E523F /* 14503. Robot vacuum cleaners.swift in Sources */,
 				BA39D4F02C001E9100099B72 /* 1255. Maximum Score Words Formed by Letters.swift in Sources */,
 				BA653D662BDCCD9200328F08 /* 17298. Right Larger Numbers.swift in Sources */,
 				BA7220462BF9B4F700C30DF0 /* 13460. Marbles Escape 2.swift in Sources */,
@@ -1305,6 +1313,7 @@
 				44718DE7B30632C2C1A7A4B5 /* LeetCode140Tests.swift in Sources */,
 				84DCB8940CED0A7A29A5FDCB /* BOJ2560Tests.swift in Sources */,
 				5A75A7B6DB031C355D2DD7DC /* LeetCode552Tests.swift in Sources */,
+				E4624DDA6D53C3129D21DF44 /* BOJ14503Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1439,6 +1448,7 @@
 				DE8BAADDEBF212C89E8317E9 /* 140. Word Break II.swift in Sources */,
 				4B2B2FB3DF126EA66593B3A3 /* 2560. Straw Worm.swift in Sources */,
 				7CC9F55574D0F860F77CC80F /* 552. Student Attendance Record II.swift in Sources */,
+				86E93AF6D67BFDC991376AD9 /* 14503. Robot vacuum cleaners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
