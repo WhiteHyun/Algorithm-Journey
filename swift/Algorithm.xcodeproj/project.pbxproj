@@ -42,10 +42,12 @@
 		273AF78AB87FD153CE94E361 /* LeetCode2812Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E91A8C4670B0E70995A6A6 /* LeetCode2812Tests.swift */; };
 		276AFFC688E963A4CE1C5424 /* 1289. Minimum Falling Path Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */; };
 		2814DA6A2FCECAA8CEDE6FE1 /* 1005. ACM Craft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629B8E93D8A6CEA5CF1EA8B /* 1005. ACM Craft.swift */; };
+		2DFE48A70031F393EA306739 /* BOJ13549Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D462E86522659A9728E25F /* BOJ13549Tests.swift */; };
 		2E89C89BAC6807AC1DB6BE1F /* LeetCode104Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C93A2B422600D1B326813 /* LeetCode104Tests.swift */; };
 		2EBAAA36C5A141AE714E507C /* 11286. Heap of absolute values.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF44397ABA3BCF3D536FCF /* 11286. Heap of absolute values.swift */; };
 		2EC991651E7EA33215056405 /* LeetCode2487Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3942C765BFAFC86A35616 /* LeetCode2487Tests.swift */; };
 		2F04F3B2171C143F43B93171 /* LeetCode506Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675D2B6E805D98D70F92C30 /* LeetCode506Tests.swift */; };
+		30C6B30A67076653A51EF333 /* 13549. Hide and Seek 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */; };
 		33C1A1BA18975978C0E00405 /* 2110. Installing a router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82960BC39F0459586BDA0FA7 /* 2110. Installing a router.swift */; };
 		343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D919DC8C04DDB9B25B48D /* LeetCode70Tests.swift */; };
 		35F6CFD292D74C88726B9A70 /* 42883. Create a large number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */; };
@@ -236,6 +238,8 @@
 		BAACE2C52BF58DC600A29E7B /* 2331. Evaluate Boolean Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8938A99B39EC2FEEF8D47 /* 2331. Evaluate Boolean Binary Tree.swift */; };
 		BAB1F84A2BF9EB6300C2137A /* 3152. Special Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */; };
 		BAB9B9492BF865FA00DEF653 /* 979. Distribute Coins in Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */; };
+		BABD18662C03F59C00EC6CD9 /* 13549. Hide and Seek 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */; };
+		BABD18682C03F71300EC6CD9 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD18672C03F71300EC6CD9 /* Deque.swift */; };
 		BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E1992B902D7E9702913D47 /* 2805. Cutting trees.swift */; };
 		BAC965FD2BE7406D00F4BE29 /* 237. Delete Node in a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */; };
 		BAC965FE2BE74B3100F4BE29 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
@@ -486,6 +490,7 @@
 		A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ15686Tests.swift; sourceTree = "<group>"; };
 		A8255C48D493D5D4123554B4 /* BOJ1238Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1238Tests.swift; sourceTree = "<group>"; };
 		A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "70. Climbing Stairs.swift"; sourceTree = "<group>"; };
+		A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "13549. Hide and Seek 3.swift"; sourceTree = "<group>"; };
 		AD8F9CCC04865A322FFC4B91 /* LeetCode1255Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1255Tests.swift; sourceTree = "<group>"; };
 		AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "979. Distribute Coins in Binary Tree.swift"; sourceTree = "<group>"; };
 		AEAC63455092B7CADE8BC1D3 /* LeetCode226Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode226Tests.swift; sourceTree = "<group>"; };
@@ -512,6 +517,7 @@
 		BA688CB02BF094B900009F37 /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
 		BA9BA9652BD4B2980060047E /* 100294. Count the Number of Special Characters I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100294. Count the Number of Special Characters I.swift"; sourceTree = "<group>"; };
 		BA9BA9672BD4B4B00060047E /* 100291. Count the Number of Special Characters II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100291. Count the Number of Special Characters II.swift"; sourceTree = "<group>"; };
+		BABD18672C03F71300EC6CD9 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
 		BACFFC4E2BFD806200FE308F /* ArrayComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayComparison.swift; sourceTree = "<group>"; };
 		BAF443E32BCD1256007D25A6 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		BAF746DB299B78D600182311 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -545,6 +551,7 @@
 		DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "18231. destroyed city.swift"; sourceTree = "<group>"; };
 		E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "861. Score After Flipping Matrix.swift"; sourceTree = "<group>"; };
 		E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11286Tests.swift; sourceTree = "<group>"; };
+		E3D462E86522659A9728E25F /* BOJ13549Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13549Tests.swift; sourceTree = "<group>"; };
 		E597ED2DD3226A1D40D826B8 /* LeetCode165Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode165Tests.swift; sourceTree = "<group>"; };
 		E7650FEA6EC97A508555F856 /* BOJ1520Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1520Tests.swift; sourceTree = "<group>"; };
 		E7D9386DC2DEEEBDAAD77738 /* 268. Missing Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -624,6 +631,7 @@
 				481F5A81F0BC23E082090BAA /* 11404. Floyd.swift */,
 				94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */,
 				35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */,
+				A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */,
 				12AFE589B88D6D629D074AB3 /* 14500. Tetromino.swift */,
 				7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */,
 				B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */,
@@ -726,6 +734,7 @@
 				77DC7696D84A75501A0276D3 /* BOJ11404Tests.swift */,
 				C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */,
 				40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */,
+				E3D462E86522659A9728E25F /* BOJ13549Tests.swift */,
 				9529500EC53BD87590C5280C /* BOJ14500Tests.swift */,
 				6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */,
 				A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */,
@@ -813,6 +822,7 @@
 				BA688CAF2BF094AB00009F37 /* LeetCode */,
 				BA402F562B848BC600E86AAD /* Utils.swift */,
 				BA2DE3C92BF493F6003BC8FA /* Heap.swift */,
+				BABD18672C03F71300EC6CD9 /* Deque.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1213,6 +1223,7 @@
 				BA8AF8602BE63C6800D1737E /* 226. Invert Binary Tree.swift in Sources */,
 				BA57DEE32BE09BA000073C18 /* 1915. Number of Wonderful Substrings.swift in Sources */,
 				C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */,
+				BABD18662C03F59C00EC6CD9 /* 13549. Hide and Seek 3.swift in Sources */,
 				C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */,
 				DF1E85940105D4845A53B0B0 /* BOJ15686Tests.swift in Sources */,
 				24BF6E356DC21458CC75D808 /* LeetCode1915Tests.swift in Sources */,
@@ -1314,6 +1325,7 @@
 				84DCB8940CED0A7A29A5FDCB /* BOJ2560Tests.swift in Sources */,
 				5A75A7B6DB031C355D2DD7DC /* LeetCode552Tests.swift in Sources */,
 				E4624DDA6D53C3129D21DF44 /* BOJ14503Tests.swift in Sources */,
+				2DFE48A70031F393EA306739 /* BOJ13549Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1409,6 +1421,7 @@
 				15FEB4185CB82F43AE345640 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				63CF486202E3291B4E9CA38E /* 100. Same Tree.swift in Sources */,
 				A012C31B7C91B79C0BE6BD54 /* 572. Subtree of Another Tree.swift in Sources */,
+				BABD18682C03F71300EC6CD9 /* Deque.swift in Sources */,
 				7EC3DE335660AE5578CB4A1D /* 70. Climbing Stairs.swift in Sources */,
 				E35D9CC0ED1381DA48C88546 /* 857. Minimum Cost to Hire K Workers.swift in Sources */,
 				33C1A1BA18975978C0E00405 /* 2110. Installing a router.swift in Sources */,
@@ -1449,6 +1462,7 @@
 				4B2B2FB3DF126EA66593B3A3 /* 2560. Straw Worm.swift in Sources */,
 				7CC9F55574D0F860F77CC80F /* 552. Student Attendance Record II.swift in Sources */,
 				86E93AF6D67BFDC991376AD9 /* 14503. Robot vacuum cleaners.swift in Sources */,
+				30C6B30A67076653A51EF333 /* 13549. Hide and Seek 3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
