@@ -85,6 +85,7 @@
 		5B1407FC43CB7EB8D99A308B /* 3404. Minimum Number of Operations to Satisfy Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */; };
 		5BC50B19D37B97F97B237B96 /* BOJ11404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC7696D84A75501A0276D3 /* BOJ11404Tests.swift */; };
 		5BDCB9416AD674C9A470BFED /* 786. K-th Smallest Prime Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */; };
+		5CCCB9B184C07865C4ECE8D1 /* 13913. Hide and Seek 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A3DBC2A3CD0DAEDE815491 /* 13913. Hide and Seek 4.swift */; };
 		5D990747032C8514E7CFC029 /* 237. Delete Node in a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */; };
 		5E34A0B13371633E581E9DB3 /* 1916. Finding the minimum cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F8A8FF238D33C140B41A9 /* 1916. Finding the minimum cost.swift */; };
 		5F3B6A4CB3B479A91620AA47 /* LeetCode338Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F049F0F5F858A572059B8 /* LeetCode338Tests.swift */; };
@@ -240,6 +241,7 @@
 		BAB9B9492BF865FA00DEF653 /* 979. Distribute Coins in Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */; };
 		BABD18662C03F59C00EC6CD9 /* 13549. Hide and Seek 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */; };
 		BABD18682C03F71300EC6CD9 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD18672C03F71300EC6CD9 /* Deque.swift */; };
+		BABD18692C0401D100EC6CD9 /* 13913. Hide and Seek 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A3DBC2A3CD0DAEDE815491 /* 13913. Hide and Seek 4.swift */; };
 		BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E1992B902D7E9702913D47 /* 2805. Cutting trees.swift */; };
 		BAC965FD2BE7406D00F4BE29 /* 237. Delete Node in a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */; };
 		BAC965FE2BE74B3100F4BE29 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
@@ -299,6 +301,7 @@
 		DF1E85940105D4845A53B0B0 /* BOJ15686Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */; };
 		E0FCA9FF1181808EAC80F4C3 /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
 		E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */; };
+		E194F951CFBF795F6FB51BEE /* BOJ13913Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFCEB7FF387928617BF575 /* BOJ13913Tests.swift */; };
 		E35D9CC0ED1381DA48C88546 /* 857. Minimum Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */; };
 		E36093434D7C646997140739 /* 217. Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122732CAE39B4149F5A7DFB8 /* 217. Contains Duplicate.swift */; };
 		E4624DDA6D53C3129D21DF44 /* BOJ14503Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */; };
@@ -410,6 +413,7 @@
 		401F91F5488CA9C6DBCA1C51 /* 1. Two Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		408F049F0F5F858A572059B8 /* LeetCode338Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode338Tests.swift; sourceTree = "<group>"; };
 		40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13460Tests.swift; sourceTree = "<group>"; };
+		40EFCEB7FF387928617BF575 /* BOJ13913Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13913Tests.swift; sourceTree = "<group>"; };
 		42E1992B902D7E9702913D47 /* 2805. Cutting trees.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2805. Cutting trees.swift"; sourceTree = "<group>"; };
 		46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. Create a large number.swift"; sourceTree = "<group>"; };
 		481F5A81F0BC23E082090BAA /* 11404. Floyd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11404. Floyd.swift"; sourceTree = "<group>"; };
@@ -561,6 +565,7 @@
 		ED3CE8D6A99A3965125CCB78 /* 4. Median of Two Sorted Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "4. Median of Two Sorted Arrays.swift"; sourceTree = "<group>"; };
 		EE44BB7EF7D2687E3DF8BC15 /* 258709. Pick a die.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "258709. Pick a die.swift"; sourceTree = "<group>"; };
 		F0859ED575E0C28AA90DBFF2 /* LeetCode1915Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1915Tests.swift; sourceTree = "<group>"; };
+		F2A3DBC2A3CD0DAEDE815491 /* 13913. Hide and Seek 4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "13913. Hide and Seek 4.swift"; sourceTree = "<group>"; };
 		F3202F340A9A0C188BB50C7E /* BOJ3015Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ3015Tests.swift; sourceTree = "<group>"; };
 		F344BA11AF8E9898A982C02C /* 1504. Specific shortest paths.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1504. Specific shortest paths.swift"; sourceTree = "<group>"; };
 		F3E32DE4062D683AD5EE6B5C /* LeetCode1863Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1863Tests.swift; sourceTree = "<group>"; };
@@ -632,6 +637,7 @@
 				94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */,
 				35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */,
 				A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */,
+				F2A3DBC2A3CD0DAEDE815491 /* 13913. Hide and Seek 4.swift */,
 				12AFE589B88D6D629D074AB3 /* 14500. Tetromino.swift */,
 				7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */,
 				B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */,
@@ -735,6 +741,7 @@
 				C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */,
 				40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */,
 				E3D462E86522659A9728E25F /* BOJ13549Tests.swift */,
+				40EFCEB7FF387928617BF575 /* BOJ13913Tests.swift */,
 				9529500EC53BD87590C5280C /* BOJ14500Tests.swift */,
 				6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */,
 				A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */,
@@ -1271,6 +1278,7 @@
 				07D7B9C5E5B026AC397512F8 /* BOJ1010Tests.swift in Sources */,
 				2E89C89BAC6807AC1DB6BE1F /* LeetCode104Tests.swift in Sources */,
 				BAACE2C52BF58DC600A29E7B /* 2331. Evaluate Boolean Binary Tree.swift in Sources */,
+				BABD18692C0401D100EC6CD9 /* 13913. Hide and Seek 4.swift in Sources */,
 				BA9157FB2C01E4B300153799 /* 140. Word Break II.swift in Sources */,
 				BAD3DBA32BEE448A002463B7 /* 572. Subtree of Another Tree.swift in Sources */,
 				EFAF18D58C399F9720BE65DA /* LeetCode100Tests.swift in Sources */,
@@ -1326,6 +1334,7 @@
 				5A75A7B6DB031C355D2DD7DC /* LeetCode552Tests.swift in Sources */,
 				E4624DDA6D53C3129D21DF44 /* BOJ14503Tests.swift in Sources */,
 				2DFE48A70031F393EA306739 /* BOJ13549Tests.swift in Sources */,
+				E194F951CFBF795F6FB51BEE /* BOJ13913Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1463,6 +1472,7 @@
 				7CC9F55574D0F860F77CC80F /* 552. Student Attendance Record II.swift in Sources */,
 				86E93AF6D67BFDC991376AD9 /* 14503. Robot vacuum cleaners.swift in Sources */,
 				30C6B30A67076653A51EF333 /* 13549. Hide and Seek 3.swift in Sources */,
+				5CCCB9B184C07865C4ECE8D1 /* 13913. Hide and Seek 4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
