@@ -13,6 +13,32 @@ extension Array {
   }
 }
 
+extension String {
+  subscript(_ index: Int) -> Character {
+    self[self.index(startIndex, offsetBy: index)]
+  }
+
+  subscript(_ range: ClosedRange<Int>) -> Substring {
+    self[index(startIndex, offsetBy: range.lowerBound) ..< index(after: index(startIndex, offsetBy: range.upperBound))]
+  }
+
+  subscript(_ range: Range<Int>) -> Substring {
+    self[index(startIndex, offsetBy: range.lowerBound) ..< index(startIndex, offsetBy: range.upperBound)]
+  }
+
+  subscript(_ range: PartialRangeThrough<Int>) -> Substring {
+    self[startIndex ..< index(after: index(startIndex, offsetBy: range.upperBound))]
+  }
+
+  subscript(_ range: PartialRangeUpTo<Int>) -> Substring {
+    self[startIndex ..< index(startIndex, offsetBy: range.upperBound)]
+  }
+
+  subscript(_ range: PartialRangeFrom<Int>) -> Substring {
+    self[index(startIndex, offsetBy: range.lowerBound) ..< endIndex]
+  }
+}
+
 func measureTimeUsingDate(label: String, operation: () -> Void) {
   let startTime = Date()
   operation()
