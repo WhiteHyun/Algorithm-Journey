@@ -8,38 +8,6 @@
 
 import Foundation
 
-// MARK: - Queue
-
-private struct Queue<Element>: ExpressibleByArrayLiteral {
-  typealias ArrayLiteralElement = Element
-
-  private var frontArray: [Element] = []
-  private var backArray: [Element] = []
-
-  init(arrayLiteral elements: Element...) {
-    frontArray = elements.reversed()
-  }
-
-  var isEmpty: Bool {
-    frontArray.isEmpty && backArray.isEmpty
-  }
-
-  var count: Int {
-    frontArray.count + backArray.count
-  }
-
-  mutating func append(_ element: Element) {
-    backArray.append(element)
-  }
-
-  mutating func popFirst() -> Element? {
-    if !frontArray.isEmpty { return frontArray.popLast() }
-    frontArray = backArray.reversed()
-    backArray = []
-    return frontArray.popLast()
-  }
-}
-
 // MARK: - LeetCode753
 
 final class LeetCode753 {
@@ -47,9 +15,9 @@ final class LeetCode753 {
     var deadends: Set<String> = .init(deadends)
     if deadends.contains("0000") { return -1 }
 
-    var queue: Queue<([Character], Int)> = [(Array("0000"), 0)]
+    let queue: Queue<([Character], Int)> = [(Array("0000"), 0)]
 
-    while let (element, tried) = queue.popFirst() {
+    while let (element, tried) = queue.dequeue() {
       if String(element) == target { return tried }
       for index in 0 ... 3 {
         var upperCopy = element
@@ -57,7 +25,7 @@ final class LeetCode753 {
         else { upperCopy[index] = Character(String((element[index].wholeNumberValue! + 1))) }
         if !deadends.contains(String(upperCopy)) {
           deadends.insert(String(upperCopy))
-          queue.append((upperCopy, tried + 1))
+          queue.enqueue((upperCopy, tried + 1))
         }
 
         var lowerCopy = element
@@ -65,7 +33,7 @@ final class LeetCode753 {
         else { lowerCopy[index] = Character(String((element[index].wholeNumberValue! - 1))) }
         if !deadends.contains(String(lowerCopy)) {
           deadends.insert(String(lowerCopy))
-          queue.append((lowerCopy, tried + 1))
+          queue.enqueue((lowerCopy, tried + 1))
         }
       }
     }
