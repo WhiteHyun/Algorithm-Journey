@@ -31,12 +31,11 @@ final class LeetCode15 {
         result.append([element, sorted[left], sorted[right]])
         left += 1
 
-        while sorted[left] == sorted[left - 1] && left < right {
+        while sorted[left] == sorted[left - 1], left < right {
           left += 1
         }
       }
     }
-
 
     return result
   }

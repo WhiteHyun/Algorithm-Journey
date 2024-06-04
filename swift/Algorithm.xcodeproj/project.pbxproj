@@ -125,6 +125,7 @@
 		760102D79A16D3CC121F2DFD /* 1927. Min Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DADA5B240793D631B03452 /* 1927. Min Heap.swift */; };
 		769AF1997B87BFA79723DEC1 /* LeetCode125Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757659B4899D65BB002B18CF /* LeetCode125Tests.swift */; };
 		77AA405F3125B7BC1E44D830 /* LeetCode2373Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07A2321A28D670F30FDB07 /* LeetCode2373Tests.swift */; };
+		7980CEF227363A54260E113F /* 409. Longest Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9DB7949B9045A3941FC9E /* 409. Longest Palindrome.swift */; };
 		7B0EA7CB6F912B549A2151E5 /* 252. Meeting Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A63476DA71559DF695B251 /* 252. Meeting Rooms.swift */; };
 		7CC9F55574D0F860F77CC80F /* 552. Student Attendance Record II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA261349D24273C2DADC36 /* 552. Student Attendance Record II.swift */; };
 		7CD2F76BE035760F99EF54BA /* 1753. Shortest path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */; };
@@ -214,6 +215,7 @@
 		BA57DEE32BE09BA000073C18 /* 1915. Number of Wonderful Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8BDBAF6EA5458270E68E6E /* 1915. Number of Wonderful Substrings.swift */; };
 		BA57F1DC2BE8BCE300569604 /* 2580. Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEBFF0AA74E88C6C4DE1B7 /* 2580. Sudoku.swift */; };
 		BA57F1DD2BE8C29E00569604 /* 1912. Continuous sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17584F85B15167F0281E936C /* 1912. Continuous sum.swift */; };
+		BA5865352C0F2D8B0095DF8B /* 409. Longest Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9DB7949B9045A3941FC9E /* 409. Longest Palindrome.swift */; };
 		BA58C3D22BE5DFFD00EF519E /* 881. Boats to Save People.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B14AA5D812EB60792F396 /* 881. Boats to Save People.swift */; };
 		BA58C3D32BE5F1EA00EF519E /* 11286. Heap of absolute values.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF44397ABA3BCF3D536FCF /* 11286. Heap of absolute values.swift */; };
 		BA59963E2BF58EDF006CF31D /* 11404. Floyd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F5A81F0BC23E082090BAA /* 11404. Floyd.swift */; };
@@ -310,6 +312,7 @@
 		BAFA9BC32C0D995C00DB50D6 /* 2486. Append Characters to String to Make Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E66C2B2F0DBD48EEA3B179 /* 2486. Append Characters to String to Make Subsequence.swift */; };
 		BB3738DF1B12D36DEB35A4C8 /* LeetCode1255Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F9CCC04865A322FFC4B91 /* LeetCode1255Tests.swift */; };
 		BBD1AA5BA71E14CCE2367BB5 /* 2597. The Number of Beautiful Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24BBE9F6B89C9896F5C85F /* 2597. The Number of Beautiful Subsets.swift */; };
+		BC1AF46BB1B87896CA3C6404 /* LeetCode409Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */; };
 		BE5BBA9ADF4C8ED964938D5C /* 13460. Marbles Escape 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */; };
 		BE61E278EC8D865A0D5A4726 /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD461AA03CE1540F9C579B /* 125. Valid Palindrome.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
@@ -451,6 +454,7 @@
 		2FEBCA0B65FDEEBA0DF66309 /* LeetCode1236Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1236Tests.swift; sourceTree = "<group>"; };
 		30989E95C8E3F9019C710B4B /* 1404. Number of Steps to Reduce a Number in Binary Representation to One.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1404. Number of Steps to Reduce a Number in Binary Representation to One.swift"; sourceTree = "<group>"; };
 		32769F20766FEEC70896B8F0 /* 1238. Parties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1238. Parties.swift"; sourceTree = "<group>"; };
+		32B9DB7949B9045A3941FC9E /* 409. Longest Palindrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "409. Longest Palindrome.swift"; sourceTree = "<group>"; };
 		3393B15FFEF0FA1E4E889E89 /* LeetCode861Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode861Tests.swift; sourceTree = "<group>"; };
 		34C149BC09FF7526B2D14BA5 /* 78. Subsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "78. Subsets.swift"; sourceTree = "<group>"; };
 		35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "623. Add One Row to Tree.swift"; sourceTree = "<group>"; };
@@ -573,6 +577,7 @@
 		AFBF44397ABA3BCF3D536FCF /* 11286. Heap of absolute values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11286. Heap of absolute values.swift"; sourceTree = "<group>"; };
 		B00E5C2520EA54267F653D55 /* LeetCode78Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode78Tests.swift; sourceTree = "<group>"; };
 		B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2805Tests.swift; sourceTree = "<group>"; };
+		B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode409Tests.swift; sourceTree = "<group>"; };
 		B1B1A1C3B4BF83A57875F1EB /* LeetCode128Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode128Tests.swift; sourceTree = "<group>"; };
 		B226D6181F521969A817995D /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode857Tests.swift; sourceTree = "<group>"; };
@@ -914,6 +919,7 @@
 				5BD12E2682F48E315A7CD1C2 /* LeetCode3075Tests.swift */,
 				68CABD9668265D4B727A6D97 /* LeetCode3110Tests.swift */,
 				67B7200813542CF10A2234C5 /* LeetCode3152Tests.swift */,
+				B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -989,6 +995,7 @@
 				E7D9386DC2DEEEBDAAD77738 /* 268. Missing Number.swift */,
 				2BA523F29A5BF8B4ACBD38EB /* 338. Counting Bits.swift */,
 				F4E840B847D5627E59F441F4 /* 344. Reverse String.swift */,
+				32B9DB7949B9045A3941FC9E /* 409. Longest Palindrome.swift */,
 				1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */,
 				D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */,
 				0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */,
@@ -1363,6 +1370,7 @@
 				BAD951152BEBC5D600806D4C /* 506. Relative Ranks.swift in Sources */,
 				DC35452B7543C80A9E697A6C /* LeetCode2000Tests.swift in Sources */,
 				BA7B548F2C005D9E00487885 /* 268. Missing Number.swift in Sources */,
+				BA5865352C0F2D8B0095DF8B /* 409. Longest Palindrome.swift in Sources */,
 				BA9157FC2C01F45E00153799 /* 2560. Straw Worm.swift in Sources */,
 				BA5F43E32BE62003000AE158 /* ListNode.swift in Sources */,
 				BA0611A12BF873630020C171 /* 1520. Downhill.swift in Sources */,
@@ -1483,6 +1491,7 @@
 				4AA035505CBF09FD5A543C21 /* LeetCode15Tests.swift in Sources */,
 				7250936FC886DB8D041A3602 /* LeetCode344Tests.swift in Sources */,
 				FD7E88575DCED5264E7F1319 /* LeetCode2486Tests.swift in Sources */,
+				BC1AF46BB1B87896CA3C6404 /* LeetCode409Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1637,6 +1646,7 @@
 				DBF563261B613F276FF56F53 /* 15. 3Sum.swift in Sources */,
 				87CA2E9A550E6F6CCC87F16E /* 344. Reverse String.swift in Sources */,
 				6FDD86CE0B3A3552DE665496 /* 2486. Append Characters to String to Make Subsequence.swift in Sources */,
+				7980CEF227363A54260E113F /* 409. Longest Palindrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
