@@ -15,7 +15,7 @@ project_path = "#{project_name}.xcodeproj"
 # Open the Xcode project
 project = Xcodeproj::Project.open(project_path)
 
-# Find the "AlgorithmTests" target
+# Find the target
 target = project.targets.find { |t| t.name == target_name }
 
 # If the target is not found, print an error message and exit
@@ -31,12 +31,7 @@ main_group = project.main_group.find_subpath(target_name, true)
 ps_group = main_group.find_subpath(ps_platform, true)
 
 # Find or create the group based on the difficulty level
-if difficulty != 'Unknown'
-    difficulty_group = ps_group.find_subpath(difficulty, true)
-    file_group = difficulty_group
-else
-    file_group = ps_group
-end
+file_group = difficulty != 'Unknown' ? ps_group.find_subpath(difficulty, true) : ps_group
 
 # Add the new file to the file group
 file_ref = file_group.new_reference(swift_file_path)

@@ -94,8 +94,6 @@ function make_solution_code() {
 //  Created by $nickname on $(date "+%Y/%m/%d").
 //
 
-import Foundation
-
 final class $ps_platform$question_id {
   $swift_code
 }
@@ -134,12 +132,17 @@ final class $file_name: XCTestCase {
 
   func testExample1() {
     let result = problem.solution(<#Insert Input#>)
-    XCTAssertTrue(result == <#Insert predicted value#>, "Expected '<#Insert predicted value#>', but got '\(result)'")
+    XCTAssertTrue(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
   }
 
   func testExample2() {
     let result = problem.solution(<#Insert Input#>)
-    XCTAssertTrue(result == <#Insert predicted value#>, "Expected '<#Insert predicted value#>', but got '\(result)'")
+    XCTAssertTrue(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
+  }
+
+  func testExample3() {
+    let result = problem.solution(<#Insert Input#>)
+    XCTAssertTrue(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
   }
 }
 

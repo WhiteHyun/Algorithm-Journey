@@ -76,12 +76,12 @@ function create_swift_file() {
   # Save the files
   save_swift_file "$file_name" "BOJ" "$XCODE_MAIN_FOLDER" "$content" "$rank"
   if [ -n "$XCODE_UNIT_TEST_FOLDER" ]; then
-    save_swift_file "BOJ${question_id}Tests" "BOJ" "$XCODE_UNIT_TEST_FOLDER" "$unit_test_content"
+    save_swift_file "BOJ${question_id}Tests" "BOJ" "$XCODE_UNIT_TEST_FOLDER" "$unit_test_content" "$rank"
   fi
 
   # Link to the xcodeproj
   add_to_xcode_project "$XCODE_MAIN_FOLDER" "$file_name" "BOJ" "$rank"
   if [ -n "$XCODE_UNIT_TEST_FOLDER" ]; then
-    add_to_xcode_project "$XCODE_UNIT_TEST_FOLDER" "BOJ${question_id}Tests" "BOJ"
+    add_to_xcode_project "$XCODE_UNIT_TEST_FOLDER" "BOJ${question_id}Tests" "BOJ" "$rank"
   fi
 }
