@@ -34,7 +34,6 @@ final class LeetCode3 {
       longest = array.endIndex - startIndex
     }
 
-
     return longest
   }
 }
