@@ -3,111 +3,99 @@
 //  https://school.programmers.co.kr/learn/courses/30/lessons/258709?language=swift
 //  Algorithm
 //
-//  Created by 홍승현 on 2024/04/22.
+//  Created by 홍승현 on 2024/06/09.
 //
 
 import Foundation
 
 final class Programmers258709 {
-  func solution(_ dice: [[Int]]) -> [Int] {
-    var combinations: [[Int]] = []
-    var visited: [Bool] = .init(repeating: false, count: dice.count)
-    var targetArray: [Int] = .init(repeating: 0, count: dice.count >> 1)
-
-    func backTracking(start: Int, index: Int) {
-      if index == dice.count >> 1 {
-        combinations.append(targetArray)
-        return
-      }
-
-      for i in start ..< dice.count where visited[i] == false {
-        visited[i] = true
-        targetArray[index] = i
-        backTracking(start: i + 1, index: index + 1)
-        visited[i] = false
-      }
+  func combinations(_ n: Int, _ index: Int, _ result: [Int]) -> [[Int]] {
+    // n / 2 만큼 가져가야 함
+    if result.count == n >> 1 {
+      return [result]
     }
 
-    backTracking(start: 0, index: 0)
-
-    // =============
-
-    var dictionary: [[Int]: Int] = [:]
-    for index in 0 ..< combinations.count >> 1 {
-      let leftDice = combinations[index].map { dice[$0] }
-      let rightDice = combinations[combinations.count - index - 1].map { dice[$0] }
-      let (win, lose) = getRatio(left: leftDice, right: rightDice)
-
-      dictionary[combinations[index]] = win
-      dictionary[combinations[combinations.count - index - 1]] = lose
+    var temp: [[Int]] = []
+    for i in index ..< n {
+      temp += combinations(n, i + 1, result + [i])
     }
 
-    return dictionary.max { lhs, rhs in
-      lhs.value < rhs.value
-    }!.key.map { $0 + 1 }
+    return temp
   }
 
-  func getRatio(left: [[Int]], right: [[Int]]) -> (win: Int, lose: Int) {
-    var winCount = 0
-    var loseCount = 0
+  func numberOfWinsAndLosesInMatches(_ dice: [[Int]], _ selectedDice: [Int], _ opponentSelectedDice: [Int]) -> (win: Int, lose: Int) {
+    // 2-1. 각 주사위마다 합을 구함
 
-    var leftSumArray: [Int] = []
-    var rightSumArray: [Int] = []
-
-    func backTracking(sumArray: inout [Int], targetArray: [[Int]], index: Int, sum: Int) {
-      if index == targetArray.count {
-        sumArray.append(sum)
+    var myDiceSum: [Int] = []
+    var opponentDiceSum: [Int] = []
+    func backTrack(_ index: Int, _ mySum: Int, _ opponentSum: Int) {
+      if index == dice.count >> 1 {
+        myDiceSum.append(mySum)
+        opponentDiceSum.append(opponentSum)
         return
       }
+
       for i in 0 ..< 6 {
-        backTracking(sumArray: &sumArray, targetArray: targetArray, index: index + 1, sum: sum + targetArray[index][i])
+        backTrack(index + 1, mySum + dice[selectedDice[index]][i], opponentSum + dice[opponentSelectedDice[index]][i])
       }
     }
 
-    backTracking(sumArray: &leftSumArray, targetArray: left, index: 0, sum: 0)
-    backTracking(sumArray: &rightSumArray, targetArray: right, index: 0, sum: 0)
+    backTrack(0, 0, 0)
 
-    leftSumArray.sort()
-    rightSumArray.sort()
+    // 2-2. 이진탐색하여 이기는 경우의 수와 지는 경우의 수를 구함
+    myDiceSum.sort()
+    opponentDiceSum.sort()
 
-    // === 이진 탐색 ===
+    var win = 0
+    var lose = 0
 
-    // 이기는 경우의 수
-    for element in leftSumArray {
+    func binarySearch(_ array: [Int], _ value: Int) -> Int {
       var left = 0
-      var right = rightSumArray.count
-
-      while left + 1 < right {
+      var right = array.count - 1
+      while left <= right {
         let mid = (left + right) >> 1
-
-        if element > rightSumArray[mid] {
-          left = mid
+        if array[mid] <= value {
+          left = mid + 1
         } else {
-          right = mid
+          right = mid - 1
         }
       }
-
-      winCount += left
+      return left
     }
 
-    // 지는 경우의 수
-    for element in rightSumArray {
-      var left = 0
-      var right = leftSumArray.count
+    for mySum in myDiceSum {
+      let wins = binarySearch(opponentDiceSum, mySum - 1)
+      let losses = opponentDiceSum.count - binarySearch(opponentDiceSum, mySum)
 
-      while left + 1 < right {
-        let mid = (left + right) >> 1
+      win += wins
+      lose += losses
+    }
 
-        if element > leftSumArray[mid] {
-          left = mid
-        } else {
-          right = mid
-        }
+    return (win, lose)
+  }
+
+  func solution(_ dice: [[Int]]) -> [Int] {
+    var answer: [Int] = []
+    var maxWin = 0
+
+    // 1. 경우의 가지 수(조합)를 구함
+    let numberOfCases = combinations(dice.count, 0, [])
+
+    // 2. 선택한 주사위에 대해 모든 경우의 수를 구하여 승, 무, 패 비율을 구함
+    for index in 0 ..< numberOfCases.count >> 1 {
+      let (win, lose) = numberOfWinsAndLosesInMatches(dice, numberOfCases[index], numberOfCases[numberOfCases.count - index - 1])
+      // 3. 최대 확률에 대해 저장
+      if maxWin < win {
+        answer = numberOfCases[index]
+        maxWin = win
       }
-
-      loseCount += left
+      if maxWin < lose {
+        answer = numberOfCases[numberOfCases.count - index - 1]
+        maxWin = lose
+      }
     }
 
-    return (winCount, loseCount)
+    // 4. 리턴
+    return answer.sorted().map { $0 + 1 }
   }
 }
