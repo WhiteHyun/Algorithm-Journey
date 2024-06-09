@@ -21,6 +21,7 @@
 		0D215D5FFD540F1936417513 /* 1255. Maximum Score Words Formed by Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C56937039E913D28DD87 /* 1255. Maximum Score Words Formed by Letters.swift */; };
 		0E78A5CFA0D74D82DD9A20FB /* 131. Palindrome Partitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD94BAAD981FCC412E6425 /* 131. Palindrome Partitioning.swift */; };
 		0EDA44B337352A092B193BC2 /* 128. Longest Consecutive Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2FDCA6975113D6FFC07635 /* 128. Longest Consecutive Sequence.swift */; };
+		122B5E51E0CAFB529C1E8F38 /* LeetCode153Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */; };
 		123BD5BD04CDA4F92E20C728 /* BOJ2110Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A1B68DE9D7AAC7BF2B065B /* BOJ2110Tests.swift */; };
 		1335CA301AFD1D9B03BE0BCE /* LeetCode1208Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AE34AD4A0FB9104704904 /* LeetCode1208Tests.swift */; };
 		13B2FC575BC0C08C5F7E88D3 /* BOJ1927Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD533B3B32865E5AAF282E48 /* BOJ1927Tests.swift */; };
@@ -157,6 +158,7 @@
 		93F2A7CB6F8AC8F9B984B42B /* 12100. 2048 (Easy).swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */; };
 		946DC1F64C89F6969FC2FB3A /* 424. Longest Repeating Character Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDE06F3ECB6F129F9490F9 /* 424. Longest Repeating Character Replacement.swift */; };
 		9653D5809AF9F31705F2CAEF /* 1759. Create a password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */; };
+		96DDE2F65420ED0689D12F7E /* 153. Find Minimum in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB993A5EF974AF8A2057A3E /* 153. Find Minimum in Rotated Sorted Array.swift */; };
 		9933E8CFAFDD5B1194997CB7 /* LeetCode1608Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E93604457F0E7B112ED4F6 /* LeetCode1608Tests.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
 		9DF24406CB27CF92DE64C355 /* LeetCode11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839A0E3111DC17874F78CE3 /* LeetCode11Tests.swift */; };
@@ -296,6 +298,7 @@
 		BAAD45DB2C147DAE00C58A88 /* 11. Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50DFF61D4BAF6BCB9B8C26C /* 11. Container With Most Water.swift */; };
 		BAAD45DC2C1480F800C58A88 /* 3. Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66AACFD31F859C28E0D92 /* 3. Longest Substring Without Repeating Characters.swift */; };
 		BAAD45DD2C1492F100C58A88 /* 424. Longest Repeating Character Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDE06F3ECB6F129F9490F9 /* 424. Longest Repeating Character Replacement.swift */; };
+		BAAD45DE2C15CC1E00C58A88 /* 153. Find Minimum in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB993A5EF974AF8A2057A3E /* 153. Find Minimum in Rotated Sorted Array.swift */; };
 		BAB1F84A2BF9EB6300C2137A /* 3152. Special Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */; };
 		BAB9B9492BF865FA00DEF653 /* 979. Distribute Coins in Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */; };
 		BABD18662C03F59C00EC6CD9 /* 13549. Hide and Seek 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */; };
@@ -606,6 +609,7 @@
 		B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2805Tests.swift; sourceTree = "<group>"; };
 		B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode409Tests.swift; sourceTree = "<group>"; };
 		B1B1A1C3B4BF83A57875F1EB /* LeetCode128Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode128Tests.swift; sourceTree = "<group>"; };
+		B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode153Tests.swift; sourceTree = "<group>"; };
 		B226D6181F521969A817995D /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode857Tests.swift; sourceTree = "<group>"; };
 		B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "15686. Chicken delivery.swift"; sourceTree = "<group>"; };
@@ -699,6 +703,7 @@
 		FE5587DC5C16E820676BF562 /* 523. Continuous Subarray Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "523. Continuous Subarray Sum.swift"; sourceTree = "<group>"; };
 		FF67F682D7A12A8AE2B289AA /* LeetCode15Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode15Tests.swift; sourceTree = "<group>"; };
 		FF906A8CC3BD3BE9E6A38A01 /* BOJ2133Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2133Tests.swift; sourceTree = "<group>"; };
+		FFB993A5EF974AF8A2057A3E /* 153. Find Minimum in Rotated Sorted Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "153. Find Minimum in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1018,6 +1023,7 @@
 				16705E21EBC8C823E23AF516 /* LeetCode523Tests.swift */,
 				D9A55206D394A39ECA6BE58A /* LeetCode648Tests.swift */,
 				72ED06140C6A510BAFB29D67 /* LeetCode846Tests.swift */,
+				B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1085,6 +1091,7 @@
 				9A2FDCA6975113D6FFC07635 /* 128. Longest Consecutive Sequence.swift */,
 				1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */,
 				22FD94BAAD981FCC412E6425 /* 131. Palindrome Partitioning.swift */,
+				FFB993A5EF974AF8A2057A3E /* 153. Find Minimum in Rotated Sorted Array.swift */,
 				762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */,
 				837C0064F1B04FF020088628 /* 200. Number of Islands.swift */,
 				9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */,
@@ -1429,6 +1436,7 @@
 				BA57C6242C06B6CC000B3EC8 /* 1404. Number of Steps to Reduce a Number in Binary Representation to One.swift in Sources */,
 				BA8AF8602BE63C6800D1737E /* 226. Invert Binary Tree.swift in Sources */,
 				BA57DEE32BE09BA000073C18 /* 1915. Number of Wonderful Substrings.swift in Sources */,
+				BAAD45DE2C15CC1E00C58A88 /* 153. Find Minimum in Rotated Sorted Array.swift in Sources */,
 				C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */,
 				BABD18662C03F59C00EC6CD9 /* 13549. Hide and Seek 3.swift in Sources */,
 				C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */,
@@ -1571,6 +1579,7 @@
 				9DF24406CB27CF92DE64C355 /* LeetCode11Tests.swift in Sources */,
 				2E50BF7125D314BD0066832B /* LeetCode3Tests.swift in Sources */,
 				468B4BB3DB2FB4FCA13B2F80 /* LeetCode424Tests.swift in Sources */,
+				122B5E51E0CAFB529C1E8F38 /* LeetCode153Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1733,6 +1742,7 @@
 				13EE9C404E2628C69B88BEAB /* 11. Container With Most Water.swift in Sources */,
 				CC3C035935A88BCB7EB99E51 /* 3. Longest Substring Without Repeating Characters.swift in Sources */,
 				946DC1F64C89F6969FC2FB3A /* 424. Longest Repeating Character Replacement.swift in Sources */,
+				96DDE2F65420ED0689D12F7E /* 153. Find Minimum in Rotated Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
