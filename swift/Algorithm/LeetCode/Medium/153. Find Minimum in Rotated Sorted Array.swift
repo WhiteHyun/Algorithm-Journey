@@ -8,7 +8,18 @@
 
 final class LeetCode153 {
   func findMin(_ nums: [Int]) -> Int {
-    // 이분탐색으로 푸는 게 더 시간 효율에 좋음!
-    nums.min()!
+    var left = 0
+    var right = nums.count - 1
+    while left < right {
+      let mid = (left + right) >> 1
+
+      if nums[mid] > nums[right] {
+        left = mid + 1
+      } else {
+        right = mid
+      }
+    }
+
+    return nums[left]
   }
 }
