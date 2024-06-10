@@ -149,6 +149,7 @@
 		86113DAC5600E7252DC6E18E /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
 		86E93AF6D67BFDC991376AD9 /* 14503. Robot vacuum cleaners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4C0423D56822B993EDE55 /* 14503. Robot vacuum cleaners.swift */; };
 		87CA2E9A550E6F6CCC87F16E /* 344. Reverse String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E840B847D5627E59F441F4 /* 344. Reverse String.swift */; };
+		89AAE7E71759F264F31C8A6C /* LeetCode1051Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */; };
 		8BD03C69B8AEA87FC9494733 /* 141. Linked List Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCACC4A2219E858E855786 /* 141. Linked List Cycle.swift */; };
 		8BEE20091C43BC7EC2617BD2 /* BOJ1987Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BA27100E41536B5B83C90 /* BOJ1987Tests.swift */; };
 		8E81AC45BF7F5E8B42D11BC9 /* 238. Product of Array Except Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2ECA2900426DF23BA7F84 /* 238. Product of Array Except Self.swift */; };
@@ -174,6 +175,7 @@
 		A3A83F852CFB29C40FB8306F /* 121. Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C44D5034B31F591112626 /* 121. Best Time to Buy and Sell Stock.swift */; };
 		A47FCC21A736D622E5454A03 /* LeetCode190Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E1810D5C11F26A87668A6 /* LeetCode190Tests.swift */; };
 		A5DDB14AC187D7E69CF72D33 /* LeetCode3110Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CABD9668265D4B727A6D97 /* LeetCode3110Tests.swift */; };
+		A60F1EE892E346556B4B0E1C /* 1051. Height Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */; };
 		A6716F3928BBD482BC2ECEFD /* LeetCode648Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A55206D394A39ECA6BE58A /* LeetCode648Tests.swift */; };
 		A6CC1AF0F31C3135CE20D40A /* LeetCode252Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1DE7592B6CDCA00FB7EF0 /* LeetCode252Tests.swift */; };
 		A91BBBAADAC5753B36B20622 /* LeetCode881Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */; };
@@ -223,6 +225,7 @@
 		BA48225C2C0851E10010FEF6 /* 2133. Fill Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FD3D3AA2866D1AB4AC8FD7 /* 2133. Fill Tiles.swift */; };
 		BA4C95E32BEA00C300E80D08 /* 1916. Finding the minimum cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4F8A8FF238D33C140B41A9 /* 1916. Finding the minimum cost.swift */; };
 		BA560A152C16B890005F3DB7 /* 33. Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3F89CA91CCE8B6365B5D68 /* 33. Search in Rotated Sorted Array.swift */; };
+		BA560A162C16BF56005F3DB7 /* 1051. Height Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */; };
 		BA57C6202C055CD1000B3EC8 /* 1208. Get Equal Substrings Within Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326C94938323D8F6C1B755B /* 1208. Get Equal Substrings Within Budget.swift */; };
 		BA57C6222C05681F000B3EC8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA402F562B848BC600E86AAD /* Utils.swift */; };
 		BA57C6232C057727000B3EC8 /* 16234. Population movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CBB85204750D6357CAF273 /* 16234. Population movement.swift */; };
@@ -467,6 +470,7 @@
 		1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1894Tests.swift; sourceTree = "<group>"; };
 		1BD96A68B432584E37757B6A /* 10775. Airport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10775. Airport.swift"; sourceTree = "<group>"; };
 		1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "463. Island Perimeter.swift"; sourceTree = "<group>"; };
+		2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1051Tests.swift; sourceTree = "<group>"; };
 		21A2B0065BC745B81E3D0C3C /* LeetCode1442Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1442Tests.swift; sourceTree = "<group>"; };
 		22DCACC4A2219E858E855786 /* 141. Linked List Cycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "141. Linked List Cycle.swift"; sourceTree = "<group>"; };
 		22E3942C765BFAFC86A35616 /* LeetCode2487Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2487Tests.swift; sourceTree = "<group>"; };
@@ -589,6 +593,7 @@
 		9939BA1CD352A285D9630ADD /* LeetCode572Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode572Tests.swift; sourceTree = "<group>"; };
 		9A2FDCA6975113D6FFC07635 /* 128. Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "128. Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
 		9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "237. Delete Node in a Linked List.swift"; sourceTree = "<group>"; };
+		9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1051. Height Checker.swift"; sourceTree = "<group>"; };
 		9C89128BC5EC685DFD8DDEF0 /* 2812. Find the Safest Path in a Grid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2812. Find the Safest Path in a Grid.swift"; sourceTree = "<group>"; };
 		9CA40A6D6DFE07127610B7AD /* 17298. Right Larger Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "17298. Right Larger Numbers.swift"; sourceTree = "<group>"; };
 		A0EE7C29B8BC41A11489EA46 /* LeetCode206Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode206Tests.swift; sourceTree = "<group>"; };
@@ -900,6 +905,7 @@
 		BA1BB88D2BD75CDF00CA174B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				BA560A172C16BF63005F3DB7 /* Hard */,
 				BA7127E02C115FEA0028A48E /* Medium */,
 				BA20A37E2C0FF67B0018FA19 /* Easy */,
 				8784D7009EDBBB8EA1134978 /* LeetCode1Tests.swift */,
@@ -986,6 +992,7 @@
 			isa = PBXGroup;
 			children = (
 				BA20A37F2C0FF6930018FA19 /* LeetCode1002Tests.swift */,
+				2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -1000,6 +1007,13 @@
 				BA57C6262C06C9AF000B3EC8 /* Queue.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		BA560A172C16BF63005F3DB7 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
 			sourceTree = "<group>";
 		};
 		BA688CAF2BF094AB00009F37 /* LeetCode */ = {
@@ -1074,6 +1088,7 @@
 				D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */,
 				0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */,
 				B35F83E43937F3CC6ECF51CF /* 1002. Find Common Characters.swift */,
+				9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */,
 				EA0A2B3410312D7B5AB8A9E7 /* 1236. N-th Tribonacci Number.swift */,
 				DB1AF3E943D46EE5E30EEBDD /* 1608. Special Array With X Elements Greater Than or Equal X.swift */,
 				56E868BC74EBDD083D26A31F /* 1863. Sum of All Subset XOR Totals.swift */,
@@ -1397,6 +1412,7 @@
 				BA6BE4DE2BFECF39004C2DBE /* 2597. The Number of Beautiful Subsets.swift in Sources */,
 				BAC5583A2BE0BEB800EEB13B /* 2805. Cutting trees.swift in Sources */,
 				BAD3DBA42BEE4871002463B7 /* 70. Climbing Stairs.swift in Sources */,
+				BA560A162C16BF56005F3DB7 /* 1051. Height Checker.swift in Sources */,
 				BA6F36B82BF6DCC30035E84D /* 1806. Partial sum.swift in Sources */,
 				BA59CCB42BDFB94200219E83 /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift in Sources */,
 				BA4C95E32BEA00C300E80D08 /* 1916. Finding the minimum cost.swift in Sources */,
@@ -1595,6 +1611,7 @@
 				122B5E51E0CAFB529C1E8F38 /* LeetCode153Tests.swift in Sources */,
 				2EEAAA008EFC329EB0572460 /* Programmers258709Tests.swift in Sources */,
 				2FDD0420777B9A37A08148B7 /* LeetCode33Tests.swift in Sources */,
+				89AAE7E71759F264F31C8A6C /* LeetCode1051Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1759,6 +1776,7 @@
 				96DDE2F65420ED0689D12F7E /* 153. Find Minimum in Rotated Sorted Array.swift in Sources */,
 				5ABD504274370722B80E8A69 /* 258709. Pick a die.swift in Sources */,
 				4A667D2A98E66FFF13B4ECA4 /* 33. Search in Rotated Sorted Array.swift in Sources */,
+				A60F1EE892E346556B4B0E1C /* 1051. Height Checker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
