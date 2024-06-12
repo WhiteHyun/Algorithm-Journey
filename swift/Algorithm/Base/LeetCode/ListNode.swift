@@ -21,7 +21,7 @@ public final class ListNode {
 
 // MARK: ExpressibleByArrayLiteral
 
-extension ListNode?: ExpressibleByArrayLiteral {
+extension ListNode?: @retroactive ExpressibleByArrayLiteral {
   public typealias ArrayLiteralElement = Int
 
   public init(arrayLiteral elements: ArrayLiteralElement...) {

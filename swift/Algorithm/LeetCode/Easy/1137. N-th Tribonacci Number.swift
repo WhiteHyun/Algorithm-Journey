@@ -1,5 +1,5 @@
 //
-//  1236. N-th Tribonacci Number.swift
+//  1137. N-th Tribonacci Number.swift
 //  https://leetcode.com/problems/n-th-tribonacci-number/description/
 //  Algorithm
 //
@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class LeetCode1236 {
+final class LeetCode1137 {
   func tribonacci(_ n: Int) -> Int {
     var dp: [Int] = .init(repeating: 0, count: 38)
     dp[0] = 0
