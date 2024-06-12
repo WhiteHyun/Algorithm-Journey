@@ -37,7 +37,7 @@ extension TreeNode: ExpressibleByArrayLiteral {
   convenience init(arrayLiteral elements: ArrayLiteralElement...) {
     guard elements.isEmpty == false
     else {
-      self.init(0)
+      self.init(.min)
       return
     }
     self.init(elements[0]!)

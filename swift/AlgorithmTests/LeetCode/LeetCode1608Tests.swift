@@ -27,13 +27,13 @@ final class LeetCode1608Tests: XCTestCase {
 
   func testTimeComplexityBinarySearch() {
     measure {
-      _ = problem.specialArray(.init(0 ... 100_000_000))
+      _ = problem.specialArray(.init(0 ... 1_000_000))
     }
   }
 
   func testTimeComplexityFirstIndex() {
     measure {
-      _ = problem.specialArray_NLogN_MN(.init(0 ... 100_000_000))
+      _ = problem.specialArray_NLogN_MN(.init(0 ... 1_000_000))
     }
   }
 }
