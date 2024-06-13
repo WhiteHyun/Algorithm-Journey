@@ -29,4 +29,9 @@ struct LeetCode98Tests {
     let result = problem.isValidBST([5, 4, 6, nil, nil, 3, 7])
     #expect(result == false, #"Expected 'false', but got '\#(result)'"#)
   }
+
+  @Test func example5() {
+    let result = problem.isValidBST([1, 1])
+    #expect(result == false, #"Expected 'false', but got '\#(result)'"#)
+  }
 }
