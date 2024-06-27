@@ -145,7 +145,7 @@ struct $file_name {
   }
 
   @Test
-  func testExample3() {
+  func example3() {
     let result = problem.solution(<#Insert Input#>)
     #expect(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
   }
