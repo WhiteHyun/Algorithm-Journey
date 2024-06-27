@@ -71,7 +71,7 @@ function create_swift_file() {
 
   # Generate the entire Swift code
   content=$(make_solution_code "$question_id" "$title" "https://www.acmicpc.net/problem/$question_id" "BOJ" "$swift_code")
-  unit_test_content=$(make_unit_test_code "$question_id" "BOJ")
+  unit_test_content=$(make_unit_test_code "$question_id" "$file_name" "BOJ")
 
   # Save the files
   save_swift_file "$file_name" "BOJ" "$XCODE_MAIN_FOLDER" "$content" "$rank"

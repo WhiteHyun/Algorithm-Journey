@@ -52,7 +52,7 @@ function create_swift_file() {
 
   # Generate the entire Swift code
   content=$(make_solution_code "$problem_number" "$problem_name" "$problem_link" "Programmers" "$swift_code")
-  unit_test_content=$(make_unit_test_code "$problem_number" "Programmers")
+  unit_test_content=$(make_unit_test_code "$problem_number" "$file_name" "Programmers")
 
   # Save the files
   save_swift_file "$file_name" "Programmers" "$XCODE_MAIN_FOLDER" "$content"

@@ -59,7 +59,7 @@ function create_swift_file() {
 
   # Generate the entire Swift code
   content=$(make_solution_code "$question_id" "$title" "https://leetcode.com/problems/$title_slug/description/" "LeetCode" "$swift_code")
-  unit_test_content=$(make_unit_test_code "$question_id" "LeetCode")
+  unit_test_content=$(make_unit_test_code "$question_id" "$file_name" "LeetCode")
 
   # Save the files
   save_swift_file "$file_name" "LeetCode" "$XCODE_MAIN_FOLDER" "$content" "$difficulty"

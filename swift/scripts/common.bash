@@ -106,7 +106,8 @@ EOF
 # Generate and save the Swift test file
 function make_unit_test_code() {
   local question_id="$1"
-  local ps_platform="$2"
+  local display_name="$2"
+  local ps_platform="$3"
   local file_name="${ps_platform}${question_id}Tests"
   local content
   local nickname
@@ -125,24 +126,28 @@ function make_unit_test_code() {
 //  Created by $nickname on $(date "+%Y/%m/%d").
 //
 
-import XCTest
+import Testing
 
-final class $file_name: XCTestCase {
+@Suite("$display_name", .tags(<#Insert Tag#>))
+struct $file_name {
   private let problem = ${ps_platform}${question_id}()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.solution(<#Insert Input#>)
-    XCTAssertTrue(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
+    #expect(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
   }
 
-  func testExample2() {
+  @Test
+  func example2() {
     let result = problem.solution(<#Insert Input#>)
-    XCTAssertTrue(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
+    #expect(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
   }
 
+  @Test
   func testExample3() {
     let result = problem.solution(<#Insert Input#>)
-    XCTAssertTrue(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
+    #expect(result == <#Insert predicted value#>, #"Expected '<#Insert predicted value#>', but got '\#(result)'"#)
   }
 }
 

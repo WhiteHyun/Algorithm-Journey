@@ -9,4 +9,5 @@ import Testing
 
 extension Tag {
   @Tag static let graph: Self
+  @Tag static let tree: Self
 }
