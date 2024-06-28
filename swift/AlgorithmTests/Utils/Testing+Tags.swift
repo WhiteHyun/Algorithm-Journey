@@ -10,6 +10,7 @@ import Testing
 extension Tag {
   @Tag static let array: Self
   @Tag static let backTracking: Self
+  @Tag static let breadthFirstSearch: Self
   @Tag static let depthFirstSearch: Self
   @Tag static let design: Self
   @Tag static let graph: Self
@@ -21,4 +22,5 @@ extension Tag {
   @Tag static let string: Self
   @Tag static let tree: Self
   @Tag static let trie: Self
+  @Tag static let unionFind: Self
 }

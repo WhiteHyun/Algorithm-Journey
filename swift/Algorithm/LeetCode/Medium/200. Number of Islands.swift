@@ -1,43 +1,48 @@
 //
-//  200. Number of Islands
+//  200. Number of Islands.swift
 //  https://leetcode.com/problems/number-of-islands/description/
 //  Algorithm
 //
-//  Created by 홍승현 on 2024/04/19.
+//  Created by 홍승현 on 2024/06/28.
 //
-
-import Foundation
 
 final class LeetCode200 {
   func numIslands(_ grid: [[Character]]) -> Int {
-    var visited: [[Bool]] = .init(repeating: .init(repeating: false, count: grid[0].count), count: grid.count)
+    var visited: [[Bool]] = .init(
+      repeating: .init(repeating: false, count: grid[0].count),
+      count: grid.count
+    )
+    var islands = 0
 
-    var stack: [(i: Int, j: Int)] = []
-
-    let dx = [-1, 1, 0, 0]
-    let dy = [0, 0, -1, 1]
-
-    var islandCount = 0
-
-    for i in grid.indices {
-      for j in grid[i].indices where grid[i][j] == "1" && visited[i][j] == false {
-        stack.append((i, j))
-        islandCount += 1
-
-        while let (x, y) = stack.popLast() {
-          for index in dx.indices {
-            let positionX = x + dx[index]
-            let positionY = y + dy[index]
-
-            if grid[safe: positionX]?[safe: positionY] == "1", visited[positionX][positionY] == false {
-              visited[positionX][positionY] = true
-              stack.append((positionX, positionY))
-            }
-          }
-        }
+    for row in 0 ..< grid.count {
+      for col in 0 ..< grid[row].count where grid[row][col] == "1" && !visited[row][col] {
+        visited[row][col] = true
+        dfs(grid, &visited, row, col)
+        islands += 1
       }
     }
 
-    return islandCount
+    return islands
+  }
+
+  private func dfs(
+    _ grid: [[Character]],
+    _ visited: inout [[Bool]],
+    _ x: Int,
+    _ y: Int
+  ) {
+    for (dx, dy) in [(-1, 0), (1, 0), (0, -1), (0, 1)] {
+      let nx = dx + x
+      let ny = dy + y
+      guard grid.indices ~= nx,
+            grid[x].indices ~= ny,
+            visited[nx][ny] == false,
+            grid[nx][ny] == "1"
+      else {
+        continue
+      }
+      visited[nx][ny] = true
+      dfs(grid, &visited, nx, ny)
+    }
   }
 }
