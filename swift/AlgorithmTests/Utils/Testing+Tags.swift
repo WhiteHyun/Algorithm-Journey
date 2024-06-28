@@ -10,4 +10,6 @@ import Testing
 extension Tag {
   @Tag static let graph: Self
   @Tag static let tree: Self
+  @Tag static let array: Self
+  @Tag static let backTracking: Self
 }
