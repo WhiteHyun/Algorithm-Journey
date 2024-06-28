@@ -12,8 +12,11 @@ extension Tag {
   @Tag static let backTracking: Self
   @Tag static let design: Self
   @Tag static let graph: Self
+  @Tag static let greedy: Self
   @Tag static let hashTable: Self
+  @Tag static let heap: Self
   @Tag static let matrix: Self
+  @Tag static let sorting: Self
   @Tag static let string: Self
   @Tag static let tree: Self
   @Tag static let trie: Self
