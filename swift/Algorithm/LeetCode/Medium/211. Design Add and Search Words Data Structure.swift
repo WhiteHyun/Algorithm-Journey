@@ -7,12 +7,12 @@
 //
 
 enum LeetCode211 {
-  private final class Node {
-    var children: [Character: Node]
+  private final class TrieNode {
+    var children: [Character: TrieNode]
     var endOfWord: Bool
 
     init(
-      children: [Character: Node] = [:],
+      children: [Character: TrieNode] = [:],
       endOfWord: Bool = false
     ) {
       self.children = children
@@ -21,17 +21,17 @@ enum LeetCode211 {
   }
 
   final class WordDictionary {
-    private let root: Node
+    private let root: TrieNode
 
     init() {
-      root = Node()
+      root = TrieNode()
     }
 
     func addWord(_ word: String) {
       var node = root
       for character in word {
         if node.children[character] == nil {
-          node.children[character] = Node()
+          node.children[character] = TrieNode()
         }
         node = node.children[character]!
       }
@@ -40,7 +40,7 @@ enum LeetCode211 {
 
     func search(_ word: String) -> Bool {
       let word = Array(word)
-      func dfs(index: Int, node: Node) -> Bool {
+      func dfs(index: Int, node: TrieNode) -> Bool {
         guard index < word.count else { return node.endOfWord }
 
         let character = word[index]

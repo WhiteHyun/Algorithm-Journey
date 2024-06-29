@@ -7,12 +7,12 @@
 
 import Foundation
 
-// MARK: - Node
+// MARK: - DequeNode
 
-private final class Node<T> {
+private final class DequeNode<T> {
   var value: T
-  var previous: Node<T>?
-  var next: Node<T>?
+  var previous: DequeNode<T>?
+  var next: DequeNode<T>?
 
   init(value: T) {
     self.value = value
@@ -22,8 +22,8 @@ private final class Node<T> {
 // MARK: - Deque
 
 final class Deque<T> {
-  private var head: Node<T>?
-  private var tail: Node<T>?
+  private var head: DequeNode<T>?
+  private var tail: DequeNode<T>?
   private(set) var count: Int = 0
 
   var isEmpty: Bool {
@@ -31,7 +31,7 @@ final class Deque<T> {
   }
 
   func append(_ value: T) {
-    let newNode = Node(value: value)
+    let newNode = DequeNode(value: value)
 
     if let tail {
       newNode.previous = tail

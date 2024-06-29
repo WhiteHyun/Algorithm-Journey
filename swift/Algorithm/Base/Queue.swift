@@ -5,13 +5,13 @@
 //  Created by 홍승현 on 5/29/24.
 //
 
-// MARK: - Node
+// MARK: - QueueNode
 
-private class Node<T> {
+private class QueueNode<T> {
   let element: T
-  var next: Node<T>?
+  var next: QueueNode<T>?
 
-  init(element: T, next: Node<T>? = nil) {
+  init(element: T, next: QueueNode<T>? = nil) {
     self.element = element
     self.next = next
   }
@@ -20,8 +20,8 @@ private class Node<T> {
 // MARK: - Queue
 
 final class Queue<T> {
-  private var head: Node<T>?
-  private var tail: Node<T>?
+  private var head: QueueNode<T>?
+  private var tail: QueueNode<T>?
   private var count: Int = 0
 
   var isEmpty: Bool {
@@ -29,7 +29,7 @@ final class Queue<T> {
   }
 
   func enqueue(_ element: T) {
-    let newNode = Node(element: element)
+    let newNode = QueueNode(element: element)
 
     if let tailNode = tail {
       tailNode.next = newNode

@@ -6,14 +6,14 @@
 //  Created by 홍승현 on 2024/06/28.
 //
 
-// MARK: - Node
+// MARK: - TrieNode
 
-private class Node {
-  var children: [Character: Node]
+private class TrieNode {
+  var children: [Character: TrieNode]
   let value: Character
   var isEndOfWord: Bool
 
-  init(children: [Character: Node] = [:], value: Character, isEndOfWord: Bool = false) {
+  init(children: [Character: TrieNode] = [:], value: Character, isEndOfWord: Bool = false) {
     self.children = children
     self.value = value
     self.isEndOfWord = isEndOfWord
@@ -23,7 +23,7 @@ private class Node {
 // MARK: - Trie
 
 class Trie {
-  private var root: Node
+  private var root: TrieNode
 
   init() {
     root = .init(value: "$")
@@ -33,7 +33,7 @@ class Trie {
     var node = root
     for character in word {
       if node.children[character] == nil {
-        node.children[character] = Node(value: character)
+        node.children[character] = TrieNode(value: character)
       }
       node = node.children[character]!
     }
