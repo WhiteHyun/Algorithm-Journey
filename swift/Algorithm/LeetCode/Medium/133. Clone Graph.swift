@@ -21,7 +21,6 @@ final class LeetCode133 {
     let node = Node(originalNode.val)
     cache[originalNode.val] = node
 
-
     node.neighbors = originalNode.neighbors.map(cloneGraph)
 
     return node
