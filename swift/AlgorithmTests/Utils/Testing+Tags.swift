@@ -20,6 +20,7 @@ extension Tag {
   @Tag static let matrix: Self
   @Tag static let sorting: Self
   @Tag static let string: Self
+  @Tag static let topologicalSort: Self
   @Tag static let tree: Self
   @Tag static let trie: Self
   @Tag static let unionFind: Self
