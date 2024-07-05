@@ -242,6 +242,7 @@
 		BA1BB88F2BD75E8400CA174B /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
 		BA1BB8912BD78F8700CA174B /* BOJ18429Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BB8902BD78F8700CA174B /* BOJ18429Tests.swift */; };
 		BA1BB8922BD78F9600CA174B /* 18429. root loss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */; };
+		BA1EA9D62C385BFF00D1F6B4 /* 261. Graph Valid Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */; };
 		BA20A37B2C0FF5980018FA19 /* 1002. Find Common Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35F83E43937F3CC6ECF51CF /* 1002. Find Common Characters.swift */; };
 		BA20A3802C0FF6930018FA19 /* LeetCode1002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20A37F2C0FF6930018FA19 /* LeetCode1002Tests.swift */; };
 		BA26DABA2C2ED3CA00333F2C /* 200. Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C0064F1B04FF020088628 /* 200. Number of Islands.swift */; };
@@ -1171,6 +1172,7 @@
 				CF8265795FE76682687EF63A /* LeetCode237Tests.swift */,
 				DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */,
 				0CDFE9DD3C635B0BEDF7CAE9 /* LeetCode260Tests.swift */,
+				3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */,
 				04C37740809FE4ED0C88966A /* LeetCode347Tests.swift */,
 				C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */,
 				3190CEC2485F656A19458675 /* LeetCode424Tests.swift */,
@@ -1184,7 +1186,6 @@
 				8C7E64B68DF4A72665C46ED8 /* LeetCode979Tests.swift */,
 				7C9AE34AD4A0FB9104704904 /* LeetCode1208Tests.swift */,
 				BAC7C2122C2E91B100A89457 /* LeetCode2285Tests.swift */,
-				3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1278,6 +1279,7 @@
 				9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */,
 				66B2ECA2900426DF23BA7F84 /* 238. Product of Array Except Self.swift */,
 				6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */,
+				4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */,
 				EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */,
 				A26594D2E7E0767A293406EF /* 347. Top K Frequent Elements.swift */,
 				3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */,
@@ -1315,7 +1317,6 @@
 				0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */,
 				AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */,
 				B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */,
-				4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1720,6 +1721,7 @@
 				BACFFC4C2BFD7B5700FE308F /* 131. Palindrome Partitioning.swift in Sources */,
 				BA57C6282C06CC60000B3EC8 /* Queue.swift in Sources */,
 				47539B1D2033692B4F6051B6 /* BOJ2252Tests.swift in Sources */,
+				BA1EA9D62C385BFF00D1F6B4 /* 261. Graph Valid Tree.swift in Sources */,
 				BAA50C7B2BF1CFB50079ECDE /* 2252. Line up.swift in Sources */,
 				9F48B1AC2DFE123B54EB2C41 /* LeetCode1219Tests.swift in Sources */,
 				CB4CC72290B1420BED924018 /* BOJ14500Tests.swift in Sources */,
