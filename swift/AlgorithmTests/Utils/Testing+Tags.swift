@@ -13,6 +13,7 @@ extension Tag {
   @Tag static let breadthFirstSearch: Self
   @Tag static let depthFirstSearch: Self
   @Tag static let design: Self
+  @Tag static let dynamicProgramming: Self
   @Tag static let graph: Self
   @Tag static let greedy: Self
   @Tag static let hashTable: Self
