@@ -140,6 +140,7 @@
 		686D5AD804928B2B10E66C37 /* LeetCode268Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F0B15589E4568FE2E7E64 /* LeetCode268Tests.swift */; };
 		6927F41D517BB843E0F76606 /* BOJ10775Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */; };
 		6A0C7E0B4631B3B549EB835F /* LeetCode20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3DC8E73D00FE03B5E51F7 /* LeetCode20Tests.swift */; };
+		6AD7D2C6482347BCE7EEC61B /* LeetCode5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0CEE1D40BA1DE8BCD26E0 /* LeetCode5Tests.swift */; };
 		6B6137C5ED033A3705CBCD61 /* 3068. Find the Maximum Sum of Node Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D633A9853FE47F943C5FE0 /* 3068. Find the Maximum Sum of Node Values.swift */; };
 		6C3F29ADBCB6BEF0B54F99D8 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B77C8F6A46FE46E29B41A /* 230. Kth Smallest Element in a BST.swift */; };
 		6F3AD3FCB6CE3C777BFBDE17 /* 1238. Parties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32769F20766FEEC70896B8F0 /* 1238. Parties.swift */; };
@@ -193,6 +194,7 @@
 		9653D5809AF9F31705F2CAEF /* 1759. Create a password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1177A4EC4AE5AD874BF77F /* 1759. Create a password.swift */; };
 		96DDE2F65420ED0689D12F7E /* 153. Find Minimum in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB993A5EF974AF8A2057A3E /* 153. Find Minimum in Rotated Sorted Array.swift */; };
 		97D78C475F999B1B342BC77B /* LeetCode198Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EA9BE89FBB7750C4AA24B4 /* LeetCode198Tests.swift */; };
+		97F2277D13973505D261EB57 /* 5. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B75F403E85C16E6FFD6FC /* 5. Longest Palindromic Substring.swift */; };
 		9933E8CFAFDD5B1194997CB7 /* LeetCode1608Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E93604457F0E7B112ED4F6 /* LeetCode1608Tests.swift */; };
 		99ED3454E1267BD065AD3C9A /* 211. Design Add and Search Words Data Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84820D654301CB08FA2B79F /* 211. Design Add and Search Words Data Structure.swift */; };
 		9B678B0352E8D6A7FDE87D31 /* 623. Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */; };
@@ -248,6 +250,7 @@
 		BA1EA9D72C3870CC00D1F6B4 /* 323. Number of Connected Components in an Undirected Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89329E2FAEA9C45C7F5183F /* 323. Number of Connected Components in an Undirected Graph.swift */; };
 		BA1EA9D82C3873A300D1F6B4 /* 198. House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D26493F07309BE090CDF14 /* 198. House Robber.swift */; };
 		BA1EA9D92C387ACA00D1F6B4 /* 213. House Robber II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A23FE7A3877383D37A17187 /* 213. House Robber II.swift */; };
+		BA1EA9DA2C388FD400D1F6B4 /* 5. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B75F403E85C16E6FFD6FC /* 5. Longest Palindromic Substring.swift */; };
 		BA20A37B2C0FF5980018FA19 /* 1002. Find Common Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35F83E43937F3CC6ECF51CF /* 1002. Find Common Characters.swift */; };
 		BA20A3802C0FF6930018FA19 /* LeetCode1002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20A37F2C0FF6930018FA19 /* LeetCode1002Tests.swift */; };
 		BA26DABA2C2ED3CA00333F2C /* 200. Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C0064F1B04FF020088628 /* 200. Number of Islands.swift */; };
@@ -588,6 +591,7 @@
 		361C44D5034B31F591112626 /* 121. Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "121. Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
 		3629B8E93D8A6CEA5CF1EA8B /* 1005. ACM Craft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1005. ACM Craft.swift"; sourceTree = "<group>"; };
 		386D2F30007CA37E573A145B /* 1791. Find Center of Star Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1791. Find Center of Star Graph.swift"; sourceTree = "<group>"; };
+		38C0CEE1D40BA1DE8BCD26E0 /* LeetCode5Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode5Tests.swift; sourceTree = "<group>"; };
 		39F13A2B4FFCE06383B23F69 /* BOJ1753Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1753Tests.swift; sourceTree = "<group>"; };
 		3ABB3C103BC7B140AC8C602B /* 11054. Longest Sequence of Vitonic Parts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11054. Longest Sequence of Vitonic Parts.swift"; sourceTree = "<group>"; };
 		3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ10775Tests.swift; sourceTree = "<group>"; };
@@ -809,6 +813,7 @@
 		E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "861. Score After Flipping Matrix.swift"; sourceTree = "<group>"; };
 		E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11286Tests.swift; sourceTree = "<group>"; };
 		E3D462E86522659A9728E25F /* BOJ13549Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13549Tests.swift; sourceTree = "<group>"; };
+		E48B75F403E85C16E6FFD6FC /* 5. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "5. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		E50DFF61D4BAF6BCB9B8C26C /* 11. Container With Most Water.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11. Container With Most Water.swift"; sourceTree = "<group>"; };
 		E566A3A23893399B98AD5D49 /* 208. Implement Trie (Prefix Tree).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "208. Implement Trie (Prefix Tree).swift"; sourceTree = "<group>"; };
 		E597ED2DD3226A1D40D826B8 /* LeetCode165Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode165Tests.swift; sourceTree = "<group>"; };
@@ -1159,6 +1164,7 @@
 			isa = PBXGroup;
 			children = (
 				65A925FE8F0BE29AF639A623 /* LeetCode3Tests.swift */,
+				38C0CEE1D40BA1DE8BCD26E0 /* LeetCode5Tests.swift */,
 				F839A0E3111DC17874F78CE3 /* LeetCode11Tests.swift */,
 				FF67F682D7A12A8AE2B289AA /* LeetCode15Tests.swift */,
 				EC8D5EF6E93E9716401AF54B /* LeetCode19Tests.swift */,
@@ -1265,6 +1271,7 @@
 			isa = PBXGroup;
 			children = (
 				F0B66AACFD31F859C28E0D92 /* 3. Longest Substring Without Repeating Characters.swift */,
+				E48B75F403E85C16E6FFD6FC /* 5. Longest Palindromic Substring.swift */,
 				E50DFF61D4BAF6BCB9B8C26C /* 11. Container With Most Water.swift */,
 				0C8BF511AB63FDA60A08F53B /* 15. 3Sum.swift */,
 				B1BBCA3C89348654E41C1A1B /* 19. Remove Nth Node From End of List.swift */,
@@ -1726,6 +1733,7 @@
 				DB36B23DCEE11927089EAC04 /* LeetCode572Tests.swift in Sources */,
 				343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */,
 				BA1093782BFA1831005CF176 /* 338. Counting Bits.swift in Sources */,
+				BA1EA9DA2C388FD400D1F6B4 /* 5. Longest Palindromic Substring.swift in Sources */,
 				3F23228450060BE574C01F7A /* LeetCode857Tests.swift in Sources */,
 				BAFA9BC32C0D995C00DB50D6 /* 2486. Append Characters to String to Make Subsequence.swift in Sources */,
 				BA6BE4DF2BFEE699004C2DBE /* 1717. Representation of Sets.swift in Sources */,
@@ -1845,6 +1853,7 @@
 				CBC39204811D97F072A049B0 /* LeetCode323Tests.swift in Sources */,
 				97D78C475F999B1B342BC77B /* LeetCode198Tests.swift in Sources */,
 				D6F91A80D07F5BE8176F007F /* LeetCode213Tests.swift in Sources */,
+				6AD7D2C6482347BCE7EEC61B /* LeetCode5Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2035,6 +2044,7 @@
 				8D2A0686FF1A7F3A33B3EDD5 /* 323. Number of Connected Components in an Undirected Graph.swift in Sources */,
 				F2CB6959B16EF74970A14DE6 /* 198. House Robber.swift in Sources */,
 				642FAB9A10E127A05B06C26F /* 213. House Robber II.swift in Sources */,
+				97F2277D13973505D261EB57 /* 5. Longest Palindromic Substring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

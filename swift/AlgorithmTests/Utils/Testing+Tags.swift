@@ -24,5 +24,6 @@ extension Tag {
   @Tag static let topologicalSort: Self
   @Tag static let tree: Self
   @Tag static let trie: Self
+  @Tag static let twoPointers: Self
   @Tag static let unionFind: Self
 }
