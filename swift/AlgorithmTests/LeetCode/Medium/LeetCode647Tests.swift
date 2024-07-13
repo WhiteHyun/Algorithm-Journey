@@ -25,6 +25,7 @@ struct LeetCode647Tests {
     let result = problem.countSubstrings("aaa")
     #expect(result == 6, #"Expected '6', but got '\#(result)'. Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa"."#)
   }
+
   @Test
   func example3() {
     let result = problem.countSubstrings("a")
