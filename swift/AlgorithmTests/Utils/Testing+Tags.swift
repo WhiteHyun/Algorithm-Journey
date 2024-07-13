@@ -19,6 +19,7 @@ extension Tag {
   @Tag static let hashTable: Self
   @Tag static let heap: Self
   @Tag static let matrix: Self
+  @Tag static let memoization: Self
   @Tag static let sorting: Self
   @Tag static let string: Self
   @Tag static let topologicalSort: Self

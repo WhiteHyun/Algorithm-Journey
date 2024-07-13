@@ -13,13 +13,13 @@ struct LeetCode152Tests {
 
   @Test
   func example1() {
-    let result = problem.maxProduct([2,3,-2,4])
+    let result = problem.maxProduct([2, 3, -2, 4])
     #expect(result == 6, #"Expected '6', but got '\#(result)'"#)
   }
 
   @Test
   func example2() {
-    let result = problem.maxProduct([-2,0,-1])
+    let result = problem.maxProduct([-2, 0, -1])
     #expect(result == 0, #"Expected '0', but got '\#(result)'"#)
   }
 
@@ -37,7 +37,7 @@ struct LeetCode152Tests {
 
   @Test
   func example5() {
-    let result = problem.maxProduct([0,10,10,10,10,10,10,10,10,10,-10,10,10,10,10,10,10,10,10,10,0])
-    #expect(result == 1000000000, #"Expected '1000000000', but got '\#(result)'"#)
+    let result = problem.maxProduct([0, 10, 10, 10, 10, 10, 10, 10, 10, 10, -10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0])
+    #expect(result == 1_000_000_000, #"Expected '1000000000', but got '\#(result)'"#)
   }
 }

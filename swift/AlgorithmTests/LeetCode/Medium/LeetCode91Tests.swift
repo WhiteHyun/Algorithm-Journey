@@ -29,7 +29,6 @@ struct LeetCode91Tests {
     #expect(result == 0, #"Expected '0', but got '\#(result)'"#)
   }
 
-
   @Test
   func example4() {
     let result = problem.numDecodings("27")

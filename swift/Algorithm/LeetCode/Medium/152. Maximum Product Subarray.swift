@@ -13,7 +13,6 @@ final class LeetCode152 {
     var answer = nums[0]
     let negativeCount = nums.filter { $0 < 0 }.count
 
-
     for index in 1 ..< nums.count {
       let current = nums[index]
 
