@@ -12,6 +12,7 @@ extension Tag {
   @Tag static let backTracking: Self
   @Tag static let binarySearch: Self
   @Tag static let breadthFirstSearch: Self
+  @Tag static let combinatorics: Self
   @Tag static let depthFirstSearch: Self
   @Tag static let design: Self
   @Tag static let dynamicProgramming: Self
@@ -19,6 +20,7 @@ extension Tag {
   @Tag static let greedy: Self
   @Tag static let hashTable: Self
   @Tag static let heap: Self
+  @Tag static let math: Self
   @Tag static let matrix: Self
   @Tag static let memoization: Self
   @Tag static let sorting: Self
