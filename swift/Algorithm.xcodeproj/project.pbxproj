@@ -53,6 +53,7 @@
 		247300E89CB11ACC68CD8A66 /* 11054. Longest Sequence of Vitonic Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3C103BC7B140AC8C602B /* 11054. Longest Sequence of Vitonic Parts.swift */; };
 		24ABAE9803AC8108CAE8F7B9 /* 3197. The Lake of Swan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */; };
 		24B60B413299DBDEDB987CA1 /* LeetCode322Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9198265807055A6A8004BAD /* LeetCode322Tests.swift */; };
+		24BA55CC1BCC9BEA3605A3A6 /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85047B7D6FEB41F7B59D2C57 /* 55. Jump Game.swift */; };
 		24BF6E356DC21458CC75D808 /* LeetCode1915Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0859ED575E0C28AA90DBFF2 /* LeetCode1915Tests.swift */; };
 		2578BB84E54039484129E40D /* LeetCode62Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C68D3AB2CDD489E79E1FBB /* LeetCode62Tests.swift */; };
 		25D350EB37D8A708F6363EE7 /* 945. Minimum Increment to Make Array Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4033177731BC55F7964469 /* 945. Minimum Increment to Make Array Unique.swift */; };
@@ -428,6 +429,7 @@
 		BB3738DF1B12D36DEB35A4C8 /* LeetCode1255Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F9CCC04865A322FFC4B91 /* LeetCode1255Tests.swift */; };
 		BBD1AA5BA71E14CCE2367BB5 /* 2597. The Number of Beautiful Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24BBE9F6B89C9896F5C85F /* 2597. The Number of Beautiful Subsets.swift */; };
 		BC1AF46BB1B87896CA3C6404 /* LeetCode409Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */; };
+		BD8B62D4724AFF7346DE23D8 /* LeetCode55Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F27BD77A391BD30CD328C0 /* LeetCode55Tests.swift */; };
 		BE5BBA9ADF4C8ED964938D5C /* 13460. Marbles Escape 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */; };
 		BE61E278EC8D865A0D5A4726 /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD461AA03CE1540F9C579B /* 125. Valid Palindrome.swift */; };
 		BFCBD8F02C4AE23F00D20B6D /* 300. Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */; };
@@ -723,6 +725,7 @@
 		82F66E62C6319A925D50BE23 /* LeetCode2597Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2597Tests.swift; sourceTree = "<group>"; };
 		837C0064F1B04FF020088628 /* 200. Number of Islands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
 		83E855E22BDFE029968EDB06 /* LeetCode323Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode323Tests.swift; sourceTree = "<group>"; };
+		85047B7D6FEB41F7B59D2C57 /* 55. Jump Game.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		8784D7009EDBBB8EA1134978 /* LeetCode1Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1Tests.swift; sourceTree = "<group>"; };
 		87BF5E74C45E9D79FBA404AC /* LeetCode945Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode945Tests.swift; sourceTree = "<group>"; };
 		8A23FE7A3877383D37A17187 /* 213. House Robber II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "213. House Robber II.swift"; sourceTree = "<group>"; };
@@ -818,6 +821,7 @@
 		C01F0668B41A7719EAC778E1 /* 1442. Count Triplets That Can Form Two Arrays of Equal XOR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1442. Count Triplets That Can Form Two Arrays of Equal XOR.swift"; sourceTree = "<group>"; };
 		C1447C6746357C8606E299AF /* LeetCode207Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode207Tests.swift; sourceTree = "<group>"; };
 		C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode417Tests.swift; sourceTree = "<group>"; };
+		C4F27BD77A391BD30CD328C0 /* LeetCode55Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode55Tests.swift; sourceTree = "<group>"; };
 		C5BF9363AAAC650FF0B4316B /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		C5E28D860D68BF5CB1DC2EDA /* 2997. Minimum Number of Operations to Make Array XOR Equal to K.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2997. Minimum Number of Operations to Make Array XOR Equal to K.swift"; sourceTree = "<group>"; };
 		C66492C2240F2B1E74FF3E1F /* BOJ12100Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ12100Tests.swift; sourceTree = "<group>"; };
@@ -1220,6 +1224,7 @@
 				4B6D18DDC573D0C2305A7B6D /* LeetCode39Tests.swift */,
 				A19C9B1DDD4030FBF59E0E0D /* LeetCode49Tests.swift */,
 				EC1169CEE9DA0A6A7AAA37E9 /* LeetCode53Tests.swift */,
+				C4F27BD77A391BD30CD328C0 /* LeetCode55Tests.swift */,
 				20C68D3AB2CDD489E79E1FBB /* LeetCode62Tests.swift */,
 				3C36C580B042F6AEBAD7C3C7 /* LeetCode75Tests.swift */,
 				B00E5C2520EA54267F653D55 /* LeetCode78Tests.swift */,
@@ -1409,6 +1414,7 @@
 				0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */,
 				AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */,
 				B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */,
+				85047B7D6FEB41F7B59D2C57 /* 55. Jump Game.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1939,6 +1945,7 @@
 				2578BB84E54039484129E40D /* LeetCode62Tests.swift in Sources */,
 				88BA20B4EED7A05807D48E60 /* LeetCode1143Tests.swift in Sources */,
 				2ED2BDF6594E9D662DADD012 /* LeetCode53Tests.swift in Sources */,
+				BD8B62D4724AFF7346DE23D8 /* LeetCode55Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2139,6 +2146,7 @@
 				D9B426BDB614D9216477D2FC /* 300. Longest Increasing Subsequence.swift in Sources */,
 				DC99C660256226EC3DDD3C36 /* 62. Unique Paths.swift in Sources */,
 				E48C760D2319001964854A5F /* 1143. Longest Common Subsequence.swift in Sources */,
+				24BA55CC1BCC9BEA3605A3A6 /* 55. Jump Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
