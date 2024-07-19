@@ -10,6 +10,7 @@ import Testing
 extension Tag {
   @Tag static let array: Self
   @Tag static let backTracking: Self
+  @Tag static let binarySearch: Self
   @Tag static let breadthFirstSearch: Self
   @Tag static let depthFirstSearch: Self
   @Tag static let design: Self

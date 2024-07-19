@@ -427,6 +427,7 @@
 		BC1AF46BB1B87896CA3C6404 /* LeetCode409Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */; };
 		BE5BBA9ADF4C8ED964938D5C /* 13460. Marbles Escape 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */; };
 		BE61E278EC8D865A0D5A4726 /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD461AA03CE1540F9C579B /* 125. Valid Palindrome.swift */; };
+		BFCBD8F02C4AE23F00D20B6D /* 300. Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
 		C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FC85E69265FC58F6317 /* LeetCode2997Tests.swift */; };
 		C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */; };
@@ -462,6 +463,7 @@
 		D63B9DC8BCAF86678DFBA708 /* 2816. Double a Number Represented as a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEE6982567BFF76EA5593B /* 2816. Double a Number Represented as a Linked List.swift */; };
 		D6F91A80D07F5BE8176F007F /* LeetCode213Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A06220556F5E054C84D29 /* LeetCode213Tests.swift */; };
 		D75DF0F8D3F8EDECB3720815 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DB0C2BB23FB4A2558D168 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.swift */; };
+		D9B426BDB614D9216477D2FC /* 300. Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */; };
 		DB36B23DCEE11927089EAC04 /* LeetCode572Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939BA1CD352A285D9630ADD /* LeetCode572Tests.swift */; };
 		DBB06802AE28A5B03DBDFE44 /* LeetCode133Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7308589A15B778AF4913CCF /* LeetCode133Tests.swift */; };
 		DBF563261B613F276FF56F53 /* 15. 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BF511AB63FDA60A08F53B /* 15. 3Sum.swift */; };
@@ -512,6 +514,7 @@
 		FBD0578BA334A6AEE0BB4B69 /* LeetCode21Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3D26754D7DEA7563FA858 /* LeetCode21Tests.swift */; };
 		FC374C1BAB7BC1184094E7E6 /* 463. Island Perimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */; };
 		FC655B919EF62A4A8997BA10 /* 78. Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C149BC09FF7526B2D14BA5 /* 78. Subsets.swift */; };
+		FD4AB96C99A49B8FD67661B3 /* LeetCode300Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E4F7A77ACC2B67BE6BCB6 /* LeetCode300Tests.swift */; };
 		FD7E88575DCED5264E7F1319 /* LeetCode2486Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AE72E46F5BCE131E6D7DA /* LeetCode2486Tests.swift */; };
 		FE1E972714FFCB086EEC75BA /* 75. Sort Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B9D43291111E8701BB0CF /* 75. Sort Colors.swift */; };
 		FF44CB3EB03092BEEBD8215E /* 42. Trapping Rain Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */; };
@@ -659,6 +662,7 @@
 		5CBE7CF09D186E7E3D05FF65 /* LeetCode131Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode131Tests.swift; sourceTree = "<group>"; };
 		5DBB345D543A97AF2D54115C /* BOJ1806Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1806Tests.swift; sourceTree = "<group>"; };
 		5F9D7ECD20BAD5C0C0812F7E /* 1380. Lucky Numbers in a Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1380. Lucky Numbers in a Matrix.swift"; sourceTree = "<group>"; };
+		611E4F7A77ACC2B67BE6BCB6 /* LeetCode300Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode300Tests.swift; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
 		61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2293. Coin I.swift"; sourceTree = "<group>"; };
 		628B9D43291111E8701BB0CF /* 75. Sort Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "75. Sort Colors.swift"; sourceTree = "<group>"; };
@@ -678,7 +682,6 @@
 		6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "260. Single Number III.swift"; sourceTree = "<group>"; };
 		6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode242Tests.swift; sourceTree = "<group>"; };
 		705063D013249906171AC36F /* LeetCode2000Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2000Tests.swift; sourceTree = "<group>"; };
-		7244682277FE438531F9B6AD /* 200. Number of Islands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
 		72ED06140C6A510BAFB29D67 /* LeetCode846Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode846Tests.swift; sourceTree = "<group>"; };
 		7326C94938323D8F6C1B755B /* 1208. Get Equal Substrings Within Budget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1208. Get Equal Substrings Within Budget.swift"; sourceTree = "<group>"; };
 		73599156B50C8D195AC3BE31 /* 152. Maximum Product Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "152. Maximum Product Subarray.swift"; sourceTree = "<group>"; };
@@ -853,6 +856,7 @@
 		ECEB003F406B5E78BDE4A2A4 /* LeetCode217Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode217Tests.swift; sourceTree = "<group>"; };
 		ED3B77C8F6A46FE46E29B41A /* 230. Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "230. Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
 		ED3CE8D6A99A3965125CCB78 /* 4. Median of Two Sorted Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "4. Median of Two Sorted Arrays.swift"; sourceTree = "<group>"; };
+		ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "300. Longest Increasing Subsequence.swift"; sourceTree = "<group>"; };
 		F0859ED575E0C28AA90DBFF2 /* LeetCode1915Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1915Tests.swift; sourceTree = "<group>"; };
 		F0B66AACFD31F859C28E0D92 /* 3. Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3. Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 		F231AD0651B83C1377D52E42 /* 417. Pacific Atlantic Water Flow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "417. Pacific Atlantic Water Flow.swift"; sourceTree = "<group>"; };
@@ -1212,7 +1216,9 @@
 				B1B1A1C3B4BF83A57875F1EB /* LeetCode128Tests.swift */,
 				5CBE7CF09D186E7E3D05FF65 /* LeetCode131Tests.swift */,
 				E7308589A15B778AF4913CCF /* LeetCode133Tests.swift */,
+				F234B2CEEBA52CBE87B93E15 /* LeetCode139Tests.swift */,
 				09735B98B3D9525DF71E496D /* LeetCode143Tests.swift */,
+				D6C97E8951C7850F66D2D803 /* LeetCode152Tests.swift */,
 				B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */,
 				E597ED2DD3226A1D40D826B8 /* LeetCode165Tests.swift */,
 				35EA9BE89FBB7750C4AA24B4 /* LeetCode198Tests.swift */,
@@ -1227,6 +1233,8 @@
 				DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */,
 				0CDFE9DD3C635B0BEDF7CAE9 /* LeetCode260Tests.swift */,
 				3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */,
+				611E4F7A77ACC2B67BE6BCB6 /* LeetCode300Tests.swift */,
+				F9198265807055A6A8004BAD /* LeetCode322Tests.swift */,
 				83E855E22BDFE029968EDB06 /* LeetCode323Tests.swift */,
 				04C37740809FE4ED0C88966A /* LeetCode347Tests.swift */,
 				C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */,
@@ -1242,9 +1250,6 @@
 				8C7E64B68DF4A72665C46ED8 /* LeetCode979Tests.swift */,
 				7C9AE34AD4A0FB9104704904 /* LeetCode1208Tests.swift */,
 				BAC7C2122C2E91B100A89457 /* LeetCode2285Tests.swift */,
-				F9198265807055A6A8004BAD /* LeetCode322Tests.swift */,
-				D6C97E8951C7850F66D2D803 /* LeetCode152Tests.swift */,
-				F234B2CEEBA52CBE87B93E15 /* LeetCode139Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1335,7 +1340,6 @@
 				762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */,
 				82D26493F07309BE090CDF14 /* 198. House Robber.swift */,
 				837C0064F1B04FF020088628 /* 200. Number of Islands.swift */,
-				7244682277FE438531F9B6AD /* 200. Number of Islands.swift */,
 				35254E15F3974D0F5A925DEE /* 207. Course Schedule.swift */,
 				E566A3A23893399B98AD5D49 /* 208. Implement Trie (Prefix Tree).swift */,
 				B84820D654301CB08FA2B79F /* 211. Design Add and Search Words Data Structure.swift */,
@@ -1346,6 +1350,7 @@
 				66B2ECA2900426DF23BA7F84 /* 238. Product of Array Except Self.swift */,
 				6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */,
 				4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */,
+				ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */,
 				EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */,
 				E1DE329271560823383B7232 /* 322. Coin Change.swift */,
 				E89329E2FAEA9C45C7F5183F /* 323. Number of Connected Components in an Undirected Graph.swift */,
@@ -1592,6 +1597,7 @@
 				BA1B02E02BE1D6AD0018D1BE /* 2000. Reverse Prefix of Word.swift in Sources */,
 				BA58C3D32BE5F1EA00EF519E /* 11286. Heap of absolute values.swift in Sources */,
 				BA57F1DD2BE8C29E00569604 /* 1912. Continuous sum.swift in Sources */,
+				BFCBD8F02C4AE23F00D20B6D /* 300. Longest Increasing Subsequence.swift in Sources */,
 				BA1BB8922BD78F9600CA174B /* 18429. root loss.swift in Sources */,
 				BA2A2B962BDA44930099FF73 /* 4. Median of Two Sorted Arrays.swift in Sources */,
 				BA2DE3C82BF485EE003BC8FA /* 1238. Parties.swift in Sources */,
@@ -1908,6 +1914,7 @@
 				EAC0E1C09216D03FA87E17CA /* LeetCode152Tests.swift in Sources */,
 				F68446E14DFD288927013547 /* LeetCode139Tests.swift in Sources */,
 				C2B1B4D8B473D90B6A948153 /* LeetCode1380Tests.swift in Sources */,
+				FD4AB96C99A49B8FD67661B3 /* LeetCode300Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2105,6 +2112,7 @@
 				2FE5ED8F0C1E0067AE2598CA /* 152. Maximum Product Subarray.swift in Sources */,
 				173953DD20DBE25B4287B58F /* 139. Word Break.swift in Sources */,
 				CD5E31BC97D4FC74BBB6E42E /* 1380. Lucky Numbers in a Matrix.swift in Sources */,
+				D9B426BDB614D9216477D2FC /* 300. Longest Increasing Subsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
