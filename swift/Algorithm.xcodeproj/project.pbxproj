@@ -348,6 +348,7 @@
 		BA7B548F2C005D9E00487885 /* 268. Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9386DC2DEEEBDAAD77738 /* 268. Missing Number.swift */; };
 		BA7B54902C00628600487885 /* 191. Number of 1 Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F03DB50102B766401C03CA /* 191. Number of 1 Bits.swift */; };
 		BA7B54912C00634400487885 /* 190. Reverse Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31B4AD258491BD90B81ECDA /* 190. Reverse Bits.swift */; };
+		BA82A66E2C4A1801009A462A /* 1380. Lucky Numbers in a Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D7ECD20BAD5C0C0812F7E /* 1380. Lucky Numbers in a Matrix.swift */; };
 		BA87A3652C2D2642003987F7 /* 1791. Find Center of Star Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D2F30007CA37E573A145B /* 1791. Find Center of Star Graph.swift */; };
 		BA87A3672C2D278E003987F7 /* Testing+Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87A3662C2D278E003987F7 /* Testing+Tags.swift */; };
 		BA87A3692C2D3601003987F7 /* 230. Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3B77C8F6A46FE46E29B41A /* 230. Kth Smallest Element in a BST.swift */; };
@@ -430,6 +431,7 @@
 		C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FC85E69265FC58F6317 /* LeetCode2997Tests.swift */; };
 		C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */; };
 		C208E199F55754A08811F951 /* BOJ1707Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE765BAF14B396C029241FA7 /* BOJ1707Tests.swift */; };
+		C2B1B4D8B473D90B6A948153 /* LeetCode1380Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD62B991690A11A7495455C /* LeetCode1380Tests.swift */; };
 		C499DD65E10628A9B228AC27 /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
 		C50A71FB04650BC427B8F123 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54F4B78EF197DB28399266 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift */; };
 		C530A0FCD842D8CF1DA82E6E /* LeetCode1325Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB357FBD8795BBD497A4FC /* LeetCode1325Tests.swift */; };
@@ -443,6 +445,7 @@
 		CBC39204811D97F072A049B0 /* LeetCode323Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E855E22BDFE029968EDB06 /* LeetCode323Tests.swift */; };
 		CC3C035935A88BCB7EB99E51 /* 3. Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B66AACFD31F859C28E0D92 /* 3. Longest Substring Without Repeating Characters.swift */; };
 		CD31C9625EC944EF8846F1C6 /* BOJ1894Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */; };
+		CD5E31BC97D4FC74BBB6E42E /* 1380. Lucky Numbers in a Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D7ECD20BAD5C0C0812F7E /* 1380. Lucky Numbers in a Matrix.swift */; };
 		CDE0CB5B9C4F4F405831619B /* 1863. Sum of All Subset XOR Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E868BC74EBDD083D26A31F /* 1863. Sum of All Subset XOR Totals.swift */; };
 		CE3B7C3E3BBC45B2A4F73BEC /* 260. Single Number III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */; };
 		CE6A213992B34D2B4ABF6816 /* 9935. string explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294EF7DF806D781B692BB270 /* 9935. string explosion.swift */; };
@@ -655,6 +658,7 @@
 		5BF3DC8E73D00FE03B5E51F7 /* LeetCode20Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode20Tests.swift; sourceTree = "<group>"; };
 		5CBE7CF09D186E7E3D05FF65 /* LeetCode131Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode131Tests.swift; sourceTree = "<group>"; };
 		5DBB345D543A97AF2D54115C /* BOJ1806Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1806Tests.swift; sourceTree = "<group>"; };
+		5F9D7ECD20BAD5C0C0812F7E /* 1380. Lucky Numbers in a Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1380. Lucky Numbers in a Matrix.swift"; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
 		61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2293. Coin I.swift"; sourceTree = "<group>"; };
 		628B9D43291111E8701BB0CF /* 75. Sort Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "75. Sort Colors.swift"; sourceTree = "<group>"; };
@@ -869,6 +873,7 @@
 		F9198265807055A6A8004BAD /* LeetCode322Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode322Tests.swift; sourceTree = "<group>"; };
 		FA8AD8DA072BE2CB795DF32E /* 91. Decode Ways.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "91. Decode Ways.swift"; sourceTree = "<group>"; };
 		FB3F89CA91CCE8B6365B5D68 /* 33. Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "33. Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
+		FCD62B991690A11A7495455C /* LeetCode1380Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1380Tests.swift; sourceTree = "<group>"; };
 		FD533B3B32865E5AAF282E48 /* BOJ1927Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1927Tests.swift; sourceTree = "<group>"; };
 		FD7D90025D344943654E4E1F /* BOJ11054Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11054Tests.swift; sourceTree = "<group>"; };
 		FE5587DC5C16E820676BF562 /* 523. Continuous Subarray Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "523. Continuous Subarray Sum.swift"; sourceTree = "<group>"; };
@@ -1132,6 +1137,7 @@
 				2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */,
 				B64A03F3D77B20C1725274E5 /* LeetCode1122Tests.swift */,
 				2FEBCA0B65FDEEBA0DF66309 /* LeetCode1137Tests.swift */,
+				FCD62B991690A11A7495455C /* LeetCode1380Tests.swift */,
 				B63B6836080E7DE15C694D4F /* LeetCode1791Tests.swift */,
 				4C807733A3090D6915F872C3 /* LeetCode2037Tests.swift */,
 			);
@@ -1282,6 +1288,7 @@
 				9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */,
 				120E9F5DF4AFE78D1EBE7916 /* 1122. Relative Sort Array.swift */,
 				EA0A2B3410312D7B5AB8A9E7 /* 1137. N-th Tribonacci Number.swift */,
+				5F9D7ECD20BAD5C0C0812F7E /* 1380. Lucky Numbers in a Matrix.swift */,
 				DB1AF3E943D46EE5E30EEBDD /* 1608. Special Array With X Elements Greater Than or Equal X.swift */,
 				386D2F30007CA37E573A145B /* 1791. Find Center of Star Graph.swift */,
 				56E868BC74EBDD083D26A31F /* 1863. Sum of All Subset XOR Totals.swift */,
@@ -1663,6 +1670,7 @@
 				BA20A37B2C0FF5980018FA19 /* 1002. Find Common Characters.swift in Sources */,
 				BAD3DBA52BEF0036002463B7 /* 857. Minimum Cost to Hire K Workers.swift in Sources */,
 				B25327AB7F233F884E784562 /* BOJ2212Tests.swift in Sources */,
+				BA82A66E2C4A1801009A462A /* 1380. Lucky Numbers in a Matrix.swift in Sources */,
 				BAE3C9692C19EF49005EBFA1 /* 98. Validate Binary Search Tree.swift in Sources */,
 				BAD0548D2BE9B7A700B89545 /* 2816. Double a Number Represented as a Linked List.swift in Sources */,
 				BAE3C9682C19E6B7005EBFA1 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
@@ -1899,6 +1907,7 @@
 				24B60B413299DBDEDB987CA1 /* LeetCode322Tests.swift in Sources */,
 				EAC0E1C09216D03FA87E17CA /* LeetCode152Tests.swift in Sources */,
 				F68446E14DFD288927013547 /* LeetCode139Tests.swift in Sources */,
+				C2B1B4D8B473D90B6A948153 /* LeetCode1380Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2095,6 +2104,7 @@
 				0513F5E997CCBD2BB41C07C4 /* 322. Coin Change.swift in Sources */,
 				2FE5ED8F0C1E0067AE2598CA /* 152. Maximum Product Subarray.swift in Sources */,
 				173953DD20DBE25B4287B58F /* 139. Word Break.swift in Sources */,
+				CD5E31BC97D4FC74BBB6E42E /* 1380. Lucky Numbers in a Matrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
