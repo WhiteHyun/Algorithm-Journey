@@ -15,6 +15,7 @@ extension Tag {
   @Tag static let combinatorics: Self
   @Tag static let depthFirstSearch: Self
   @Tag static let design: Self
+  @Tag static let divideAndConquer: Self
   @Tag static let dynamicProgramming: Self
   @Tag static let graph: Self
   @Tag static let greedy: Self
