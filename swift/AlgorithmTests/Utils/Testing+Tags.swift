@@ -25,6 +25,7 @@ extension Tag {
   @Tag static let matrix: Self
   @Tag static let memoization: Self
   @Tag static let sorting: Self
+  @Tag static let shortestPath: Self
   @Tag static let string: Self
   @Tag static let topologicalSort: Self
   @Tag static let tree: Self

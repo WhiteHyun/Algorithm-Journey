@@ -13,19 +13,19 @@ struct LeetCode53Tests {
 
   @Test
   func example1() {
-    let result = problem.solution([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+    let result = problem.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
     #expect(result == 6, #"Expected '6', but got '\#(result)'"#)
   }
 
   @Test
   func example2() {
-    let result = problem.solution([1])
+    let result = problem.maxSubArray([1])
     #expect(result == 1, #"Expected '1', but got '\#(result)'"#)
   }
 
   @Test
   func example3() {
-    let result = problem.solution([5, 4, -1, 7, 8])
+    let result = problem.maxSubArray([5, 4, -1, 7, 8])
     #expect(result == 23, #"Expected '23', but got '\#(result)'"#)
   }
 }

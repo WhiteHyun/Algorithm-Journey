@@ -53,7 +53,6 @@
 		247300E89CB11ACC68CD8A66 /* 11054. Longest Sequence of Vitonic Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3C103BC7B140AC8C602B /* 11054. Longest Sequence of Vitonic Parts.swift */; };
 		24ABAE9803AC8108CAE8F7B9 /* 3197. The Lake of Swan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F723C7E258341B8DA8645 /* 3197. The Lake of Swan.swift */; };
 		24B60B413299DBDEDB987CA1 /* LeetCode322Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9198265807055A6A8004BAD /* LeetCode322Tests.swift */; };
-		24BA55CC1BCC9BEA3605A3A6 /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85047B7D6FEB41F7B59D2C57 /* 55. Jump Game.swift */; };
 		24BF6E356DC21458CC75D808 /* LeetCode1915Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0859ED575E0C28AA90DBFF2 /* LeetCode1915Tests.swift */; };
 		2578BB84E54039484129E40D /* LeetCode62Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C68D3AB2CDD489E79E1FBB /* LeetCode62Tests.swift */; };
 		25D350EB37D8A708F6363EE7 /* 945. Minimum Increment to Make Array Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4033177731BC55F7964469 /* 945. Minimum Increment to Make Array Unique.swift */; };
@@ -430,8 +429,11 @@
 		BBD1AA5BA71E14CCE2367BB5 /* 2597. The Number of Beautiful Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24BBE9F6B89C9896F5C85F /* 2597. The Number of Beautiful Subsets.swift */; };
 		BC1AF46BB1B87896CA3C6404 /* LeetCode409Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */; };
 		BD8B62D4724AFF7346DE23D8 /* LeetCode55Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F27BD77A391BD30CD328C0 /* LeetCode55Tests.swift */; };
+		BDAC34D0018A2DA6F665136A /* LeetCode1334Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0BBC3FD23D5580A8C028D /* LeetCode1334Tests.swift */; };
 		BE5BBA9ADF4C8ED964938D5C /* 13460. Marbles Escape 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */; };
 		BE61E278EC8D865A0D5A4726 /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD461AA03CE1540F9C579B /* 125. Valid Palindrome.swift */; };
+		BF776FBF2C53EF82006D2187 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */; };
+		BFBBE5C42C54510400B199DB /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
 		BFCBD8F02C4AE23F00D20B6D /* 300. Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */; };
 		BFCBD8F12C4B01CB00D20B6D /* 62. Unique Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D92261434E2DE2F1B4790 /* 62. Unique Paths.swift */; };
 		BFCBD8F22C4B083600D20B6D /* 1143. Longest Common Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727C17660224BF8CB787078 /* 1143. Longest Common Subsequence.swift */; };
@@ -527,6 +529,7 @@
 		FD4AB96C99A49B8FD67661B3 /* LeetCode300Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E4F7A77ACC2B67BE6BCB6 /* LeetCode300Tests.swift */; };
 		FD7E88575DCED5264E7F1319 /* LeetCode2486Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AE72E46F5BCE131E6D7DA /* LeetCode2486Tests.swift */; };
 		FE1E972714FFCB086EEC75BA /* 75. Sort Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B9D43291111E8701BB0CF /* 75. Sort Colors.swift */; };
+		FE748639EBF0EC7AEA3B6C9B /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */; };
 		FF44CB3EB03092BEEBD8215E /* 42. Trapping Rain Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54FA704A9FD43597FEAD94 /* 42. Trapping Rain Water.swift */; };
 		FFC41F2D479AFAE162F468AF /* 2285. Maximum Total Importance of Roads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335E1BAAF4EE65FD8E3D575A /* 2285. Maximum Total Importance of Roads.swift */; };
 /* End PBXBuildFile section */
@@ -555,6 +558,7 @@
 		07A9708F38908DB977620466 /* 98. Validate Binary Search Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "98. Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		09735B98B3D9525DF71E496D /* LeetCode143Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode143Tests.swift; sourceTree = "<group>"; };
 		097C4A87C863F48B6CE855E8 /* LeetCode1219Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1219Tests.swift; sourceTree = "<group>"; };
+		0AA0BBC3FD23D5580A8C028D /* LeetCode1334Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1334Tests.swift; sourceTree = "<group>"; };
 		0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2000. Reverse Prefix of Word.swift"; sourceTree = "<group>"; };
 		0B6154F0EB89616D7B975570 /* 20366. Do you want to build a snowman?.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "20366. Do you want to build a snowman?.swift"; sourceTree = "<group>"; };
 		0C8BF511AB63FDA60A08F53B /* 15. 3Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "15. 3Sum.swift"; sourceTree = "<group>"; };
@@ -632,6 +636,7 @@
 		3B69F9B8D2F140EBE6C631AF /* LeetCode105Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode105Tests.swift; sourceTree = "<group>"; };
 		3C36C580B042F6AEBAD7C3C7 /* LeetCode75Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode75Tests.swift; sourceTree = "<group>"; };
 		3C78D8D57094DAEA635037FA /* BOJ14003Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ14003Tests.swift; sourceTree = "<group>"; };
+		3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift"; sourceTree = "<group>"; };
 		3D1651FEB63B1ECE4983CCBD /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		3D181C311A7DDCA5F3850FC6 /* BOJ1005Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1005Tests.swift; sourceTree = "<group>"; };
 		3DA4355CF2E7964954EB5340 /* 11279. Max Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11279. Max Heap.swift"; sourceTree = "<group>"; };
@@ -725,7 +730,6 @@
 		82F66E62C6319A925D50BE23 /* LeetCode2597Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2597Tests.swift; sourceTree = "<group>"; };
 		837C0064F1B04FF020088628 /* 200. Number of Islands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
 		83E855E22BDFE029968EDB06 /* LeetCode323Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode323Tests.swift; sourceTree = "<group>"; };
-		85047B7D6FEB41F7B59D2C57 /* 55. Jump Game.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		8784D7009EDBBB8EA1134978 /* LeetCode1Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1Tests.swift; sourceTree = "<group>"; };
 		87BF5E74C45E9D79FBA404AC /* LeetCode945Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode945Tests.swift; sourceTree = "<group>"; };
 		8A23FE7A3877383D37A17187 /* 213. House Robber II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "213. House Robber II.swift"; sourceTree = "<group>"; };
@@ -1271,6 +1275,7 @@
 				5A6A08D2C423782E1714358E /* LeetCode1143Tests.swift */,
 				7C9AE34AD4A0FB9104704904 /* LeetCode1208Tests.swift */,
 				BAC7C2122C2E91B100A89457 /* LeetCode2285Tests.swift */,
+				0AA0BBC3FD23D5580A8C028D /* LeetCode1334Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1398,6 +1403,7 @@
 				7326C94938323D8F6C1B755B /* 1208. Get Equal Substrings Within Budget.swift */,
 				74A65F1F433F358F7B44B51D /* 1219. Path with Maximum Gold.swift */,
 				54454B0457CCDF788E2E6E77 /* 1325. Delete Leaves With a Given Value.swift */,
+				3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */,
 				30989E95C8E3F9019C710B4B /* 1404. Number of Steps to Reduce a Number in Binary Representation to One.swift */,
 				C01F0668B41A7719EAC778E1 /* 1442. Count Triplets That Can Form Two Arrays of Equal XOR.swift */,
 				0D8BDBAF6EA5458270E68E6E /* 1915. Number of Wonderful Substrings.swift */,
@@ -1414,7 +1420,6 @@
 				0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */,
 				AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */,
 				B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */,
-				85047B7D6FEB41F7B59D2C57 /* 55. Jump Game.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1829,6 +1834,7 @@
 				BACFFC4C2BFD7B5700FE308F /* 131. Palindrome Partitioning.swift in Sources */,
 				BA57C6282C06CC60000B3EC8 /* Queue.swift in Sources */,
 				47539B1D2033692B4F6051B6 /* BOJ2252Tests.swift in Sources */,
+				BFBBE5C42C54510400B199DB /* 55. Jump Game.swift in Sources */,
 				BA1EA9D62C385BFF00D1F6B4 /* 261. Graph Valid Tree.swift in Sources */,
 				BAA50C7B2BF1CFB50079ECDE /* 2252. Line up.swift in Sources */,
 				9F48B1AC2DFE123B54EB2C41 /* LeetCode1219Tests.swift in Sources */,
@@ -1879,6 +1885,7 @@
 				2DFE48A70031F393EA306739 /* BOJ13549Tests.swift in Sources */,
 				BA6DE1A02C0AD2560030A41A /* 15. 3Sum.swift in Sources */,
 				E194F951CFBF795F6FB51BEE /* BOJ13913Tests.swift in Sources */,
+				BF776FBF2C53EF82006D2187 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */,
 				9933E8CFAFDD5B1194997CB7 /* LeetCode1608Tests.swift in Sources */,
 				1335CA301AFD1D9B03BE0BCE /* LeetCode1208Tests.swift in Sources */,
 				39912D75DAA7A68D6FE33A6A /* BOJ16234Tests.swift in Sources */,
@@ -1946,6 +1953,7 @@
 				88BA20B4EED7A05807D48E60 /* LeetCode1143Tests.swift in Sources */,
 				2ED2BDF6594E9D662DADD012 /* LeetCode53Tests.swift in Sources */,
 				BD8B62D4724AFF7346DE23D8 /* LeetCode55Tests.swift in Sources */,
+				BDAC34D0018A2DA6F665136A /* LeetCode1334Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2146,7 +2154,7 @@
 				D9B426BDB614D9216477D2FC /* 300. Longest Increasing Subsequence.swift in Sources */,
 				DC99C660256226EC3DDD3C36 /* 62. Unique Paths.swift in Sources */,
 				E48C760D2319001964854A5F /* 1143. Longest Common Subsequence.swift in Sources */,
-				24BA55CC1BCC9BEA3605A3A6 /* 55. Jump Game.swift in Sources */,
+				FE748639EBF0EC7AEA3B6C9B /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2312,10 +2320,12 @@
 		BAF746E3299B78D600182311 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2ZQR76M3UH;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitehyun.algorithm-journey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
@@ -2325,10 +2335,12 @@
 		BAF746E4299B78D600182311 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2ZQR76M3UH;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitehyun.algorithm-journey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.0;
