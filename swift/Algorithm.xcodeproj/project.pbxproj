@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01864D3E328993AF916E3F7E /* 191. Number of 1 Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F03DB50102B766401C03CA /* 191. Number of 1 Bits.swift */; };
 		0269ADD79E62FCDEF4235DEC /* 1707. Bipartite graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3211227F238574D1AF208E /* 1707. Bipartite graphs.swift */; };
+		026A07B19166A847BA308BCD /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
 		0298F96EDD1C0CEE2F678853 /* 2121. Find if Path Exists in Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */; };
 		04449173453B83164B7F6907 /* 2373. Largest Local Values in a Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6F0791DE7AD2639759C15 /* 2373. Largest Local Values in a Matrix.swift */; };
 		045159BA8A10FEE8F1205CB2 /* 19. Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BBCA3C89348654E41C1A1B /* 19. Remove Nth Node From End of List.swift */; };
@@ -122,6 +123,7 @@
 		54AB38AF9E98CD4DA705541C /* 17298. Right Larger Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA40A6D6DFE07127610B7AD /* 17298. Right Larger Numbers.swift */; };
 		552CBAEDE98843746B27BDAF /* BOJ1717Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B733190334E870B37B829C41 /* BOJ1717Tests.swift */; };
 		563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FA8C7552D8770B7B523B7 /* LeetCode2370Tests.swift */; };
+		56F9F24E32380BC7BF253012 /* LeetCode912Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5696D1EEC5A5811D69DB9 /* LeetCode912Tests.swift */; };
 		58E24341C4C5DA5B7FB80224 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
 		5A0883A216C56BEE6567EA93 /* 2294. Coins II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B3178886B2D58AB8A39B2 /* 2294. Coins II.swift */; };
 		5A45056D20272E3F85346400 /* BOJ1005Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D181C311A7DDCA5F3850FC6 /* BOJ1005Tests.swift */; };
@@ -442,6 +444,7 @@
 		BFCBD8F12C4B01CB00D20B6D /* 62. Unique Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D92261434E2DE2F1B4790 /* 62. Unique Paths.swift */; };
 		BFCBD8F22C4B083600D20B6D /* 1143. Longest Common Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727C17660224BF8CB787078 /* 1143. Longest Common Subsequence.swift */; };
 		BFCBD8F32C4B114200D20B6D /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
+		BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
 		C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FC85E69265FC58F6317 /* LeetCode2997Tests.swift */; };
 		C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */; };
@@ -832,6 +835,7 @@
 		BEBB2A9785CDCC37CA437705 /* 20. Valid Parentheses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "20. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		BFC2054286B08183F0DF5E65 /* 2560. Straw Worm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2560. Straw Worm.swift"; sourceTree = "<group>"; };
 		C01F0668B41A7719EAC778E1 /* 1442. Count Triplets That Can Form Two Arrays of Equal XOR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1442. Count Triplets That Can Form Two Arrays of Equal XOR.swift"; sourceTree = "<group>"; };
+		C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "912. Sort an Array.swift"; sourceTree = "<group>"; };
 		C1447C6746357C8606E299AF /* LeetCode207Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode207Tests.swift; sourceTree = "<group>"; };
 		C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode417Tests.swift; sourceTree = "<group>"; };
 		C4F27BD77A391BD30CD328C0 /* LeetCode55Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode55Tests.swift; sourceTree = "<group>"; };
@@ -903,6 +907,7 @@
 		F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "753. Open the Lock.swift"; sourceTree = "<group>"; };
 		F4E840B847D5627E59F441F4 /* 344. Reverse String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		F547FFA100039B8D4F9AE1A2 /* 3015. Reunite Oasis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3015. Reunite Oasis.swift"; sourceTree = "<group>"; };
+		F7D5696D1EEC5A5811D69DB9 /* LeetCode912Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode912Tests.swift; sourceTree = "<group>"; };
 		F7DB1131C4C54FE59859EFC3 /* BOJ2580Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ2580Tests.swift; sourceTree = "<group>"; };
 		F839A0E3111DC17874F78CE3 /* LeetCode11Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode11Tests.swift; sourceTree = "<group>"; };
 		F9198265807055A6A8004BAD /* LeetCode322Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode322Tests.swift; sourceTree = "<group>"; };
@@ -1288,6 +1293,7 @@
 				0AA0BBC3FD23D5580A8C028D /* LeetCode1334Tests.swift */,
 				BAC7C2122C2E91B100A89457 /* LeetCode2285Tests.swift */,
 				15D530FF819EAC903D8602A1 /* LeetCode2976Tests.swift */,
+				F7D5696D1EEC5A5811D69DB9 /* LeetCode912Tests.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1434,6 +1440,7 @@
 				0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */,
 				AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */,
 				B804F4D7D34E4A53095487B7 /* 3405. Count the Number of Special Characters II.swift */,
+				C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -1956,6 +1963,7 @@
 				2C8ADD248582DF7F3159C0AF /* LeetCode261Tests.swift in Sources */,
 				CBC39204811D97F072A049B0 /* LeetCode323Tests.swift in Sources */,
 				97D78C475F999B1B342BC77B /* LeetCode198Tests.swift in Sources */,
+				BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */,
 				D6F91A80D07F5BE8176F007F /* LeetCode213Tests.swift in Sources */,
 				6AD7D2C6482347BCE7EEC61B /* LeetCode5Tests.swift in Sources */,
 				8BFC45E1449004BA912E7E0A /* LeetCode647Tests.swift in Sources */,
@@ -1972,6 +1980,7 @@
 				BDAC34D0018A2DA6F665136A /* LeetCode1334Tests.swift in Sources */,
 				E89D9D1F30AD1E2B8961AF97 /* LeetCode48Tests.swift in Sources */,
 				673ACDE0AB649A417ABB4EC2 /* LeetCode2976Tests.swift in Sources */,
+				56F9F24E32380BC7BF253012 /* LeetCode912Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2175,6 +2184,7 @@
 				FE748639EBF0EC7AEA3B6C9B /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */,
 				C8C1054426D0C9F6383D5D22 /* 48. Rotate Image.swift in Sources */,
 				40007B4A543F11F40802C6BE /* 2976. Minimum Cost to Convert String I.swift in Sources */,
+				026A07B19166A847BA308BCD /* 912. Sort an Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
