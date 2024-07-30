@@ -8,28 +8,29 @@
 import Testing
 
 extension Tag {
-  @Tag static let array: Self
-  @Tag static let backTracking: Self
-  @Tag static let binarySearch: Self
-  @Tag static let breadthFirstSearch: Self
-  @Tag static let combinatorics: Self
-  @Tag static let depthFirstSearch: Self
-  @Tag static let design: Self
-  @Tag static let divideAndConquer: Self
-  @Tag static let dynamicProgramming: Self
-  @Tag static let graph: Self
-  @Tag static let greedy: Self
-  @Tag static let hashTable: Self
-  @Tag static let heap: Self
-  @Tag static let math: Self
-  @Tag static let matrix: Self
-  @Tag static let memoization: Self
-  @Tag static let sorting: Self
-  @Tag static let shortestPath: Self
-  @Tag static let string: Self
-  @Tag static let topologicalSort: Self
-  @Tag static let tree: Self
-  @Tag static let trie: Self
-  @Tag static let twoPointers: Self
-  @Tag static let unionFind: Self
+  @Tag static var array: Self
+  @Tag static var backTracking: Self
+  @Tag static var binarySearch: Self
+  @Tag static var breadthFirstSearch: Self
+  @Tag static var combinatorics: Self
+  @Tag static var depthFirstSearch: Self
+  @Tag static var design: Self
+  @Tag static var divideAndConquer: Self
+  @Tag static var dynamicProgramming: Self
+  @Tag static var graph: Self
+  @Tag static var greedy: Self
+  @Tag static var hashTable: Self
+  @Tag static var heap: Self
+  @Tag static var math: Self
+  @Tag static var matrix: Self
+  @Tag static var memoization: Self
+  @Tag static var sorting: Self
+  @Tag static var shortestPath: Self
+  @Tag static var stack: Self
+  @Tag static var string: Self
+  @Tag static var topologicalSort: Self
+  @Tag static var tree: Self
+  @Tag static var trie: Self
+  @Tag static var twoPointers: Self
+  @Tag static var unionFind: Self
 }
