@@ -76,6 +76,7 @@
 		2FDD0420777B9A37A08148B7 /* LeetCode33Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063EFA2907FE0E7DE7FF431 /* LeetCode33Tests.swift */; };
 		2FE5ED8F0C1E0067AE2598CA /* 152. Maximum Product Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73599156B50C8D195AC3BE31 /* 152. Maximum Product Subarray.swift */; };
 		30C6B30A67076653A51EF333 /* 13549. Hide and Seek 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */; };
+		31EA4A7807C6F6F424B4141C /* LeetCode2678Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E214FCD72899F7498E54170 /* LeetCode2678Tests.swift */; };
 		33C1A1BA18975978C0E00405 /* 2110. Installing a router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82960BC39F0459586BDA0FA7 /* 2110. Installing a router.swift */; };
 		343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D919DC8C04DDB9B25B48D /* LeetCode70Tests.swift */; };
 		34B912B2ACD3A890F97AA5CC /* 91. Decode Ways.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AD8DA072BE2CB795DF32E /* 91. Decode Ways.swift */; };
@@ -118,6 +119,7 @@
 		4F31F3C07B80B83A5B5626B6 /* 1791. Find Center of Star Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D2F30007CA37E573A145B /* 1791. Find Center of Star Graph.swift */; };
 		50A23FF1ADCED88AC441C6CA /* BOJ13460Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */; };
 		51138571E50094B927D8F70D /* 2000. Reverse Prefix of Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */; };
+		52E59627677BAF75FCC1A461 /* 2678. Number of Senior Citizens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9837467B1F94759DA34DDE1B /* 2678. Number of Senior Citizens.swift */; };
 		53660B840A04131325C6A739 /* 2441. Largest Positive Integer That Exists With Its Negative.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722E04FFE82A2B956AF18DE /* 2441. Largest Positive Integer That Exists With Its Negative.swift */; };
 		538BA4FEE496B8F67BF0BDB0 /* 523. Continuous Subarray Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5587DC5C16E820676BF562 /* 523. Continuous Subarray Sum.swift */; };
 		54280C5E4C61E0C91DB2126D /* 979. Distribute Coins in Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */; };
@@ -445,6 +447,7 @@
 		BF1F74B12C54675700531F9A /* 48. Rotate Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6D56360DD18FA518E847 /* 48. Rotate Image.swift */; };
 		BF3FA1332C55705100B78FD0 /* 2976. Minimum Cost to Convert String I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB68B8C79F8A24018CF207 /* 2976. Minimum Cost to Convert String I.swift */; };
 		BF776FBF2C53EF82006D2187 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */; };
+		BF9735272C5B1926005D4BE8 /* 2678. Number of Senior Citizens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9837467B1F94759DA34DDE1B /* 2678. Number of Senior Citizens.swift */; };
 		BFBBE5C42C54510400B199DB /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
 		BFC2E3072C59380500B13C7F /* 1653. Minimum Deletions to Make String Balanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB65F30FE618D08A8981288 /* 1653. Minimum Deletions to Make String Balanced.swift */; };
 		BFCBD8F02C4AE23F00D20B6D /* 300. Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A057DE8FF69532245A94B /* 300. Longest Increasing Subsequence.swift */; };
@@ -610,6 +613,7 @@
 		1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1894Tests.swift; sourceTree = "<group>"; };
 		1BD96A68B432584E37757B6A /* 10775. Airport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10775. Airport.swift"; sourceTree = "<group>"; };
 		1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "463. Island Perimeter.swift"; sourceTree = "<group>"; };
+		1E214FCD72899F7498E54170 /* LeetCode2678Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2678Tests.swift; sourceTree = "<group>"; };
 		1F51F87ECF2CAF63D81CAE59 /* 139. Word Break.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "139. Word Break.swift"; sourceTree = "<group>"; };
 		2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1051Tests.swift; sourceTree = "<group>"; };
 		20C68D3AB2CDD489E79E1FBB /* LeetCode62Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode62Tests.swift; sourceTree = "<group>"; };
@@ -769,6 +773,7 @@
 		95E754B77DED66104FACA354 /* LeetCode514Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode514Tests.swift; sourceTree = "<group>"; };
 		962E1810D5C11F26A87668A6 /* LeetCode190Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode190Tests.swift; sourceTree = "<group>"; };
 		9654BDFD6554D5245BBFAB72 /* 1894. 4th dot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1894. 4th dot.swift"; sourceTree = "<group>"; };
+		9837467B1F94759DA34DDE1B /* 2678. Number of Senior Citizens.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2678. Number of Senior Citizens.swift"; sourceTree = "<group>"; };
 		98D342EDAEB07E6B3A842E02 /* BOJ17298Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ17298Tests.swift; sourceTree = "<group>"; };
 		9939BA1CD352A285D9630ADD /* LeetCode572Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode572Tests.swift; sourceTree = "<group>"; };
 		9A2FDCA6975113D6FFC07635 /* 128. Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "128. Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
@@ -1195,6 +1200,7 @@
 				FCD62B991690A11A7495455C /* LeetCode1380Tests.swift */,
 				B63B6836080E7DE15C694D4F /* LeetCode1791Tests.swift */,
 				4C807733A3090D6915F872C3 /* LeetCode2037Tests.swift */,
+				1E214FCD72899F7498E54170 /* LeetCode2678Tests.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -1365,6 +1371,7 @@
 				57E8938A99B39EC2FEEF8D47 /* 2331. Evaluate Boolean Binary Tree.swift */,
 				DEA6F0791DE7AD2639759C15 /* 2373. Largest Local Values in a Matrix.swift */,
 				D722E04FFE82A2B956AF18DE /* 2441. Largest Positive Integer That Exists With Its Negative.swift */,
+				9837467B1F94759DA34DDE1B /* 2678. Number of Senior Citizens.swift */,
 				D985260268CB61BE8EE28947 /* 3110. Score of a String.swift */,
 				13B38C15278D20C7C8261D0C /* 3408. Count the Number of Special Characters I.swift */,
 			);
@@ -1773,6 +1780,7 @@
 				BA6EBDDB2BDBE14000FAC927 /* 121. Best Time to Buy and Sell Stock.swift in Sources */,
 				BA88A2572C1921600064528A /* 75. Sort Colors.swift in Sources */,
 				BA560A152C16B890005F3DB7 /* 33. Search in Rotated Sorted Array.swift in Sources */,
+				BF9735272C5B1926005D4BE8 /* 2678. Number of Senior Citizens.swift in Sources */,
 				244905F7EE87422AD3260F09 /* LeetCode121Tests.swift in Sources */,
 				BA44EB322BE3305500A94445 /* 1927. Min Heap.swift in Sources */,
 				ED860DD7204EFEFED588EA5F /* LeetCode514Tests.swift in Sources */,
@@ -2008,6 +2016,7 @@
 				8B4890B26BD1CF1C8DEB37B0 /* LeetCode2191Tests.swift in Sources */,
 				D9B199DF940DAB5E5AC7505D /* LeetCode1653Tests.swift in Sources */,
 				4C6A5F6F07FA288568954C8A /* LeetCode1105Tests.swift in Sources */,
+				31EA4A7807C6F6F424B4141C /* LeetCode2678Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2215,6 +2224,7 @@
 				BDB6720A6E4E679695CDEAA3 /* 2191. Sort the Jumbled Numbers.swift in Sources */,
 				AA779C6428C45DB96CCCD3C8 /* 1653. Minimum Deletions to Make String Balanced.swift in Sources */,
 				6755DC3922B6D5BA21D8D66C /* 1105. Filling Bookcase Shelves.swift in Sources */,
+				52E59627677BAF75FCC1A461 /* 2678. Number of Senior Citizens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
