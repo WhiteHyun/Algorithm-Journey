@@ -19,7 +19,7 @@ struct LeetCode133Tests {
     let original: Node = [[2, 4], [1, 3], [2, 4], [1, 3]]
     let result = problem.cloneGraph(original)
     #expect(result !== original)
-    #expect(result == [[2, 4], [1, 3], [2, 4], [1, 3]], #"Expected '[[2, 4], [1, 3], [2, 4], [1, 3]]', but got '\#(result)'"#)
+    #expect(result == [[2, 4], [1, 3], [2, 4], [1, 3]], #"Expected '[[2, 4], [1, 3], [2, 4], [1, 3]]', but got '\#(String(describing: result))'"#)
   }
 
   @Test
@@ -27,12 +27,12 @@ struct LeetCode133Tests {
     let original: Node = [[]]
     let result = problem.cloneGraph(original)
     #expect(result !== original)
-    #expect(result == [[]], #"Expected '[[]]', but got '\#(result)'"#)
+    #expect(result == [[]], #"Expected '[[]]', but got '\#(String(describing: result))'"#)
   }
 
   @Test
   func example3() {
     let result = problem.cloneGraph(nil)
-    #expect(result == nil, #"Expected 'nil', but got '\#(result)'"#)
+    #expect(result == nil, #"Expected 'nil', but got '\#(String(describing: result))'"#)
   }
 }
