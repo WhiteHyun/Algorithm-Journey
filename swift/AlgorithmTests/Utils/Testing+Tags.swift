@@ -24,8 +24,9 @@ extension Tag {
   @Tag static var math: Self
   @Tag static var matrix: Self
   @Tag static var memoization: Self
-  @Tag static var sorting: Self
   @Tag static var shortestPath: Self
+  @Tag static var slidingWindow: Self
+  @Tag static var sorting: Self
   @Tag static var stack: Self
   @Tag static var string: Self
   @Tag static var topologicalSort: Self
