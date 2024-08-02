@@ -22,7 +22,7 @@ private class QueueNode<T> {
 final class Queue<T> {
   private var head: QueueNode<T>?
   private var tail: QueueNode<T>?
-  private var count: Int = 0
+  private(set) var count: Int = 0
 
   var isEmpty: Bool {
     count == 0
