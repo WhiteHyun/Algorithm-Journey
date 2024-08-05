@@ -13,6 +13,7 @@ extension Tag {
   @Tag static var binarySearch: Self
   @Tag static var breadthFirstSearch: Self
   @Tag static var combinatorics: Self
+  @Tag static var counting: Self
   @Tag static var depthFirstSearch: Self
   @Tag static var design: Self
   @Tag static var divideAndConquer: Self

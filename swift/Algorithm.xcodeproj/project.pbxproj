@@ -171,6 +171,7 @@
 		72B519C20C01453ABD1D690C /* BOJ2805Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B152240E4BCAFDABA9D2DDF5 /* BOJ2805Tests.swift */; };
 		72D150AF878FB509D0C744BA /* 2580. Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEBFF0AA74E88C6C4DE1B7 /* 2580. Sudoku.swift */; };
 		732E5A5C32D44BE1962A1981 /* LeetCode242Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */; };
+		73B84306F995CE976F732DE9 /* 2053. Kth Distinct String in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */; };
 		749CB7A5DFB18DC8B6D763C2 /* 2487. Remove Nodes From Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C261A52F46C78784388968 /* 2487. Remove Nodes From Linked List.swift */; };
 		74DED2C2FEBC0FED792B5625 /* 1122. Relative Sort Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120E9F5DF4AFE78D1EBE7916 /* 1122. Relative Sort Array.swift */; };
 		760102D79A16D3CC121F2DFD /* 1927. Min Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DADA5B240793D631B03452 /* 1927. Min Heap.swift */; };
@@ -469,6 +470,7 @@
 		BFCBD8F32C4B114200D20B6D /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
 		BFD6192A2C573A2D00C3230A /* 2191. Sort the Jumbled Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAB1EBCDA9DBC6594BCA92 /* 2191. Sort the Jumbled Numbers.swift */; };
 		BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
+		BFEF74B32C60A33C001E7B1D /* 2053. Kth Distinct String in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
 		C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FC85E69265FC58F6317 /* LeetCode2997Tests.swift */; };
 		C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */; };
@@ -522,6 +524,7 @@
 		E0FCA9FF1181808EAC80F4C3 /* 506. Relative Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */; };
 		E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41856428B3AAA474F8CEEDD /* BOJ11279Tests.swift */; };
 		E194F951CFBF795F6FB51BEE /* BOJ13913Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFCEB7FF387928617BF575 /* BOJ13913Tests.swift */; };
+		E2582B0ED20777C5AE9123C1 /* LeetCode2053Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605D123ED8FEF7404B067158 /* LeetCode2053Tests.swift */; };
 		E35D9CC0ED1381DA48C88546 /* 857. Minimum Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */; };
 		E36093434D7C646997140739 /* 217. Contains Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122732CAE39B4149F5A7DFB8 /* 217. Contains Duplicate.swift */; };
 		E3CFE473C7D243A574E56BA0 /* LeetCode1404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D35327A21A3DF4B5F19201F /* LeetCode1404Tests.swift */; };
@@ -583,6 +586,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2053. Kth Distinct String in an Array.swift"; sourceTree = "<group>"; };
 		01D633A9853FE47F943C5FE0 /* 3068. Find the Maximum Sum of Node Values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3068. Find the Maximum Sum of Node Values.swift"; sourceTree = "<group>"; };
 		02675C8C1A774912BE4B1B2B /* LeetCode121Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode121Tests.swift; sourceTree = "<group>"; };
 		0333B5EF6246610FC498AA97 /* 3152. Special Array II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3152. Special Array II.swift"; sourceTree = "<group>"; };
@@ -727,6 +731,7 @@
 		5CBE7CF09D186E7E3D05FF65 /* LeetCode131Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode131Tests.swift; sourceTree = "<group>"; };
 		5DBB345D543A97AF2D54115C /* BOJ1806Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1806Tests.swift; sourceTree = "<group>"; };
 		5F9D7ECD20BAD5C0C0812F7E /* 1380. Lucky Numbers in a Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1380. Lucky Numbers in a Matrix.swift"; sourceTree = "<group>"; };
+		605D123ED8FEF7404B067158 /* LeetCode2053Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2053Tests.swift; sourceTree = "<group>"; };
 		611E4F7A77ACC2B67BE6BCB6 /* LeetCode300Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode300Tests.swift; sourceTree = "<group>"; };
 		61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "678. Valid Parenthesis String.swift"; sourceTree = "<group>"; };
 		61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2293. Coin I.swift"; sourceTree = "<group>"; };
@@ -1227,6 +1232,7 @@
 				5B5B79009E7B632FEB51635D /* LeetCode1636Tests.swift */,
 				B63B6836080E7DE15C694D4F /* LeetCode1791Tests.swift */,
 				4C807733A3090D6915F872C3 /* LeetCode2037Tests.swift */,
+				605D123ED8FEF7404B067158 /* LeetCode2053Tests.swift */,
 				1E214FCD72899F7498E54170 /* LeetCode2678Tests.swift */,
 			);
 			path = Easy;
@@ -1399,6 +1405,7 @@
 				56E868BC74EBDD083D26A31F /* 1863. Sum of All Subset XOR Totals.swift */,
 				0B548A871AE27071B6CD7C2A /* 2000. Reverse Prefix of Word.swift */,
 				CABFBBF258400526DBC95D31 /* 2037. Minimum Number of Moves to Seat Everyone.swift */,
+				01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */,
 				7D9104D29006D3512ADA472E /* 2121. Find if Path Exists in Graph.swift */,
 				57E8938A99B39EC2FEEF8D47 /* 2331. Evaluate Boolean Binary Tree.swift */,
 				DEA6F0791DE7AD2639759C15 /* 2373. Largest Local Values in a Matrix.swift */,
@@ -2057,11 +2064,13 @@
 				D9B199DF940DAB5E5AC7505D /* LeetCode1653Tests.swift in Sources */,
 				4C6A5F6F07FA288568954C8A /* LeetCode1105Tests.swift in Sources */,
 				31EA4A7807C6F6F424B4141C /* LeetCode2678Tests.swift in Sources */,
+				BFEF74B32C60A33C001E7B1D /* 2053. Kth Distinct String in an Array.swift in Sources */,
 				84B4EFB5CDB2C50EA3F25468 /* LeetCode2134Tests.swift in Sources */,
 				AF6BFC2C1AB1237772F58C40 /* LeetCode2045Tests.swift in Sources */,
 				BEAA02AA699BE9527CC4B7AB /* LeetCode1636Tests.swift in Sources */,
 				4D253EC5A8C537AED232E8F0 /* LeetCode1460Tests.swift in Sources */,
 				8CC6FED8B398BB23256261A2 /* LeetCode1508Tests.swift in Sources */,
+				E2582B0ED20777C5AE9123C1 /* LeetCode2053Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2275,6 +2284,7 @@
 				E5FD6774F639021C4C21636C /* 1636. Sort Array by Increasing Frequency.swift in Sources */,
 				954DCB9D2391D09555B53622 /* 1460. Make Two Arrays Equal by Reversing Subarrays.swift in Sources */,
 				1AF7381FF0A55B877E9DBA85 /* 1508. Range Sum of Sorted Subarray Sums.swift in Sources */,
+				73B84306F995CE976F732DE9 /* 2053. Kth Distinct String in an Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
