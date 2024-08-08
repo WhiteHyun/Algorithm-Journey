@@ -28,6 +28,7 @@ extension Tag {
   @Tag static var recursion: Self
   @Tag static var shortestPath: Self
   @Tag static var slidingWindow: Self
+  @Tag static var simulation: Self
   @Tag static var sorting: Self
   @Tag static var stack: Self
   @Tag static var string: Self
