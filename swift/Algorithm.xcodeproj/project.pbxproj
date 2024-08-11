@@ -462,6 +462,7 @@
 		BF1D7DF82C64F47E002DAE27 /* 885. Spiral Matrix III.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE61072C752C9C0CF6C9432 /* 885. Spiral Matrix III.swift */; };
 		BF1F74B12C54675700531F9A /* 48. Rotate Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6D56360DD18FA518E847 /* 48. Rotate Image.swift */; };
 		BF25ECF52C62274E00191641 /* 57. Insert Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72ED8632461597C1A70A022 /* 57. Insert Interval.swift */; };
+		BF2F41302C68F19200DF4997 /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4062EDADDE3736FE57362 /* 1568. Minimum Number of Days to Disconnect Island.swift */; };
 		BF3903312C5C776C001F41B2 /* 2134. Minimum Swaps to Group All 1's Together II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998B60C183B931DBD1B5A2A6 /* 2134. Minimum Swaps to Group All 1's Together II.swift */; };
 		BF3D680C2C5E59C9007F4A25 /* 1460. Make Two Arrays Equal by Reversing Subarrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8C2EAE957BB2ABBEBC368 /* 1460. Make Two Arrays Equal by Reversing Subarrays.swift */; };
 		BF3FA1332C55705100B78FD0 /* 2976. Minimum Cost to Convert String I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB68B8C79F8A24018CF207 /* 2976. Minimum Cost to Convert String I.swift */; };
@@ -517,7 +518,9 @@
 		CF79780E921D63D4DE2052CC /* LeetCode200Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CFA802F890A54C54657935 /* LeetCode200Tests.swift */; };
 		D1CD436EF833C0306B3F4F8A /* 3408. Count the Number of Special Characters I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B38C15278D20C7C8261D0C /* 3408. Count the Number of Special Characters I.swift */; };
 		D1F5505C9FFB2481E1C8E9D2 /* 11279. Max Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4355CF2E7964954EB5340 /* 11279. Max Heap.swift */; };
+		D3FBB7F5A750407BD1C73A2F /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4062EDADDE3736FE57362 /* 1568. Minimum Number of Days to Disconnect Island.swift */; };
 		D4F0D8E8E663A63F336D9EB8 /* LeetCode2816Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7751B3D59332952585B66641 /* LeetCode2816Tests.swift */; };
+		D54B908E85CBC4513075E558 /* LeetCode1568Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512A1DEE40CB9A927B0CAF2 /* LeetCode1568Tests.swift */; };
 		D5894F750FFEBA60E447407F /* LeetCode1122Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A03F3D77B20C1725274E5 /* LeetCode1122Tests.swift */; };
 		D595098AAD0857AF4CE80CB1 /* LeetCode945Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BF5E74C45E9D79FBA404AC /* LeetCode945Tests.swift */; };
 		D5A7A34381EB73112802F70B /* 1894. 4th dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654BDFD6554D5245BBFAB72 /* 1894. 4th dot.swift */; };
@@ -822,6 +825,7 @@
 		93BFE3A1BB71B1A8DA734039 /* LeetCode959Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode959Tests.swift; sourceTree = "<group>"; };
 		94BA011AC612F57B27FF0AFC /* 12100. 2048 (Easy).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "12100. 2048 (Easy).swift"; sourceTree = "<group>"; };
 		94BBF13BA1E7AF6A040E14D5 /* LeetCode57Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode57Tests.swift; sourceTree = "<group>"; };
+		9512A1DEE40CB9A927B0CAF2 /* LeetCode1568Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1568Tests.swift; sourceTree = "<group>"; };
 		9529500EC53BD87590C5280C /* BOJ14500Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ14500Tests.swift; sourceTree = "<group>"; };
 		95E754B77DED66104FACA354 /* LeetCode514Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode514Tests.swift; sourceTree = "<group>"; };
 		962E1810D5C11F26A87668A6 /* LeetCode190Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode190Tests.swift; sourceTree = "<group>"; };
@@ -916,6 +920,7 @@
 		C1447C6746357C8606E299AF /* LeetCode207Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode207Tests.swift; sourceTree = "<group>"; };
 		C1CB1F15B6FD1E554161B7DC /* LeetCode1105Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1105Tests.swift; sourceTree = "<group>"; };
 		C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode417Tests.swift; sourceTree = "<group>"; };
+		C2F4062EDADDE3736FE57362 /* 1568. Minimum Number of Days to Disconnect Island.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1568. Minimum Number of Days to Disconnect Island.swift"; sourceTree = "<group>"; };
 		C4F27BD77A391BD30CD328C0 /* LeetCode55Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode55Tests.swift; sourceTree = "<group>"; };
 		C595B9C6AD670D68DE3A1AA7 /* LeetCode885Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode885Tests.swift; sourceTree = "<group>"; };
 		C5BF9363AAAC650FF0B4316B /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
@@ -1256,6 +1261,7 @@
 				7F5B0F2F8608BFB99EC437BF /* LeetCode552Tests.swift */,
 				82D69CA0894C6FD6FE7966D7 /* LeetCode834Tests.swift */,
 				B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */,
+				9512A1DEE40CB9A927B0CAF2 /* LeetCode1568Tests.swift */,
 				1678102D7A95C13B1F272C94 /* LeetCode2045Tests.swift */,
 			);
 			path = Hard;
@@ -1536,6 +1542,7 @@
 				A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */,
 				6A33C56937039E913D28DD87 /* 1255. Maximum Score Words Formed by Letters.swift */,
 				DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */,
+				C2F4062EDADDE3736FE57362 /* 1568. Minimum Number of Days to Disconnect Island.swift */,
 				FD026386AD38656464754565 /* 2045. Second Minimum Time to Reach Destination.swift */,
 				01D633A9853FE47F943C5FE0 /* 3068. Find the Maximum Sum of Node Values.swift */,
 			);
@@ -2071,6 +2078,7 @@
 				BA6DE1A02C0AD2560030A41A /* 15. 3Sum.swift in Sources */,
 				E194F951CFBF795F6FB51BEE /* BOJ13913Tests.swift in Sources */,
 				BF776FBF2C53EF82006D2187 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */,
+				BF2F41302C68F19200DF4997 /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */,
 				9933E8CFAFDD5B1194997CB7 /* LeetCode1608Tests.swift in Sources */,
 				1335CA301AFD1D9B03BE0BCE /* LeetCode1208Tests.swift in Sources */,
 				39912D75DAA7A68D6FE33A6A /* BOJ16234Tests.swift in Sources */,
@@ -2166,6 +2174,7 @@
 				F06B5182A755352522AF9173 /* LeetCode885Tests.swift in Sources */,
 				8CE5980C6D41A1379557CF54 /* LeetCode840Tests.swift in Sources */,
 				DA6C0DA89DE78DCD5E9546BD /* LeetCode959Tests.swift in Sources */,
+				D54B908E85CBC4513075E558 /* LeetCode1568Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2387,6 +2396,7 @@
 				D8E0F696DABBCE4C59202B12 /* 885. Spiral Matrix III.swift in Sources */,
 				83FA90C45FECA4EB1AEC2766 /* 840. Magic Squares In Grid.swift in Sources */,
 				82FE51DFDC095AB888FB7A74 /* 959. Regions Cut By Slashes.swift in Sources */,
+				D3FBB7F5A750407BD1C73A2F /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
