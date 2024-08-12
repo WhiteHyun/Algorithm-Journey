@@ -25,6 +25,7 @@
 		0D215D5FFD540F1936417513 /* 1255. Maximum Score Words Formed by Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C56937039E913D28DD87 /* 1255. Maximum Score Words Formed by Letters.swift */; };
 		0E78A5CFA0D74D82DD9A20FB /* 131. Palindrome Partitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD94BAAD981FCC412E6425 /* 131. Palindrome Partitioning.swift */; };
 		0EDA44B337352A092B193BC2 /* 128. Longest Consecutive Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2FDCA6975113D6FFC07635 /* 128. Longest Consecutive Sequence.swift */; };
+		0F728EB95A22463CCD2BE8B3 /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0563DDF46E0944507D276 /* 703. Kth Largest Element in a Stream.swift */; };
 		122B5E51E0CAFB529C1E8F38 /* LeetCode153Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */; };
 		123BD5BD04CDA4F92E20C728 /* BOJ2110Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A1B68DE9D7AAC7BF2B065B /* BOJ2110Tests.swift */; };
 		131B1AEAD44A3805D738B437 /* 261. Graph Valid Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */; };
@@ -159,6 +160,7 @@
 		6755DC3922B6D5BA21D8D66C /* 1105. Filling Bookcase Shelves.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90F3761B9DD9C20E29DC5A /* 1105. Filling Bookcase Shelves.swift */; };
 		686D5AD804928B2B10E66C37 /* LeetCode268Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F0B15589E4568FE2E7E64 /* LeetCode268Tests.swift */; };
 		6927F41D517BB843E0F76606 /* BOJ10775Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DEA22D7B961B6841B71AB /* BOJ10775Tests.swift */; };
+		69FA8CD2EF12849BF8A48CB2 /* LeetCode703Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705FD057866E96BBE190C66C /* LeetCode703Tests.swift */; };
 		6A0C7E0B4631B3B549EB835F /* LeetCode20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3DC8E73D00FE03B5E51F7 /* LeetCode20Tests.swift */; };
 		6AD7D2C6482347BCE7EEC61B /* LeetCode5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0CEE1D40BA1DE8BCD26E0 /* LeetCode5Tests.swift */; };
 		6B6137C5ED033A3705CBCD61 /* 3068. Find the Maximum Sum of Node Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D633A9853FE47F943C5FE0 /* 3068. Find the Maximum Sum of Node Values.swift */; };
@@ -462,6 +464,7 @@
 		BF1D7DF82C64F47E002DAE27 /* 885. Spiral Matrix III.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE61072C752C9C0CF6C9432 /* 885. Spiral Matrix III.swift */; };
 		BF1F74B12C54675700531F9A /* 48. Rotate Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6D56360DD18FA518E847 /* 48. Rotate Image.swift */; };
 		BF25ECF52C62274E00191641 /* 57. Insert Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72ED8632461597C1A70A022 /* 57. Insert Interval.swift */; };
+		BF2CCB4D2C69B610007A1AEA /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F0563DDF46E0944507D276 /* 703. Kth Largest Element in a Stream.swift */; };
 		BF2F41302C68F19200DF4997 /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4062EDADDE3736FE57362 /* 1568. Minimum Number of Days to Disconnect Island.swift */; };
 		BF3903312C5C776C001F41B2 /* 2134. Minimum Swaps to Group All 1's Together II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998B60C183B931DBD1B5A2A6 /* 2134. Minimum Swaps to Group All 1's Together II.swift */; };
 		BF3D680C2C5E59C9007F4A25 /* 1460. Make Two Arrays Equal by Reversing Subarrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8C2EAE957BB2ABBEBC368 /* 1460. Make Two Arrays Equal by Reversing Subarrays.swift */; };
@@ -782,6 +785,7 @@
 		6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "260. Single Number III.swift"; sourceTree = "<group>"; };
 		6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode242Tests.swift; sourceTree = "<group>"; };
 		705063D013249906171AC36F /* LeetCode2000Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2000Tests.swift; sourceTree = "<group>"; };
+		705FD057866E96BBE190C66C /* LeetCode703Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode703Tests.swift; sourceTree = "<group>"; };
 		72ED06140C6A510BAFB29D67 /* LeetCode846Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode846Tests.swift; sourceTree = "<group>"; };
 		7326C94938323D8F6C1B755B /* 1208. Get Equal Substrings Within Budget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1208. Get Equal Substrings Within Budget.swift"; sourceTree = "<group>"; };
 		73599156B50C8D195AC3BE31 /* 152. Maximum Product Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "152. Maximum Product Subarray.swift"; sourceTree = "<group>"; };
@@ -851,6 +855,7 @@
 		A38910F8887B846CC20FB3DF /* 1753. Shortest path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1753. Shortest path.swift"; sourceTree = "<group>"; };
 		A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "857. Minimum Cost to Hire K Workers.swift"; sourceTree = "<group>"; };
 		A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2370. Longest Ideal Subsequence.swift"; sourceTree = "<group>"; };
+		A4F0563DDF46E0944507D276 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
 		A65FE21D09028E5E78136460 /* 1717. Representation of Sets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1717. Representation of Sets.swift"; sourceTree = "<group>"; };
 		A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ15686Tests.swift; sourceTree = "<group>"; };
 		A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "70. Climbing Stairs.swift"; sourceTree = "<group>"; };
@@ -1224,6 +1229,7 @@
 				B18F87D6073412EF5E69AE8B /* LeetCode409Tests.swift */,
 				6675D2B6E805D98D70F92C30 /* LeetCode506Tests.swift */,
 				9939BA1CD352A285D9630ADD /* LeetCode572Tests.swift */,
+				705FD057866E96BBE190C66C /* LeetCode703Tests.swift */,
 				BA20A37F2C0FF6930018FA19 /* LeetCode1002Tests.swift */,
 				2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */,
 				B64A03F3D77B20C1725274E5 /* LeetCode1122Tests.swift */,
@@ -1401,6 +1407,7 @@
 				1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */,
 				D790C325B6C4C9C14DECCB68 /* 506. Relative Ranks.swift */,
 				0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */,
+				A4F0563DDF46E0944507D276 /* 703. Kth Largest Element in a Stream.swift */,
 				B35F83E43937F3CC6ECF51CF /* 1002. Find Common Characters.swift */,
 				9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */,
 				120E9F5DF4AFE78D1EBE7916 /* 1122. Relative Sort Array.swift */,
@@ -1909,6 +1916,7 @@
 				BA688CB22BF095C800009F37 /* Interval.swift in Sources */,
 				BA5C4E532C2FB9C500C21657 /* 417. Pacific Atlantic Water Flow.swift in Sources */,
 				F1EC137A1A30900D9031EE8E /* LeetCode1Tests.swift in Sources */,
+				BF2CCB4D2C69B610007A1AEA /* 703. Kth Largest Element in a Stream.swift in Sources */,
 				BA688CAE2BF093B500009F37 /* 252. Meeting Rooms.swift in Sources */,
 				BABD186A2C0408BA00EC6CD9 /* 1608. Special Array With X Elements Greater Than or Equal X.swift in Sources */,
 				769AF1997B87BFA79723DEC1 /* LeetCode125Tests.swift in Sources */,
@@ -2175,6 +2183,7 @@
 				8CE5980C6D41A1379557CF54 /* LeetCode840Tests.swift in Sources */,
 				DA6C0DA89DE78DCD5E9546BD /* LeetCode959Tests.swift in Sources */,
 				D54B908E85CBC4513075E558 /* LeetCode1568Tests.swift in Sources */,
+				69FA8CD2EF12849BF8A48CB2 /* LeetCode703Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2397,6 +2406,7 @@
 				83FA90C45FECA4EB1AEC2766 /* 840. Magic Squares In Grid.swift in Sources */,
 				82FE51DFDC095AB888FB7A74 /* 959. Regions Cut By Slashes.swift in Sources */,
 				D3FBB7F5A750407BD1C73A2F /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */,
+				0F728EB95A22463CCD2BE8B3 /* 703. Kth Largest Element in a Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
