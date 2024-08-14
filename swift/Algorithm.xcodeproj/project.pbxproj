@@ -133,6 +133,7 @@
 		55BA8EEBA082923E2FB17007 /* LeetCode3016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C54BE3BA0A8F0EAC256533F /* LeetCode3016Tests.swift */; };
 		563CBAA119F321C46477CB9D /* LeetCode2370Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FA8C7552D8770B7B523B7 /* LeetCode2370Tests.swift */; };
 		56F9F24E32380BC7BF253012 /* LeetCode912Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5696D1EEC5A5811D69DB9 /* LeetCode912Tests.swift */; };
+		577669C4D73CF4C24D2946D0 /* LeetCode719Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB44E66115956092062B40F /* LeetCode719Tests.swift */; };
 		58E24341C4C5DA5B7FB80224 /* 1987. Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122859837263588F523ABD9A /* 1987. Alphabet.swift */; };
 		5A0883A216C56BEE6567EA93 /* 2294. Coins II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B3178886B2D58AB8A39B2 /* 2294. Coins II.swift */; };
 		5A75A7B6DB031C355D2DD7DC /* LeetCode552Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5B0F2F8608BFB99EC437BF /* LeetCode552Tests.swift */; };
@@ -492,6 +493,7 @@
 		BFCBD8F22C4B083600D20B6D /* 1143. Longest Common Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B727C17660224BF8CB787078 /* 1143. Longest Common Subsequence.swift */; };
 		BFCBD8F32C4B114200D20B6D /* 53. Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */; };
 		BFD6192A2C573A2D00C3230A /* 2191. Sort the Jumbled Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAB1EBCDA9DBC6594BCA92 /* 2191. Sort the Jumbled Numbers.swift */; };
+		BFDA1A062C6C40E80083234B /* 719. Find K-th Smallest Pair Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D80CFA1FD6F126C6D4DAA0 /* 719. Find K-th Smallest Pair Distance.swift */; };
 		BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
 		BFEF74B32C60A33C001E7B1D /* 2053. Kth Distinct String in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
@@ -568,6 +570,7 @@
 		E7F90C1C3425675050CD71B8 /* 2370. Longest Ideal Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */; };
 		E824D7B94D1B6862EDDD8D7E /* 268. Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D9386DC2DEEEBDAAD77738 /* 268. Missing Number.swift */; };
 		E89D9D1F30AD1E2B8961AF97 /* LeetCode48Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46B8D3CB69E3F110385AB66 /* LeetCode48Tests.swift */; };
+		EAB00324767701BD18372463 /* 719. Find K-th Smallest Pair Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D80CFA1FD6F126C6D4DAA0 /* 719. Find K-th Smallest Pair Distance.swift */; };
 		EAC0E1C09216D03FA87E17CA /* LeetCode152Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C97E8951C7850F66D2D803 /* LeetCode152Tests.swift */; };
 		EB0CEBB7E8C5BCA46E1D0255 /* 40. Combination Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83071F4F4E9CC58DA5DB9A /* 40. Combination Sum II.swift */; };
 		EB2F8B6BD40873DC6C7979A3 /* LeetCode165Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597ED2DD3226A1D40D826B8 /* LeetCode165Tests.swift */; };
@@ -729,6 +732,7 @@
 		408F049F0F5F858A572059B8 /* LeetCode338Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode338Tests.swift; sourceTree = "<group>"; };
 		40E2804C9BE077F62A0E79C9 /* BOJ13460Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13460Tests.swift; sourceTree = "<group>"; };
 		40EFCEB7FF387928617BF575 /* BOJ13913Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13913Tests.swift; sourceTree = "<group>"; };
+		41D80CFA1FD6F126C6D4DAA0 /* 719. Find K-th Smallest Pair Distance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "719. Find K-th Smallest Pair Distance.swift"; sourceTree = "<group>"; };
 		42E1992B902D7E9702913D47 /* 2805. Cutting trees.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2805. Cutting trees.swift"; sourceTree = "<group>"; };
 		44033AA8EF8C4663094B4453 /* 1508. Range Sum of Sorted Subarray Sums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1508. Range Sum of Sorted Subarray Sums.swift"; sourceTree = "<group>"; };
 		46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. Create a large number.swift"; sourceTree = "<group>"; };
@@ -784,6 +788,7 @@
 		6A4F8A8FF238D33C140B41A9 /* 1916. Finding the minimum cost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1916. Finding the minimum cost.swift"; sourceTree = "<group>"; };
 		6B8A41AA479FCC7C42C7EA8E /* BOJ14503Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ14503Tests.swift; sourceTree = "<group>"; };
 		6B94DD782CB095E7D9925432 /* 53. Maximum Subarray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "53. Maximum Subarray.swift"; sourceTree = "<group>"; };
+		6CB44E66115956092062B40F /* LeetCode719Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode719Tests.swift; sourceTree = "<group>"; };
 		6D35327A21A3DF4B5F19201F /* LeetCode1404Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1404Tests.swift; sourceTree = "<group>"; };
 		6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "260. Single Number III.swift"; sourceTree = "<group>"; };
 		6F80FBEC8C4A49D3B694CBDF /* LeetCode242Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode242Tests.swift; sourceTree = "<group>"; };
@@ -1270,6 +1275,7 @@
 				5CBCFD72692C5A53B99BA1E3 /* LeetCode273Tests.swift */,
 				95E754B77DED66104FACA354 /* LeetCode514Tests.swift */,
 				7F5B0F2F8608BFB99EC437BF /* LeetCode552Tests.swift */,
+				6CB44E66115956092062B40F /* LeetCode719Tests.swift */,
 				82D69CA0894C6FD6FE7966D7 /* LeetCode834Tests.swift */,
 				B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */,
 				9512A1DEE40CB9A927B0CAF2 /* LeetCode1568Tests.swift */,
@@ -1552,6 +1558,7 @@
 				3D9168D2C103CBC539C65675 /* 273. Integer to English Words.swift */,
 				4ABF450DB14C27EF0F8A56AD /* 514. Freedom Trail.swift */,
 				DCFA261349D24273C2DADC36 /* 552. Student Attendance Record II.swift */,
+				41D80CFA1FD6F126C6D4DAA0 /* 719. Find K-th Smallest Pair Distance.swift */,
 				D79CECEB223628824707EB8A /* 834. Sum of Distances in Tree.swift */,
 				A3903DF32E318374EE88BDBB /* 857. Minimum Cost to Hire K Workers.swift */,
 				6A33C56937039E913D28DD87 /* 1255. Maximum Score Words Formed by Letters.swift */,
@@ -1982,6 +1989,7 @@
 				A91BBBAADAC5753B36B20622 /* LeetCode881Tests.swift in Sources */,
 				BA6DE19D2C0ABE210030A41A /* 238. Product of Array Except Self.swift in Sources */,
 				BAD3DBA12BEE40FF002463B7 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
+				BFDA1A062C6C40E80083234B /* 719. Find K-th Smallest Pair Distance.swift in Sources */,
 				2110AFABEB88CF65E9C1822D /* BOJ11286Tests.swift in Sources */,
 				BA5F43E52BE627C2000AE158 /* 21. Merge Two Sorted Lists.swift in Sources */,
 				6A0C7E0B4631B3B549EB835F /* LeetCode20Tests.swift in Sources */,
@@ -2193,6 +2201,7 @@
 				D54B908E85CBC4513075E558 /* LeetCode1568Tests.swift in Sources */,
 				69FA8CD2EF12849BF8A48CB2 /* LeetCode703Tests.swift in Sources */,
 				76B38EDFA27DA15C718B7EC7 /* LeetCode40Tests.swift in Sources */,
+				577669C4D73CF4C24D2946D0 /* LeetCode719Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2417,6 +2426,7 @@
 				D3FBB7F5A750407BD1C73A2F /* 1568. Minimum Number of Days to Disconnect Island.swift in Sources */,
 				0F728EB95A22463CCD2BE8B3 /* 703. Kth Largest Element in a Stream.swift in Sources */,
 				EB0CEBB7E8C5BCA46E1D0255 /* 40. Combination Sum II.swift in Sources */,
+				EAB00324767701BD18372463 /* 719. Find K-th Smallest Pair Distance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
