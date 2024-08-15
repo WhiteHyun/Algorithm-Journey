@@ -8,30 +8,30 @@
 
 final class LeetCode719 {
   func smallestDistancePair(_ nums: [Int], _ k: Int) -> Int {
-    var array: [Int] = []
+    let sortedNumbers = nums.sorted()
+    let n = nums.count
+    var left = 0
+    var right = sortedNumbers[n - 1] - sortedNumbers[0]
 
-    let counter = Dictionary(nums.map { ($0, 1) }, uniquingKeysWith: +)
-    let sortedKey = counter.keys.sorted()
+    while left < right {
+      let mid = (left + right) >> 1
+      var count = 0
+      var j = 0
 
-    for i in sortedKey.indices {
-      let firstCount = counter[sortedKey[i]]!
-      array.append(
-        contentsOf: Array(
-          repeating: 0,
-          count: (firstCount * (firstCount - 1)) >> 1
-        )
-      )
-      for j in (i + 1) ..< sortedKey.count {
-        let nextCount = counter[sortedKey[j]]!
-        array.append(
-          contentsOf: Array(
-            repeating: sortedKey[j] - sortedKey[i],
-            count: firstCount * nextCount
-          )
-        )
+      for i in sortedNumbers.indices {
+        while j < n, sortedNumbers[j] - sortedNumbers[i] <= mid {
+          j += 1
+        }
+        count += j - i - 1
+      }
+
+      if count < k {
+        left = mid + 1
+      } else {
+        right = mid
       }
     }
 
-    return array.sorted()[k - 1]
+    return left
   }
 }
