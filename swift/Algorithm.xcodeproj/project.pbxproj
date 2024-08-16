@@ -183,6 +183,7 @@
 		769AF1997B87BFA79723DEC1 /* LeetCode125Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757659B4899D65BB002B18CF /* LeetCode125Tests.swift */; };
 		76B38EDFA27DA15C718B7EC7 /* LeetCode40Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F76A5DEBAE9FD81A6FDDB6 /* LeetCode40Tests.swift */; };
 		77AA405F3125B7BC1E44D830 /* LeetCode2373Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07A2321A28D670F30FDB07 /* LeetCode2373Tests.swift */; };
+		784D909FC29F23F4DFC7406F /* LeetCode624Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03A7122D8F7A0B9E037704 /* LeetCode624Tests.swift */; };
 		7980CEF227363A54260E113F /* 409. Longest Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9DB7949B9045A3941FC9E /* 409. Longest Palindrome.swift */; };
 		7B0EA7CB6F912B549A2151E5 /* 252. Meeting Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A63476DA71559DF695B251 /* 252. Meeting Rooms.swift */; };
 		7B53D7F6D2C37E864758CF0B /* 647. Palindromic Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C286E6922C7A567B292794 /* 647. Palindromic Substrings.swift */; };
@@ -496,6 +497,7 @@
 		BFD6192A2C573A2D00C3230A /* 2191. Sort the Jumbled Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAB1EBCDA9DBC6594BCA92 /* 2191. Sort the Jumbled Numbers.swift */; };
 		BFD798462C6DCE3E00152E13 /* 860. Lemonade Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A132C2AC4611605971675 /* 860. Lemonade Change.swift */; };
 		BFDA1A062C6C40E80083234B /* 719. Find K-th Smallest Pair Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D80CFA1FD6F126C6D4DAA0 /* 719. Find K-th Smallest Pair Distance.swift */; };
+		BFE7EF1C2C6EF32500B80E9E /* 624. Maximum Distance in Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */; };
 		BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
 		BFEF74B32C60A33C001E7B1D /* 2053. Kth Distinct String in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
@@ -594,6 +596,7 @@
 		F33D623C2BB190E54E3D207D /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
 		F34928B1B8FFFC0C8B142662 /* 2212. Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FDDF3609F7838701244F /* 2212. Sensors.swift */; };
 		F3B151CE8D870CBD1A406D4F /* 1002. Find Common Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35F83E43937F3CC6ECF51CF /* 1002. Find Common Characters.swift */; };
+		F5B5EE786C2E6689F48E309C /* 624. Maximum Distance in Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */; };
 		F68446E14DFD288927013547 /* LeetCode139Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F234B2CEEBA52CBE87B93E15 /* LeetCode139Tests.swift */; };
 		F6BB28678B4463A2F9D2A609 /* 207. Course Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35254E15F3974D0F5A925DEE /* 207. Course Schedule.swift */; };
 		F9793127364A2E8B02D9FCED /* BOJ1806Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB345D543A97AF2D54115C /* BOJ1806Tests.swift */; };
@@ -728,6 +731,7 @@
 		3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode261Tests.swift; sourceTree = "<group>"; };
 		3E37C3AFBC87CD15926F1EF9 /* LeetCode840Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode840Tests.swift; sourceTree = "<group>"; };
 		3EB65F30FE618D08A8981288 /* 1653. Minimum Deletions to Make String Balanced.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1653. Minimum Deletions to Make String Balanced.swift"; sourceTree = "<group>"; };
+		3F03A7122D8F7A0B9E037704 /* LeetCode624Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode624Tests.swift; sourceTree = "<group>"; };
 		3F24BBE9F6B89C9896F5C85F /* 2597. The Number of Beautiful Subsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2597. The Number of Beautiful Subsets.swift"; sourceTree = "<group>"; };
 		3F401BE5947BD76732FF4E56 /* LeetCode2441Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2441Tests.swift; sourceTree = "<group>"; };
 		401F91F5488CA9C6DBCA1C51 /* 1. Two Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
@@ -878,6 +882,7 @@
 		AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "979. Distribute Coins in Binary Tree.swift"; sourceTree = "<group>"; };
 		AE765BAF14B396C029241FA7 /* BOJ1707Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1707Tests.swift; sourceTree = "<group>"; };
 		AEAC63455092B7CADE8BC1D3 /* LeetCode226Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode226Tests.swift; sourceTree = "<group>"; };
+		AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "624. Maximum Distance in Arrays.swift"; sourceTree = "<group>"; };
 		AF0ACC9E5DCDC0D0DB4F6608 /* 133. Clone Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "133. Clone Graph.swift"; sourceTree = "<group>"; };
 		AF7DDF10A11CAE472D97BA4F /* 3404. Minimum Number of Operations to Satisfy Conditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3404. Minimum Number of Operations to Satisfy Conditions.swift"; sourceTree = "<group>"; };
 		AF8C4DECC07106ABC9E50C69 /* 100. Same Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
@@ -1363,6 +1368,7 @@
 				C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */,
 				3190CEC2485F656A19458675 /* LeetCode424Tests.swift */,
 				16705E21EBC8C823E23AF516 /* LeetCode523Tests.swift */,
+				3F03A7122D8F7A0B9E037704 /* LeetCode624Tests.swift */,
 				575CA81772FB1B117B60F5CB /* LeetCode647Tests.swift */,
 				D9A55206D394A39ECA6BE58A /* LeetCode648Tests.swift */,
 				DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */,
@@ -1506,6 +1512,7 @@
 				0DCDE06F3ECB6F129F9490F9 /* 424. Longest Repeating Character Replacement.swift */,
 				FE5587DC5C16E820676BF562 /* 523. Continuous Subarray Sum.swift */,
 				35BBB8657125E49677C943A6 /* 623. Add One Row to Tree.swift */,
+				AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */,
 				81C286E6922C7A567B292794 /* 647. Palindromic Substrings.swift */,
 				5898B0DB91F3D979968E28A2 /* 648. Replace Words.swift */,
 				61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */,
@@ -2012,6 +2019,7 @@
 				8BEE20091C43BC7EC2617BD2 /* BOJ1987Tests.swift in Sources */,
 				BA39D4F12C0028CE00099B72 /* 1504. Specific shortest paths.swift in Sources */,
 				2EC991651E7EA33215056405 /* LeetCode2487Tests.swift in Sources */,
+				BFE7EF1C2C6EF32500B80E9E /* 624. Maximum Distance in Arrays.swift in Sources */,
 				BF8CAF912C6AF520005453DB /* 40. Combination Sum II.swift in Sources */,
 				BA2DE3CB2BF4943A003BC8FA /* Heap.swift in Sources */,
 				1DEA772E676BD75354229402 /* BOJ2580Tests.swift in Sources */,
@@ -2211,6 +2219,7 @@
 				76B38EDFA27DA15C718B7EC7 /* LeetCode40Tests.swift in Sources */,
 				577669C4D73CF4C24D2946D0 /* LeetCode719Tests.swift in Sources */,
 				833E312D313B7D13BD0C1260 /* LeetCode860Tests.swift in Sources */,
+				784D909FC29F23F4DFC7406F /* LeetCode624Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2437,6 +2446,7 @@
 				EB0CEBB7E8C5BCA46E1D0255 /* 40. Combination Sum II.swift in Sources */,
 				EAB00324767701BD18372463 /* 719. Find K-th Smallest Pair Distance.swift in Sources */,
 				DB67AC0830653F632A87F19D /* 860. Lemonade Change.swift in Sources */,
+				F5B5EE786C2E6689F48E309C /* 624. Maximum Distance in Arrays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
