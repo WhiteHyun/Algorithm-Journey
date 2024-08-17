@@ -65,10 +65,12 @@
 		273AF78AB87FD153CE94E361 /* LeetCode2812Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E91A8C4670B0E70995A6A6 /* LeetCode2812Tests.swift */; };
 		276AFFC688E963A4CE1C5424 /* 1289. Minimum Falling Path Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */; };
 		2814DA6A2FCECAA8CEDE6FE1 /* 1005. ACM Craft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629B8E93D8A6CEA5CF1EA8B /* 1005. ACM Craft.swift */; };
+		2A42CC69CC1D258A51012ABE /* 1937. Maximum Number of Points with Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018FCC6D0D42DF6814C83152 /* 1937. Maximum Number of Points with Cost.swift */; };
 		2B6BBD3490E4F230A88A058B /* 208. Implement Trie (Prefix Tree).swift in Sources */ = {isa = PBXBuildFile; fileRef = E566A3A23893399B98AD5D49 /* 208. Implement Trie (Prefix Tree).swift */; };
 		2C8ADD248582DF7F3159C0AF /* LeetCode261Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */; };
 		2DFE48A70031F393EA306739 /* BOJ13549Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D462E86522659A9728E25F /* BOJ13549Tests.swift */; };
 		2E50BF7125D314BD0066832B /* LeetCode3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A925FE8F0BE29AF639A623 /* LeetCode3Tests.swift */; };
+		2E890590B510E1F4DD7EF54F /* LeetCode1937Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B0787BAFD13EF3D7CF59A2 /* LeetCode1937Tests.swift */; };
 		2E89C89BAC6807AC1DB6BE1F /* LeetCode104Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C93A2B422600D1B326813 /* LeetCode104Tests.swift */; };
 		2EBAAA36C5A141AE714E507C /* 11286. Heap of absolute values.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF44397ABA3BCF3D536FCF /* 11286. Heap of absolute values.swift */; };
 		2EC991651E7EA33215056405 /* LeetCode2487Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3942C765BFAFC86A35616 /* LeetCode2487Tests.swift */; };
@@ -483,6 +485,7 @@
 		BF776FBF2C53EF82006D2187 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */; };
 		BF7E15E52C65BFAE0021491F /* 840. Magic Squares In Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D740B0C6B4DA9EAA3979C01 /* 840. Magic Squares In Grid.swift */; };
 		BF83E69E2C5D0AC500C00180 /* 2045. Second Minimum Time to Reach Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD026386AD38656464754565 /* 2045. Second Minimum Time to Reach Destination.swift */; };
+		BF8B5A3C2C708D19001292E0 /* 1937. Maximum Number of Points with Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018FCC6D0D42DF6814C83152 /* 1937. Maximum Number of Points with Cost.swift */; };
 		BF8CAF912C6AF520005453DB /* 40. Combination Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB83071F4F4E9CC58DA5DB9A /* 40. Combination Sum II.swift */; };
 		BF945E402C61A0A9006CA57C /* 3016. Minimum Number of Pushes to Type Word II.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2DAE2B02DADD306D57A5E8 /* 3016. Minimum Number of Pushes to Type Word II.swift */; };
 		BF9735272C5B1926005D4BE8 /* 2678. Number of Senior Citizens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9837467B1F94759DA34DDE1B /* 2678. Number of Senior Citizens.swift */; };
@@ -625,6 +628,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		018FCC6D0D42DF6814C83152 /* 1937. Maximum Number of Points with Cost.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1937. Maximum Number of Points with Cost.swift"; sourceTree = "<group>"; };
 		01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2053. Kth Distinct String in an Array.swift"; sourceTree = "<group>"; };
 		01D633A9853FE47F943C5FE0 /* 3068. Find the Maximum Sum of Node Values.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3068. Find the Maximum Sum of Node Values.swift"; sourceTree = "<group>"; };
 		02675C8C1A774912BE4B1B2B /* LeetCode121Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode121Tests.swift; sourceTree = "<group>"; };
@@ -702,6 +706,7 @@
 		3063EFA2907FE0E7DE7FF431 /* LeetCode33Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode33Tests.swift; sourceTree = "<group>"; };
 		30989E95C8E3F9019C710B4B /* 1404. Number of Steps to Reduce a Number in Binary Representation to One.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1404. Number of Steps to Reduce a Number in Binary Representation to One.swift"; sourceTree = "<group>"; };
 		3190CEC2485F656A19458675 /* LeetCode424Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode424Tests.swift; sourceTree = "<group>"; };
+		31B0787BAFD13EF3D7CF59A2 /* LeetCode1937Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1937Tests.swift; sourceTree = "<group>"; };
 		32769F20766FEEC70896B8F0 /* 1238. Parties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1238. Parties.swift"; sourceTree = "<group>"; };
 		32AD3D935CBD537401088FEF /* LeetCode1460Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1460Tests.swift; sourceTree = "<group>"; };
 		32B9DB7949B9045A3941FC9E /* 409. Longest Palindrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "409. Longest Palindrome.swift"; sourceTree = "<group>"; };
@@ -1387,6 +1392,7 @@
 				0AA0BBC3FD23D5580A8C028D /* LeetCode1334Tests.swift */,
 				9D8DAD73C77FF153C948E9A4 /* LeetCode1508Tests.swift */,
 				4E8537BC0D529DCB72627793 /* LeetCode1653Tests.swift */,
+				31B0787BAFD13EF3D7CF59A2 /* LeetCode1937Tests.swift */,
 				09F9F335D4104A2713528534 /* LeetCode2134Tests.swift */,
 				DFFE09EB257815A523383087 /* LeetCode2191Tests.swift */,
 				BAC7C2122C2E91B100A89457 /* LeetCode2285Tests.swift */,
@@ -1540,6 +1546,7 @@
 				44033AA8EF8C4663094B4453 /* 1508. Range Sum of Sorted Subarray Sums.swift */,
 				3EB65F30FE618D08A8981288 /* 1653. Minimum Deletions to Make String Balanced.swift */,
 				0D8BDBAF6EA5458270E68E6E /* 1915. Number of Wonderful Substrings.swift */,
+				018FCC6D0D42DF6814C83152 /* 1937. Maximum Number of Points with Cost.swift */,
 				54AC8B35EC993E81E9EE6B94 /* 2103. Find All Groups of Farmland.swift */,
 				998B60C183B931DBD1B5A2A6 /* 2134. Minimum Swaps to Group All 1's Together II.swift */,
 				C6FAB1EBCDA9DBC6594BCA92 /* 2191. Sort the Jumbled Numbers.swift */,
@@ -2133,6 +2140,7 @@
 				6FCF5B087C3547306E9BFD63 /* BOJ14003Tests.swift in Sources */,
 				195BB0885944C72E35BE318D /* LeetCode347Tests.swift in Sources */,
 				C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */,
+				BF8B5A3C2C708D19001292E0 /* 1937. Maximum Number of Points with Cost.swift in Sources */,
 				A5DDB14AC187D7E69CF72D33 /* LeetCode3110Tests.swift in Sources */,
 				AAE689066F9DF7CFBD0DAEEC /* LeetCode128Tests.swift in Sources */,
 				4AA035505CBF09FD5A543C21 /* LeetCode15Tests.swift in Sources */,
@@ -2220,6 +2228,7 @@
 				577669C4D73CF4C24D2946D0 /* LeetCode719Tests.swift in Sources */,
 				833E312D313B7D13BD0C1260 /* LeetCode860Tests.swift in Sources */,
 				784D909FC29F23F4DFC7406F /* LeetCode624Tests.swift in Sources */,
+				2E890590B510E1F4DD7EF54F /* LeetCode1937Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2447,6 +2456,7 @@
 				EAB00324767701BD18372463 /* 719. Find K-th Smallest Pair Distance.swift in Sources */,
 				DB67AC0830653F632A87F19D /* 860. Lemonade Change.swift in Sources */,
 				F5B5EE786C2E6689F48E309C /* 624. Maximum Distance in Arrays.swift in Sources */,
+				2A42CC69CC1D258A51012ABE /* 1937. Maximum Number of Points with Cost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
