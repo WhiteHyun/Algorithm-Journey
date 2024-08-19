@@ -18,6 +18,7 @@
 		05BB03033C19747B0BDDA1DC /* 85. Maximal Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689103FDEB26093C4C7DDC42 /* 85. Maximal Rectangle.swift */; };
 		065FB6159E74C405D97C95C8 /* 310. Minimum Height Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1139721BD86FF641205EAB /* 310. Minimum Height Trees.swift */; };
 		081303FE1C1151966DE5A514 /* 861. Score After Flipping Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */; };
+		096D6FC7B694471D32B8B934 /* LeetCode650Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD20332FA62B94C859F6A9CC /* LeetCode650Tests.swift */; };
 		0B4CA4E786B92E49DDEFA333 /* 39. Combination Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33037F413E5150802164ADEE /* 39. Combination Sum.swift */; };
 		0B7D27432C99B263E73BEE19 /* 3110. Score of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D985260268CB61BE8EE28947 /* 3110. Score of a String.swift */; };
 		0BD52685BB5B00F57B4F37FF /* LeetCode2597Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F66E62C6319A925D50BE23 /* LeetCode2597Tests.swift */; };
@@ -49,6 +50,7 @@
 		1D6ADFB1E0DE3824BF0FC8A6 /* 1208. Get Equal Substrings Within Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7326C94938323D8F6C1B755B /* 1208. Get Equal Substrings Within Budget.swift */; };
 		1DEA772E676BD75354229402 /* BOJ2580Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DB1131C4C54FE59859EFC3 /* BOJ2580Tests.swift */; };
 		1F0D1325E69EC219DD1586A9 /* LeetCode91Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4418373522F107E7B1E0AD /* LeetCode91Tests.swift */; };
+		1F22770D69A1043818381B50 /* 650. 2 Keys Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AB5BD69487320B9E84D62 /* 650. 2 Keys Keyboard.swift */; };
 		2110AFABEB88CF65E9C1822D /* BOJ11286Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */; };
 		234F008D470BF6AB78E647DA /* 273. Integer to English Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9168D2C103CBC539C65675 /* 273. Integer to English Words.swift */; };
 		244905F7EE87422AD3260F09 /* LeetCode121Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02675C8C1A774912BE4B1B2B /* LeetCode121Tests.swift */; };
@@ -506,6 +508,7 @@
 		BFE7EF1C2C6EF32500B80E9E /* 624. Maximum Distance in Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */; };
 		BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
 		BFEF74B32C60A33C001E7B1D /* 2053. Kth Distinct String in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */; };
+		BFFB4A102C72F0BC005422E3 /* 650. 2 Keys Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26AB5BD69487320B9E84D62 /* 650. 2 Keys Keyboard.swift */; };
 		C06F845349F4B156265D6BB1 /* LeetCode238Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */; };
 		C10A6CDAD074405CAC64B0D8 /* LeetCode2997Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FC85E69265FC58F6317 /* LeetCode2997Tests.swift */; };
 		C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */; };
@@ -903,6 +906,7 @@
 		B1BBCA3C89348654E41C1A1B /* 19. Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "19. Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode153Tests.swift; sourceTree = "<group>"; };
 		B226D6181F521969A817995D /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
+		B26AB5BD69487320B9E84D62 /* 650. 2 Keys Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "650. 2 Keys Keyboard.swift"; sourceTree = "<group>"; };
 		B3279F868B4CE33D52B301B2 /* LeetCode857Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode857Tests.swift; sourceTree = "<group>"; };
 		B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "15686. Chicken delivery.swift"; sourceTree = "<group>"; };
 		B35F83E43937F3CC6ECF51CF /* 1002. Find Common Characters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1002. Find Common Characters.swift"; sourceTree = "<group>"; };
@@ -940,6 +944,7 @@
 		BAF746DB299B78D600182311 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF746DE299B78D600182311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BCBEE6982567BFF76EA5593B /* 2816. Double a Number Represented as a Linked List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2816. Double a Number Represented as a Linked List.swift"; sourceTree = "<group>"; };
+		BD20332FA62B94C859F6A9CC /* LeetCode650Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode650Tests.swift; sourceTree = "<group>"; };
 		BD471E88F348763DE06068C3 /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		BEBB2A9785CDCC37CA437705 /* 20. Valid Parentheses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "20. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		BF4073042C61195D005C448A /* BOJ1005Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1005Tests.swift; sourceTree = "<group>"; };
@@ -1382,6 +1387,7 @@
 				3F03A7122D8F7A0B9E037704 /* LeetCode624Tests.swift */,
 				575CA81772FB1B117B60F5CB /* LeetCode647Tests.swift */,
 				D9A55206D394A39ECA6BE58A /* LeetCode648Tests.swift */,
+				BD20332FA62B94C859F6A9CC /* LeetCode650Tests.swift */,
 				DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */,
 				3E37C3AFBC87CD15926F1EF9 /* LeetCode840Tests.swift */,
 				72ED06140C6A510BAFB29D67 /* LeetCode846Tests.swift */,
@@ -1528,6 +1534,7 @@
 				AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */,
 				81C286E6922C7A567B292794 /* 647. Palindromic Substrings.swift */,
 				5898B0DB91F3D979968E28A2 /* 648. Replace Words.swift */,
+				B26AB5BD69487320B9E84D62 /* 650. 2 Keys Keyboard.swift */,
 				61D85B984AB5850E36DF4C1D /* 678. Valid Parenthesis String.swift */,
 				F4CB6301F743CA8EE31EC04B /* 753. Open the Lock.swift */,
 				528CDCC19D67136A91158101 /* 786. K-th Smallest Prime Fraction.swift */,
@@ -2238,6 +2245,8 @@
 				784D909FC29F23F4DFC7406F /* LeetCode624Tests.swift in Sources */,
 				2E890590B510E1F4DD7EF54F /* LeetCode1937Tests.swift in Sources */,
 				505F68CF4EF5B94F497C9C83 /* LeetCode264Tests.swift in Sources */,
+				BFFB4A102C72F0BC005422E3 /* 650. 2 Keys Keyboard.swift in Sources */,
+				096D6FC7B694471D32B8B934 /* LeetCode650Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2467,6 +2476,7 @@
 				F5B5EE786C2E6689F48E309C /* 624. Maximum Distance in Arrays.swift in Sources */,
 				2A42CC69CC1D258A51012ABE /* 1937. Maximum Number of Points with Cost.swift in Sources */,
 				515549E4101913791A6614E0 /* 264. Ugly Number II.swift in Sources */,
+				1F22770D69A1043818381B50 /* 650. 2 Keys Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
