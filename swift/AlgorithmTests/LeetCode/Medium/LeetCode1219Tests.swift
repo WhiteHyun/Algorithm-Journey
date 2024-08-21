@@ -5,18 +5,21 @@
 //  Created by 홍승현 on 2024/05/14.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode1219Tests: XCTestCase {
+@Suite("Path with Maximum Gold", .tags(.array, .backTracking, .matrix))
+struct LeetCode1219Tests {
   private let problem = LeetCode1219()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.getMaximumGold([[0, 6, 0], [5, 8, 7], [0, 9, 0]])
-    XCTAssertTrue(result == 24, "Expected '24', but got '\(result)'")
+    #expect(result == 24, #"Expected '24', but got '\#(result)'"#)
   }
 
-  func testExample2() {
+  @Test
+  func example2() {
     let result = problem.getMaximumGold([[1, 0, 7], [2, 0, 6], [3, 4, 5], [0, 3, 0], [9, 0, 20]])
-    XCTAssertTrue(result == 28, "Expected '28', but got '\(result)'")
+    #expect(result == 28, #"Expected '28', but got '\#(result)'"#)
   }
 }
