@@ -86,7 +86,6 @@ final class LeetCode592 {
       }
     }
 
-
     var result: Fraction = operands.first!
 
     for index in 1 ..< operands.count {
