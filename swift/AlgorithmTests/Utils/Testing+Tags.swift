@@ -12,6 +12,7 @@ extension Tag {
   @Tag static var backTracking: Self
   @Tag static var bitManipulation: Self
   @Tag static var binarySearch: Self
+  @Tag static var binaryTree: Self
   @Tag static var bitMask: Self
   @Tag static var breadthFirstSearch: Self
   @Tag static var combinatorics: Self
