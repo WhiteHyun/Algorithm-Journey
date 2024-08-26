@@ -16,7 +16,7 @@ struct LeetCode133Tests {
 
   @Test
   func example1() {
-    let original: Node = [[2, 4], [1, 3], [2, 4], [1, 3]]
+    let original: LeetCode133.Node = [[2, 4], [1, 3], [2, 4], [1, 3]]
     let result = problem.cloneGraph(original)
     #expect(result !== original)
     #expect(result == [[2, 4], [1, 3], [2, 4], [1, 3]], #"Expected '[[2, 4], [1, 3], [2, 4], [1, 3]]', but got '\#(String(describing: result))'"#)
@@ -24,7 +24,7 @@ struct LeetCode133Tests {
 
   @Test
   func example2() {
-    let original: Node = [[]]
+    let original: LeetCode133.Node = [[]]
     let result = problem.cloneGraph(original)
     #expect(result !== original)
     #expect(result == [[]], #"Expected '[[]]', but got '\#(String(describing: result))'"#)
