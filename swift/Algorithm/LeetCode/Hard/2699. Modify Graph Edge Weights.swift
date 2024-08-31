@@ -33,7 +33,7 @@ final class LeetCode2699 {
       return []
     }
 
-    for i in 0..<mutableEdges.count {
+    for i in 0 ..< mutableEdges.count {
       if mutableEdges[i][2] == -1 {
         mutableEdges[i][2] = 1
       }
@@ -57,7 +57,7 @@ final class LeetCode2699 {
         if weight == -1 {
           weight = 1
         }
-        if run == 1 && edges[edgeIndex][2] == -1 {
+        if run == 1, edges[edgeIndex][2] == -1 {
           let newWeight = difference + distances[nextNode][0] - distances[currentNode][1]
           if newWeight > weight {
             edges[edgeIndex][2] = Int(newWeight)
