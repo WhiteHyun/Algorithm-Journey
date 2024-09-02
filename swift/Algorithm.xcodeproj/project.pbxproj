@@ -230,6 +230,7 @@
 		89A45CC6E107CF12ACA49CFE /* 947. Most Stones Removed with Same Row or Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = C780E44A3200D03A14C5CDFF /* 947. Most Stones Removed with Same Row or Column.swift */; };
 		89AAE7E71759F264F31C8A6C /* LeetCode1051Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2061C10294307EE82DF59245 /* LeetCode1051Tests.swift */; };
 		8B4890B26BD1CF1C8DEB37B0 /* LeetCode2191Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE09EB257815A523383087 /* LeetCode2191Tests.swift */; };
+		8B87AD748E004C971E502EAF /* LeetCode1894Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4DFC9DE59B32B17FE2211 /* LeetCode1894Tests.swift */; };
 		8BD03C69B8AEA87FC9494733 /* 141. Linked List Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCACC4A2219E858E855786 /* 141. Linked List Cycle.swift */; };
 		8BEE20091C43BC7EC2617BD2 /* BOJ1987Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BA27100E41536B5B83C90 /* BOJ1987Tests.swift */; };
 		8BFC45E1449004BA912E7E0A /* LeetCode647Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575CA81772FB1B117B60F5CB /* LeetCode647Tests.swift */; };
@@ -275,6 +276,7 @@
 		A62E25657515282988E165A1 /* LeetCode102Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DED8A6D6AD9C14B34A093 /* LeetCode102Tests.swift */; };
 		A6716F3928BBD482BC2ECEFD /* LeetCode648Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A55206D394A39ECA6BE58A /* LeetCode648Tests.swift */; };
 		A6CC1AF0F31C3135CE20D40A /* LeetCode252Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC1DE7592B6CDCA00FB7EF0 /* LeetCode252Tests.swift */; };
+		A881FB1D35F49879767DFEB7 /* 1894. Find the Student that Will Replace the Chalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA1C7BE530E36C807F3269 /* 1894. Find the Student that Will Replace the Chalk.swift */; };
 		A91BBBAADAC5753B36B20622 /* LeetCode881Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */; };
 		A9D1F499D140D497D5916EC6 /* LeetCode786Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98A46DAB416086AA87BE5C /* LeetCode786Tests.swift */; };
 		AA779C6428C45DB96CCCD3C8 /* 1653. Minimum Deletions to Make String Balanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB65F30FE618D08A8981288 /* 1653. Minimum Deletions to Make String Balanced.swift */; };
@@ -507,6 +509,7 @@
 		BF40730F2C61195F005C448A /* BOJ1010Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40730D2C61195F005C448A /* BOJ1010Tests.swift */; };
 		BF4073102C61197C005C448A /* 6549. Largest rectangle in a histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C797F0C712A9F9EE4B794EB /* 6549. Largest rectangle in a histogram.swift */; };
 		BF48DC992C829FBD0006C2D3 /* 22. Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5510E76AEECF774150C86D19 /* 22. Generate Parentheses.swift */; };
+		BF4D0D6C2C858A6300D795CD /* 1894. Find the Student that Will Replace the Chalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA1C7BE530E36C807F3269 /* 1894. Find the Student that Will Replace the Chalk.swift */; };
 		BF54DAB72C5F868800D8CBF1 /* 1508. Range Sum of Sorted Subarray Sums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44033AA8EF8C4663094B4453 /* 1508. Range Sum of Sorted Subarray Sums.swift */; };
 		BF5A1CFF2C84AC7900AFB4D6 /* 2022. Convert 1D Array Into 2D Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3E8E5F36D9BF99A54EE30C /* 2022. Convert 1D Array Into 2D Array.swift */; };
 		BF5EAAA52C72219A007CC01A /* 264. Ugly Number II.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF78E40017CA340D7AAE1EA6 /* 264. Ugly Number II.swift */; };
@@ -694,6 +697,7 @@
 		0B6154F0EB89616D7B975570 /* 20366. Do you want to build a snowman?.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "20366. Do you want to build a snowman?.swift"; sourceTree = "<group>"; };
 		0C8BF511AB63FDA60A08F53B /* 15. 3Sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "15. 3Sum.swift"; sourceTree = "<group>"; };
 		0CDFE9DD3C635B0BEDF7CAE9 /* LeetCode260Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode260Tests.swift; sourceTree = "<group>"; };
+		0CF4DFC9DE59B32B17FE2211 /* LeetCode1894Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1894Tests.swift; sourceTree = "<group>"; };
 		0D740B0C6B4DA9EAA3979C01 /* 840. Magic Squares In Grid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "840. Magic Squares In Grid.swift"; sourceTree = "<group>"; };
 		0D8BDBAF6EA5458270E68E6E /* 1915. Number of Wonderful Substrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1915. Number of Wonderful Substrings.swift"; sourceTree = "<group>"; };
 		0DA18743E6D6CA065EE10028 /* 572. Subtree of Another Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "572. Subtree of Another Tree.swift"; sourceTree = "<group>"; };
@@ -942,6 +946,7 @@
 		A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "13549. Hide and Seek 3.swift"; sourceTree = "<group>"; };
 		AB2DAE2B02DADD306D57A5E8 /* 3016. Minimum Number of Pushes to Type Word II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "3016. Minimum Number of Pushes to Type Word II.swift"; sourceTree = "<group>"; };
 		AB83071F4F4E9CC58DA5DB9A /* 40. Combination Sum II.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "40. Combination Sum II.swift"; sourceTree = "<group>"; };
+		ABCA1C7BE530E36C807F3269 /* 1894. Find the Student that Will Replace the Chalk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1894. Find the Student that Will Replace the Chalk.swift"; sourceTree = "<group>"; };
 		AD8F9CCC04865A322FFC4B91 /* LeetCode1255Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1255Tests.swift; sourceTree = "<group>"; };
 		AE45C38E36E309FCA32413B2 /* 979. Distribute Coins in Binary Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "979. Distribute Coins in Binary Tree.swift"; sourceTree = "<group>"; };
 		AE765BAF14B396C029241FA7 /* BOJ1707Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1707Tests.swift; sourceTree = "<group>"; };
@@ -1477,6 +1482,7 @@
 				9D8DAD73C77FF153C948E9A4 /* LeetCode1508Tests.swift */,
 				A17F0EC7533918BB325A1994 /* LeetCode1514Tests.swift */,
 				4E8537BC0D529DCB72627793 /* LeetCode1653Tests.swift */,
+				0CF4DFC9DE59B32B17FE2211 /* LeetCode1894Tests.swift */,
 				842250B0C1D54485B253D270 /* LeetCode1905Tests.swift */,
 				31B0787BAFD13EF3D7CF59A2 /* LeetCode1937Tests.swift */,
 				09F9F335D4104A2713528534 /* LeetCode2134Tests.swift */,
@@ -1642,6 +1648,7 @@
 				44033AA8EF8C4663094B4453 /* 1508. Range Sum of Sorted Subarray Sums.swift */,
 				FAE252FAF62F133ABFF7EBE7 /* 1514. Path with Maximum Probability.swift */,
 				3EB65F30FE618D08A8981288 /* 1653. Minimum Deletions to Make String Balanced.swift */,
+				ABCA1C7BE530E36C807F3269 /* 1894. Find the Student that Will Replace the Chalk.swift */,
 				45BA823A8F099250AC5C1EE4 /* 1905. Count Sub Islands.swift */,
 				0D8BDBAF6EA5458270E68E6E /* 1915. Number of Wonderful Substrings.swift */,
 				018FCC6D0D42DF6814C83152 /* 1937. Maximum Number of Points with Cost.swift */,
@@ -2146,6 +2153,7 @@
 				437714D47CFDB2780613E7D3 /* LeetCode3075Tests.swift in Sources */,
 				BAE5D0502BF9929E00BB3D7D /* 3068. Find the Maximum Sum of Node Values.swift in Sources */,
 				BF13723F2C5D7ABE002A80AB /* 1636. Sort Array by Increasing Frequency.swift in Sources */,
+				BF4D0D6C2C858A6300D795CD /* 1894. Find the Student that Will Replace the Chalk.swift in Sources */,
 				A9D1F499D140D497D5916EC6 /* LeetCode786Tests.swift in Sources */,
 				BAE7BEB22BF086C2008503CE /* 2373. Largest Local Values in a Matrix.swift in Sources */,
 				BAB1F84A2BF9EB6300C2137A /* 3152. Special Array II.swift in Sources */,
@@ -2359,6 +2367,7 @@
 				B962E5A66F6FB6D8CDEC399C /* LeetCode2699Tests.swift in Sources */,
 				E655AC51D671330EEAF5AF20 /* LeetCode22Tests.swift in Sources */,
 				D5D9B4DA50DB77E1BC695568 /* LeetCode2022Tests.swift in Sources */,
+				8B87AD748E004C971E502EAF /* LeetCode1894Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2601,6 +2610,7 @@
 				8D689A9597822599783BB693 /* 2699. Modify Graph Edge Weights.swift in Sources */,
 				4C22C12E2B4C44E06DAE1BF3 /* 22. Generate Parentheses.swift in Sources */,
 				7AC4B2DEC2D32A52A3E94EBF /* 2022. Convert 1D Array Into 2D Array.swift in Sources */,
+				A881FB1D35F49879767DFEB7 /* 1894. Find the Student that Will Replace the Chalk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
