@@ -70,6 +70,7 @@
 		276AFFC688E963A4CE1C5424 /* 1289. Minimum Falling Path Sum II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB82386EBA4115469C5A59 /* 1289. Minimum Falling Path Sum II.swift */; };
 		2814DA6A2FCECAA8CEDE6FE1 /* 1005. ACM Craft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629B8E93D8A6CEA5CF1EA8B /* 1005. ACM Craft.swift */; };
 		2A42CC69CC1D258A51012ABE /* 1937. Maximum Number of Points with Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018FCC6D0D42DF6814C83152 /* 1937. Maximum Number of Points with Cost.swift */; };
+		2B04978BE511E6A23B98F518 /* LeetCode874Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A97DF006D8FC2FAE91C392 /* LeetCode874Tests.swift */; };
 		2B6BBD3490E4F230A88A058B /* 208. Implement Trie (Prefix Tree).swift in Sources */ = {isa = PBXBuildFile; fileRef = E566A3A23893399B98AD5D49 /* 208. Implement Trie (Prefix Tree).swift */; };
 		2BDC4E50DED4F256D0B694EC /* LeetCode1514Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F0EC7533918BB325A1994 /* LeetCode1514Tests.swift */; };
 		2C8ADD248582DF7F3159C0AF /* LeetCode261Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */; };
@@ -544,6 +545,7 @@
 		BFDA1A062C6C40E80083234B /* 719. Find K-th Smallest Pair Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D80CFA1FD6F126C6D4DAA0 /* 719. Find K-th Smallest Pair Distance.swift */; };
 		BFDC0E7A2C7D8E0E008D620D /* 1514. Path with Maximum Probability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE252FAF62F133ABFF7EBE7 /* 1514. Path with Maximum Probability.swift */; };
 		BFE7EF1C2C6EF32500B80E9E /* 624. Maximum Distance in Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED45D82B80087856CD848F9 /* 624. Maximum Distance in Arrays.swift */; };
+		BFED49552C880962008AD36D /* 874. Walking Robot Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75DAD0AE8F4FA5BFDC2166 /* 874. Walking Robot Simulation.swift */; };
 		BFED97312C559357008D4110 /* 912. Sort an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */; };
 		BFEF74B32C60A33C001E7B1D /* 2053. Kth Distinct String in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3811855EDD6CBFDF80EDC /* 2053. Kth Distinct String in an Array.swift */; };
 		BFF865292C7F06510005D067 /* 287. Find the Duplicate Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62B1AC8A5160C656B438A6E /* 287. Find the Duplicate Number.swift */; };
@@ -584,6 +586,7 @@
 		D595098AAD0857AF4CE80CB1 /* LeetCode945Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BF5E74C45E9D79FBA404AC /* LeetCode945Tests.swift */; };
 		D5A7A34381EB73112802F70B /* 1894. 4th dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654BDFD6554D5245BBFAB72 /* 1894. 4th dot.swift */; };
 		D5D9B4DA50DB77E1BC695568 /* LeetCode2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357613E280175E47D01D7DFE /* LeetCode2022Tests.swift */; };
+		D617CDFD2DDBE834FF18FD73 /* 874. Walking Robot Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75DAD0AE8F4FA5BFDC2166 /* 874. Walking Robot Simulation.swift */; };
 		D63B9DC8BCAF86678DFBA708 /* 2816. Double a Number Represented as a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBEE6982567BFF76EA5593B /* 2816. Double a Number Represented as a Linked List.swift */; };
 		D6F91A80D07F5BE8176F007F /* LeetCode213Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236A06220556F5E054C84D29 /* LeetCode213Tests.swift */; };
 		D75DF0F8D3F8EDECB3720815 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DB0C2BB23FB4A2558D168 /* 105. Construct Binary Tree from Preorder and Inorder Traversal.swift */; };
@@ -730,6 +733,7 @@
 		17D78E8D5FB97DD85B8931E8 /* 10844. number of easy stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10844. number of easy stairs.swift"; sourceTree = "<group>"; };
 		18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode881Tests.swift; sourceTree = "<group>"; };
 		1A2677197667339330C7B272 /* 129. Sum Root to Leaf Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "129. Sum Root to Leaf Numbers.swift"; sourceTree = "<group>"; };
+		1A75DAD0AE8F4FA5BFDC2166 /* 874. Walking Robot Simulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "874. Walking Robot Simulation.swift"; sourceTree = "<group>"; };
 		1ADBFD6BF01FE312E0328489 /* 18429. root loss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "18429. root loss.swift"; sourceTree = "<group>"; };
 		1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		1B6F84AC5D5A2EE31CB08A38 /* 258709. Pick a die.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "258709. Pick a die.swift"; sourceTree = "<group>"; };
@@ -949,6 +953,7 @@
 		A39CB767A64C955ECC51A2A0 /* 2370. Longest Ideal Subsequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2370. Longest Ideal Subsequence.swift"; sourceTree = "<group>"; };
 		A4F0563DDF46E0944507D276 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
 		A65FE21D09028E5E78136460 /* 1717. Representation of Sets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1717. Representation of Sets.swift"; sourceTree = "<group>"; };
+		A7A97DF006D8FC2FAE91C392 /* LeetCode874Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode874Tests.swift; sourceTree = "<group>"; };
 		A7FEADD3C29B0881E3E50D2D /* BOJ15686Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ15686Tests.swift; sourceTree = "<group>"; };
 		A89B4A0FE3A3284695BE2F0D /* 70. Climbing Stairs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "70. Climbing Stairs.swift"; sourceTree = "<group>"; };
 		A9E256CE7BB2212C60C12682 /* 13549. Hide and Seek 3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "13549. Hide and Seek 3.swift"; sourceTree = "<group>"; };
@@ -1478,6 +1483,7 @@
 				3E37C3AFBC87CD15926F1EF9 /* LeetCode840Tests.swift */,
 				72ED06140C6A510BAFB29D67 /* LeetCode846Tests.swift */,
 				3393B15FFEF0FA1E4E889E89 /* LeetCode861Tests.swift */,
+				A7A97DF006D8FC2FAE91C392 /* LeetCode874Tests.swift */,
 				18FCCC5EBC6B14CB4D04E19B /* LeetCode881Tests.swift */,
 				C595B9C6AD670D68DE3A1AA7 /* LeetCode885Tests.swift */,
 				F7D5696D1EEC5A5811D69DB9 /* LeetCode912Tests.swift */,
@@ -1641,6 +1647,7 @@
 				0D740B0C6B4DA9EAA3979C01 /* 840. Magic Squares In Grid.swift */,
 				C70DA0915E88152D9510FCDA /* 846. Hand of Straights.swift */,
 				E21C87AC73744B85D0C39992 /* 861. Score After Flipping Matrix.swift */,
+				1A75DAD0AE8F4FA5BFDC2166 /* 874. Walking Robot Simulation.swift */,
 				D87B14AA5D812EB60792F396 /* 881. Boats to Save People.swift */,
 				EFE61072C752C9C0CF6C9432 /* 885. Spiral Matrix III.swift */,
 				C060A37358429B6DDFB0CB7C /* 912. Sort an Array.swift */,
@@ -2123,6 +2130,7 @@
 				BA9157FC2C01F45E00153799 /* 2560. Straw Worm.swift in Sources */,
 				BA5F43E32BE62003000AE158 /* ListNode.swift in Sources */,
 				BA0611A12BF873630020C171 /* 1520. Downhill.swift in Sources */,
+				BFED49552C880962008AD36D /* 874. Walking Robot Simulation.swift in Sources */,
 				E14F847269046FDB8DFB2369 /* BOJ11279Tests.swift in Sources */,
 				BF3903312C5C776C001F41B2 /* 2134. Minimum Swaps to Group All 1's Together II.swift in Sources */,
 				BA74A8022C431B3900495ADF /* 152. Maximum Product Subarray.swift in Sources */,
@@ -2386,6 +2394,7 @@
 				8B87AD748E004C971E502EAF /* LeetCode1894Tests.swift in Sources */,
 				2E26A1C4EEC3FBEABE4122ED /* LeetCode1945Tests.swift in Sources */,
 				2EFAC6C1FEB6098542FD654C /* LeetCode476Tests.swift in Sources */,
+				2B04978BE511E6A23B98F518 /* LeetCode874Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2631,6 +2640,7 @@
 				A881FB1D35F49879767DFEB7 /* 1894. Find the Student that Will Replace the Chalk.swift in Sources */,
 				8B5E0304F3157A4357FBE356 /* 1945. Sum of Digits of String After Convert.swift in Sources */,
 				91D5E8CA4E68DF74DC0FC47A /* 476. Number Complement.swift in Sources */,
+				D617CDFD2DDBE834FF18FD73 /* 874. Walking Robot Simulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
