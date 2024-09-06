@@ -26,6 +26,7 @@ extension Tag {
   @Tag static var greedy: Self
   @Tag static var hashTable: Self
   @Tag static var heap: Self
+  @Tag static var linkedList: Self
   @Tag static var math: Self
   @Tag static var matrix: Self
   @Tag static var memoization: Self
