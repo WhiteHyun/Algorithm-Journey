@@ -30,6 +30,7 @@ extension Tag {
   @Tag static var math: Self
   @Tag static var matrix: Self
   @Tag static var memoization: Self
+  @Tag static var numberTheory: Self
   @Tag static var prefixSum: Self
   @Tag static var recursion: Self
   @Tag static var shortestPath: Self
