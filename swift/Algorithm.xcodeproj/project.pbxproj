@@ -266,6 +266,7 @@
 		91D9E6105D5428C31F3470B1 /* LeetCode19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D5EF6E93E9716401AF54B /* LeetCode19Tests.swift */; };
 		922639D7DD1CAC0B19672BBA /* 242. Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226D6181F521969A817995D /* 242. Valid Anagram.swift */; };
 		9266939C2A222E285DF9FBBA /* 1912. Continuous sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17584F85B15167F0281E936C /* 1912. Continuous sum.swift */; };
+		926CA9D8A9EB1B7D25591CA0 /* LeetCode1371Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6420CC83FEE56E6429D31154 /* LeetCode1371Tests.swift */; };
 		933C427858869A5E4F5A0DF8 /* LeetCode417Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA526013E53C8EA2A52E5F /* LeetCode417Tests.swift */; };
 		936DBA36E92A4264C883C2E6 /* 3111. Censorship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3121C728E9655DC400056 /* 3111. Censorship.swift */; };
 		9397FCD75FC827375DD22D50 /* BOJ3197Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD143840B718897B7D4D6F7 /* BOJ3197Tests.swift */; };
@@ -555,6 +556,7 @@
 		BF9EA3B52C7EFAE400AFAF9F /* 1905. Count Sub Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA823A8F099250AC5C1EE4 /* 1905. Count Sub Islands.swift */; };
 		BFA0275A2C8175A5008C8200 /* 2699. Modify Graph Edge Weights.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A2B7BCCD53F647D2DA1 /* 2699. Modify Graph Edge Weights.swift */; };
 		BFA21F6D2C913530008536C7 /* 2220. Minimum Bit Flips to Convert Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E96F9EBD82E103EBE45B97 /* 2220. Minimum Bit Flips to Convert Number.swift */; };
+		BFA3D03E2C96DCC0005DA76A /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C266F9CA38283E5EFEF4C98 /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift */; };
 		BFB6646C2C92CE1A00A6BDF5 /* 1684. Count the Number of Consistent Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6A1D62B8E4AFFD74EBB69 /* 1684. Count the Number of Consistent Strings.swift */; };
 		BFB6646D2C93E36500A6BDF5 /* 1310. XOR Queries of a Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0904E5668C2504D9C7719616 /* 1310. XOR Queries of a Subarray.swift */; };
 		BFBBE5C42C54510400B199DB /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
@@ -582,6 +584,7 @@
 		C174FA13DF6647CABA406969 /* BOJ2293Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CD9737C20426AA406E643 /* BOJ2293Tests.swift */; };
 		C208E199F55754A08811F951 /* BOJ1707Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE765BAF14B396C029241FA7 /* BOJ1707Tests.swift */; };
 		C2B1B4D8B473D90B6A948153 /* LeetCode1380Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD62B991690A11A7495455C /* LeetCode1380Tests.swift */; };
+		C329D1C4173C6B9F1707BF9D /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C266F9CA38283E5EFEF4C98 /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift */; };
 		C499DD65E10628A9B228AC27 /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
 		C50A71FB04650BC427B8F123 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54F4B78EF197DB28399266 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift */; };
 		C51D43C5CF5C300F75A7A5D6 /* 725. Split Linked List in Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911E26F5FC63B21EDE2725CE /* 725. Split Linked List in Parts.swift */; };
@@ -770,6 +773,7 @@
 		1B6F84AC5D5A2EE31CB08A38 /* 258709. Pick a die.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "258709. Pick a die.swift"; sourceTree = "<group>"; };
 		1B7622EBB33B837A0C6547E6 /* BOJ1894Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ1894Tests.swift; sourceTree = "<group>"; };
 		1BD96A68B432584E37757B6A /* 10775. Airport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "10775. Airport.swift"; sourceTree = "<group>"; };
+		1C266F9CA38283E5EFEF4C98 /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1371. Find the Longest Substring Containing Vowels in Even Counts.swift"; sourceTree = "<group>"; };
 		1C6D17030B33B2F80C201899 /* 463. Island Perimeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "463. Island Perimeter.swift"; sourceTree = "<group>"; };
 		1E214FCD72899F7498E54170 /* LeetCode2678Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2678Tests.swift; sourceTree = "<group>"; };
 		1F51F87ECF2CAF63D81CAE59 /* 139. Word Break.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "139. Word Break.swift"; sourceTree = "<group>"; };
@@ -893,6 +897,7 @@
 		61E651D86C65D4AD957AD107 /* 2293. Coin I.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2293. Coin I.swift"; sourceTree = "<group>"; };
 		62835D366CC133FFF4837E07 /* 590. N-ary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "590. N-ary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
 		628B9D43291111E8701BB0CF /* 75. Sort Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "75. Sort Colors.swift"; sourceTree = "<group>"; };
+		6420CC83FEE56E6429D31154 /* LeetCode1371Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1371Tests.swift; sourceTree = "<group>"; };
 		65A925FE8F0BE29AF639A623 /* LeetCode3Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode3Tests.swift; sourceTree = "<group>"; };
 		6675D2B6E805D98D70F92C30 /* LeetCode506Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode506Tests.swift; sourceTree = "<group>"; };
 		66B2ECA2900426DF23BA7F84 /* 238. Product of Array Except Self.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "238. Product of Array Except Self.swift"; sourceTree = "<group>"; };
@@ -1552,6 +1557,7 @@
 				D50640E451CCDC8F456D5B84 /* LeetCode1310Tests.swift */,
 				0AA0BBC3FD23D5580A8C028D /* LeetCode1334Tests.swift */,
 				B019313445787252BECE54A9 /* LeetCode1367Tests.swift */,
+				6420CC83FEE56E6429D31154 /* LeetCode1371Tests.swift */,
 				9D8DAD73C77FF153C948E9A4 /* LeetCode1508Tests.swift */,
 				A17F0EC7533918BB325A1994 /* LeetCode1514Tests.swift */,
 				4E8537BC0D529DCB72627793 /* LeetCode1653Tests.swift */,
@@ -1729,6 +1735,7 @@
 				54454B0457CCDF788E2E6E77 /* 1325. Delete Leaves With a Given Value.swift */,
 				3CD8555921F21827E1CC1343 /* 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance.swift */,
 				9072E01678FCD84CB27741E8 /* 1367. Linked List in Binary Tree.swift */,
+				1C266F9CA38283E5EFEF4C98 /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift */,
 				30989E95C8E3F9019C710B4B /* 1404. Number of Steps to Reduce a Number in Binary Representation to One.swift */,
 				C01F0668B41A7719EAC778E1 /* 1442. Count Triplets That Can Form Two Arrays of Equal XOR.swift */,
 				44033AA8EF8C4663094B4453 /* 1508. Range Sum of Sorted Subarray Sums.swift */,
@@ -2153,6 +2160,7 @@
 				BA688CB22BF095C800009F37 /* Interval.swift in Sources */,
 				BA5C4E532C2FB9C500C21657 /* 417. Pacific Atlantic Water Flow.swift in Sources */,
 				F1EC137A1A30900D9031EE8E /* LeetCode1Tests.swift in Sources */,
+				BFA3D03E2C96DCC0005DA76A /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */,
 				BF2CCB4D2C69B610007A1AEA /* 703. Kth Largest Element in a Stream.swift in Sources */,
 				BA688CAE2BF093B500009F37 /* 252. Meeting Rooms.swift in Sources */,
 				BABD186A2C0408BA00EC6CD9 /* 1608. Special Array With X Elements Greater Than or Equal X.swift in Sources */,
@@ -2485,6 +2493,7 @@
 				899E96ACBBCDA129DDEC28AD /* LeetCode1684Tests.swift in Sources */,
 				DDCF192F0DDCA65F8672DB95 /* LeetCode1310Tests.swift in Sources */,
 				800C3FA581C0397742A07E90 /* LeetCode2419Tests.swift in Sources */,
+				926CA9D8A9EB1B7D25591CA0 /* LeetCode1371Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2741,6 +2750,7 @@
 				9036325D7CFE369B2C877E7A /* 1684. Count the Number of Consistent Strings.swift in Sources */,
 				57054D0F97992AA51A9EF504 /* 1310. XOR Queries of a Subarray.swift in Sources */,
 				48F97D515E28AB8D4C8F3294 /* 2419. Longest Subarray With Maximum Bitwise AND.swift in Sources */,
+				C329D1C4173C6B9F1707BF9D /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
