@@ -297,6 +297,7 @@
 		A1D260FBE826ED2057AC26A2 /* 15686. Chicken delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3513568721D7265CA779893 /* 15686. Chicken delivery.swift */; };
 		A1D7F43D1BBF6B73296B95C2 /* 2045. Second Minimum Time to Reach Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD026386AD38656464754565 /* 2045. Second Minimum Time to Reach Destination.swift */; };
 		A3A83F852CFB29C40FB8306F /* 121. Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C44D5034B31F591112626 /* 121. Best Time to Buy and Sell Stock.swift */; };
+		A3BEAF87FED4C8D8031E1EFF /* LeetCode179Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E216A371ABD59F8A8E21D /* LeetCode179Tests.swift */; };
 		A47FCC21A736D622E5454A03 /* LeetCode190Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E1810D5C11F26A87668A6 /* LeetCode190Tests.swift */; };
 		A5DDB14AC187D7E69CF72D33 /* LeetCode3110Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CABD9668265D4B727A6D97 /* LeetCode3110Tests.swift */; };
 		A60F1EE892E346556B4B0E1C /* 1051. Height Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1D0E2C1C929B11DC154CC /* 1051. Height Checker.swift */; };
@@ -326,6 +327,7 @@
 		B7F424D20403BAF71E4AC202 /* 2331. Evaluate Boolean Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8938A99B39EC2FEEF8D47 /* 2331. Evaluate Boolean Binary Tree.swift */; };
 		B89B23C6192BB57D11BCA64D /* 16234. Population movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CBB85204750D6357CAF273 /* 16234. Population movement.swift */; };
 		B89B49B5945B86DF8159850A /* LeetCode143Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09735B98B3D9525DF71E496D /* LeetCode143Tests.swift */; };
+		B8CEB3A9A5F36E8518935345 /* 179. Largest Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE982110D2E6E90FA609AC6 /* 179. Largest Number.swift */; };
 		B9488914D822EF57D82E08DB /* BOJ2133Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF906A8CC3BD3BE9E6A38A01 /* BOJ2133Tests.swift */; };
 		B962E5A66F6FB6D8CDEC399C /* LeetCode2699Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D6CFB45E5E37206500FD7 /* LeetCode2699Tests.swift */; };
 		BA0611A12BF873630020C171 /* 1520. Downhill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA2BEF9C8C64A87FC1AB48 /* 1520. Downhill.swift */; };
@@ -515,6 +517,7 @@
 		BE5BBA9ADF4C8ED964938D5C /* 13460. Marbles Escape 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFB0F59250B929B7EA9D71 /* 13460. Marbles Escape 2.swift */; };
 		BE61E278EC8D865A0D5A4726 /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD461AA03CE1540F9C579B /* 125. Valid Palindrome.swift */; };
 		BEAA02AA699BE9527CC4B7AB /* LeetCode1636Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B79009E7B632FEB51635D /* LeetCode1636Tests.swift */; };
+		BF0032842C9B087800BE5DD8 /* 179. Largest Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE982110D2E6E90FA609AC6 /* 179. Largest Number.swift */; };
 		BF00AB9C2C5A2559004E7002 /* 1105. Filling Bookcase Shelves.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90F3761B9DD9C20E29DC5A /* 1105. Filling Bookcase Shelves.swift */; };
 		BF01FB6E2C8C52D50041B921 /* 1367. Linked List in Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9072E01678FCD84CB27741E8 /* 1367. Linked List in Binary Tree.swift */; };
 		BF0C2C302C80466300C58159 /* 947. Most Stones Removed with Same Row or Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = C780E44A3200D03A14C5CDFF /* 947. Most Stones Removed with Same Row or Column.swift */; };
@@ -819,6 +822,7 @@
 		3314FC26115227C43BE7CE9F /* 145. Binary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "145. Binary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
 		335E1BAAF4EE65FD8E3D575A /* 2285. Maximum Total Importance of Roads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "2285. Maximum Total Importance of Roads.swift"; sourceTree = "<group>"; };
 		3393B15FFEF0FA1E4E889E89 /* LeetCode861Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode861Tests.swift; sourceTree = "<group>"; };
+		346E216A371ABD59F8A8E21D /* LeetCode179Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode179Tests.swift; sourceTree = "<group>"; };
 		34C149BC09FF7526B2D14BA5 /* 78. Subsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "78. Subsets.swift"; sourceTree = "<group>"; };
 		35254E15F3974D0F5A925DEE /* 207. Course Schedule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "207. Course Schedule.swift"; sourceTree = "<group>"; };
 		357613E280175E47D01D7DFE /* LeetCode2022Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode2022Tests.swift; sourceTree = "<group>"; };
@@ -1110,6 +1114,7 @@
 		CB07592C6B2E0CA872A2530C /* LeetCode1140Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode1140Tests.swift; sourceTree = "<group>"; };
 		CC86E8C20D73FF121631CA8A /* 1806. Partial sum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1806. Partial sum.swift"; sourceTree = "<group>"; };
 		CCC3D26754D7DEA7563FA858 /* LeetCode21Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode21Tests.swift; sourceTree = "<group>"; };
+		CCE982110D2E6E90FA609AC6 /* 179. Largest Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "179. Largest Number.swift"; sourceTree = "<group>"; };
 		CE4033177731BC55F7964469 /* 945. Minimum Increment to Make Array Unique.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "945. Minimum Increment to Make Array Unique.swift"; sourceTree = "<group>"; };
 		CF50480748DA4B8D7E2D3296 /* 1945. Sum of Digits of String After Convert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "1945. Sum of Digits of String After Convert.swift"; sourceTree = "<group>"; };
 		CF8265795FE76682687EF63A /* LeetCode237Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode237Tests.swift; sourceTree = "<group>"; };
@@ -1522,6 +1527,7 @@
 				D6C97E8951C7850F66D2D803 /* LeetCode152Tests.swift */,
 				B1EBC827B0DF25C1759CF409 /* LeetCode153Tests.swift */,
 				E597ED2DD3226A1D40D826B8 /* LeetCode165Tests.swift */,
+				346E216A371ABD59F8A8E21D /* LeetCode179Tests.swift */,
 				35EA9BE89FBB7750C4AA24B4 /* LeetCode198Tests.swift */,
 				57CFA802F890A54C54657935 /* LeetCode200Tests.swift */,
 				C1447C6746357C8606E299AF /* LeetCode207Tests.swift */,
@@ -1694,6 +1700,7 @@
 				73599156B50C8D195AC3BE31 /* 152. Maximum Product Subarray.swift */,
 				FFB993A5EF974AF8A2057A3E /* 153. Find Minimum in Rotated Sorted Array.swift */,
 				762AAF4C810D81D0EB5F6FA0 /* 165. Compare Version Numbers.swift */,
+				CCE982110D2E6E90FA609AC6 /* 179. Largest Number.swift */,
 				82D26493F07309BE090CDF14 /* 198. House Robber.swift */,
 				837C0064F1B04FF020088628 /* 200. Number of Islands.swift */,
 				35254E15F3974D0F5A925DEE /* 207. Course Schedule.swift */,
@@ -2303,6 +2310,7 @@
 				A6CC1AF0F31C3135CE20D40A /* LeetCode252Tests.swift in Sources */,
 				BAB9B9492BF865FA00DEF653 /* 979. Distribute Coins in Binary Tree.swift in Sources */,
 				BAAD45E12C15DA7400C58A88 /* 258709. Pick a die.swift in Sources */,
+				BF0032842C9B087800BE5DD8 /* 179. Largest Number.swift in Sources */,
 				BA2E71E52C2E5B9A005C45D2 /* 79. Word Search.swift in Sources */,
 				F01E4AB8A934DD5C4EDE3469 /* LeetCode861Tests.swift in Sources */,
 				BF6D70802C7A24940020849F /* 564. Find the Closest Palindrome.swift in Sources */,
@@ -2514,6 +2522,7 @@
 				926CA9D8A9EB1B7D25591CA0 /* LeetCode1371Tests.swift in Sources */,
 				7C14015353C538156EB1A441 /* LeetCode539Tests.swift in Sources */,
 				3630F7400A5F608C5AC508B1 /* LeetCode884Tests.swift in Sources */,
+				A3BEAF87FED4C8D8031E1EFF /* LeetCode179Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2773,6 +2782,7 @@
 				C329D1C4173C6B9F1707BF9D /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */,
 				262EA61A11096877ED370F53 /* 539. Minimum Time Difference.swift in Sources */,
 				3371FDDD2C96E6EA04B62E5B /* 884. Uncommon Words from Two Sentences.swift in Sources */,
+				B8CEB3A9A5F36E8518935345 /* 179. Largest Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
