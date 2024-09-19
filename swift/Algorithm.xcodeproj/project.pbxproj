@@ -98,6 +98,7 @@
 		31EA4A7807C6F6F424B4141C /* LeetCode2678Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E214FCD72899F7498E54170 /* LeetCode2678Tests.swift */; };
 		3371FDDD2C96E6EA04B62E5B /* 884. Uncommon Words from Two Sentences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CEAA865F68F0774E7CD8D5 /* 884. Uncommon Words from Two Sentences.swift */; };
 		33C1A1BA18975978C0E00405 /* 2110. Installing a router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82960BC39F0459586BDA0FA7 /* 2110. Installing a router.swift */; };
+		33D595F6A05E51694AAC1117 /* LeetCode241Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43783930CC6652FF7CC9E7E /* LeetCode241Tests.swift */; };
 		343665131EEABD35FCBA8D44 /* LeetCode70Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D919DC8C04DDB9B25B48D /* LeetCode70Tests.swift */; };
 		34B912B2ACD3A890F97AA5CC /* 91. Decode Ways.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AD8DA072BE2CB795DF32E /* 91. Decode Ways.swift */; };
 		35F6CFD292D74C88726B9A70 /* 42883. Create a large number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */; };
@@ -567,6 +568,7 @@
 		BFA0275A2C8175A5008C8200 /* 2699. Modify Graph Edge Weights.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BA1A2B7BCCD53F647D2DA1 /* 2699. Modify Graph Edge Weights.swift */; };
 		BFA21F6D2C913530008536C7 /* 2220. Minimum Bit Flips to Convert Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E96F9EBD82E103EBE45B97 /* 2220. Minimum Bit Flips to Convert Number.swift */; };
 		BFA3D03E2C96DCC0005DA76A /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C266F9CA38283E5EFEF4C98 /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift */; };
+		BFA971832C9C8071009C2035 /* 241. Different Ways to Add Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C63FA4123CA873DBAB3B31 /* 241. Different Ways to Add Parentheses.swift */; };
 		BFB6646C2C92CE1A00A6BDF5 /* 1684. Count the Number of Consistent Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6A1D62B8E4AFFD74EBB69 /* 1684. Count the Number of Consistent Strings.swift */; };
 		BFB6646D2C93E36500A6BDF5 /* 1310. XOR Queries of a Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0904E5668C2504D9C7719616 /* 1310. XOR Queries of a Subarray.swift */; };
 		BFBBE5C42C54510400B199DB /* 55. Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCD5F2CBAEBEAFEF8201E2 /* 55. Jump Game.swift */; };
@@ -597,6 +599,7 @@
 		C329D1C4173C6B9F1707BF9D /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C266F9CA38283E5EFEF4C98 /* 1371. Find the Longest Substring Containing Vowels in Even Counts.swift */; };
 		C499DD65E10628A9B228AC27 /* 18231. destroyed city.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8470AEED1F0AFF2A37007B /* 18231. destroyed city.swift */; };
 		C50A71FB04650BC427B8F123 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54F4B78EF197DB28399266 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift */; };
+		C50AE8E84F09BD085816E1C9 /* 241. Different Ways to Add Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C63FA4123CA873DBAB3B31 /* 241. Different Ways to Add Parentheses.swift */; };
 		C51D43C5CF5C300F75A7A5D6 /* 725. Split Linked List in Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911E26F5FC63B21EDE2725CE /* 725. Split Linked List in Parts.swift */; };
 		C530A0FCD842D8CF1DA82E6E /* LeetCode1325Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AB357FBD8795BBD497A4FC /* LeetCode1325Tests.swift */; };
 		C593A17CE2D17EA8453EC727 /* 2812. Find the Safest Path in a Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C89128BC5EC685DFD8DDEF0 /* 2812. Find the Safest Path in a Grid.swift */; };
@@ -862,6 +865,7 @@
 		46DE31A3ADB54D2F40ACC97B /* 42883. Create a large number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "42883. Create a large number.swift"; sourceTree = "<group>"; };
 		4716A32495EC64B78FF5CFE0 /* LeetCode344Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode344Tests.swift; sourceTree = "<group>"; };
 		481F5A81F0BC23E082090BAA /* 11404. Floyd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11404. Floyd.swift"; sourceTree = "<group>"; };
+		49C63FA4123CA873DBAB3B31 /* 241. Different Ways to Add Parentheses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "241. Different Ways to Add Parentheses.swift"; sourceTree = "<group>"; };
 		4ABF450DB14C27EF0F8A56AD /* 514. Freedom Trail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "514. Freedom Trail.swift"; sourceTree = "<group>"; };
 		4B6D18DDC573D0C2305A7B6D /* LeetCode39Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode39Tests.swift; sourceTree = "<group>"; };
 		4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "261. Graph Valid Tree.swift"; sourceTree = "<group>"; };
@@ -1151,6 +1155,7 @@
 		E313D047C33DCE2F29B12D0B /* BOJ11286Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ11286Tests.swift; sourceTree = "<group>"; };
 		E35C255ACCCA9932A7933922 /* 476. Number Complement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "476. Number Complement.swift"; sourceTree = "<group>"; };
 		E3D462E86522659A9728E25F /* BOJ13549Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BOJ13549Tests.swift; sourceTree = "<group>"; };
+		E43783930CC6652FF7CC9E7E /* LeetCode241Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeetCode241Tests.swift; sourceTree = "<group>"; };
 		E48B75F403E85C16E6FFD6FC /* 5. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "5. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		E50DFF61D4BAF6BCB9B8C26C /* 11. Container With Most Water.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "11. Container With Most Water.swift"; sourceTree = "<group>"; };
 		E566A3A23893399B98AD5D49 /* 208. Implement Trie (Prefix Tree).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "208. Implement Trie (Prefix Tree).swift"; sourceTree = "<group>"; };
@@ -1538,6 +1543,7 @@
 				BA4B321A2C19C073008C16EC /* LeetCode235Tests.swift */,
 				CF8265795FE76682687EF63A /* LeetCode237Tests.swift */,
 				DB901B8C3045A363C4F608E0 /* LeetCode238Tests.swift */,
+				E43783930CC6652FF7CC9E7E /* LeetCode241Tests.swift */,
 				0CDFE9DD3C635B0BEDF7CAE9 /* LeetCode260Tests.swift */,
 				3DBF36284A28956398B8EE8B /* LeetCode261Tests.swift */,
 				5AEEDD197EE72A018893EE7F /* LeetCode264Tests.swift */,
@@ -1711,6 +1717,7 @@
 				8C54F4B78EF197DB28399266 /* 235. Lowest Common Ancestor of a Binary Search Tree.swift */,
 				9AE9CFEEEF195D724436B7A3 /* 237. Delete Node in a Linked List.swift */,
 				66B2ECA2900426DF23BA7F84 /* 238. Product of Array Except Self.swift */,
+				49C63FA4123CA873DBAB3B31 /* 241. Different Ways to Add Parentheses.swift */,
 				6D5B80796030C5D39D7C82DF /* 260. Single Number III.swift */,
 				4B8FF454DF85343007930994 /* 261. Graph Valid Tree.swift */,
 				FF78E40017CA340D7AAE1EA6 /* 264. Ugly Number II.swift */,
@@ -2456,6 +2463,7 @@
 				2ED2BDF6594E9D662DADD012 /* LeetCode53Tests.swift in Sources */,
 				BFBF67B32C67914D00DF69C0 /* 959. Regions Cut By Slashes.swift in Sources */,
 				BD8B62D4724AFF7346DE23D8 /* LeetCode55Tests.swift in Sources */,
+				BFA971832C9C8071009C2035 /* 241. Different Ways to Add Parentheses.swift in Sources */,
 				BDAC34D0018A2DA6F665136A /* LeetCode1334Tests.swift in Sources */,
 				E89D9D1F30AD1E2B8961AF97 /* LeetCode48Tests.swift in Sources */,
 				673ACDE0AB649A417ABB4EC2 /* LeetCode2976Tests.swift in Sources */,
@@ -2523,6 +2531,7 @@
 				7C14015353C538156EB1A441 /* LeetCode539Tests.swift in Sources */,
 				3630F7400A5F608C5AC508B1 /* LeetCode884Tests.swift in Sources */,
 				A3BEAF87FED4C8D8031E1EFF /* LeetCode179Tests.swift in Sources */,
+				33D595F6A05E51694AAC1117 /* LeetCode241Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2783,6 +2792,7 @@
 				262EA61A11096877ED370F53 /* 539. Minimum Time Difference.swift in Sources */,
 				3371FDDD2C96E6EA04B62E5B /* 884. Uncommon Words from Two Sentences.swift in Sources */,
 				B8CEB3A9A5F36E8518935345 /* 179. Largest Number.swift in Sources */,
+				C50AE8E84F09BD085816E1C9 /* 241. Different Ways to Add Parentheses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

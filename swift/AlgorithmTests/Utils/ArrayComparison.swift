@@ -33,6 +33,6 @@ func areEquivalent<T: Hashable>(_ lhs: [[T]], _ rhs: [[T]]) -> Bool {
 ///   - lhs: The first 1D array to compare.
 ///   - rhs: The second 1D array to compare.
 /// - Returns: A Boolean value indicating whether the two 1D arrays are equivalent.
-func areEquivalent<T: Hashable>(_ lhs: [T], _ rhs: [T]) -> Bool {
-  Set(lhs) == Set(rhs)
+func areEquivalent<T: Comparable>(_ lhs: [T], _ rhs: [T]) -> Bool {
+  lhs.sorted() == rhs.sorted()
 }
