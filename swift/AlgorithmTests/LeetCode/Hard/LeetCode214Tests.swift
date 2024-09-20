@@ -52,4 +52,17 @@ struct LeetCode214Tests {
     let result = problem.shortestPalindrome("baabd")
     #expect(result == "dbaabd", #"Expected '"dbaabd"', but got '\#(result)'"#)
   }
+
+  @Test
+  func example8() {
+    let result = problem.shortestPalindrome("aabababababaababaa")
+    #expect(result == "aababaabababababaababaa", #"Expected '"aababaabababababaababaa"', but got '\#(result)'"#)
+  }
+
+  @Test(.timeLimit(.minutes(1)))
+  func example9() {
+    let a = String(repeating: "a", count: 20000)
+    let result = problem.shortestPalindrome("\(a)cd\(a)")
+    #expect(result == "\(a)dc\(a)cd\(a)", #"Expected '"\(a)dc\(a)cd\(a)"', but got '\#(result)'"#)
+  }
 }

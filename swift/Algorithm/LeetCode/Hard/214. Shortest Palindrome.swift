@@ -6,34 +6,31 @@
 //  Created by 홍승현 on 2024/09/20.
 //
 
+import Foundation
+
 final class LeetCode214 {
   func shortestPalindrome(_ s: String) -> String {
-    if s.count == 1 { return s }
-    let stringArray = Array(s)
-    var gap = 0
-    while gap < stringArray.count {
-      if isPalindrome(
-        stringArray,
-        start: stringArray.startIndex,
-        end: stringArray.endIndex - 1 - gap
-      ) {
-        break
+    let originalArray = Array(s)
+
+    var largestPalindrome = 0
+
+    // 26진수 숫자 설정
+    var prefix = 0
+    var suffix = 0
+    var power = 1
+
+    // null: 0, a: 1, b: 2, c: 3 ... z: 26
+    for index in 0 ..< s.count {
+      let char = Int(originalArray[index].asciiValue!) - 96
+      prefix = (prefix * 27) % 1_000_000_007
+      prefix = (prefix + char) % 1_000_000_007
+      suffix = (suffix + char * power) % 1_000_000_007
+      power = (power * 27) % 1_000_000_007
+      if prefix == suffix {
+        largestPalindrome = index + 1
       }
-      gap += 1
     }
 
-    return s.suffix(gap).reversed() + s
-  }
-
-  private func isPalindrome(_ matrix: [Character], start: Int, end: Int) -> Bool {
-    var s = start
-    var e = end
-
-    while s <= e {
-      if matrix[s] != matrix[e] { return false }
-      s += 1
-      e -= 1
-    }
-    return true
+    return s.suffix(s.count - largestPalindrome).reversed() + s
   }
 }
