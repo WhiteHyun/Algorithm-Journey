@@ -25,6 +25,7 @@ extension Tag {
   @Tag static var gameTheory: Self
   @Tag static var graph: Self
   @Tag static var greedy: Self
+  @Tag static var hashFunction: Self
   @Tag static var hashTable: Self
   @Tag static var heap: Self
   @Tag static var linkedList: Self
@@ -34,12 +35,14 @@ extension Tag {
   @Tag static var numberTheory: Self
   @Tag static var prefixSum: Self
   @Tag static var recursion: Self
+  @Tag static var rollingHash: Self
   @Tag static var shortestPath: Self
   @Tag static var slidingWindow: Self
   @Tag static var simulation: Self
   @Tag static var sorting: Self
   @Tag static var stack: Self
   @Tag static var string: Self
+  @Tag static var stringMatching: Self
   @Tag static var topologicalSort: Self
   @Tag static var tree: Self
   @Tag static var trie: Self
