@@ -25,7 +25,7 @@ struct LeetCode440Tests {
 
   @Test(.timeLimit(.minutes(1)))
   func example3() {
-    let result = problem.findKthNumber(804289384, 42641503)
-    #expect(result == 138377349, #"Expected '138377349', but got '\#(result)'"#)
+    let result = problem.findKthNumber(804_289_384, 42_641_503)
+    #expect(result == 138_377_349, #"Expected '138377349', but got '\#(result)'"#)
   }
 }
