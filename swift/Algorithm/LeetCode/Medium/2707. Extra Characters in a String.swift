@@ -9,7 +9,7 @@
 final class LeetCode2707 {
   func minExtraChar(_ s: String, _ dictionary: [String]) -> Int {
     let cache: Set<String> = Set(dictionary)
-    var dp: [Int] = Array(0...s.count)
+    var dp: [Int] = Array(0 ... s.count)
 
     for i in 1 ... s.count {
       dp[i] = dp[i - 1] + 1
