@@ -33,9 +33,12 @@ extension Tag {
   @Tag static var matrix: Self
   @Tag static var memoization: Self
   @Tag static var numberTheory: Self
+  @Tag static var orderedSet: Self
   @Tag static var prefixSum: Self
+  @Tag static var queue: Self
   @Tag static var recursion: Self
   @Tag static var rollingHash: Self
+  @Tag static var segmentTree: Self
   @Tag static var shortestPath: Self
   @Tag static var slidingWindow: Self
   @Tag static var simulation: Self
