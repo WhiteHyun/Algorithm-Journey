@@ -23,6 +23,7 @@ struct LeetCode641Tests {
     #expect(problem.insertFront(4) == true, #"Expected 'true', but got 'false'"#)
     #expect(problem.getFront() == 4, #"Expected '4', but got '\#(problem.getFront())'"#)
   }
+
   @Test
   func example2() {
     let problem = LeetCode641.MyCircularDeque(4)
