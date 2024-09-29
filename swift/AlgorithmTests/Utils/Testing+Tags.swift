@@ -21,6 +21,7 @@ extension Tag {
   @Tag static var depthFirstSearch: Self
   @Tag static var design: Self
   @Tag static var divideAndConquer: Self
+  @Tag static var doublyLinkedList: Self
   @Tag static var dynamicProgramming: Self
   @Tag static var gameTheory: Self
   @Tag static var graph: Self
