@@ -19,11 +19,11 @@ final class LeetCode1813 {
     let n1 = longestWords.count
     let n2 = shortestWords.count
 
-    while start < n2 && longestWords[start] == shortestWords[start] {
+    while start < n2, longestWords[start] == shortestWords[start] {
       start += 1
     }
 
-    while end < n2 && longestWords[n1 - 1 - end] == shortestWords[n2 - 1 - end] {
+    while end < n2, longestWords[n1 - 1 - end] == shortestWords[n2 - 1 - end] {
       end += 1
     }
 
