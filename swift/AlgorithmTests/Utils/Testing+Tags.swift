@@ -33,6 +33,7 @@ extension Tag {
   @Tag static var math: Self
   @Tag static var matrix: Self
   @Tag static var memoization: Self
+  @Tag static var monotonicStack: Self
   @Tag static var numberTheory: Self
   @Tag static var orderedSet: Self
   @Tag static var prefixSum: Self
