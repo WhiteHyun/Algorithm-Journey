@@ -8,51 +8,30 @@
 
 final class LeetCode1405 {
   func longestDiverseString(_ a: Int, _ b: Int, _ c: Int) -> String {
-    var answer: [String] = []
+    var maxHeap: Heap<(char: Character, count: Int)> = .init { $0.count > $1.count }
+    var result = ""
 
-    var sorted = ["a": a, "b": b, "c": c].sorted { $0.value > $1.value }
+    if a > 0 { maxHeap.insert(("a", a)) }
+    if b > 0 { maxHeap.insert(("b", b)) }
+    if c > 0 { maxHeap.insert(("c", c)) }
 
-    while sorted[2].value != 0 {
-      for index in sorted.indices {
-        answer.append(sorted[index].key)
-        sorted[index].value -= 1
-      }
-    }
-
-    while sorted[1].value != 0 {
-      for index in 0 ..< 2 {
-        answer.append(sorted[index].key)
-        sorted[index].value -= 1
-      }
-    }
-
-    var string = ""
-    string.reserveCapacity(a + b + c)
-
-    if sorted[0].value == 0 { return answer.joined() }
-
-    for index in answer.indices {
-      string += answer[index]
-      if answer[index] == sorted[0].key {
-        string += sorted[0].key
-        sorted[0].value -= 1
-      } else if index + 1 < answer.count, answer[index + 1] == sorted[0].key {
-        continue
-      } else if sorted[0].value >= 2 {
-        string += sorted[0].key
-        string += sorted[0].key
-        sorted[0].value -= 2
+    while let (char, count) = maxHeap.remove() {
+      if result.count >= 2, result.suffix(2) == "\(char)\(char)" {
+        if maxHeap.isEmpty { break }
+        let (nextChar, nextCount) = maxHeap.remove()!
+        result.append(nextChar)
+        if nextCount > 1 {
+          maxHeap.insert((nextChar, nextCount - 1))
+        }
+        maxHeap.insert((char, count))
       } else {
-        string += sorted[0].key
-        sorted[0].value -= 1
-      }
-
-      if sorted[0].value == 0 {
-        string += answer[(index + 1)...].joined()
-        break
+        result.append(char)
+        if count > 1 {
+          maxHeap.insert((char, count - 1))
+        }
       }
     }
 
-    return string.isEmpty ? String(repeating: sorted[0].key, count: min(2, sorted[0].value)) : string
+    return result
   }
 }
