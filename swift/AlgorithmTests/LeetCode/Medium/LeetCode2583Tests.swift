@@ -25,7 +25,7 @@ struct LeetCode2583Tests {
 
   @Test
   func example3() {
-    let result = problem.kthLargestLevelSum([5,8,9,2,1,3,7], 4)
+    let result = problem.kthLargestLevelSum([5, 8, 9, 2, 1, 3, 7], 4)
     #expect(result == -1, #"Expected '-1', but got '\#(result)'"#)
   }
 }
