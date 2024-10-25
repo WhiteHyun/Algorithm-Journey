@@ -7,40 +7,18 @@
 //
 
 final class LeetCode1233 {
-  final class Trie {
-    var count: Int = 0
-    var children: [String: Trie]
-
-    init(children: [String: Trie] = [:]) {
-      self.children = children
-    }
-  }
-
   func removeSubfolders(_ folders: [String]) -> [String] {
-    let root = Trie()
+    var answer: [String] = []
+    let sortedFolders = folders.sorted()
 
-    for folder in folders {
-      var node = root
-      for element in folder.components(separatedBy: "/") where !element.isEmpty {
-        if node.children[element] == nil {
-          node.children[element] = .init()
-        }
-        node = node.children[element]!
-      }
-      node.count += 1
+    if let firstFolder = sortedFolders.first {
+      answer.append(firstFolder)
     }
 
-    var answer: [String] = []
-
-    var stack: [(Trie, String)] = root.children.map { ($1, "/\($0)") }
-    wholeLoop: while let (node, folderString) = stack.popLast() {
-      if node.count == 1 {
-        answer.append(folderString)
-        continue
-      }
-
-      for (key, children) in node.children {
-        stack.append((children, "\(folderString)/\(key)"))
+    for index in 1 ..< sortedFolders.count {
+      if let lastFolderOfAnswer = answer.last,
+         sortedFolders[index].hasPrefix(lastFolderOfAnswer + "/") == false {
+        answer.append(sortedFolders[index])
       }
     }
 
