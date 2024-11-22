@@ -9,7 +9,7 @@
 final class LeetCode2064 {
   func minimizedMaximum(_ n: Int, _ quantities: [Int]) -> Int {
     func canDistribute(_ maxAmount: Int) -> Bool {
-     var storesNeeded = 0
+      var storesNeeded = 0
 
       for quantity in quantities {
         storesNeeded += (quantity + maxAmount - 1) / maxAmount
