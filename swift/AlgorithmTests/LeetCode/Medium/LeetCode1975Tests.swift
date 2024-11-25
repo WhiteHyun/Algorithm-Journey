@@ -13,13 +13,13 @@ struct LeetCode1975Tests {
 
   @Test
   func example1() {
-    let result = problem.maxMatrixSum([[1,-1],[-1,1]])
+    let result = problem.maxMatrixSum([[1, -1], [-1, 1]])
     #expect(result == 4, #"Expected '4', but got '\#(result)'"#)
   }
 
   @Test
   func example2() {
-    let result = problem.maxMatrixSum([[1,2,3],[-1,-2,-3],[1,2,3]])
+    let result = problem.maxMatrixSum([[1, 2, 3], [-1, -2, -3], [1, 2, 3]])
     #expect(result == 16, #"Expected '16', but got '\#(result)'"#)
   }
 //
