@@ -18,7 +18,7 @@ final class LeetCode3243 {
       // find shortest
       var count = 0
       var visited: [Bool] = .init(repeating: false, count: n)
-      var queue: [Int] = [0]
+      var queue = [0]
       while !queue.contains(n - 1) {
         queue = queue
           .flatMap { graph[$0] }
