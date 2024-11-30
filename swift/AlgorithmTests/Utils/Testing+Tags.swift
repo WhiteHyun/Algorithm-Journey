@@ -24,6 +24,7 @@ extension Tag {
   @Tag static var doublyLinkedList: Self
   @Tag static var dynamicProgramming: Self
   @Tag static var enumeration: Self
+  @Tag static var eulerianCircuit: Self
   @Tag static var gameTheory: Self
   @Tag static var graph: Self
   @Tag static var greedy: Self
