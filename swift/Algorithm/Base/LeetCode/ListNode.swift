@@ -41,7 +41,7 @@ extension ListNode?: @retroactive ExpressibleByArrayLiteral {
   }
 }
 
-// MARK: CustomStringConvertible
+// MARK: - ListNode + CustomStringConvertible
 
 extension ListNode: CustomStringConvertible {
   public var description: String {
@@ -56,7 +56,7 @@ extension ListNode: CustomStringConvertible {
   }
 }
 
-// MARK: Equatable
+// MARK: - ListNode + Equatable
 
 extension ListNode: Equatable {
   public static func == (lhs: ListNode, rhs: ListNode) -> Bool {

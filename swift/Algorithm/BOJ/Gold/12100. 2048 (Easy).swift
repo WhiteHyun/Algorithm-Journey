@@ -19,7 +19,7 @@ final class BOJ12100 {
 
   private func backtrack(_ count: Int, _ array: [[Int]]) {
     if count == 5 {
-      maxValue = max(maxValue, array.flatMap { $0 }.max()!)
+      maxValue = max(maxValue, array.flatMap(\.self).max()!)
       return
     }
 

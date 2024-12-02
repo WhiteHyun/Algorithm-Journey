@@ -40,7 +40,7 @@ final class LeetCode3152 {
 
     for query in queries {
       if query[0] == query[1] { result.append(true) }
-      else { result.append(array[query[0] ..< query[1]].allSatisfy { $0 }) }
+      else { result.append(array[query[0] ..< query[1]].allSatisfy(\.self)) }
     }
 
     return result
