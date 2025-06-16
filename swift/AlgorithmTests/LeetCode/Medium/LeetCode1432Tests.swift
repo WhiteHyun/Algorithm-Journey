@@ -43,7 +43,7 @@ struct LeetCode1432Tests {
 
   @Test
   func example6() {
-    let result = problem.maxDiff(1101057)
-    #expect(result == 8808050, #"Expected '8808050', but got '\#(result)'"#)
+    let result = problem.maxDiff(1_101_057)
+    #expect(result == 8_808_050, #"Expected '8808050', but got '\#(result)'"#)
   }
 }

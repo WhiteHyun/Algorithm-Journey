@@ -11,7 +11,7 @@ final class LeetCode152 {
     var maxNumber = nums[0]
     var minNumber = nums[0]
     var answer = nums[0]
-    let negativeCount = nums.filter { $0 < 0 }.count
+    let negativeCount = nums.count(where: { $0 < 0 })
 
     for index in 1 ..< nums.count {
       let current = nums[index]

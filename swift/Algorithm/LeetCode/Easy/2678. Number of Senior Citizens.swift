@@ -10,7 +10,6 @@ final class LeetCode2678 {
   func countSeniors(_ details: [String]) -> Int {
     details
       .compactMap { Int($0[11 ... 12]) }
-      .filter { $0 > 60 }
-      .count
+      .count(where: { $0 > 60 })
   }
 }

@@ -21,7 +21,7 @@ final class BOJ1759 {
 
     func backTracking(variableCount: Int, flagIndex: Int) {
       if variableCount == count {
-        let vowelsCount = answerArray.filter { $0 == "a" || $0 == "e" || $0 == "i" || $0 == "o" || $0 == "u" }.count
+        let vowelsCount = answerArray.count(where: { $0 == "a" || $0 == "e" || $0 == "i" || $0 == "o" || $0 == "u" })
         if vowelsCount > 0, answerArray.count - vowelsCount > 1 {
           print(answerArray.joined())
         }

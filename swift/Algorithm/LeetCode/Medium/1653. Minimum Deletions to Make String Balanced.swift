@@ -11,7 +11,7 @@ final class LeetCode1653 {
     let array = Array(s)
 
     var result = array.count
-    var aCountRight = array.filter { $0 == "a" }.count
+    var aCountRight = array.count(where: { $0 == "a" })
     var bCountLeft = 0
 
     for element in array {

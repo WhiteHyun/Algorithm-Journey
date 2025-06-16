@@ -9,7 +9,7 @@
 final class LeetCode1684 {
   func countConsistentStrings(_ allowed: String, _ words: [String]) -> Int {
     let allowedBits = bitManipulating(allowed)
-    return words.filter { bitManipulating($0) | allowedBits == allowedBits }.count
+    return words.count(where: { bitManipulating($0) | allowedBits == allowedBits })
   }
 
   @inline(__always)
