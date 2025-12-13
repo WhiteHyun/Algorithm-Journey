@@ -38,7 +38,7 @@ public struct ProblemWorkflow {
   }
 
   public func fetch(problem: String) async throws {
-    let slug = extractSlug(from: problem)
+    let slug = try await resolveSlug(from: problem)
     print("Problem Slug: \(slug)")
 
     try await processQuestion(slug: slug)
@@ -68,7 +68,8 @@ public struct ProblemWorkflow {
     print("Done!")
   }
 
-  private func extractSlug(from input: String) -> String {
+  private func resolveSlug(from input: String) async throws -> String {
+    // URL 형식인 경우
     if input.contains("leetcode.com/problems/") {
       let pattern = #"problems/([^/?]+)"#
       if let regex = try? NSRegularExpression(pattern: pattern),
@@ -77,6 +78,14 @@ public struct ProblemWorkflow {
         return String(input[range])
       }
     }
+
+    // 숫자만 있는 경우 (문제 번호)
+    if input.allSatisfy(\.isNumber) {
+      print("Resolving problem number \(input) to slug...")
+      return try await api.fetchSlugByNumber(input)
+    }
+
+    // 그 외에는 slug로 간주
     return input
   }
 
