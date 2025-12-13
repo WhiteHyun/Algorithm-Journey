@@ -103,7 +103,7 @@ struct CodeGenerator {
       ])
       func test(_ input: \(inputType), _ expected: \(outputType)) {
         let result = problem.\(methodName)(\(inputAccess))
-        #expect(result == expected)
+        #expect(result == expected, "Input: \\(input), Expected: \\(expected), Got: \\(result)")
       }
     """
   }
@@ -118,7 +118,7 @@ struct CodeGenerator {
       ])
       func test(_ input: \(inputType), _ expected: \(outputType)) {
         let result = problem.\(methodName)(input)
-        #expect(result == expected)
+        #expect(result == expected, "Input: \\(input), Expected: \\(expected), Got: \\(result)")
       }
     """
   }
