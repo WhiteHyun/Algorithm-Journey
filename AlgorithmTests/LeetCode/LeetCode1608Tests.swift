@@ -5,35 +5,28 @@
 //  Created by 홍승현 on 2024/05/27.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode1608Tests: XCTestCase {
+@Suite("LeetCode1608") struct LeetCode1608Tests {
   private let problem = LeetCode1608()
 
-  func testExample1() {
-    let result = problem.specialArray([3, 5])
-    XCTAssertTrue(result == 2, "Expected '2', but got '\(result)'")
+  @Test(
+    arguments: [
+      ([3, 5], 2),
+      ([0, 0], -1),
+      ([0, 4, 3, 0, 4], 3),
+    ]
+  )
+  func specialArray(input: ([Int], Int)) {
+    let result = problem.specialArray(input.0)
+    #expect(result == input.1, "Input: \(input.0), Expected: \(input.1), Got: \(result)")
   }
 
-  func testExample2() {
-    let result = problem.specialArray([0, 0])
-    XCTAssertTrue(result == -1, "Expected '-1', but got '\(result)'")
+  @Test func timeComplexityBinarySearch() {
+    _ = problem.specialArray(.init(0 ... 1_000_000))
   }
 
-  func testExample3() {
-    let result = problem.specialArray([0, 4, 3, 0, 4])
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
-  }
-
-  func testTimeComplexityBinarySearch() {
-    measure {
-      _ = problem.specialArray(.init(0 ... 1_000_000))
-    }
-  }
-
-  func testTimeComplexityFirstIndex() {
-    measure {
-      _ = problem.specialArray_NLogN_MN(.init(0 ... 1_000_000))
-    }
+  @Test func timeComplexityFirstIndex() {
+    _ = problem.specialArray_NLogN_MN(.init(0 ... 1_000_000))
   }
 }

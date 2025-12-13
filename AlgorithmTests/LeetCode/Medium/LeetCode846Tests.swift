@@ -5,28 +5,33 @@
 //  Created by 홍승현 on 2024/06/06.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode846Tests: XCTestCase {
+@Suite("LeetCode 846: Hand of Straights")
+struct LeetCode846Tests {
   private let problem = LeetCode846()
 
-  func testExample1() {
+  @Test("Example 1: isNStraightHand([1,2,3,6,2,3,4,7,8], 3) should return true")
+  func example1() {
     let result = problem.isNStraightHand([1, 2, 3, 6, 2, 3, 4, 7, 8], 3)
-    XCTAssertTrue(result == true, #"Expected 'true', but got '\#(result)'"#)
+    #expect(result == true, "Input: ([1,2,3,6,2,3,4,7,8], 3), Expected: true, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: isNStraightHand([1,2,3,4,5], 4) should return false")
+  func example2() {
     let result = problem.isNStraightHand([1, 2, 3, 4, 5], 4)
-    XCTAssertTrue(result == false, #"Expected 'false', but got '\#(result)'"#)
+    #expect(result == false, "Input: ([1,2,3,4,5], 4), Expected: false, Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: isNStraightHand([8,10,12], 3) should return false")
+  func example3() {
     let result = problem.isNStraightHand([8, 10, 12], 3)
-    XCTAssertTrue(result == false, #"Expected 'false', but got '\#(result)'"#)
+    #expect(result == false, "Input: ([8,10,12], 3), Expected: false, Got: \(result)")
   }
 
-  func testExample4() {
+  @Test("Example 4: isNStraightHand([1,1,2,2,3,3], 3) should return true")
+  func example4() {
     let result = problem.isNStraightHand([1, 1, 2, 2, 3, 3], 3)
-    XCTAssertTrue(result == true, #"Expected 'true', but got '\#(result)'"#)
+    #expect(result == true, "Input: ([1,1,2,2,3,3], 3), Expected: true, Got: \(result)")
   }
 }

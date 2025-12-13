@@ -5,28 +5,19 @@
 //  Created by 홍승현 on 2024/04/26.
 //
 
-import XCTest
+import Testing
 
-final class BOJ20366Tests: XCTestCase {
+@Suite("BOJ 20366")
+struct BOJ20366Tests {
   private let problem = BOJ20366()
 
-  func testExample1() {
-    let result = problem.minDifference([2, 3, 5, 5, 9])
-    XCTAssertTrue(result == 1)
-  }
-
-  func testExample2() {
-    let result = problem.minDifference([1, 4, 11, 13, 101, 105, 201, 205])
-    XCTAssertTrue(result == 0)
-  }
-
-  func testExample3() {
-    let result = problem.minDifference([1, 2, 1000, 2000, 10001, 10002])
-    XCTAssertTrue(result == 0)
-  }
-
-  func testExample4() {
-    let result = problem.minDifference([2, 3, 5, 5, 9])
-    XCTAssertTrue(result == 1)
+  @Test(arguments: [
+    ([2, 3, 5, 5, 9], 1),
+    ([1, 4, 11, 13, 101, 105, 201, 205], 0),
+    ([1, 2, 1000, 2000, 10001, 10002], 0),
+  ])
+  func test(_ input: [Int], _ expected: Int) {
+    let result = problem.minDifference(input)
+    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
   }
 }

@@ -5,29 +5,27 @@
 //  Created by 홍승현 on 2024/05/05.
 //
 
-import XCTest
+import Testing
 
-final class BOJ1987Tests: XCTestCase {
+@Suite("BOJ 1987")
+struct BOJ1987Tests {
   private let problem = BOJ1987()
 
-  func testExample1() {
-    measure {
-      let result = problem.solution(2, 4, [["C", "A", "A", "B"], ["A", "D", "C", "B"]])
-      XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
-    }
+  @Test
+  func example1() {
+    let result = problem.solution(2, 4, [["C", "A", "A", "B"], ["A", "D", "C", "B"]])
+    #expect(result == 3, "Expected: 3, Got: \(result)")
   }
 
-  func testExample2() {
-    measure {
-      let result = problem.solution(3, 6, [["H", "F", "D", "F", "F", "B"], ["A", "J", "H", "G", "D", "H"], ["D", "G", "A", "G", "E", "H"]])
-      XCTAssertTrue(result == 6, "Expected '10', but got '\(result)'")
-    }
+  @Test
+  func example2() {
+    let result = problem.solution(3, 6, [["H", "F", "D", "F", "F", "B"], ["A", "J", "H", "G", "D", "H"], ["D", "G", "A", "G", "E", "H"]])
+    #expect(result == 6, "Expected: 6, Got: \(result)")
   }
 
-  func testExample3() {
-    measure {
-      let result = problem.solution(5, 5, [["I", "E", "F", "C", "J"], ["F", "H", "F", "K", "C"], ["F", "F", "A", "L", "F"], ["H", "F", "G", "C", "F"], ["H", "M", "C", "H", "H"]])
-      XCTAssertTrue(result == 10, "Expected '10', but got '\(result)'")
-    }
+  @Test
+  func example3() {
+    let result = problem.solution(5, 5, [["I", "E", "F", "C", "J"], ["F", "H", "F", "K", "C"], ["F", "F", "A", "L", "F"], ["H", "F", "G", "C", "F"], ["H", "M", "C", "H", "H"]])
+    #expect(result == 10, "Expected: 10, Got: \(result)")
   }
 }

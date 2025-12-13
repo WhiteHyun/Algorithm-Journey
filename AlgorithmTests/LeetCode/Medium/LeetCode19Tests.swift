@@ -5,28 +5,33 @@
 //  Created by 홍승현 on 2024/06/10.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode19Tests: XCTestCase {
+@Suite("LeetCode 19: Remove Nth Node From End of List")
+struct LeetCode19Tests {
   private let problem = LeetCode19()
 
-  func testExample1() {
+  @Test("Example 1: removeNthFromEnd([1,2,3,4,5], 2) should return [1,2,3,5]")
+  func example1() {
     let result = problem.removeNthFromEnd([1, 2, 3, 4, 5], 2)
-    XCTAssertTrue(result == [1, 2, 3, 5], #"Expected '[1, 2, 3, 5]', but got '\#(String(describing: result))'"#)
+    #expect(result == [1, 2, 3, 5], "Input: ([1,2,3,4,5], 2), Expected: [1,2,3,5], Got: \(String(describing: result))")
   }
 
-  func testExample2() {
+  @Test("Example 2: removeNthFromEnd([1], 1) should return []")
+  func example2() {
     let result = problem.removeNthFromEnd([1], 1)
-    XCTAssertTrue(result == [], #"Expected '[]', but got '\#(String(describing: result))'"#)
+    #expect(result == [], "Input: ([1], 1), Expected: [], Got: \(String(describing: result))")
   }
 
-  func testExample3() {
+  @Test("Example 3: removeNthFromEnd([1,2], 1) should return [1]")
+  func example3() {
     let result = problem.removeNthFromEnd([1, 2], 1)
-    XCTAssertTrue(result == [1], #"Expected '[1]', but got '\#(String(describing: result))'"#)
+    #expect(result == [1], "Input: ([1,2], 1), Expected: [1], Got: \(String(describing: result))")
   }
 
-  func testExample4() {
+  @Test("Example 4: removeNthFromEnd([1,2], 2) should return [2]")
+  func example4() {
     let result = problem.removeNthFromEnd([1, 2], 2)
-    XCTAssertTrue(result == [2], #"Expected '[2]', but got '\#(String(describing: result))'"#)
+    #expect(result == [2], "Input: ([1,2], 2), Expected: [2], Got: \(String(describing: result))")
   }
 }

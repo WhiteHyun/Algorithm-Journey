@@ -5,23 +5,24 @@
 //  Created by 홍승현 on 2024/05/04.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode21Tests: XCTestCase {
+@Suite("LeetCode21")
+struct LeetCode21Tests {
   private let problem = LeetCode21()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.mergeTwoLists([1, 2, 4], [1, 3, 4])
-    XCTAssertTrue(result == [1, 1, 2, 3, 4, 4], "Expected '[1, 1, 2, 3, 4, 4]', but got '\(String(describing: result))'")
+    #expect(result == [1, 1, 2, 3, 4, 4], "Expected '[1, 1, 2, 3, 4, 4]', but got '\(String(describing: result))'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.mergeTwoLists([], [])
-    XCTAssertTrue(result == [], "Expected '[]', but got '\(String(describing: result))'")
+    #expect(result == [], "Expected '[]', but got '\(String(describing: result))'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.mergeTwoLists([], [0])
-    XCTAssertTrue(result == [0], "Expected '[0]', but got '\(String(describing: result))'")
+    #expect(result == [0], "Expected '[0]', but got '\(String(describing: result))'")
   }
 }

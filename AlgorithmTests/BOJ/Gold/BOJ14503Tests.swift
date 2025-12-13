@@ -5,161 +5,69 @@
 //  Created by 홍승현 on 2024/05/26.
 //
 
-import XCTest
+import Testing
 
-final class BOJ14503Tests: XCTestCase {
+@Suite("BOJ 14503")
+struct BOJ14503Tests {
   private let problem = BOJ14503()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.solution((1, 1, 0), [[1, 1, 1], [1, 0, 1], [1, 1, 1]])
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+    #expect(result == 1, "Expected: 1, Got: \(result)")
   }
 
-  func testExample2() {
-    let result = problem.solution(
-      (7, 4, 0),
-      [
-        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 1, 1, 1, 1, 0, 1],
-        [1, 0, 0, 1, 1, 0, 0, 0, 0, 1],
-        [1, 0, 1, 1, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 57, "Expected '57', but got '\(result)'")
+  @Test
+  func example2() {
+    let result = problem.solution((7, 4, 0), [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 1, 1, 1, 1, 0, 1], [1, 0, 0, 1, 1, 0, 0, 0, 0, 1], [1, 0, 1, 1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 0, 0, 0, 1, 0, 1], [1, 0, 0, 0, 0, 0, 1, 1, 0, 1], [1, 0, 0, 0, 0, 0, 1, 1, 0, 1], [1, 0, 0, 0, 0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+    #expect(result == 57, "Expected: 57, Got: \(result)")
   }
 
-  func testExample3() {
-    let result = problem.solution(
-      (1, 2, 3),
-      [
-        [1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 1],
-        [1, 0, 1, 0, 1],
-        [1, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 8, "Expected '8', but got '\(result)'")
+  @Test
+  func example3() {
+    let result = problem.solution((1, 2, 3), [[1, 1, 1, 1, 1], [1, 0, 0, 0, 1], [1, 0, 1, 0, 1], [1, 0, 0, 0, 1], [1, 1, 1, 1, 1]])
+    #expect(result == 8, "Expected: 8, Got: \(result)")
   }
 
-  func testExample4() {
-    let result = problem.solution(
-      (2, 1, 0),
-      [
-        [1, 1, 1, 1, 1],
-        [1, 0, 1, 0, 1],
-        [1, 0, 1, 0, 1],
-        [1, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 6, "Expected '6', but got '\(result)'")
+  @Test
+  func example4() {
+    let result = problem.solution((2, 1, 0), [[1, 1, 1, 1, 1], [1, 0, 1, 0, 1], [1, 0, 1, 0, 1], [1, 0, 0, 0, 1], [1, 1, 1, 1, 1]])
+    #expect(result == 6, "Expected: 6, Got: \(result)")
   }
 
-  func testExample5() {
-    let result = problem.solution(
-      (2, 2, 2),
-      [
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 1, 0, 0, 1],
-        [1, 0, 0, 1, 0, 0, 1],
-        [1, 0, 0, 1, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 21, "Expected '21', but got '\(result)'")
+  @Test
+  func example5() {
+    let result = problem.solution((2, 2, 2), [[1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 1, 0, 0, 1], [1, 0, 0, 1, 0, 0, 1], [1, 0, 0, 1, 0, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1, 1]])
+    #expect(result == 21, "Expected: 21, Got: \(result)")
   }
 
-  func testExample6() {
-    let result = problem.solution(
-      (4, 2, 1),
-      [
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 1, 0, 1],
-        [1, 0, 1, 1, 0, 0, 1],
-        [1, 0, 0, 0, 0, 1, 1],
-        [1, 0, 0, 1, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 11, "Expected '11', but got '\(result)'")
+  @Test
+  func example6() {
+    let result = problem.solution((4, 2, 1), [[1, 1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 1, 0, 1], [1, 0, 1, 1, 0, 0, 1], [1, 0, 0, 0, 0, 1, 1], [1, 0, 0, 1, 0, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1, 1]])
+    #expect(result == 11, "Expected: 11, Got: \(result)")
   }
 
-  func testExample7() {
-    let result = problem.solution(
-      (7, 3, 0),
-      [
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 1, 0, 1, 0, 1],
-        [1, 0, 1, 0, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 1, 0, 0, 1],
-        [1, 0, 0, 1, 1, 0, 1],
-        [1, 0, 0, 1, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 25, "Expected '25', but got '\(result)'")
+  @Test
+  func example7() {
+    let result = problem.solution((7, 3, 0), [[1, 1, 1, 1, 1, 1, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 1, 0, 0, 1], [1, 0, 0, 1, 1, 0, 1], [1, 0, 0, 1, 0, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1, 1]])
+    #expect(result == 25, "Expected: 25, Got: \(result)")
   }
 
-  func testExample8() {
-    let result = problem.solution(
-      (3, 4, 2),
-      [
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 1, 0, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 1, 1, 0, 1],
-        [1, 0, 0, 0, 1, 0, 1],
-        [1, 1, 0, 1, 1, 1, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 17, "Expected '17', but got '\(result)'")
+  @Test
+  func example8() {
+    let result = problem.solution((3, 4, 2), [[1, 1, 1, 1, 1, 1, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 1, 1, 0, 1], [1, 0, 0, 0, 1, 0, 1], [1, 1, 0, 1, 1, 1, 1], [1, 0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1, 1]])
+    #expect(result == 17, "Expected: 17, Got: \(result)")
   }
 
-  func testExample9() {
-    let result = problem.solution(
-      (6, 2, 1),
-      [
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 0, 1, 0, 1, 0, 1],
-        [1, 0, 1, 0, 0, 0, 1],
-        [1, 0, 1, 0, 1, 0, 1],
-        [1, 0, 1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 0, 0, 1, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 13, "Expected '13', but got '\(result)'")
+  @Test
+  func example9() {
+    let result = problem.solution((6, 2, 1), [[1, 1, 1, 1, 1, 1, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 0, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 0, 1], [1, 0, 0, 1, 1, 0, 1], [1, 0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1, 1]])
+    #expect(result == 13, "Expected: 13, Got: \(result)")
   }
 
-  func testExample10() {
-    let result = problem.solution(
-      (1, 1, 0),
-      [
-        [1, 1, 1, 1, 1],
-        [1, 0, 0, 0, 1],
-        [1, 0, 0, 0, 1],
-        [1, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1],
-      ]
-    )
-    XCTAssertTrue(result == 9, "Expected '9', but got '\(result)'")
+  @Test
+  func example10() {
+    let result = problem.solution((1, 1, 0), [[1, 1, 1, 1, 1], [1, 0, 0, 0, 1], [1, 0, 0, 0, 1], [1, 0, 0, 0, 1], [1, 1, 1, 1, 1]])
+    #expect(result == 9, "Expected: 9, Got: \(result)")
   }
 }

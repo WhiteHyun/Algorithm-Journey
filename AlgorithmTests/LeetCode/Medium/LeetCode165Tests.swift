@@ -5,22 +5,27 @@
 //  Created by 홍승현 on 2024/05/03.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode165Tests: XCTestCase {
+@Suite("LeetCode 165: Compare Version Numbers")
+struct LeetCode165Tests {
   private let problem = LeetCode165()
-  func testExample1() {
+
+  @Test("Example 1: compareVersion('1.01', '1.001') should return 0")
+  func example1() {
     let result = problem.compareVersion("1.01", "1.001")
-    XCTAssertTrue(result == 0)
+    #expect(result == 0, "Input: ('1.01', '1.001'), Expected: 0, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: compareVersion('1.0', '1.0.0') should return 0")
+  func example2() {
     let result = problem.compareVersion("1.0", "1.0.0")
-    XCTAssertTrue(result == 0)
+    #expect(result == 0, "Input: ('1.0', '1.0.0'), Expected: 0, Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: compareVersion('0.1', '1.1') should return -1")
+  func example3() {
     let result = problem.compareVersion("0.1", "1.1")
-    XCTAssertTrue(result == -1)
+    #expect(result == -1, "Input: ('0.1', '1.1'), Expected: -1, Got: \(result)")
   }
 }

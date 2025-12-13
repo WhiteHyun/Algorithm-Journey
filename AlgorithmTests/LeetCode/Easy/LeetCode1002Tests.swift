@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/06/05.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode1002Tests: XCTestCase {
+@Suite("LeetCode1002")
+struct LeetCode1002Tests {
   private let problem = LeetCode1002()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.commonChars(["bella", "label", "roller"])
-    XCTAssertTrue(areEquivalent(result, ["e", "l", "l"]), #"Expected '["e", "l", "l"]', but got '\#(result)'"#)
+    #expect(areEquivalent(result, ["e", "l", "l"]), #"Expected '["e", "l", "l"]', but got '\#(result)'"#)
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.commonChars(["cool", "lock", "cook"])
-    XCTAssertTrue(areEquivalent(result, ["c", "o"]), #"Expected '["c", "o"]', but got '\#(result)'"#)
+    #expect(areEquivalent(result, ["c", "o"]), #"Expected '["c", "o"]', but got '\#(result)'"#)
   }
 }

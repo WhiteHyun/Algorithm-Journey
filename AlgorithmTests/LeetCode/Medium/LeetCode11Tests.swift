@@ -5,18 +5,21 @@
 //  Created by 홍승현 on 2024/06/08.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode11Tests: XCTestCase {
+@Suite("LeetCode 11: Container With Most Water")
+struct LeetCode11Tests {
   private let problem = LeetCode11()
 
-  func testExample1() {
+  @Test("Example 1: [1,8,6,2,5,4,8,3,7] should return 49")
+  func example1() {
     let result = problem.maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])
-    XCTAssertTrue(result == 49, #"Expected '49', but got '\#(result)'"#)
+    #expect(result == 49, "Input: [1,8,6,2,5,4,8,3,7], Expected: 49, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: [1,1] should return 1")
+  func example2() {
     let result = problem.maxArea([1, 1])
-    XCTAssertTrue(result == 1, #"Expected '1', but got '\#(result)'"#)
+    #expect(result == 1, "Input: [1,1], Expected: 1, Got: \(result)")
   }
 }

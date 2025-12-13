@@ -5,41 +5,46 @@
 //  Created by 홍승현 on 2024/05/20.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode49Tests: XCTestCase {
+@Suite("LeetCode 49: Group Anagrams")
+struct LeetCode49Tests {
   private let problem = LeetCode49()
 
-  func testExample1() {
+  @Test("Example 1: ['eat','tea','tan','ate','nat','bat']")
+  func example1() {
     let result = problem.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
     let sortedResult = sortResult(result)
     let expected = [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
     let sortedExpected = sortResult(expected)
-    XCTAssertTrue(sortedResult == sortedExpected, #"Expected '\#(sortedExpected)', but got '\#(sortedResult)'"#)
+    #expect(sortedResult == sortedExpected, "Input: ['eat','tea','tan','ate','nat','bat'], Expected: \(sortedExpected), Got: \(sortedResult)")
   }
 
-  func testExample2() {
+  @Test("Example 2: ['']")
+  func example2() {
     let result = problem.groupAnagrams([""])
     let sortedResult = sortResult(result)
     let expected = [[""]]
     let sortedExpected = sortResult(expected)
-    XCTAssertTrue(sortedResult == sortedExpected, #"Expected '\#(sortedExpected)', but got '\#(sortedResult)'"#)
+    #expect(sortedResult == sortedExpected, "Input: [''], Expected: \(sortedExpected), Got: \(sortedResult)")
   }
 
-  func testExample3() {
+  @Test("Example 3: ['a']")
+  func example3() {
     let result = problem.groupAnagrams(["a"])
     let sortedResult = sortResult(result)
     let expected = [["a"]]
     let sortedExpected = sortResult(expected)
-    XCTAssertTrue(sortedResult == sortedExpected, #"Expected '\#(sortedExpected)', but got '\#(sortedResult)'"#)
+    #expect(sortedResult == sortedExpected, "Input: ['a'], Expected: \(sortedExpected), Got: \(sortedResult)")
   }
 
-  func testExample4() {
+  @Test("Example 4: ['ddddddddddg','dgggggggggg']")
+  func example4() {
     let result = problem.groupAnagrams(["ddddddddddg", "dgggggggggg"])
     let sortedResult = sortResult(result)
     let expected = [["dgggggggggg"], ["ddddddddddg"]]
     let sortedExpected = sortResult(expected)
-    XCTAssertTrue(sortedResult == sortedExpected, #"Expected '\#(sortedExpected)', but got '\#(sortedResult)'"#)
+    #expect(sortedResult == sortedExpected, "Input: ['ddddddddddg','dgggggggggg'], Expected: \(sortedExpected), Got: \(sortedResult)")
   }
 
   private func sortResult(_ result: [[String]]) -> [[String]] {

@@ -5,20 +5,21 @@
 //  Created by 홍승현 on 2024/06/03.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode344Tests: XCTestCase {
+@Suite("LeetCode344")
+struct LeetCode344Tests {
   private let problem = LeetCode344()
 
-  func testExample1() {
+  @Test func example1() {
     var stringArray: [Character] = ["h", "e", "l", "l", "o"]
     problem.reverseString(&stringArray)
-    XCTAssertTrue(stringArray == ["o", "l", "l", "e", "h"], #"Expected '["o", "l", "l", "e", "h"]', but got '\#(stringArray)'"#)
+    #expect(stringArray == ["o", "l", "l", "e", "h"], #"Expected '["o", "l", "l", "e", "h"]', but got '\#(stringArray)'"#)
   }
 
-  func testExample2() {
+  @Test func example2() {
     var stringArray: [Character] = ["H", "a", "n", "n", "a", "h"]
     problem.reverseString(&stringArray)
-    XCTAssertTrue(stringArray == ["h", "a", "n", "n", "a", "H"], #"Expected '["h", "a", "n", "n", "a", "H"]', but got '\#(stringArray)'"#)
+    #expect(stringArray == ["h", "a", "n", "n", "a", "H"], #"Expected '["h", "a", "n", "n", "a", "H"]', but got '\#(stringArray)'"#)
   }
 }

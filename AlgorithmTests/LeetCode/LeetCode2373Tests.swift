@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/05/12.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2373Tests: XCTestCase {
+@Suite("LeetCode2373") struct LeetCode2373Tests {
   private let problem = LeetCode2373()
 
-  func testExample1() {
-    let result = problem.largestLocal([[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 2, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1]])
-    XCTAssertTrue(result == [[2, 2, 2], [2, 2, 2], [2, 2, 2]], "Expected '[[2, 2, 2], [2, 2, 2], [2, 2, 2]]', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.largestLocal([[9, 9, 8, 1], [5, 6, 2, 6], [8, 2, 6, 4], [6, 2, 2, 2]])
-    XCTAssertTrue(result == [[9, 9], [8, 6]], "Expected '[[9, 9], [8, 6]]', but got '\(result)'")
+  @Test(
+    arguments: [
+      ([[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 2, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], [[2, 2, 2], [2, 2, 2], [2, 2, 2]]),
+      ([[9, 9, 8, 1], [5, 6, 2, 6], [8, 2, 6, 4], [6, 2, 2, 2]], [[9, 9], [8, 6]]),
+    ]
+  )
+  func largestLocal(input: ([[Int]], [[Int]])) {
+    let result = problem.largestLocal(input.0)
+    #expect(result == input.1, "Input: \(input.0), Expected: \(input.1), Got: \(result)")
   }
 }

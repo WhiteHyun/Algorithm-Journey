@@ -5,18 +5,21 @@
 //  Created by 홍승현 on 2024/05/10.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode786Tests: XCTestCase {
+@Suite("LeetCode 786: K-th Smallest Prime Fraction")
+struct LeetCode786Tests {
   private let problem = LeetCode786()
 
-  func testExample1() {
+  @Test("Example 1: kthSmallestPrimeFraction([1,2,3,5], 3) should return [2,5]")
+  func example1() {
     let result = problem.kthSmallestPrimeFraction([1, 2, 3, 5], 3)
-    XCTAssertTrue(result == [2, 5], "Expected '[2, 5]', but got '\(result)'")
+    #expect(result == [2, 5], "Input: ([1,2,3,5], 3), Expected: [2,5], Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: kthSmallestPrimeFraction([1,7], 1) should return [1,7]")
+  func example2() {
     let result = problem.kthSmallestPrimeFraction([1, 7], 1)
-    XCTAssertTrue(result == [1, 7], "Expected '[1, 7]', but got '\(result)'")
+    #expect(result == [1, 7], "Input: ([1,7], 1), Expected: [1,7], Got: \(result)")
   }
 }

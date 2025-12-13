@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/05/10.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode572Tests: XCTestCase {
+@Suite("LeetCode572")
+struct LeetCode572Tests {
   private let problem = LeetCode572()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.isSubtree([3, 4, 5, 1, 2], [4, 1, 2])
-    XCTAssertTrue(result == true, "Expected 'true', but got '\(result)'")
+    #expect(result == true, "Expected 'true', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.isSubtree([3, 4, 5, 1, 2, nil, nil, nil, nil, 0], [4, 1, 2])
-    XCTAssertTrue(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result == false, "Expected 'false', but got '\(result)'")
   }
 }

@@ -5,18 +5,23 @@
 //  Created by 홍승현 on 2024/05/16.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2331Tests: XCTestCase {
+@Suite("LeetCode 2331")
+struct LeetCode2331Tests {
   private let problem = LeetCode2331()
 
-  func testExample1() {
-    let result = problem.evaluateTree([2, 1, 3, nil, nil, 0, 1])
-    XCTAssertTrue(result == true, "Expected 'true', but got '\(result)'")
+  @Test
+  func example1() {
+    let treeNode: TreeNode? = [2, 1, 3, nil, nil, 0, 1]
+    let result = problem.evaluateTree(treeNode)
+    #expect(result == true, "Expected: true, Got: \(result)")
   }
 
-  func testExample2() {
-    let result = problem.evaluateTree([0])
-    XCTAssertTrue(result == false, "Expected 'false', but got '\(result)'")
+  @Test
+  func example2() {
+    let treeNode: TreeNode? = [0]
+    let result = problem.evaluateTree(treeNode)
+    #expect(result == false, "Expected: false, Got: \(result)")
   }
 }

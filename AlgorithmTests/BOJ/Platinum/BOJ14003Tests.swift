@@ -5,20 +5,23 @@
 //  Created by 홍승현 on 2024/05/31.
 //
 
-import XCTest
+import Testing
 
-final class BOJ14003Tests: XCTestCase {
+@Suite("BOJ 14003")
+struct BOJ14003Tests {
   private let problem = BOJ14003()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.solution(6, [10, 20, 10, 30, 20, 50])
-    XCTAssertEqual(result.length, 4, "Expected '4', but got '\(result.length)'")
-    XCTAssertEqual(result.sequence, [10, 20, 30, 50], "Expected '[10, 20, 30, 50]', but got '\(result.sequence)'")
+    #expect(result.length == 4, "Expected length: 4, Got: \(result.length)")
+    #expect(result.sequence == [10, 20, 30, 50], "Expected sequence: [10, 20, 30, 50], Got: \(result.sequence)")
   }
 
-  func testExample2() {
+  @Test
+  func example2() {
     let result = problem.solution(7, [2, 3, 4, 1, 2, 3, 4])
-    XCTAssertEqual(result.length, 4, "Expected '4', but got '\(result.length)'")
-    XCTAssertEqual(result.sequence, [1, 2, 3, 4], "Expected '[1, 2, 3, 4]', but got '\(result.sequence)'")
+    #expect(result.length == 4, "Expected length: 4, Got: \(result.length)")
+    #expect(result.sequence == [1, 2, 3, 4], "Expected sequence: [1, 2, 3, 4], Got: \(result.sequence)")
   }
 }

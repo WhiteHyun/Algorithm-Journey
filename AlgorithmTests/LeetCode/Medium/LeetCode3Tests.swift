@@ -5,28 +5,33 @@
 //  Created by 홍승현 on 2024/06/08.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode3Tests: XCTestCase {
+@Suite("LeetCode 3: Longest Substring Without Repeating Characters")
+struct LeetCode3Tests {
   private let problem = LeetCode3()
 
-  func testExample1() {
+  @Test("Example 1: 'abcabcbb' should return 3")
+  func example1() {
     let result = problem.lengthOfLongestSubstring("abcabcbb")
-    XCTAssertTrue(result == 3, #"The answer is "abc", with the length of 3. But got '\#(result)'"#)
+    #expect(result == 3, "Input: 'abcabcbb', Expected: 3 (answer is 'abc'), Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: 'bbbbb' should return 1")
+  func example2() {
     let result = problem.lengthOfLongestSubstring("bbbbb")
-    XCTAssertTrue(result == 1, #"The answer is "b", with the length of 1. But got '\#(result)'"#)
+    #expect(result == 1, "Input: 'bbbbb', Expected: 1 (answer is 'b'), Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: 'pwwkew' should return 3")
+  func example3() {
     let result = problem.lengthOfLongestSubstring("pwwkew")
-    XCTAssertTrue(result == 3, #"The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring. But got '\#(result)'"#)
+    #expect(result == 3, "Input: 'pwwkew', Expected: 3 (answer is 'wke'), Got: \(result)")
   }
 
-  func testExample4() {
+  @Test("Example 4: 'aabaab!bb' should return 3")
+  func example4() {
     let result = problem.lengthOfLongestSubstring("aabaab!bb")
-    XCTAssertTrue(result == 3, #"Expected '3'. But got '\#(result)'"#)
+    #expect(result == 3, "Input: 'aabaab!bb', Expected: 3, Got: \(result)")
   }
 }

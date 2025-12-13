@@ -5,20 +5,23 @@
 //  Created by 홍승현 on 2024/06/12.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode75Tests: XCTestCase {
+@Suite("LeetCode 75: Sort Colors")
+struct LeetCode75Tests {
   private let problem = LeetCode75()
 
-  func testExample1() {
+  @Test("Example 1: sortColors([2,0,2,1,1,0])")
+  func example1() {
     var result = [2, 0, 2, 1, 1, 0]
     problem.sortColors(&result)
-    XCTAssertTrue(result == [0, 0, 1, 1, 2, 2], #"Expected '[0, 0, 1, 1, 2, 2]', but got '\#(result)'"#)
+    #expect(result == [0, 0, 1, 1, 2, 2], "Input: [2,0,2,1,1,0], Expected: [0,0,1,1,2,2], Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: sortColors([2,0,1])")
+  func example2() {
     var result = [2, 0, 1]
     problem.sortColors(&result)
-    XCTAssertTrue(result == [0, 1, 2], #"Expected '[0, 1, 2]', but got '\#(result)'"#)
+    #expect(result == [0, 1, 2], "Input: [2,0,1], Expected: [0,1,2], Got: \(result)")
   }
 }

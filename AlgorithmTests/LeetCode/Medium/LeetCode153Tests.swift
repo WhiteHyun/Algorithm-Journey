@@ -5,23 +5,27 @@
 //  Created by 홍승현 on 2024/06/09.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode153Tests: XCTestCase {
+@Suite("LeetCode 153: Find Minimum in Rotated Sorted Array")
+struct LeetCode153Tests {
   private let problem = LeetCode153()
 
-  func testExample1() {
+  @Test("Example 1: [3,4,5,1,2] should return 1")
+  func example1() {
     let result = problem.findMin([3, 4, 5, 1, 2])
-    XCTAssertTrue(result == 1, #"Expected '1', but got '\#(result)'"#)
+    #expect(result == 1, "Input: [3,4,5,1,2], Expected: 1, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: [4,5,6,7,0,1,2] should return 0")
+  func example2() {
     let result = problem.findMin([4, 5, 6, 7, 0, 1, 2])
-    XCTAssertTrue(result == 0, #"Expected '0', but got '\#(result)'"#)
+    #expect(result == 0, "Input: [4,5,6,7,0,1,2], Expected: 0, Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: [11,13,15,17] should return 11")
+  func example3() {
     let result = problem.findMin([11, 13, 15, 17])
-    XCTAssertTrue(result == 11, #"Expected '11', but got '\#(result)'"#)
+    #expect(result == 11, "Input: [11,13,15,17], Expected: 11, Got: \(result)")
   }
 }

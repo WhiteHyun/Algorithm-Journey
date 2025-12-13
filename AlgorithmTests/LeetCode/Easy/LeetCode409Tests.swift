@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/06/04.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode409Tests: XCTestCase {
+@Suite("LeetCode409")
+struct LeetCode409Tests {
   private let problem = LeetCode409()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.longestPalindrome("abccccdd")
-    XCTAssertTrue(result == 7, "Expected '7', but got '\(result)'")
+    #expect(result == 7, "Expected '7', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.longestPalindrome("a")
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+    #expect(result == 1, "Expected '1', but got '\(result)'")
   }
 }

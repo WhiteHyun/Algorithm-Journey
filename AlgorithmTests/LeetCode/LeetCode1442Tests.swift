@@ -5,28 +5,21 @@
 //  Created by 홍승현 on 2024/05/30.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode1442Tests: XCTestCase {
+@Suite("LeetCode1442") struct LeetCode1442Tests {
   private let problem = LeetCode1442()
 
-  func testExample1() {
-    let result = problem.countTriplets([2, 3, 1, 6, 7])
-    XCTAssertTrue(result == 4, "Expected '4', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.countTriplets([1, 1, 1, 1, 1])
-    XCTAssertTrue(result == 10, "Expected '10', but got '\(result)'")
-  }
-
-  func testExample3() {
-    let result = problem.countTriplets([1, 2])
-    XCTAssertTrue(result == 0, "Expected '0', but got '\(result)'")
-  }
-
-  func testExample4() {
-    let result = problem.countTriplets([1, 1])
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+  @Test(
+    arguments: [
+      ([2, 3, 1, 6, 7], 4),
+      ([1, 1, 1, 1, 1], 10),
+      ([1, 2], 0),
+      ([1, 1], 1),
+    ]
+  )
+  func countTriplets(input: ([Int], Int)) {
+    let result = problem.countTriplets(input.0)
+    #expect(result == input.1, "Input: \(input.0), Expected: \(input.1), Got: \(result)")
   }
 }

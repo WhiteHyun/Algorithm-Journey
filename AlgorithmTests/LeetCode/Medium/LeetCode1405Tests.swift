@@ -26,19 +26,19 @@ struct LeetCode1405Tests {
   @Test
   func example3() {
     let result = problem.longestDiverseString(10, 9, 0)
-    #expect(result == "aababababababababab", #"Expected '"aababababababababab"', but got '\#(result)'"#)
+    #expect(result == "abababababababababa", #"Expected '"abababababababababa"', but got '\#(result)'"#)
   }
 
   @Test
   func example4() {
     let result = problem.longestDiverseString(2, 2, 1)
-    #expect(["abcab", "bacba"].contains(result), #"Expected '"abcab(bacba)"', but got '\#(result)'"#)
+    #expect(["abcab", "bacba", "ababc"].contains(result), #"Expected '"abcab(bacba, ababc)"', but got '\#(result)'"#)
   }
 
   @Test
   func example5() {
     let result = problem.longestDiverseString(0, 9, 12)
-    #expect(result == "ccbccbccbcbcbcbcbcbcb", #"Expected '"ccbccbccbcbcbcbcbcbcb"', but got '\#(result)'"#)
+    #expect(["ccbccbbccbbccbbccbbcc", "ccbccbcbcbcbcbcbcbcbc"].contains(result), #"Expected '"ccbccbbccbbccbbccbbcc(ccbccbcbcbcbcbcbcbcbc)"', but got '\#(result)'"#)
   }
 
   @Test

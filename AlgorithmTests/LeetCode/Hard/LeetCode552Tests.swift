@@ -5,28 +5,20 @@
 //  Created by 홍승현 on 2024/05/26.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode552Tests: XCTestCase {
+@Suite("LeetCode552")
+struct LeetCode552Tests {
   private let problem = LeetCode552()
 
-  func testExample1() {
-    let result = problem.checkRecord(2)
-    XCTAssertTrue(result == 8, "Expected '8', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.checkRecord(1)
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
-  }
-
-  func testExample3() {
-    let result = problem.checkRecord(3)
-    XCTAssertTrue(result == 19, "Expected '19', but got '\(result)'")
-  }
-
-  func testExample4() {
-    let result = problem.checkRecord(10101)
-    XCTAssertTrue(result == 183_236_316, "Expected '183236316', but got '\(result)'")
+  @Test(arguments: [
+    (2, 8),
+    (1, 3),
+    (3, 19),
+    (10101, 183_236_316)
+  ])
+  func examples(n: Int, expected: Int) {
+    let result = problem.checkRecord(n)
+    #expect(result == expected, "Input: \(n), Expected: \(expected), Got: \(result)")
   }
 }

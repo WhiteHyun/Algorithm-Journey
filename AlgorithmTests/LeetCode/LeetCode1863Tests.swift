@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/05/20.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode1863Tests: XCTestCase {
+@Suite("LeetCode1863") struct LeetCode1863Tests {
   private let problem = LeetCode1863()
 
-  func testExample1() {
-    let result = problem.subsetXORSum([1, 3])
-    XCTAssertTrue(result == 6, "Expected '6', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.subsetXORSum([5, 1, 6])
-    XCTAssertTrue(result == 28, "Expected '28', but got '\(result)'")
+  @Test(
+    arguments: [
+      ([1, 3], 6),
+      ([5, 1, 6], 28),
+    ]
+  )
+  func subsetXORSum(input: ([Int], Int)) {
+    let result = problem.subsetXORSum(input.0)
+    #expect(result == input.1, "Input: \(input.0), Expected: \(input.1), Got: \(result)")
   }
 }

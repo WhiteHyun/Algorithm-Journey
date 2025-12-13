@@ -5,23 +5,19 @@
 //  Created by 홍승현 on 2024/05/22.
 //
 
-import XCTest
+import Testing
 
-final class BOJ11054Tests: XCTestCase {
+@Suite("BOJ 11054")
+struct BOJ11054Tests {
   private let problem = BOJ11054()
 
-  func testExample1() {
-    let result = problem.solution(10, [1, 5, 2, 1, 4, 3, 4, 5, 2, 1])
-    XCTAssertTrue(result == 7, "Expected '7', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.solution(9, [1, 2, 3, 4, 5, 4, 3, 2, 1])
-    XCTAssertTrue(result == 9, "Expected '9', but got '\(result)'")
-  }
-
-  func testExample3() {
-    let result = problem.solution(11, [1, 2, 3, 4, 3, 2, 1, 2, 3, 4, 5])
-    XCTAssertTrue(result == 7, "Expected '7', but got '\(result)'")
+  @Test(arguments: [
+    ((10, [1, 5, 2, 1, 4, 3, 4, 5, 2, 1]), 7),
+    ((9, [1, 2, 3, 4, 5, 4, 3, 2, 1]), 9),
+    ((11, [1, 2, 3, 4, 3, 2, 1, 2, 3, 4, 5]), 7),
+  ])
+  func test(_ input: (Int, [Int]), _ expected: Int) {
+    let result = problem.solution(input.0, input.1)
+    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
   }
 }

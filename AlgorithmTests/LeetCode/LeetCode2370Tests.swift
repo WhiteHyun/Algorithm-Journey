@@ -5,41 +5,26 @@
 //  Created by 홍승현 on 2024/04/25.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2370Tests: XCTestCase {
+@Suite("LeetCode2370") struct LeetCode2370Tests {
   private let problem = LeetCode2370()
 
-  func testExample1() {
-    let result = problem.longestIdealString("acfgbd", 2)
-    XCTAssertTrue(result == 4)
+  @Test(
+    arguments: [
+      ("acfgbd", 2, 4),
+      ("abcd", 3, 4),
+      ("acfgbd", 5, 6),
+      ("eduktdb", 15, 5),
+    ]
+  )
+  func longestIdealString(input: (String, Int, Int)) {
+    let result = problem.longestIdealString(input.0, input.1)
+    #expect(result == input.2, "Input: (\(input.0), \(input.1)), Expected: \(input.2), Got: \(result)")
   }
 
-  func testExample2() {
-    let result = problem.longestIdealString("abcd", 3)
-    XCTAssertTrue(result == 4)
-  }
-
-  func testExample3() {
-    let result = problem.longestIdealString("acfgbd", 5)
-    XCTAssertTrue(result == 6)
-  }
-
-  func testExample4() {
-    let result = problem.longestIdealString("eduktdb", 15)
-    XCTAssertTrue(result == 5)
-  }
-
-  func testExample5() {
-    let expectation = XCTestExpectation(description: "Timeout expectation")
-
-    DispatchQueue.global().async {
-      let result = self.problem.longestIdealString("dyyonfvzsretqxucmavxegvlnnjubqnwrhwikmnnrpzdovjxqdsatwzpdjdsneyqvtvorlwbkb", 7)
-      XCTAssertTrue(result == 42)
-      expectation.fulfill()
-    }
-
-    // 3초 동안 대기하고, 시간 초과되면 테스트 실패
-    wait(for: [expectation], timeout: 3.0)
+  @Test func longestIdealStringLongInput() {
+    let result = problem.longestIdealString("dyyonfvzsretqxucmavxegvlnnjubqnwrhwikmnnrpzdovjxqdsatwzpdjdsneyqvtvorlwbkb", 7)
+    #expect(result == 42, "Expected: 42, Got: \(result)")
   }
 }

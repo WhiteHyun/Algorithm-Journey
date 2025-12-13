@@ -5,20 +5,23 @@
 //  Created by 홍승현 on 2024/05/05.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode237Tests: XCTestCase {
+@Suite("LeetCode 237: Delete Node in a Linked List")
+struct LeetCode237Tests {
   private let problem = LeetCode237()
 
-  func testExample1() {
+  @Test("Example 1: Delete node with value 5 from [4,5,1,9]")
+  func example1() {
     let node: ListNode? = [4, 5, 1, 9]
     problem.deleteNode(node?.next)
-    XCTAssertTrue(node == [4, 1, 9], "Expected '[4, 1, 9]', but got '\(String(describing: node))'")
+    #expect(node == [4, 1, 9], "Input: [4,5,1,9] delete node 5, Expected: [4,1,9], Got: \(String(describing: node))")
   }
 
-  func testExample2() {
+  @Test("Example 2: Delete node with value 1 from [4,5,1,9]")
+  func example2() {
     let node: ListNode? = [4, 5, 1, 9]
     problem.deleteNode(node?.next?.next)
-    XCTAssertTrue(node == [4, 5, 9], "Expected '[4, 5, 9]', but got '\(String(describing: node))'")
+    #expect(node == [4, 5, 9], "Input: [4,5,1,9] delete node 1, Expected: [4,5,9], Got: \(String(describing: node))")
   }
 }

@@ -5,21 +5,24 @@
 //  Created by 홍승현 on 2024/05/21.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode78Tests: XCTestCase {
+@Suite("LeetCode 78: Subsets")
+struct LeetCode78Tests {
   private let problem = LeetCode78()
 
-  func testExample1() {
+  @Test("Example 1: subsets([1,2,3])")
+  func example1() {
     let result = problem.subsets([1, 2, 3])
     let expected = [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-    XCTAssertTrue(compareIgnoringOrder(result, expected), "Expected '\(expected)', but got '\(result)'")
+    #expect(compareIgnoringOrder(result, expected), "Input: [1,2,3], Expected: \(expected), Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: subsets([0])")
+  func example2() {
     let result = problem.subsets([0])
     let expected = [[], [0]]
-    XCTAssertTrue(compareIgnoringOrder(result, expected), "Expected '\(expected)', but got '\(result)'")
+    #expect(compareIgnoringOrder(result, expected), "Input: [0], Expected: \(expected), Got: \(result)")
   }
 
   private func compareIgnoringOrder<T: Hashable>(_ lhs: [[T]], _ rhs: [[T]]) -> Bool {

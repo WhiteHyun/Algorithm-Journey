@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/05/10.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode104Tests: XCTestCase {
+@Suite("LeetCode104")
+struct LeetCode104Tests {
   private let problem = LeetCode104()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.maxDepth([3, 9, 20, nil, nil, 15, 7])
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
+    #expect(result == 3, "Expected '3', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.maxDepth([1, nil, 2])
-    XCTAssertTrue(result == 2, "Expected '2', but got '\(result)'")
+    #expect(result == 2, "Expected '2', but got '\(result)'")
   }
 }

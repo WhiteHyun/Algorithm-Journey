@@ -5,28 +5,29 @@
 //  Created by 홍승현 on 2024/05/04.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode20Tests: XCTestCase {
+@Suite("LeetCode20")
+struct LeetCode20Tests {
   private let problem = LeetCode20()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.isValid("()")
-    XCTAssertTrue(result == true, "Expected 'true', but got '\(result)'")
+    #expect(result == true, "Expected 'true', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.isValid("()[]{}")
-    XCTAssertTrue(result == true, "Expected 'true', but got '\(result)'")
+    #expect(result == true, "Expected 'true', but got '\(result)'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.isValid("(]")
-    XCTAssertTrue(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result == false, "Expected 'false', but got '\(result)'")
   }
 
-  func testExample4() {
+  @Test func example4() {
     let result = problem.isValid("([)]")
-    XCTAssertTrue(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result == false, "Expected 'false', but got '\(result)'")
   }
 }

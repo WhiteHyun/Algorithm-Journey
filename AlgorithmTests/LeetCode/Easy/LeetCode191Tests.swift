@@ -5,23 +5,24 @@
 //  Created by 홍승현 on 2024/05/24.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode191Tests: XCTestCase {
+@Suite("LeetCode191")
+struct LeetCode191Tests {
   private let problem = LeetCode191()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.hammingWeight(11)
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
+    #expect(result == 3, "Expected '3', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.hammingWeight(128)
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+    #expect(result == 1, "Expected '1', but got '\(result)'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.hammingWeight(2_147_483_645)
-    XCTAssertTrue(result == 30, "Expected '30', but got '\(result)'")
+    #expect(result == 30, "Expected '30', but got '\(result)'")
   }
 }

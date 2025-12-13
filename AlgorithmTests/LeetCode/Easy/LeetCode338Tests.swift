@@ -5,18 +5,19 @@
 //  Created by 홍승현 on 2024/05/19.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode338Tests: XCTestCase {
+@Suite("LeetCode338")
+struct LeetCode338Tests {
   private let problem = LeetCode338()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.countBits(2)
-    XCTAssertTrue(result == [0, 1, 1], "Expected '[0, 1, 1]', but got '\(result)'")
+    #expect(result == [0, 1, 1], "Expected '[0, 1, 1]', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.countBits(5)
-    XCTAssertTrue(result == [0, 1, 1, 2, 1, 2], "Expected '[0, 1, 1, 2, 1, 2]', but got '\(result)'")
+    #expect(result == [0, 1, 1, 2, 1, 2], "Expected '[0, 1, 1, 2, 1, 2]', but got '\(result)'")
   }
 }

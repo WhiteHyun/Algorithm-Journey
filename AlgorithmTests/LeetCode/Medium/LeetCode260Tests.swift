@@ -5,23 +5,27 @@
 //  Created by 홍승현 on 2024/05/31.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode260Tests: XCTestCase {
+@Suite("LeetCode 260: Single Number III")
+struct LeetCode260Tests {
   private let problem = LeetCode260()
 
-  func testExample1() {
+  @Test("Example 1: [1,2,1,3,2,5] should return [3,5]")
+  func example1() {
     let result = problem.singleNumber([1, 2, 1, 3, 2, 5])
-    XCTAssertTrue(areEquivalent(result, [3, 5]), "Expected '[3, 5]', but got '\(result)'")
+    #expect(areEquivalent(result, [3, 5]), "Input: [1,2,1,3,2,5], Expected: [3,5], Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: [-1,0] should return [-1,0]")
+  func example2() {
     let result = problem.singleNumber([-1, 0])
-    XCTAssertTrue(areEquivalent(result, [-1, 0]), "Expected '[-1, 0]', but got '\(result)'")
+    #expect(areEquivalent(result, [-1, 0]), "Input: [-1,0], Expected: [-1,0], Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: [0,1] should return [1,0]")
+  func example3() {
     let result = problem.singleNumber([0, 1])
-    XCTAssertTrue(areEquivalent(result, [1, 0]), "Expected '[1, 0]', but got '\(result)'")
+    #expect(areEquivalent(result, [1, 0]), "Input: [0,1], Expected: [1,0], Got: \(result)")
   }
 }

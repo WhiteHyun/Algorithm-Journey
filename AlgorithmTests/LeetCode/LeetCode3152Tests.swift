@@ -5,33 +5,39 @@
 //  Created by 홍승현 on 2024/05/19.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode3152Tests: XCTestCase {
+@Suite("LeetCode 3152")
+struct LeetCode3152Tests {
   private let problem = LeetCode3152()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.isArraySpecial([3, 4, 1, 2, 6], [[0, 4]])
-    XCTAssertTrue(result == [false], "Expected '[false]', but got '\(result)'")
+    #expect(result == [false], "Expected: [false], Got: \(result)")
   }
 
-  func testExample2() {
+  @Test
+  func example2() {
     let result = problem.isArraySpecial([4, 3, 1, 6], [[0, 2], [2, 3]])
-    XCTAssertTrue(result == [false, true], "Expected '[false, true]', but got '\(result)'")
+    #expect(result == [false, true], "Expected: [false, true], Got: \(result)")
   }
 
-  func testExample3() {
+  @Test
+  func example3() {
     let result = problem.isArraySpecial([2, 1], [[0, 1]])
-    XCTAssertTrue(result == [true], "Expected '[true]', but got '\(result)'")
+    #expect(result == [true], "Expected: [true], Got: \(result)")
   }
 
-  func testExample4() {
+  @Test
+  func example4() {
     let result = problem.isArraySpecial([2, 2], [[0, 0]])
-    XCTAssertTrue(result == [true], "Expected '[true]', but got '\(result)'")
+    #expect(result == [true], "Expected: [true], Got: \(result)")
   }
 
-  func testExample5() {
+  @Test
+  func example5() {
     let result = problem.isArraySpecial([3, 6, 2, 1], [[0, 1]])
-    XCTAssertTrue(result == [true], "Expected '[true]', but got '\(result)'")
+    #expect(result == [true], "Expected: [true], Got: \(result)")
   }
 }

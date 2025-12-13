@@ -5,18 +5,18 @@
 //  Created by 홍승현 on 2024/04/28.
 //
 
-import XCTest
+import Testing
 
-final class BOJ2293Tests: XCTestCase {
+@Suite("BOJ 2293")
+struct BOJ2293Tests {
   private let problem = BOJ2293()
 
-  func testExample1() {
-    let result = problem.solution(target: 10, coins: [1, 2, 5])
-    XCTAssertTrue(result == 10)
-  }
-
-  func testExample2() {
-    let result = problem.solution(target: 1025, coins: [2, 4, 8, 16, 32, 64])
-    XCTAssertTrue(result == 0, "result(\(result)) is not 0")
+  @Test(arguments: [
+    ((10, [1, 2, 5]), 10),
+    ((1025, [2, 4, 8, 16, 32, 64]), 0),
+  ])
+  func test(_ input: (Int, [Int]), _ expected: Int) {
+    let result = problem.solution(target: input.0, coins: input.1)
+    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
   }
 }

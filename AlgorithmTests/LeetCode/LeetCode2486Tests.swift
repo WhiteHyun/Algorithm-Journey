@@ -5,29 +5,20 @@
 //  Created by 홍승현 on 2024/06/03.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2486Tests: XCTestCase {
+@Suite("LeetCode 2486")
+struct LeetCode2486Tests {
   private let problem = LeetCode2486()
 
-  func testExample1() {
-    let result = problem.appendCharacters("coaching", "coding")
-    XCTAssertTrue(result == 4, "Expected '4', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.appendCharacters("abcde", "a")
-    XCTAssertTrue(result == 0, "Expected '0', but got '\(result)'")
-  }
-
-  func testExample3() {
-    let result = problem.appendCharacters("z", "abcde")
-    XCTAssertTrue(result == 5, "Expected '5', but got '\(result)'")
-  }
-
-  func testExample4() {
-    let result = problem.appendCharacters("coacdinghing",
-                                          "coding")
-    XCTAssertTrue(result == 0, "Expected '0', but got '\(result)'")
+  @Test(arguments: [
+    ("coaching", "coding", 4),
+    ("abcde", "a", 0),
+    ("z", "abcde", 5),
+    ("coacdinghing", "coding", 0),
+  ])
+  func test(_ s1: String, _ s2: String, _ expected: Int) {
+    let result = problem.appendCharacters(s1, s2)
+    #expect(result == expected, "Input: (\(s1), \(s2)), Expected: \(expected), Got: \(result)")
   }
 }

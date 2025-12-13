@@ -5,33 +5,21 @@
 //  Created by 홍승현 on 2024/04/27.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode514Tests: XCTestCase {
+@Suite("LeetCode514")
+struct LeetCode514Tests {
   private let problem = LeetCode514()
 
-  func testExample1() {
-    let result = problem.findRotateSteps("godding", "gd")
-    XCTAssertTrue(result == 4)
-  }
-
-  func testExample2() {
-    let result = problem.findRotateSteps("godding", "godding")
-    XCTAssertTrue(result == 13)
-  }
-
-  func testExample3() {
-    let result = problem.findRotateSteps("iotfo", "fioot")
-    XCTAssertTrue(result == 11)
-  }
-
-  func testExample4() {
-    let result = problem.findRotateSteps("abccbaxbe", "abx")
-    XCTAssertTrue(result == 6)
-  }
-
-  func testExample5() {
-    let result = problem.findRotateSteps("xrrakuulnczywjs", "jrlucwzakzussrlckyjjsuwkuarnaluxnyzcnrxxwruyr")
-    XCTAssertTrue(result == 204)
+  @Test(arguments: [
+    ("godding", "gd", 4),
+    ("godding", "godding", 13),
+    ("iotfo", "fioot", 11),
+    ("abccbaxbe", "abx", 6),
+    ("xrrakuulnczywjs", "jrlucwzakzussrlckyjjsuwkuarnaluxnyzcnrxxwruyr", 204)
+  ])
+  func examples(ring: String, key: String, expected: Int) {
+    let result = problem.findRotateSteps(ring, key)
+    #expect(result == expected, "Input: ring=\(ring), key=\(key), Expected: \(expected), Got: \(result)")
   }
 }

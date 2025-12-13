@@ -5,23 +5,20 @@
 //  Created by 홍승현 on 2024/05/02.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2441Tests: XCTestCase {
+@Suite("LeetCode2441") struct LeetCode2441Tests {
   private let problem = LeetCode2441()
 
-  func testExample1() {
-    let result = problem.findMaxK([-1, 2, -3, 3])
-    XCTAssertTrue(result == 3)
-  }
-
-  func testExample2() {
-    let result = problem.findMaxK([-1, 10, 6, 7, -7, 1])
-    XCTAssertTrue(result == 7)
-  }
-
-  func testExample3() {
-    let result = problem.findMaxK([-10, 8, 6, 7, -2, -3])
-    XCTAssertTrue(result == -1)
+  @Test(
+    arguments: [
+      ([-1, 2, -3, 3], 3),
+      ([-1, 10, 6, 7, -7, 1], 7),
+      ([-10, 8, 6, 7, -2, -3], -1),
+    ]
+  )
+  func findMaxK(input: ([Int], Int)) {
+    let result = problem.findMaxK(input.0)
+    #expect(result == input.1, "Input: \(input.0), Expected: \(input.1), Got: \(result)")
   }
 }

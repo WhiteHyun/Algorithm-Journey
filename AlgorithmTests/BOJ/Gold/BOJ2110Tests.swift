@@ -5,13 +5,17 @@
 //  Created by 홍승현 on 2024/05/11.
 //
 
-import XCTest
+import Testing
 
-final class BOJ2110Tests: XCTestCase {
+@Suite("BOJ 2110")
+struct BOJ2110Tests {
   private let problem = BOJ2110()
 
-  func testExample1() {
-    let result = problem.solution([1, 2, 8, 4, 9], 3)
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
+  @Test(arguments: [
+    (([1, 2, 8, 4, 9], 3), 3),
+  ])
+  func test(_ input: ([Int], Int), _ expected: Int) {
+    let result = problem.solution(input.0, input.1)
+    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
   }
 }

@@ -5,23 +5,20 @@
 //  Created by 홍승현 on 2024/05/01.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2000Tests: XCTestCase {
+@Suite("LeetCode2000") struct LeetCode2000Tests {
   private let problem = LeetCode2000()
 
-  func testExample1() {
-    let result = problem.reversePrefix("abcdefd", "d")
-    XCTAssertTrue(result == "dcbaefd", "Expected 'dcbaefd', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.reversePrefix("xyxzxe", "z")
-    XCTAssertTrue(result == "zxyxxe", "Expected 'zxyxxe', but got '\(result)'")
-  }
-
-  func testExample3() {
-    let result = problem.reversePrefix("abcd", "z")
-    XCTAssertTrue(result == "abcd", "Expected 'abcd', but got '\(result)'")
+  @Test(
+    arguments: [
+      ("abcdefd", "d", "dcbaefd"),
+      ("xyxzxe", "z", "zxyxxe"),
+      ("abcd", "z", "abcd"),
+    ]
+  )
+  func reversePrefix(input: (String, String, String)) {
+    let result = problem.reversePrefix(input.0, Character(input.1))
+    #expect(result == input.2, "Input: (\(input.0), \(input.1)), Expected: \(input.2), Got: \(result)")
   }
 }

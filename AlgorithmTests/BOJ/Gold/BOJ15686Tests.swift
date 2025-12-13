@@ -5,114 +5,45 @@
 //  Created by 홍승현 on 2024/04/29.
 //
 
-import XCTest
+import Testing
 
-final class BOJ15686Tests: XCTestCase {
+@Suite("BOJ 15686")
+struct BOJ15686Tests {
   private let problem = BOJ15686()
 
-  func testExample1() {
-    let result = problem.solution(
-      5,
-      3,
-      [
-        [0, 0, 1, 0, 0],
-        [0, 0, 2, 0, 1],
-        [0, 1, 2, 0, 0],
-        [0, 0, 1, 0, 0],
-        [0, 0, 0, 0, 2],
-      ]
-    )
-    XCTAssertTrue(result == 5)
+  @Test
+  func example1() {
+    let result = problem.solution(5, 3, [[0, 0, 1, 0, 0], [0, 0, 2, 0, 1], [0, 1, 2, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 2]])
+    #expect(result == 5, "Expected: 5, Got: \(result)")
   }
 
-  func testExample2() {
-    let result = problem.solution(
-      5,
-      2,
-      [
-        [0, 2, 0, 1, 0],
-        [1, 0, 1, 0, 0],
-        [0, 0, 0, 0, 0],
-        [2, 0, 0, 1, 1],
-        [2, 2, 0, 1, 2],
-      ]
-    )
-    XCTAssertTrue(result == 10)
+  @Test
+  func example2() {
+    let result = problem.solution(5, 2, [[0, 2, 0, 1, 0], [1, 0, 1, 0, 0], [0, 0, 0, 0, 0], [2, 0, 0, 1, 1], [2, 2, 0, 1, 2]])
+    #expect(result == 10, "Expected: 10, Got: \(result)")
   }
 
-  func testExample3() {
-    let result = problem.solution(
-      5,
-      1,
-      [
-        [1, 2, 0, 0, 0],
-        [1, 2, 0, 0, 0],
-        [1, 2, 0, 0, 0],
-        [1, 2, 0, 0, 0],
-        [1, 2, 0, 0, 0],
-      ]
-    )
-    XCTAssertTrue(result == 11)
+  @Test
+  func example3() {
+    let result = problem.solution(5, 1, [[1, 2, 0, 0, 0], [1, 2, 0, 0, 0], [1, 2, 0, 0, 0], [1, 2, 0, 0, 0], [1, 2, 0, 0, 0]])
+    #expect(result == 11, "Expected: 11, Got: \(result)")
   }
 
-  func testExample4() {
-    let result = problem.solution(
-      5,
-      1,
-      [
-        [1, 2, 0, 2, 1],
-        [1, 2, 0, 2, 1],
-        [1, 2, 0, 2, 1],
-        [1, 2, 0, 2, 1],
-        [1, 2, 0, 2, 1],
-      ]
-    )
-    XCTAssertTrue(result == 32)
+  @Test
+  func example4() {
+    let result = problem.solution(5, 1, [[1, 2, 0, 2, 1], [1, 2, 0, 2, 1], [1, 2, 0, 2, 1], [1, 2, 0, 2, 1], [1, 2, 0, 2, 1]])
+    #expect(result == 32, "Expected: 32, Got: \(result)")
   }
 
-  func testExample5() {
-    let expectation = XCTestExpectation(description: "Timeout expectation")
-
-    DispatchQueue.global().async {
-      let result = self.problem.solution(
-        5,
-        8,
-        [
-          [1, 2, 0, 2, 1],
-          [1, 2, 0, 2, 1],
-          [1, 2, 0, 2, 1],
-          [1, 2, 0, 2, 1],
-          [1, 2, 0, 2, 1],
-        ]
-      )
-      XCTAssertTrue(result == 12)
-      expectation.fulfill()
-    }
-
-    // 3초 동안 대기하고, 시간 초과되면 테스트 실패
-    wait(for: [expectation], timeout: 1.0)
+  @Test
+  func example5() {
+    let result = problem.solution(5, 8, [[1, 2, 0, 2, 1], [1, 2, 0, 2, 1], [1, 2, 0, 2, 1], [1, 2, 0, 2, 1], [1, 2, 0, 2, 1]])
+    #expect(result == 12, "Expected: 12, Got: \(result)")
   }
 
-  func testExample6() {
-    let expectation = XCTestExpectation(description: "Timeout expectation")
-
-    DispatchQueue.global().async {
-      let result = self.problem.solution(
-        5,
-        1,
-        [
-          [2, 1, 0, 1, 2],
-          [0, 0, 0, 0, 0],
-          [0, 0, 2, 0, 0],
-          [0, 0, 0, 0, 0],
-          [2, 1, 0, 1, 2],
-        ]
-      )
-      XCTAssertTrue(result == 12)
-      expectation.fulfill()
-    }
-
-    // 3초 동안 대기하고, 시간 초과되면 테스트 실패
-    wait(for: [expectation], timeout: 1.0)
+  @Test
+  func example6() {
+    let result = problem.solution(5, 1, [[2, 1, 0, 1, 2], [0, 0, 0, 0, 0], [0, 0, 2, 0, 0], [0, 0, 0, 0, 0], [2, 1, 0, 1, 2]])
+    #expect(result == 12, "Expected: 12, Got: \(result)")
   }
 }

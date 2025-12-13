@@ -5,23 +5,24 @@
 //  Created by 홍승현 on 2024/04/26.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode217Tests: XCTestCase {
+@Suite("LeetCode217")
+struct LeetCode217Tests {
   private let problem = LeetCode217()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.containsDuplicate([1, 2, 3, 1])
-    XCTAssertTrue(result == true)
+    #expect(result == true, "Expected 'true', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.containsDuplicate([1, 2, 3, 4])
-    XCTAssertTrue(result == false)
+    #expect(result == false, "Expected 'false', but got '\(result)'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])
-    XCTAssertTrue(result == true)
+    #expect(result == true, "Expected 'true', but got '\(result)'")
   }
 }

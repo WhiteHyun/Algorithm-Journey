@@ -5,23 +5,24 @@
 //  Created by 홍승현 on 2024/05/25.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode140Tests: XCTestCase {
+@Suite("LeetCode140")
+struct LeetCode140Tests {
   private let problem = LeetCode140()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"])
-    XCTAssertTrue(areEquivalent(result, ["cats and dog", "cat sand dog"]), #"Expected '["cats and dog","cat sand dog"]', but got '\#(result)'"#)
+    #expect(areEquivalent(result, ["cats and dog", "cat sand dog"]), #"Expected '["cats and dog","cat sand dog"]', but got '\#(result)'"#)
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.wordBreak("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])
-    XCTAssertTrue(areEquivalent(result, ["pine apple pen apple", "pineapple pen apple", "pine applepen apple"]), #"Expected '["pine apple pen apple", "pineapple pen apple", "pine applepen apple"]', but got '\#(result)'"#)
+    #expect(areEquivalent(result, ["pine apple pen apple", "pineapple pen apple", "pine applepen apple"]), #"Expected '["pine apple pen apple", "pineapple pen apple", "pine applepen apple"]', but got '\#(result)'"#)
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"])
-    XCTAssertTrue(areEquivalent(result, []), #"Expected '[]', but got '\#(result)'"#)
+    #expect(areEquivalent(result, []), #"Expected '[]', but got '\#(result)'"#)
   }
 }

@@ -5,18 +5,22 @@
 //  Created by 홍승현 on 2024/05/13.
 //
 
-import XCTest
+import Testing
 
-final class BOJ2252Tests: XCTestCase {
+@Suite("BOJ 2252")
+struct BOJ2252Tests {
   private let problem = BOJ2252()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.solution(3, [[1, 3], [2, 3]])
-    XCTAssertTrue(result == [1, 2, 3], "Expected '[1, 2, 3]', but got '\(result)'")
+    #expect(result == [1, 2, 3], "Expected: [1, 2, 3], Got: \(result)")
   }
 
-  func testExample2() {
+  @Test
+  func example2() {
     let result = problem.solution(4, [[4, 2], [3, 1]])
-    XCTAssertTrue([[4, 2, 3, 1], [3, 1, 4, 2], [3, 4, 1, 2], [4, 3, 1, 2]].contains(result), "Expected '[4, 2, 3, 1] | [3, 1, 4, 2]', but got '\(result)'")
+    let validResults = [[4, 2, 3, 1], [3, 1, 4, 2], [3, 4, 1, 2], [4, 3, 1, 2]]
+    #expect(validResults.contains(result), "Expected one of: \(validResults), Got: \(result)")
   }
 }

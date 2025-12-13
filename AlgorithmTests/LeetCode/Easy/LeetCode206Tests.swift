@@ -5,23 +5,24 @@
 //  Created by 홍승현 on 2024/05/04.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode206Tests: XCTestCase {
+@Suite("LeetCode206")
+struct LeetCode206Tests {
   private let problem = LeetCode206()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.reverseList([1, 2, 3, 4, 5])
-    XCTAssertTrue(result == [5, 4, 3, 2, 1], "Expected '[5, 4, 3, 2, 1]', but got '\(String(describing: result))'")
+    #expect(result == [5, 4, 3, 2, 1], "Expected '[5, 4, 3, 2, 1]', but got '\(String(describing: result))'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.reverseList([1, 2])
-    XCTAssertTrue(result == [2, 1], "Expected '[2, 1]', but got '\(String(describing: result))'")
+    #expect(result == [2, 1], "Expected '[2, 1]', but got '\(String(describing: result))'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.reverseList([])
-    XCTAssertTrue(result == [], "Expected '[]', but got '\(String(describing: result))'")
+    #expect(result == [], "Expected '[]', but got '\(String(describing: result))'")
   }
 }

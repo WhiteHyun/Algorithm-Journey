@@ -5,23 +5,24 @@
 //  Created by 홍승현 on 2024/05/10.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode100Tests: XCTestCase {
+@Suite("LeetCode100")
+struct LeetCode100Tests {
   private let problem = LeetCode100()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.isSameTree([1, 2, 3], [1, 2, 3])
-    XCTAssertTrue(result == true, "Expected 'true', but got '\(result)'")
+    #expect(result == true, "Expected 'true', but got '\(result)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.isSameTree([1, 2], [1, nil, 2])
-    XCTAssertTrue(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result == false, "Expected 'false', but got '\(result)'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.isSameTree([1, 2, 1], [1, 1, 2])
-    XCTAssertTrue(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result == false, "Expected 'false', but got '\(result)'")
   }
 }

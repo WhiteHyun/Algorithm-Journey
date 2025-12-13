@@ -5,18 +5,18 @@
 //  Created by 홍승현 on 2024/06/01.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode3110Tests: XCTestCase {
+@Suite("LeetCode 3110")
+struct LeetCode3110Tests {
   private let problem = LeetCode3110()
 
-  func testExample1() {
-    let result = problem.scoreOfString("hello")
-    XCTAssertTrue(result == 13, "Expected '13', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.scoreOfString("zaz")
-    XCTAssertTrue(result == 50, "Expected '50', but got '\(result)'")
+  @Test(arguments: [
+    ("hello", 13),
+    ("zaz", 50),
+  ])
+  func test(_ s: String, _ expected: Int) {
+    let result = problem.scoreOfString(s)
+    #expect(result == expected, "Input: \(s), Expected: \(expected), Got: \(result)")
   }
 }

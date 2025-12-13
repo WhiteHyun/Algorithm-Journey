@@ -5,18 +5,18 @@
 //  Created by 홍승현 on 2024/04/29.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2997Tests: XCTestCase {
+@Suite("LeetCode 2997")
+struct LeetCode2997Tests {
   private let problem = LeetCode2997()
 
-  func testExample1() {
-    let result = problem.minOperations([2, 1, 3, 4], 1)
-    XCTAssertTrue(result == 2)
-  }
-
-  func testExample2() {
-    let result = problem.minOperations([2, 0, 2, 0], 0)
-    XCTAssertTrue(result == 0)
+  @Test(arguments: [
+    ([2, 1, 3, 4], 1, 2),
+    ([2, 0, 2, 0], 0, 0),
+  ])
+  func test(_ nums: [Int], _ k: Int, _ expected: Int) {
+    let result = problem.minOperations(nums, k)
+    #expect(result == expected, "Input: (\(nums), \(k)), Expected: \(expected), Got: \(result)")
   }
 }

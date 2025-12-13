@@ -5,38 +5,45 @@
 //  Created by 홍승현 on 2024/05/18.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode979Tests: XCTestCase {
+@Suite("LeetCode 979: Distribute Coins in Binary Tree")
+struct LeetCode979Tests {
   private let problem = LeetCode979()
 
-  func testExample1() {
+  @Test("Example 1: distributeCoins([3,0,0]) should return 2")
+  func example1() {
     let result = problem.distributeCoins([3, 0, 0])
-    XCTAssertTrue(result == 2, "Expected '2', but got '\(result)'")
+    #expect(result == 2, "Input: [3,0,0], Expected: 2, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: distributeCoins([0,3,0]) should return 3")
+  func example2() {
     let result = problem.distributeCoins([0, 3, 0])
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
+    #expect(result == 3, "Input: [0,3,0], Expected: 3, Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: distributeCoins([0,0,0,2,1,nil,nil,0,nil,3,2]) should return 10")
+  func example3() {
     let result = problem.distributeCoins([0, 0, 0, 2, 1, nil, nil, 0, nil, 3, 2])
-    XCTAssertTrue(result == 10, "Expected '10', but got '\(result)'")
+    #expect(result == 10, "Input: [0,0,0,2,1,nil,nil,0,nil,3,2], Expected: 10, Got: \(result)")
   }
 
-  func testExample4() {
+  @Test("Example 4: distributeCoins([0,0,0,2,1,nil,nil,0,3,2]) should return 10")
+  func example4() {
     let result = problem.distributeCoins([0, 0, 0, 2, 1, nil, nil, 0, 3, 2])
-    XCTAssertTrue(result == 10, "Expected '10', but got '\(result)'")
+    #expect(result == 10, "Input: [0,0,0,2,1,nil,nil,0,3,2], Expected: 10, Got: \(result)")
   }
 
-  func testExample5() {
+  @Test("Example 5: distributeCoins([1,2,0,1,nil,nil,nil,1,nil,1,nil,1,nil,nil,1,0,2]) should return 4")
+  func example5() {
     let result = problem.distributeCoins([1, 2, 0, 1, nil, nil, nil, 1, nil, 1, nil, 1, nil, nil, 1, 0, 2])
-    XCTAssertTrue(result == 4, "Expected '4', but got '\(result)'")
+    #expect(result == 4, "Input: [1,2,0,1,nil,nil,nil,1,nil,1,nil,1,nil,nil,1,0,2], Expected: 4, Got: \(result)")
   }
 
-  func testExample6() {
+  @Test("Example 6: distributeCoins([2,0,0,nil,1,nil,nil,1,1,1,nil,nil,nil,2]) should return 5")
+  func example6() {
     let result = problem.distributeCoins([2, 0, 0, nil, 1, nil, nil, 1, 1, 1, nil, nil, nil, 2])
-    XCTAssertTrue(result == 5, "Expected '5', but got '\(result)'")
+    #expect(result == 5, "Input: [2,0,0,nil,1,nil,nil,1,1,1,nil,nil,nil,2], Expected: 5, Got: \(result)")
   }
 }

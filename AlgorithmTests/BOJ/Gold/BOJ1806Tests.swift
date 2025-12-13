@@ -5,38 +5,22 @@
 //  Created by 홍승현 on 2024/05/17.
 //
 
-import XCTest
+import Testing
 
-final class BOJ1806Tests: XCTestCase {
+@Suite("BOJ 1806")
+struct BOJ1806Tests {
   private let problem = BOJ1806()
 
-  func testExample1() {
-    let result = problem.partialSum([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15)
-    XCTAssertTrue(result == 2, "Expected '2', but got '\(result)'")
-  }
-
-  func testExample2() {
-    let result = problem.partialSum([1, 3, 4, 7, 8, 10], 6)
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
-  }
-
-  func testExample3() {
-    let result = problem.partialSum([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 11)
-    XCTAssertTrue(result == 2, "Expected '2', but got '\(result)'")
-  }
-
-  func testExample4() {
-    let result = problem.partialSum([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 10)
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
-  }
-
-  func testExample5() {
-    let result = problem.partialSum([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 70)
-    XCTAssertTrue(result == 0, "Expected '0', but got '\(result)'")
-  }
-
-  func testExample6() {
-    let result = problem.partialSum([10, 1, 1, 1, 1, 1, 1, 1, 1, 70], 70)
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+  @Test(arguments: [
+    (([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15), 2),
+    (([1, 3, 4, 7, 8, 10], 6), 1),
+    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 11), 2),
+    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 10), 1),
+    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 70), 0),
+    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 70], 70), 1),
+  ])
+  func test(_ input: ([Int], Int), _ expected: Int) {
+    let result = problem.partialSum(input.0, input.1)
+    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
   }
 }

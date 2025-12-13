@@ -5,36 +5,37 @@
 //  Created by 홍승현 on 2024/04/26.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode125Tests: XCTestCase {
+@Suite("LeetCode125")
+struct LeetCode125Tests {
   private let problem = LeetCode125()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.isPalindrome("A man, a plan, a canal: Panama")
     let result2 = problem.isPalindromeUsingRegexString("A man, a plan, a canal: Panama")
-    XCTAssertTrue(result == true)
-    XCTAssertTrue(result2 == true)
+    #expect(result == true, "Expected 'true', but got '\(result)'")
+    #expect(result2 == true, "Expected 'true', but got '\(result2)'")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.isPalindrome("race a car")
     let result2 = problem.isPalindromeUsingRegexString("race a car")
-    XCTAssertTrue(result == false)
-    XCTAssertTrue(result2 == false)
+    #expect(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result2 == false, "Expected 'false', but got '\(result2)'")
   }
 
-  func testExample3() {
+  @Test func example3() {
     let result = problem.isPalindrome(" ")
     let result2 = problem.isPalindromeUsingRegexString(" ")
-    XCTAssertTrue(result == true)
-    XCTAssertTrue(result2 == true)
+    #expect(result == true, "Expected 'true', but got '\(result)'")
+    #expect(result2 == true, "Expected 'true', but got '\(result2)'")
   }
 
-  func testExample4() {
+  @Test func example4() {
     let result = problem.isPalindrome("0P")
     let result2 = problem.isPalindromeUsingRegexString("0P")
-    XCTAssertTrue(result == false)
-    XCTAssertTrue(result2 == false)
+    #expect(result == false, "Expected 'false', but got '\(result)'")
+    #expect(result2 == false, "Expected 'false', but got '\(result2)'")
   }
 }

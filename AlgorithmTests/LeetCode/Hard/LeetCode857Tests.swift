@@ -5,19 +5,19 @@
 //  Created by 홍승현 on 2024/05/11.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode857Tests: XCTestCase {
+@Suite("LeetCode857")
+struct LeetCode857Tests {
   private let problem = LeetCode857()
 
-  func testExample1() {
+  @Test func example1() {
     let result = problem.mincostToHireWorkers([10, 20, 5], [70, 50, 30], 2)
-    XCTAssertTrue(result == 105, "Expected '105.00000', but got '\(result)'")
+    #expect(result == 105, "Input: quality=[10,20,5], wage=[70,50,30], k=2, Expected: 105.00000, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test func example2() {
     let result = problem.mincostToHireWorkers([3, 1, 10, 10, 1], [4, 8, 2, 2, 7], 3)
-    XCTAssertGreaterThan(result, 30.6, "Expected '30.66667', but got '\(result)'")
-    XCTAssertLessThan(result, 30.7, "Expected '30.66667', but got '\(result)'")
+    #expect(result > 30.6 && result < 30.7, "Input: quality=[3,1,10,10,1], wage=[4,8,2,2,7], k=3, Expected: 30.66667, Got: \(result)")
   }
 }

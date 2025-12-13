@@ -5,28 +5,33 @@
 //  Created by 홍승현 on 2024/05/04.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode881Tests: XCTestCase {
+@Suite("LeetCode 881: Boats to Save People")
+struct LeetCode881Tests {
   private let problem = LeetCode881()
 
-  func testExample1() {
+  @Test("Example 1: numRescueBoats([1,2], 3) should return 1")
+  func example1() {
     let result = problem.numRescueBoats([1, 2], 3)
-    XCTAssertTrue(result == 1, "Expected '1', but got '\(result)'")
+    #expect(result == 1, "Input: ([1,2], 3), Expected: 1, Got: \(result)")
   }
 
-  func testExample2() {
+  @Test("Example 2: numRescueBoats([3,2,2,1], 3) should return 3")
+  func example2() {
     let result = problem.numRescueBoats([3, 2, 2, 1], 3)
-    XCTAssertTrue(result == 3, "Expected '3', but got '\(result)'")
+    #expect(result == 3, "Input: ([3,2,2,1], 3), Expected: 3, Got: \(result)")
   }
 
-  func testExample3() {
+  @Test("Example 3: numRescueBoats([3,5,3,4], 5) should return 4")
+  func example3() {
     let result = problem.numRescueBoats([3, 5, 3, 4], 5)
-    XCTAssertTrue(result == 4, "Expected '4', but got '\(result)'")
+    #expect(result == 4, "Input: ([3,5,3,4], 5), Expected: 4, Got: \(result)")
   }
 
-  func testExample4() {
+  @Test("Example 4: numRescueBoats([5,1,4,2], 6) should return 2")
+  func example4() {
     let result = problem.numRescueBoats([5, 1, 4, 2], 6)
-    XCTAssertTrue(result == 2, "Expected '2', but got '\(result)'")
+    #expect(result == 2, "Input: ([5,1,4,2], 6), Expected: 2, Got: \(result)")
   }
 }

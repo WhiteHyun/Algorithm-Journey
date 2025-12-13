@@ -5,18 +5,23 @@
 //  Created by 홍승현 on 2024/05/07.
 //
 
-import XCTest
+import Testing
 
-final class LeetCode2816Tests: XCTestCase {
+@Suite("LeetCode 2816")
+struct LeetCode2816Tests {
   private let problem = LeetCode2816()
 
-  func testExample1() {
-    let result = problem.doubleIt([1, 8, 9])
-    XCTAssertTrue(result == [3, 7, 8], "Expected '[3, 7, 8]', but got '\(String(describing: result))'")
+  @Test
+  func example1() {
+    let input: ListNode? = [1, 8, 9]
+    let result = problem.doubleIt(input)
+    #expect(result == [3, 7, 8], "Input: [1, 8, 9], Expected: [3, 7, 8], Got: \(String(describing: result))")
   }
 
-  func testExample2() {
-    let result = problem.doubleIt([9, 9, 9])
-    XCTAssertTrue(result == [1, 9, 9, 8], "Expected '[1, 9, 9, 8]', but got '\(String(describing: result))'")
+  @Test
+  func example2() {
+    let input: ListNode? = [9, 9, 9]
+    let result = problem.doubleIt(input)
+    #expect(result == [1, 9, 9, 8], "Input: [9, 9, 9], Expected: [1, 9, 9, 8], Got: \(String(describing: result))")
   }
 }

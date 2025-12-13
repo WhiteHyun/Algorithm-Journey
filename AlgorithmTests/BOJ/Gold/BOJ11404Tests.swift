@@ -5,12 +5,14 @@
 //  Created by 홍승현 on 2024/05/16.
 //
 
-import XCTest
+import Testing
 
-final class BOJ11404Tests: XCTestCase {
+@Suite("BOJ 11404")
+struct BOJ11404Tests {
   private let problem = BOJ11404()
 
-  func testExample1() {
+  @Test
+  func example1() {
     let result = problem.floyd(
       5,
       [
@@ -30,15 +32,13 @@ final class BOJ11404Tests: XCTestCase {
         (5, 2, 4),
       ]
     )
-    XCTAssertTrue(
-      result == [
-        [0, 2, 3, 1, 4],
-        [12, 0, 15, 2, 5],
-        [8, 5, 0, 1, 1],
-        [10, 7, 13, 0, 3],
-        [7, 4, 10, 6, 0],
-      ],
-      "Expected '[[0, 2, 3, 1, 4], [12, 0, 15, 2, 5], [8, 5, 0, 1, 1], [10, 7, 13, 0, 3], [7, 4, 10, 6, 0]]', but got '\(result)'"
-    )
+    let expected = [
+      [0, 2, 3, 1, 4],
+      [12, 0, 15, 2, 5],
+      [8, 5, 0, 1, 1],
+      [10, 7, 13, 0, 3],
+      [7, 4, 10, 6, 0],
+    ]
+    #expect(result == expected, "Expected: \(expected), Got: \(result)")
   }
 }
