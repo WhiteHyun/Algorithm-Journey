@@ -4,7 +4,7 @@
 function load_env_vars() {
   if [ -f .env ]; then
     # shellcheck disable=SC2046
-    export echo $(sed <.env 's/#.*//g' | xargs | envsubst)
+    export $(sed <.env 's/#.*//g' | xargs | envsubst)
 
     # Check if required variables are set and not equal to default values
     if [ "$NICKNAME" = "your_nickname" ] || [ "$XCODE_PROJECT_NAME" = "your_xcode_project_name" ] || [ "$XCODE_MAIN_FOLDER" = "your_xcode_main_folder" ] || [ "$XCODE_UNIT_TEST_FOLDER" = "your_xcode_unit_test_folder" ]; then
@@ -44,15 +44,12 @@ function translate_file_name() {
 
   if [ -n "$DEEPL_API_KEY_PATH" ] && [ -f "$DEEPL_API_KEY_PATH" ]; then
     auth_key=$(cat "$DEEPL_API_KEY_PATH")
+    local json_payload
+    json_payload=$(jq -n --arg text "$text" '{"text": [$text], "target_lang": "EN"}')
     translated_title=$(curl -s -X POST 'https://api-free.deepl.com/v2/translate' \
       --header "Authorization: DeepL-Auth-Key $auth_key" \
       --header 'Content-Type: application/json' \
-      --data "{
-        \"text\": [
-          \"$text\"
-        ],
-        \"target_lang\": \"EN\"
-      }" | jq -r '.translations[0].text')
+      --data "$json_payload" | jq -r '.translations[0].text')
 
     echo "$translated_title"
   else
@@ -108,13 +105,23 @@ function make_unit_test_code() {
   local question_id="$1"
   local display_name="$2"
   local ps_platform="$3"
+  local tags="$4"
   local file_name="${ps_platform}${question_id}Tests"
   local content
   local nickname
+  local tags_string
+
   if [ -n "$NICKNAME" ]; then
     nickname=$NICKNAME
   else
     nickname=Unknown
+  fi
+
+  # Use provided tags or placeholder
+  if [ -n "$tags" ]; then
+    tags_string=".tags($tags)"
+  else
+    tags_string=".tags(<#Insert Tag#>)"
   fi
 
   content=$(
@@ -128,7 +135,7 @@ function make_unit_test_code() {
 
 import Testing
 
-@Suite("$display_name", .tags(<#Insert Tag#>))
+@Suite("$display_name", $tags_string)
 struct $file_name {
   private let problem = ${ps_platform}${question_id}()
 
