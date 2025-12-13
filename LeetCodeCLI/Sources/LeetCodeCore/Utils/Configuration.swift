@@ -2,13 +2,25 @@ import Foundation
 
 // MARK: - Configuration
 
-struct Configuration {
-  let nickname: String
-  let xcodeProjectName: String
-  let xcodeMainFolder: String
-  let xcodeUnitTestFolder: String
+public struct Configuration {
+  public let nickname: String
+  public let xcodeProjectName: String
+  public let xcodeMainFolder: String
+  public let xcodeUnitTestFolder: String
 
-  static func load(from path: String = ".env") throws -> Configuration {
+  public init(
+    nickname: String,
+    xcodeProjectName: String,
+    xcodeMainFolder: String,
+    xcodeUnitTestFolder: String
+  ) {
+    self.nickname = nickname
+    self.xcodeProjectName = xcodeProjectName
+    self.xcodeMainFolder = xcodeMainFolder
+    self.xcodeUnitTestFolder = xcodeUnitTestFolder
+  }
+
+  public static func load(from path: String = ".env") throws -> Configuration {
     let url = URL(fileURLWithPath: path)
     let content = try String(contentsOf: url, encoding: .utf8)
 
@@ -44,10 +56,10 @@ struct Configuration {
 
 // MARK: - ConfigurationError
 
-enum ConfigurationError: Error, LocalizedError {
+public enum ConfigurationError: Error, LocalizedError {
   case missingRequiredFields
 
-  var errorDescription: String? {
+  public var errorDescription: String? {
     switch self {
     case .missingRequiredFields:
       "Missing required fields in .env file. Required: NICKNAME, XCODE_PROJECT_NAME, XCODE_MAIN_FOLDER, XCODE_UNIT_TEST_FOLDER"

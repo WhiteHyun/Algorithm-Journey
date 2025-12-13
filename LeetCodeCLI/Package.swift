@@ -9,13 +9,28 @@ let package = Package(
     .package(url: "https://github.com/tuist/XcodeProj", from: "8.0.0"),
   ],
   targets: [
+    // Library target for testable code
+    .target(
+      name: "LeetCodeCore",
+      dependencies: [
+        .product(name: "XcodeProj", package: "XcodeProj"),
+      ],
+      path: "Sources/LeetCodeCore"
+    ),
+    // Executable target
     .executableTarget(
       name: "leetcode",
       dependencies: [
+        "LeetCodeCore",
         .product(name: "ArgumentParser", package: "swift-argument-parser"),
-        .product(name: "XcodeProj", package: "XcodeProj"),
       ],
       path: "Sources/LeetCodeCLI"
+    ),
+    // Test target
+    .testTarget(
+      name: "LeetCodeCoreTests",
+      dependencies: ["LeetCodeCore"],
+      path: "Tests/LeetCodeCoreTests"
     ),
   ]
 )

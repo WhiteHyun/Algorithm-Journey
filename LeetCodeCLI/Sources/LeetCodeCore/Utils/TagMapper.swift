@@ -1,6 +1,6 @@
 import Foundation
 
-enum TagMapper {
+public enum TagMapper {
   /// Maps LeetCode topic slugs to Swift Testing tag names
   private static let tagMapping: [String: String] = [
     "array": "array",
@@ -53,9 +53,7 @@ enum TagMapper {
   ]
 
   /// Maps LeetCode topic tags to Swift Testing tags string
-  /// - Parameter tags: Array of LeetCode topic tags
-  /// - Returns: Swift tags string like ".array, .hashTable" or nil if no matches
-  static func mapTags(_ tags: [TopicTag]) -> String? {
+  public static func mapTags(_ tags: [TopicTag]) -> String? {
     let swiftTags = tags.compactMap { tagMapping[$0.slug] }
     guard !swiftTags.isEmpty else { return nil }
     return swiftTags.map { ".\($0)" }.joined(separator: ", ")
