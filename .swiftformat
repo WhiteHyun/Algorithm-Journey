@@ -1,0 +1,22 @@
+--swiftversion 6.0
+
+# format options
+
+--indent 2
+--selfrequired
+--importgrouping alpha
+--emptybraces "linebreak"
+--disable acronyms
+--enable blankLineAfterImports
+--enable blankLinesAroundMark
+--enable blockComments
+--enable doccomments
+--enable isEmpty
+--enable markTypes
+--enable sortSwitchCases
+--enable wrapEnumCases
+--enable wrapSwitchCases
+
+--doccomments "preserve"
+
+--disable wrapMultilineStatementBraces
