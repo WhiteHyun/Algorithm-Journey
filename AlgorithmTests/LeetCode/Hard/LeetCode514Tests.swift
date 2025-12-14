@@ -7,19 +7,26 @@
 
 import Testing
 
-@Suite("LeetCode514")
+@Suite("LeetCode 514")
 struct LeetCode514Tests {
   private let problem = LeetCode514()
 
+  struct TestCase: CustomTestStringConvertible {
+    let ring: String
+    let key: String
+    let expected: Int
+    var testDescription: String { "ring: \(ring), key: \(key) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ("godding", "gd", 4),
-    ("godding", "godding", 13),
-    ("iotfo", "fioot", 11),
-    ("abccbaxbe", "abx", 6),
-    ("xrrakuulnczywjs", "jrlucwzakzussrlckyjjsuwkuarnaluxnyzcnrxxwruyr", 204)
+    TestCase(ring: "godding", key: "gd", expected: 4),
+    TestCase(ring: "godding", key: "godding", expected: 13),
+    TestCase(ring: "iotfo", key: "fioot", expected: 11),
+    TestCase(ring: "abccbaxbe", key: "abx", expected: 6),
+    TestCase(ring: "xrrakuulnczywjs", key: "jrlucwzakzussrlckyjjsuwkuarnaluxnyzcnrxxwruyr", expected: 204),
   ])
-  func examples(ring: String, key: String, expected: Int) {
-    let result = problem.findRotateSteps(ring, key)
-    #expect(result == expected, "Input: ring=\(ring), key=\(key), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.findRotateSteps(testCase.ring, testCase.key)
+    #expect(result == testCase.expected)
   }
 }

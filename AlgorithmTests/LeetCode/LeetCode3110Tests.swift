@@ -11,12 +11,18 @@ import Testing
 struct LeetCode3110Tests {
   private let problem = LeetCode3110()
 
+  struct TestCase: CustomTestStringConvertible {
+    let s: String
+    let expected: Int
+    var testDescription: String { "s: \"\(s)\" → \(expected)" }
+  }
+
   @Test(arguments: [
-    ("hello", 13),
-    ("zaz", 50),
+    TestCase(s: "hello", expected: 13),
+    TestCase(s: "zaz", expected: 50),
   ])
-  func test(_ s: String, _ expected: Int) {
-    let result = problem.scoreOfString(s)
-    #expect(result == expected, "Input: \(s), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.scoreOfString(testCase.s)
+    #expect(result == testCase.expected)
   }
 }

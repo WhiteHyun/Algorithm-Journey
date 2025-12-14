@@ -11,15 +11,22 @@ import Testing
 struct LeetCode2597Tests {
   private let problem = LeetCode2597()
 
+  struct TestCase: CustomTestStringConvertible {
+    let nums: [Int]
+    let k: Int
+    let expected: Int
+    var testDescription: String { "nums: \(nums), k: \(k) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ([2, 4, 6], 2, 4),
-    ([1], 1, 1),
-    ([1, 2, 3, 4, 5], 8, 31),
-    ([1, 2, 3, 4, 5], 1, 12),
-    ([1, 2, 3], 2, 5),
+    TestCase(nums: [2, 4, 6], k: 2, expected: 4),
+    TestCase(nums: [1], k: 1, expected: 1),
+    TestCase(nums: [1, 2, 3, 4, 5], k: 8, expected: 31),
+    TestCase(nums: [1, 2, 3, 4, 5], k: 1, expected: 12),
+    TestCase(nums: [1, 2, 3], k: 2, expected: 5),
   ])
-  func test(_ nums: [Int], _ k: Int, _ expected: Int) {
-    let result = problem.beautifulSubsets(nums, k)
-    #expect(result == expected, "Input: (\(nums), \(k)), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.beautifulSubsets(testCase.nums, testCase.k)
+    #expect(result == testCase.expected)
   }
 }

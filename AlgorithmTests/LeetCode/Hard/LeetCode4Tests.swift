@@ -7,16 +7,23 @@
 
 import Testing
 
-@Suite("LeetCode4")
+@Suite("LeetCode 4")
 struct LeetCode4Tests {
   private let problem = LeetCode4()
 
+  struct TestCase: CustomTestStringConvertible {
+    let nums1: [Int]
+    let nums2: [Int]
+    let expected: Double
+    var testDescription: String { "nums1: \(nums1), nums2: \(nums2) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ([1, 3], [2], 2.0),
-    ([1, 2], [3, 4], 2.5)
+    TestCase(nums1: [1, 3], nums2: [2], expected: 2.0),
+    TestCase(nums1: [1, 2], nums2: [3, 4], expected: 2.5),
   ])
-  func examples(nums1: [Int], nums2: [Int], expected: Double) {
-    let result = problem.findMedianSortedArrays(nums1, nums2)
-    #expect(result == expected, "Input: nums1=\(nums1), nums2=\(nums2), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.findMedianSortedArrays(testCase.nums1, testCase.nums2)
+    #expect(result == testCase.expected)
   }
 }

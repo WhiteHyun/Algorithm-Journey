@@ -11,12 +11,19 @@ import Testing
 struct LeetCode3075Tests {
   private let problem = LeetCode3075()
 
+  struct TestCase: CustomTestStringConvertible {
+    let happiness: [Int]
+    let k: Int
+    let expected: Int
+    var testDescription: String { "happiness: \(happiness), k: \(k) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ([1, 2, 3], 2, 4),
-    ([1, 1, 1, 1], 2, 1),
+    TestCase(happiness: [1, 2, 3], k: 2, expected: 4),
+    TestCase(happiness: [1, 1, 1, 1], k: 2, expected: 1),
   ])
-  func test(_ happiness: [Int], _ k: Int, _ expected: Int) {
-    let result = problem.maximumHappinessSum(happiness, k)
-    #expect(result == expected, "Input: (\(happiness), \(k)), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.maximumHappinessSum(testCase.happiness, testCase.k)
+    #expect(result == testCase.expected)
   }
 }

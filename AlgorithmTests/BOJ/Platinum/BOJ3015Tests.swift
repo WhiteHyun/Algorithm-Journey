@@ -11,21 +11,27 @@ import Testing
 struct BOJ3015Tests {
   private let problem = BOJ3015()
 
+  struct TestCase: CustomTestStringConvertible {
+    let input: [Int]
+    let expected: Int
+    var testDescription: String { "input: \(input) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ([2, 4, 1, 2, 2, 5, 1], 10),
-    ([3, 2, 1], 2),
-    ([4, 3, 1, 2], 4),
-    ([6, 6, 6, 5, 2, 5], 8),
-    ([3, 3, 3, 3], 6),
-    ([3, 3], 1),
-    ([1, 1], 1),
-    ([4, 4, 1, 2], 4),
-    ([1, 2, 2, 1], 3),
-    ([1, 2, 2, 2, 1], 5),
-    ([4, 2, 2, 2, 3], 10),
+    TestCase(input: [2, 4, 1, 2, 2, 5, 1], expected: 10),
+    TestCase(input: [3, 2, 1], expected: 2),
+    TestCase(input: [4, 3, 1, 2], expected: 4),
+    TestCase(input: [6, 6, 6, 5, 2, 5], expected: 8),
+    TestCase(input: [3, 3, 3, 3], expected: 6),
+    TestCase(input: [3, 3], expected: 1),
+    TestCase(input: [1, 1], expected: 1),
+    TestCase(input: [4, 4, 1, 2], expected: 4),
+    TestCase(input: [1, 2, 2, 1], expected: 3),
+    TestCase(input: [1, 2, 2, 2, 1], expected: 5),
+    TestCase(input: [4, 2, 2, 2, 3], expected: 10),
   ])
-  func test(_ input: [Int], _ expected: Int) {
-    let result = problem.countVisiblePeople(input)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.countVisiblePeople(testCase.input)
+    #expect(result == testCase.expected)
   }
 }

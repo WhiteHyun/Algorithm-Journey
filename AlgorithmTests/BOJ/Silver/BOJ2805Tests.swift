@@ -11,13 +11,20 @@ import Testing
 struct BOJ2805Tests {
   private let problem = BOJ2805()
 
+  struct TestCase: CustomTestStringConvertible {
+    let trees: [Int]
+    let length: Int
+    let expected: Int
+    var testDescription: String { "trees: \(trees), length: \(length) → \(expected)" }
+  }
+
   @Test(arguments: [
-    (([20, 15, 10, 17], 7), 15),
-    (([4, 42, 40, 26, 46], 20), 36),
-    (([1, 2, 4, 5, 7, 9], 4), 6),
+    TestCase(trees: [20, 15, 10, 17], length: 7, expected: 15),
+    TestCase(trees: [4, 42, 40, 26, 46], length: 20, expected: 36),
+    TestCase(trees: [1, 2, 4, 5, 7, 9], length: 4, expected: 6),
   ])
-  func test(_ input: ([Int], Int), _ expected: Int) {
-    let result = problem.solution(input.0, length: input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.trees, length: testCase.length)
+    #expect(result == testCase.expected)
   }
 }

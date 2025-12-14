@@ -11,17 +11,26 @@ import Testing
 struct BOJ2560Tests {
   private let problem = BOJ2560()
 
+  struct TestCase: CustomTestStringConvertible {
+    let a: Int
+    let b: Int
+    let d: Int
+    let n: Int
+    let expected: Int
+    var testDescription: String { "a: \(a), b: \(b), d: \(d), n: \(n) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((2, 4, 6, 6), 7),
-    ((3, 5, 7, 20000), 609),
-    ((1, 2, 3, 20000), 3),
-    ((40, 500, 10000, 20000), 453),
-    ((215, 321, 10000, 1_000_000), 326),
-    ((215, 321, 10000, 30), 1),
-    ((215, 321, 10000, 300), 87),
+    TestCase(a: 2, b: 4, d: 6, n: 6, expected: 7),
+    TestCase(a: 3, b: 5, d: 7, n: 20000, expected: 609),
+    TestCase(a: 1, b: 2, d: 3, n: 20000, expected: 3),
+    TestCase(a: 40, b: 500, d: 10000, n: 20000, expected: 453),
+    TestCase(a: 215, b: 321, d: 10000, n: 1_000_000, expected: 326),
+    TestCase(a: 215, b: 321, d: 10000, n: 30, expected: 1),
+    TestCase(a: 215, b: 321, d: 10000, n: 300, expected: 87),
   ])
-  func test(_ input: (Int, Int, Int, Int), _ expected: Int) {
-    let result = problem.solution(input.0, input.1, input.2, input.3)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.a, testCase.b, testCase.d, testCase.n)
+    #expect(result == testCase.expected)
   }
 }

@@ -97,14 +97,21 @@ import Testing
 struct LeetCode1Tests {
   private let problem = LeetCode1()
 
+  struct TestCase: CustomTestStringConvertible {
+    let nums: [Int]
+    let target: Int
+    let expected: [Int]
+    var testDescription: String { "nums: \(nums), target: \(target) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ([2,7,11,15], 9),
-    ([3,2,4], 6),
-    ([3,3], 6)
+    TestCase(nums: [2, 7, 11, 15], target: 9, expected: [0, 1]),
+    TestCase(nums: [3, 2, 4], target: 6, expected: [1, 2]),
+    TestCase(nums: [3, 3], target: 6, expected: [0, 1]),
   ])
-  func test(_ input: <#Type#>) {
-    let result = problem.solution(input.0, input.1)
-    #expect(result == <#Insert predicted value#>)
+  func test(_ testCase: TestCase) {
+    let result = problem.twoSum(testCase.nums, testCase.target)
+    #expect(result == testCase.expected)
   }
 }
 ```

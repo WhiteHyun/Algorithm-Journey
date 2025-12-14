@@ -11,12 +11,20 @@ import Testing
 struct BOJ2212Tests {
   private let problem = BOJ2212()
 
+  struct TestCase: CustomTestStringConvertible {
+    let n: Int
+    let k: Int
+    let sensors: [Int]
+    let expected: Int
+    var testDescription: String { "n: \(n), k: \(k), sensors: \(sensors) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((6, 2, [1, 6, 9, 3, 6, 7]), 5),
-    ((10, 5, [20, 3, 14, 6, 7, 8, 18, 10, 12, 15]), 7),
+    TestCase(n: 6, k: 2, sensors: [1, 6, 9, 3, 6, 7], expected: 5),
+    TestCase(n: 10, k: 5, sensors: [20, 3, 14, 6, 7, 8, 18, 10, 12, 15], expected: 7),
   ])
-  func test(_ input: (Int, Int, [Int]), _ expected: Int) {
-    let result = problem.solution(input.0, input.1, input.2)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.n, testCase.k, testCase.sensors)
+    #expect(result == testCase.expected)
   }
 }

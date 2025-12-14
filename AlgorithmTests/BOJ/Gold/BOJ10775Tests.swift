@@ -11,12 +11,19 @@ import Testing
 struct BOJ10775Tests {
   private let problem = BOJ10775()
 
+  struct TestCase: CustomTestStringConvertible {
+    let g: Int
+    let planes: [Int]
+    let expected: Int
+    var testDescription: String { "g: \(g), planes: \(planes) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((4, [4, 1, 1]), 2),
-    ((4, [2, 2, 3, 3, 4, 4]), 3),
+    TestCase(g: 4, planes: [4, 1, 1], expected: 2),
+    TestCase(g: 4, planes: [2, 2, 3, 3, 4, 4], expected: 3),
   ])
-  func test(_ input: (Int, [Int]), _ expected: Int) {
-    let result = problem.solution(input.0, input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.g, testCase.planes)
+    #expect(result == testCase.expected)
   }
 }

@@ -7,18 +7,24 @@
 
 import Testing
 
-@Suite("LeetCode552")
+@Suite("LeetCode 552")
 struct LeetCode552Tests {
   private let problem = LeetCode552()
 
+  struct TestCase: CustomTestStringConvertible {
+    let n: Int
+    let expected: Int
+    var testDescription: String { "n: \(n) → \(expected)" }
+  }
+
   @Test(arguments: [
-    (2, 8),
-    (1, 3),
-    (3, 19),
-    (10101, 183_236_316)
+    TestCase(n: 2, expected: 8),
+    TestCase(n: 1, expected: 3),
+    TestCase(n: 3, expected: 19),
+    TestCase(n: 10101, expected: 183_236_316),
   ])
-  func examples(n: Int, expected: Int) {
-    let result = problem.checkRecord(n)
-    #expect(result == expected, "Input: \(n), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.checkRecord(testCase.n)
+    #expect(result == testCase.expected)
   }
 }

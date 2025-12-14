@@ -11,12 +11,19 @@ import Testing
 struct BOJ1707Tests {
   private let problem = BOJ1707()
 
+  struct TestCase: CustomTestStringConvertible {
+    let v: Int
+    let edges: [(Int, Int)]
+    let expected: Bool
+    var testDescription: String { "v: \(v), edges: \(edges) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((3, [(1, 3), (2, 3)]), true),
-    ((4, [(1, 2), (2, 3), (3, 4), (4, 2)]), false),
+    TestCase(v: 3, edges: [(1, 3), (2, 3)], expected: true),
+    TestCase(v: 4, edges: [(1, 2), (2, 3), (3, 4), (4, 2)], expected: false),
   ])
-  func test(_ input: (Int, [(Int, Int)]), _ expected: Bool) {
-    let result = problem.isBipartite(input.0, input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.isBipartite(testCase.v, testCase.edges)
+    #expect(result == testCase.expected)
   }
 }

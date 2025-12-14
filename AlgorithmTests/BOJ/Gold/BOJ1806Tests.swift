@@ -11,16 +11,23 @@ import Testing
 struct BOJ1806Tests {
   private let problem = BOJ1806()
 
+  struct TestCase: CustomTestStringConvertible {
+    let sequence: [Int]
+    let s: Int
+    let expected: Int
+    var testDescription: String { "sequence: \(sequence), s: \(s) → \(expected)" }
+  }
+
   @Test(arguments: [
-    (([5, 1, 3, 5, 10, 7, 4, 9, 2, 8], 15), 2),
-    (([1, 3, 4, 7, 8, 10], 6), 1),
-    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 11), 2),
-    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 10), 1),
-    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 1], 70), 0),
-    (([10, 1, 1, 1, 1, 1, 1, 1, 1, 70], 70), 1),
+    TestCase(sequence: [5, 1, 3, 5, 10, 7, 4, 9, 2, 8], s: 15, expected: 2),
+    TestCase(sequence: [1, 3, 4, 7, 8, 10], s: 6, expected: 1),
+    TestCase(sequence: [10, 1, 1, 1, 1, 1, 1, 1, 1, 1], s: 11, expected: 2),
+    TestCase(sequence: [10, 1, 1, 1, 1, 1, 1, 1, 1, 1], s: 10, expected: 1),
+    TestCase(sequence: [10, 1, 1, 1, 1, 1, 1, 1, 1, 1], s: 70, expected: 0),
+    TestCase(sequence: [10, 1, 1, 1, 1, 1, 1, 1, 1, 70], s: 70, expected: 1),
   ])
-  func test(_ input: ([Int], Int), _ expected: Int) {
-    let result = problem.partialSum(input.0, input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.partialSum(testCase.sequence, testCase.s)
+    #expect(result == testCase.expected)
   }
 }

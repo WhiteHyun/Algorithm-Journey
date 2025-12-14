@@ -11,14 +11,20 @@ import Testing
 struct BOJ2133Tests {
   private let problem = BOJ2133()
 
+  struct TestCase: CustomTestStringConvertible {
+    let n: Int
+    let expected: Int
+    var testDescription: String { "n: \(n) → \(expected)" }
+  }
+
   @Test(arguments: [
-    (2, 3),
-    (4, 11),
-    (6, 41),
-    (8, 153),
+    TestCase(n: 2, expected: 3),
+    TestCase(n: 4, expected: 11),
+    TestCase(n: 6, expected: 41),
+    TestCase(n: 8, expected: 153),
   ])
-  func test(_ input: Int, _ expected: Int) {
-    let result = problem.solution(input)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.n)
+    #expect(result == testCase.expected)
   }
 }

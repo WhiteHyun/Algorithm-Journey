@@ -11,12 +11,19 @@ import Testing
 struct LeetCode2997Tests {
   private let problem = LeetCode2997()
 
+  struct TestCase: CustomTestStringConvertible {
+    let nums: [Int]
+    let k: Int
+    let expected: Int
+    var testDescription: String { "nums: \(nums), k: \(k) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ([2, 1, 3, 4], 1, 2),
-    ([2, 0, 2, 0], 0, 0),
+    TestCase(nums: [2, 1, 3, 4], k: 1, expected: 2),
+    TestCase(nums: [2, 0, 2, 0], k: 0, expected: 0),
   ])
-  func test(_ nums: [Int], _ k: Int, _ expected: Int) {
-    let result = problem.minOperations(nums, k)
-    #expect(result == expected, "Input: (\(nums), \(k)), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.minOperations(testCase.nums, testCase.k)
+    #expect(result == testCase.expected)
   }
 }

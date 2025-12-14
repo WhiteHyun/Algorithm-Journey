@@ -11,13 +11,20 @@ import Testing
 struct BOJ1010Tests {
   private let problem = BOJ1010()
 
+  struct TestCase: CustomTestStringConvertible {
+    let n: Int
+    let m: Int
+    let expected: Int
+    var testDescription: String { "n: \(n), m: \(m) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((2, 2), 1),
-    ((1, 5), 5),
-    ((13, 29), 67_863_915),
+    TestCase(n: 2, m: 2, expected: 1),
+    TestCase(n: 1, m: 5, expected: 5),
+    TestCase(n: 13, m: 29, expected: 67_863_915),
   ])
-  func test(_ input: (Int, Int), _ expected: Int) {
-    let result = problem.solution(input.0, input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.n, testCase.m)
+    #expect(result == testCase.expected)
   }
 }

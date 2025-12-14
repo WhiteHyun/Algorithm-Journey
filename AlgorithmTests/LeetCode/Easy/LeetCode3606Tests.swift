@@ -11,13 +11,21 @@ import Testing
 struct LeetCode3606Tests {
   private let problem = LeetCode3606()
 
+  struct TestCase: CustomTestStringConvertible {
+    let codes: [String]
+    let categories: [String]
+    let validDates: [Bool]
+    let expected: [String]
+    var testDescription: String { "codes: \(codes), categories: \(categories), validDates: \(validDates) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((["SAVE20", "", "PHARMA5", "SAVE@20"], ["restaurant", "grocery", "pharmacy", "restaurant"], [true, true, true, true]), ["PHARMA5", "SAVE20"]),
-    ((["GROCERY15", "ELECTRONICS_50", "DISCOUNT10"], ["grocery", "electronics", "invalid"], [false, true, true]), ["ELECTRONICS_50"]),
-    ((["1OFw","0MvB"], ["electronics","pharmacy"], [true, true]), ["1OFw","0MvB"]),
+    TestCase(codes: ["SAVE20", "", "PHARMA5", "SAVE@20"], categories: ["restaurant", "grocery", "pharmacy", "restaurant"], validDates: [true, true, true, true], expected: ["PHARMA5", "SAVE20"]),
+    TestCase(codes: ["GROCERY15", "ELECTRONICS_50", "DISCOUNT10"], categories: ["grocery", "electronics", "invalid"], validDates: [false, true, true], expected: ["ELECTRONICS_50"]),
+    TestCase(codes: ["1OFw","0MvB"], categories: ["electronics","pharmacy"], validDates: [true, true], expected: ["1OFw","0MvB"]),
   ])
-  func test(_ input: ([String], [String], [Bool]), _ expected: [String]) {
-    let result = problem.validateCoupons(input.0, input.1, input.2)
-    #expect(result == expected)
+  func test(_ testCase: TestCase) {
+    let result = problem.validateCoupons(testCase.codes, testCase.categories, testCase.validDates)
+    #expect(result == testCase.expected)
   }
 }

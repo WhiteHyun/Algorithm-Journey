@@ -11,14 +11,21 @@ import Testing
 struct BOJ2294Tests {
   private let problem = BOJ2294()
 
+  struct TestCase: CustomTestStringConvertible {
+    let k: Int
+    let coins: [Int]
+    let expected: Int
+    var testDescription: String { "k: \(k), coins: \(coins) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((15, [1, 5, 12]), 3),
-    ((243, [1, 5, 10, 50, 100]), 9),
-    ((263, [1, 5, 10, 50, 100]), 7),
-    ((263, [1, 5, 10, 50, 100, 500]), 7),
+    TestCase(k: 15, coins: [1, 5, 12], expected: 3),
+    TestCase(k: 243, coins: [1, 5, 10, 50, 100], expected: 9),
+    TestCase(k: 263, coins: [1, 5, 10, 50, 100], expected: 7),
+    TestCase(k: 263, coins: [1, 5, 10, 50, 100, 500], expected: 7),
   ])
-  func test(_ input: (Int, [Int]), _ expected: Int) {
-    let result = problem.solution(input.0, input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.solution(testCase.k, testCase.coins)
+    #expect(result == testCase.expected)
   }
 }

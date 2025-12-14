@@ -11,11 +11,18 @@ import Testing
 struct BOJ12100Tests {
   private let problem = BOJ12100()
 
+  struct TestCase: CustomTestStringConvertible {
+    let n: Int
+    let board: [[Int]]
+    let expected: Int
+    var testDescription: String { "n: \(n), board: \(board) → \(expected)" }
+  }
+
   @Test(arguments: [
-    ((3, [[2, 2, 2], [4, 4, 4], [8, 8, 8]]), 16),
+    TestCase(n: 3, board: [[2, 2, 2], [4, 4, 4], [8, 8, 8]], expected: 16),
   ])
-  func test(_ input: (Int, [[Int]]), _ expected: Int) {
-    let result = problem.maxNumber(input.0, input.1)
-    #expect(result == expected, "Input: \(input), Expected: \(expected), Got: \(result)")
+  func test(_ testCase: TestCase) {
+    let result = problem.maxNumber(testCase.n, testCase.board)
+    #expect(result == testCase.expected)
   }
 }
