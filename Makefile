@@ -1,11 +1,17 @@
-.PHONY: build daily fetch help
+.PHONY: build clean daily fetch help
 
 CLI_DIR := LeetCodeCLI
-CLI_PATH := $(CLI_DIR)/.build/release/leetcode
+CLI_PATH := $(CLI_DIR)/.build/debug/leetcode
 
-# Build CLI in release mode
+# Build CLI in debug mode (only if binary doesn't exist)
 build:
-	@cd $(CLI_DIR) && swift build -c release
+	@if [ ! -f "$(CLI_PATH)" ]; then \
+		cd $(CLI_DIR) && swift build; \
+	fi
+
+# Clean build artifacts
+clean:
+	@rm -rf $(CLI_DIR)/.build
 
 # Fetch today's daily challenge
 daily: build
@@ -19,7 +25,8 @@ fetch: build
 help:
 	@echo "LeetCode CLI - Available commands:"
 	@echo ""
-	@echo "  make build    Build CLI in release mode"
+	@echo "  make build    Build CLI (only if binary doesn't exist)"
+	@echo "  make clean    Remove build artifacts (forces rebuild on next run)"
 	@echo "  make daily    Fetch today's daily challenge"
 	@echo "  make fetch p=<number|slug|url>  Fetch a specific problem"
 	@echo ""
