@@ -6,34 +6,30 @@
 //  Created by 홍승현 on 2025/12/26.
 //
 
-/// 열었을 때는 N인 경우 패널티 1
-/// 닫았을 때 Y인 경우 패널티 1
 final class LeetCode2483 {
   func bestClosingTime(_ customers: String) -> Int {
-    let customersArray = Array(customers) + ["N"]
-    var nCount = Array(repeating: 0, count: customersArray.count)
-    var yCount = Array(repeating: 0, count: customersArray.count)
+    // 0시에 문을 닫을 경우 초기 패널티 계산
+    var currentPanelty = customers.count { $0 == "Y" }
+    var minimumPanelty = currentPanelty
+    var bestTime = 0
 
-    for i in customersArray.indices {
-      if i > 0 {
-        nCount[i] = nCount[i - 1]
-        yCount[customersArray.count - i - 1] = yCount[customersArray.count - i]
+    // 각 시간을 순차적으로 검사
+    for (index, element) in customers.enumerated() {
+      // 영업 시간을 1시간 연장할 경우:
+      // - customers[i]가 Y이면 (이제 영업 중이므로) 페널티 감소
+      // - customers[i]가 N이면 (불필요하게 가게를 열었으므로) 페널티 증가
+      if element == "Y" {
+        currentPanelty -= 1
+      } else {
+        currentPanelty += 1
       }
 
-      if i > 0,
-         customersArray[i - 1] == "N" {
-        nCount[i] += 1
-      }
-
-      if customersArray[customersArray.count - i - 1] == "Y" {
-        yCount[customersArray.count - i - 1] += 1
+      if currentPanelty < minimumPanelty {
+        minimumPanelty = currentPanelty
+        bestTime = index + 1
       }
     }
 
-    let sum = zip(nCount, yCount).map(+)
-
-    let minIndex = sum.firstIndex(of: sum.min()!)!
-
-    return minIndex
+    return bestTime
   }
 }
