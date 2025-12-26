@@ -9,8 +9,8 @@
 final class LeetCode2483 {
   func bestClosingTime(_ customers: String) -> Int {
     // 0시에 문을 닫을 경우 초기 패널티 계산
-    var currentPanelty = customers.count { $0 == "Y" }
-    var minimumPanelty = currentPanelty
+    var currentPenalty = customers.count { $0 == "Y" }
+    var minimumPenalty = currentPenalty
     var bestTime = 0
 
     // 각 시간을 순차적으로 검사
@@ -19,13 +19,13 @@ final class LeetCode2483 {
       // - customers[i]가 Y이면 (이제 영업 중이므로) 페널티 감소
       // - customers[i]가 N이면 (불필요하게 가게를 열었으므로) 페널티 증가
       if element == "Y" {
-        currentPanelty -= 1
+        currentPenalty -= 1
       } else {
-        currentPanelty += 1
+        currentPenalty += 1
       }
 
-      if currentPanelty < minimumPanelty {
-        minimumPanelty = currentPanelty
+      if currentPenalty < minimumPenalty {
+        minimumPenalty = currentPenalty
         bestTime = index + 1
       }
     }
