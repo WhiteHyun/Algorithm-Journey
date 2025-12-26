@@ -91,56 +91,79 @@ struct CodeGenerator {
     methodName: String,
     metaData: MetaData?
   ) -> String {
-    let paramCount = examples.first?.inputs.count ?? 1
-    let argumentsList = formatArgumentsList(examples: examples, paramCount: paramCount)
-    let inputAccess = formatInputAccess(paramCount: paramCount)
-    let inputType = TypeConverter.inputType(from: metaData)
+    let params = metaData?.params ?? []
     let outputType = TypeConverter.outputType(from: metaData)
+    let testCaseStruct = generateTestCaseStruct(params: params, outputType: outputType)
+    let argumentsList = formatArgumentsList(examples: examples, params: params)
+    let methodCall = formatMethodCall(methodName: methodName, params: params)
 
     return """
+    \(testCaseStruct)
+
       @Test(arguments: [
         \(argumentsList),
       ])
-      func test(_ input: \(inputType), _ expected: \(outputType)) {
-        let result = problem.\(methodName)(\(inputAccess))
-        #expect(result == expected, "Input: \\(input), Expected: \\(expected), Got: \\(result)")
+      func test(_ testCase: TestCase) {
+        let result = problem.\(methodCall)
+        #expect(result == testCase.expected)
       }
     """
+  }
+
+  private func generateTestCaseStruct(params: [MetaData.Param], outputType: String) -> String {
+    let properties = params.map { param in
+      "    let \(param.name): \(TypeConverter.toSwiftType(param.type))"
+    }.joined(separator: "\n")
+
+    let descriptionParts = params.map { "\($0.name): \\(\($0.name))" }.joined(separator: ", ")
+
+    return """
+      struct TestCase: CustomTestStringConvertible {
+    \(properties)
+        let expected: \(outputType)
+        var testDescription: String { "\(descriptionParts) → \\(expected)" }
+      }
+    """
+  }
+
+  private func formatMethodCall(methodName: String, params: [MetaData.Param]) -> String {
+    let args = params.map { "testCase.\($0.name)" }.joined(separator: ", ")
+    return "\(methodName)(\(args))"
   }
 
   private func generatePlaceholderTest(methodName: String, metaData: MetaData?) -> String {
-    let inputType = TypeConverter.inputType(from: metaData)
+    let params = metaData?.params ?? []
     let outputType = TypeConverter.outputType(from: metaData)
+    let testCaseStruct = generateTestCaseStruct(params: params, outputType: outputType)
+    let methodCall = formatMethodCall(methodName: methodName, params: params)
+
+    let placeholderArgs = params.map { "\($0.name): <#\(TypeConverter.toSwiftType($0.type))#>" }
+      .joined(separator: ", ")
 
     return """
+    \(testCaseStruct)
+
       @Test(arguments: [
-        (<#Input#>, <#Expected#>),
+        TestCase(\(placeholderArgs), expected: <#\(outputType)#>),
       ])
-      func test(_ input: \(inputType), _ expected: \(outputType)) {
-        let result = problem.\(methodName)(input)
-        #expect(result == expected, "Input: \\(input), Expected: \\(expected), Got: \\(result)")
+      func test(_ testCase: TestCase) {
+        let result = problem.\(methodCall)
+        #expect(result == testCase.expected)
       }
     """
   }
 
-  private func formatArgumentsList(examples: [ParsedExample], paramCount: Int) -> String {
+  private func formatArgumentsList(examples: [ParsedExample], params: [MetaData.Param]) -> String {
     examples.map { example in
       let formattedInputs = example.inputs.map { formatValue($0) }
       let expectedOutput = example.expectedOutput.map { formatValue($0) } ?? "<#expected#>"
 
-      if paramCount == 1 {
-        return "(\(formattedInputs[0]), \(expectedOutput))"
-      } else {
-        return "((\(formattedInputs.joined(separator: ", "))), \(expectedOutput))"
-      }
-    }.joined(separator: ",\n    ")
-  }
+      let args = zip(params, formattedInputs).map { param, value in
+        "\(param.name): \(value)"
+      }.joined(separator: ", ")
 
-  private func formatInputAccess(paramCount: Int) -> String {
-    if paramCount == 1 {
-      return "input"
-    }
-    return (0 ..< paramCount).map { "input.\($0)" }.joined(separator: ", ")
+      return "TestCase(\(args), expected: \(expectedOutput))"
+    }.joined(separator: ",\n    ")
   }
 
   private func formatValue(_ value: String) -> String {
