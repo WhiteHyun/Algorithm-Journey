@@ -6,6 +6,8 @@
 //  Created by 홍승현 on 2025/12/13.
 //
 
+// MARK: - Coupon
+
 private struct Coupon: Comparable {
   private static let sortedOrders = ["electronics", "grocery", "pharmacy", "restaurant"]
   static func < (lhs: Coupon, rhs: Coupon) -> Bool {
@@ -23,6 +25,8 @@ private struct Coupon: Comparable {
   let isActive: Bool
 }
 
+// MARK: - LeetCode3606
+
 final class LeetCode3606 {
   func validateCoupons(_ code: [String], _ businessLine: [String], _ isActive: [Bool]) -> [String] {
     var coupons = [Coupon]()
@@ -30,13 +34,13 @@ final class LeetCode3606 {
       coupons.append(Coupon(code: code[i], businessLine: businessLine[i], isActive: isActive[i]))
     }
     let validBusinessLines: Set<String> = ["electronics", "grocery", "pharmacy", "restaurant"]
-    
+
     coupons.removeAll { coupon in
       // Remove if any of these conditions are true (invalid coupons)
       !coupon.isActive ||
-      !validBusinessLines.contains(coupon.businessLine) ||
-      coupon.code.isEmpty ||
-      !coupon.code.allSatisfy { $0.isLetter || $0.isNumber || $0 == "_" }
+        !validBusinessLines.contains(coupon.businessLine) ||
+        coupon.code.isEmpty ||
+        !coupon.code.allSatisfy { $0.isLetter || $0.isNumber || $0 == "_" }
     }
 
     return coupons.sorted().map(\.code)
