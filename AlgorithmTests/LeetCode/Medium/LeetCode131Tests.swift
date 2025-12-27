@@ -40,9 +40,9 @@ struct LeetCode131Tests {
           ["aa", "bcb", "a", "a"],
           ["aa", "bcb", "aa"],
           ["aabcbaa"],
-        ]
+        ],
       ),
-      "Input: 'aabcbaa', Expected: all palindrome partitions, Got: \(result)"
+      "Input: 'aabcbaa', Expected: all palindrome partitions, Got: \(result)",
     )
   }
 }

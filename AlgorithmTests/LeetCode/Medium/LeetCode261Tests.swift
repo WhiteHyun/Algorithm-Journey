@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "261. Graph Valid Tree",
-  .tags(.depthFirstSearch, .breadthFirstSearch, .unionFind, .graph)
+  .tags(.depthFirstSearch, .breadthFirstSearch, .unionFind, .graph),
 )
 struct LeetCode261Tests {
   private let problem = LeetCode261()

@@ -16,7 +16,7 @@ import Testing
       ([1, 1, 1, 1, 1], 10),
       ([1, 2], 0),
       ([1, 1], 1),
-    ]
+    ],
   )
   func countTriplets(input: ([Int], Int)) {
     let result = problem.countTriplets(input.0)

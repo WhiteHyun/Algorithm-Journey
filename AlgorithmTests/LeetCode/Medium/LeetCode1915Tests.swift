@@ -16,7 +16,7 @@ import Testing
       ("aabb", 9),
       ("he", 2),
       ("ababcca", 19),
-    ]
+    ],
   )
   func wonderfulSubstrings(input: (String, Int)) {
     let result = problem.wonderfulSubstrings(input.0)

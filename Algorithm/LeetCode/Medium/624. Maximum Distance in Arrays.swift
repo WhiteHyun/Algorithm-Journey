@@ -40,7 +40,7 @@ final class LeetCode624 {
 
     return max(
       minMaxArray[nextMaxIndex].max - minMaxArray[minimumIndex].min,
-      minMaxArray[maximumIndex].max - minMaxArray[nextMinIndex].min
+      minMaxArray[maximumIndex].max - minMaxArray[nextMinIndex].min,
     )
   }
 }

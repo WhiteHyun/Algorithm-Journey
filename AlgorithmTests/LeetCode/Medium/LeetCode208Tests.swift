@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "208. Implement Trie (Prefix Tree)",
-  .tags(.design, .string, .hashTable, .trie)
+  .tags(.design, .string, .hashTable, .trie),
 )
 struct LeetCode208Tests {
   private let trie: Trie

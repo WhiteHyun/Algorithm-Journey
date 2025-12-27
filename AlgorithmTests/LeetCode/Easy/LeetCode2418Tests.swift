@@ -15,7 +15,7 @@ struct LeetCode2418Tests {
     arguments: [
       (["Mary", "John", "Emma"], [180, 165, 170], ["Mary", "Emma", "John"]),
       (["Alice", "Bob", "Bob"], [155, 185, 150], ["Bob", "Alice", "Bob"]),
-    ]
+    ],
   )
   func example1(names: [String], heights: [Int], answer: [String]) {
     let result = problem.sortPeople(names, heights)

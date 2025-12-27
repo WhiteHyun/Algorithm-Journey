@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "139. Word Break",
-  .tags(.array, .hashTable, .string, .dynamicProgramming, .trie, .memoization)
+  .tags(.array, .hashTable, .string, .dynamicProgramming, .trie, .memoization),
 )
 struct LeetCode139Tests {
   private let problem = LeetCode139()

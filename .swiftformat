@@ -1,4 +1,5 @@
---swiftversion 6.0
+--swiftversion 6.2
+--exclude Pods,Derived,LeetCodeCLI/.build,.build,Dependencies,**/*.xcodeproj,**/*.xcworkspace
 
 # format options
 

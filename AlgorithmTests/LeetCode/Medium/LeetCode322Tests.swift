@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "322. Coin Change",
-  .tags(.array, .dynamicProgramming, .breadthFirstSearch)
+  .tags(.array, .dynamicProgramming, .breadthFirstSearch),
 )
 struct LeetCode322Tests {
   private let problem = LeetCode322()

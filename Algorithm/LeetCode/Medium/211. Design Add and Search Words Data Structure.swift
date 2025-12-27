@@ -13,7 +13,7 @@ enum LeetCode211 {
 
     init(
       children: [Character: TrieNode] = [:],
-      endOfWord: Bool = false
+      endOfWord: Bool = false,
     ) {
       self.children = children
       self.endOfWord = endOfWord

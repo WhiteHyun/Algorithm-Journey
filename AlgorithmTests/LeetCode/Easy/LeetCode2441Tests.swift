@@ -15,7 +15,7 @@ import Testing
       ([-1, 2, -3, 3], 3),
       ([-1, 10, 6, 7, -7, 1], 7),
       ([-10, 8, 6, 7, -2, -3], -1),
-    ]
+    ],
   )
   func findMaxK(input: ([Int], Int)) {
     let result = problem.findMaxK(input.0)

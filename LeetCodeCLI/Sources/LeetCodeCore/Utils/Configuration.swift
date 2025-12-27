@@ -12,7 +12,7 @@ public struct Configuration {
     nickname: String,
     xcodeProjectName: String,
     xcodeMainFolder: String,
-    xcodeUnitTestFolder: String
+    xcodeUnitTestFolder: String,
   ) {
     self.nickname = nickname
     self.xcodeProjectName = xcodeProjectName
@@ -49,7 +49,7 @@ public struct Configuration {
       nickname: nickname,
       xcodeProjectName: projectName,
       xcodeMainFolder: mainFolder,
-      xcodeUnitTestFolder: testFolder
+      xcodeUnitTestFolder: testFolder,
     )
   }
 }

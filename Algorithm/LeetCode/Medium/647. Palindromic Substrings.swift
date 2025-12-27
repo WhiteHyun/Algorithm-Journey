@@ -14,7 +14,7 @@ final class LeetCode647 {
 
     var dp: [[Bool]] = .init(
       repeating: .init(repeating: false, count: n),
-      count: n
+      count: n,
     )
 
     for i in dp.indices {

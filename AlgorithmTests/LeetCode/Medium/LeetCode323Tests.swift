@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "323. Number of Connected Components in an Undirected Graph",
-  .tags(.depthFirstSearch, .breadthFirstSearch, .unionFind, .graph)
+  .tags(.depthFirstSearch, .breadthFirstSearch, .unionFind, .graph),
 )
 struct LeetCode323Tests {
   private let problem = LeetCode323()

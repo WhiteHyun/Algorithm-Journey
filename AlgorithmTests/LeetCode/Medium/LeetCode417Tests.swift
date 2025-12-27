@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "417. Pacific Atlantic Water Flow",
-  .tags(.array, .depthFirstSearch, .breadthFirstSearch, .matrix)
+  .tags(.array, .depthFirstSearch, .breadthFirstSearch, .matrix),
 )
 struct LeetCode417Tests {
   private let problem = LeetCode417()

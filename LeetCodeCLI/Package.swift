@@ -15,7 +15,7 @@ let package = Package(
       dependencies: [
         .product(name: "XcodeProj", package: "XcodeProj"),
       ],
-      path: "Sources/LeetCodeCore"
+      path: "Sources/LeetCodeCore",
     ),
     // Executable target
     .executableTarget(
@@ -24,13 +24,13 @@ let package = Package(
         "LeetCodeCore",
         .product(name: "ArgumentParser", package: "swift-argument-parser"),
       ],
-      path: "Sources/LeetCodeCLI"
+      path: "Sources/LeetCodeCLI",
     ),
     // Test target
     .testTarget(
       name: "LeetCodeCoreTests",
       dependencies: ["LeetCodeCore"],
-      path: "Tests/LeetCodeCoreTests"
+      path: "Tests/LeetCodeCoreTests",
     ),
-  ]
+  ],
 )

@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "2285. Maximum Total Importance of Roads",
-  .tags(.greedy, .graph, .sorting, .heap)
+  .tags(.greedy, .graph, .sorting, .heap),
 )
 struct LeetCode2285Tests {
   private let problem = LeetCode2285()

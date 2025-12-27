@@ -67,7 +67,7 @@ struct TypeConverterTests {
     let metaData = MetaData(
       name: "test",
       params: [MetaData.Param(name: "nums", type: "integer[]")],
-      return: nil
+      return: nil,
     )
     #expect(TypeConverter.inputType(from: metaData) == "[Int]")
   }
@@ -80,7 +80,7 @@ struct TypeConverterTests {
         MetaData.Param(name: "nums", type: "integer[]"),
         MetaData.Param(name: "target", type: "integer"),
       ],
-      return: nil
+      return: nil,
     )
     #expect(TypeConverter.inputType(from: metaData) == "([Int], Int)")
   }
@@ -97,7 +97,7 @@ struct TypeConverterTests {
     let metaData = MetaData(
       name: "test",
       params: [],
-      return: MetaData.ReturnType(type: "integer[]")
+      return: MetaData.ReturnType(type: "integer[]"),
     )
     #expect(TypeConverter.outputType(from: metaData) == "[Int]")
   }

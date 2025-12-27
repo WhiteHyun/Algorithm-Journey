@@ -13,7 +13,7 @@ final class LeetCode2285 {
       roads
         .joined()
         .reduce(into: Array(repeating: 0, count: n)) { $0[$1] += 1 }
-        .sorted()
+        .sorted(),
     )
     .map(*)
     .reduce(0, +)

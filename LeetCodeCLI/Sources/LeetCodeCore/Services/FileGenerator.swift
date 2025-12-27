@@ -9,7 +9,7 @@ struct FileGenerator {
 
   init(
     config: Configuration,
-    baseDirectory: URL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+    baseDirectory: URL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath),
   ) {
     self.config = config
     self.baseDirectory = baseDirectory
@@ -34,21 +34,21 @@ struct FileGenerator {
     do {
       let xcodeManager = try XcodeProjectManager(
         projectName: config.xcodeProjectName,
-        baseDirectory: baseDirectory
+        baseDirectory: baseDirectory,
       )
 
       try xcodeManager.addFile(
         fileName: solutionFileName,
         targetName: config.xcodeMainFolder,
         platform: "LeetCode",
-        difficulty: difficulty
+        difficulty: difficulty,
       )
 
       try xcodeManager.addFile(
         fileName: testFileName,
         targetName: config.xcodeUnitTestFolder,
         platform: "LeetCode",
-        difficulty: difficulty
+        difficulty: difficulty,
       )
     } catch {
       print("Failed to add files to Xcode project: \(error.localizedDescription)")

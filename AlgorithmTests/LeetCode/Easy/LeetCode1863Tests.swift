@@ -14,7 +14,7 @@ import Testing
     arguments: [
       ([1, 3], 6),
       ([5, 1, 6], 28),
-    ]
+    ],
   )
   func subsetXORSum(input: ([Int], Int)) {
     let result = problem.subsetXORSum(input.0)
