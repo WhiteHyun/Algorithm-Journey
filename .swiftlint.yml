@@ -17,9 +17,13 @@ only_rules:
   - trailing_comma
 
 excluded:
-  - Carthage
   - Pods
+  - Derived
+  - LeetCodeCLI/.build
   - .build
+  - Dependencies
+  - "**/*.xcodeproj"
+  - "**/*.xcworkspace"
 
 colon:
   apply_to_dictionaries: false

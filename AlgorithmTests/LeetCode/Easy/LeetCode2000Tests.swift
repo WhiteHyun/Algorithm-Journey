@@ -15,7 +15,7 @@ import Testing
       ("abcdefd", "d", "dcbaefd"),
       ("xyxzxe", "z", "zxyxxe"),
       ("abcd", "z", "abcd"),
-    ]
+    ],
   )
   func reversePrefix(input: (String, String, String)) {
     let result = problem.reversePrefix(input.0, Character(input.1))

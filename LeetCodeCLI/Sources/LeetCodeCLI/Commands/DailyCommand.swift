@@ -4,7 +4,7 @@ import LeetCodeCore
 struct DailyCommand: AsyncParsableCommand {
   static let configuration = CommandConfiguration(
     commandName: "daily",
-    abstract: "Fetch today's LeetCode daily challenge"
+    abstract: "Fetch today's LeetCode daily challenge",
   )
 
   @Flag(name: .shortAndLong, help: "Skip opening Xcode after file creation")

@@ -22,7 +22,7 @@ struct XcodeProjectManager {
     fileName: String,
     targetName: String,
     platform: String,
-    difficulty: String
+    difficulty: String,
   ) throws {
     let pbxproj = project.pbxproj
 
@@ -53,7 +53,7 @@ struct XcodeProjectManager {
     // Add file reference
     let fileReference = try difficultyGroup.addFile(
       at: Path(fileName),
-      sourceRoot: projectPath.parent()
+      sourceRoot: projectPath.parent(),
     )
 
     // Add to target's build phase

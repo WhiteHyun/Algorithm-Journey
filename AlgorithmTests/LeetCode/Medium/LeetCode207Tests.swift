@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "207. Course Schedule",
-  .tags(.depthFirstSearch, .breadthFirstSearch, .graph, .topologicalSort)
+  .tags(.depthFirstSearch, .breadthFirstSearch, .graph, .topologicalSort),
 )
 struct LeetCode207Tests {
   private let problem = LeetCode207()

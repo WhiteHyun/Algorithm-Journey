@@ -25,7 +25,7 @@ struct BOJ1238Tests {
         (3, 1, 2),
         (3, 4, 4),
         (4, 2, 3),
-      ]
+      ],
     )
     #expect(result == 10, "Expected: 10, Got: \(result)")
   }

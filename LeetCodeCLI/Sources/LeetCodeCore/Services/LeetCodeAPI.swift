@@ -95,7 +95,7 @@ actor LeetCodeAPI {
 
     let response: GraphQLResponse<ProblemsetResponse> = try await requestWithFilters(
       query: query,
-      filters: ["searchKeywords": number]
+      filters: ["searchKeywords": number],
     )
 
     guard let slug = response.data.problemsetQuestionList.questions.first?.titleSlug else {
@@ -109,7 +109,7 @@ actor LeetCodeAPI {
 
   private func request<T: Decodable>(
     query: String,
-    variables: [String: String]? = nil
+    variables: [String: String]? = nil,
   ) async throws -> T {
     guard let url = URL(string: baseURL) else {
       throw LeetCodeAPIError.invalidURL
@@ -137,7 +137,7 @@ actor LeetCodeAPI {
 
   private func requestWithFilters<T: Decodable>(
     query: String,
-    filters: [String: String]
+    filters: [String: String],
   ) async throws -> T {
     guard let url = URL(string: baseURL) else {
       throw LeetCodeAPIError.invalidURL

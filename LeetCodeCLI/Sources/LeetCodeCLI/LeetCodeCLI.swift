@@ -7,6 +7,6 @@ struct LeetCodeCLI: AsyncParsableCommand {
     abstract: "A CLI tool to fetch LeetCode problems and generate Swift solution files",
     version: "1.0.0",
     subcommands: [DailyCommand.self, FetchCommand.self],
-    defaultSubcommand: DailyCommand.self
+    defaultSubcommand: DailyCommand.self,
   )
 }

@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "133. Clone Graph",
-  .tags(.hashTable, .depthFirstSearch, .breadthFirstSearch, .graph)
+  .tags(.hashTable, .depthFirstSearch, .breadthFirstSearch, .graph),
 )
 struct LeetCode133Tests {
   private let problem = LeetCode133()

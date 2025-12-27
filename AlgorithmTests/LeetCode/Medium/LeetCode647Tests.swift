@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "647. Palindromic Substrings",
-  .tags(.twoPointers, .string, .dynamicProgramming)
+  .tags(.twoPointers, .string, .dynamicProgramming),
 )
 struct LeetCode647Tests {
   private let problem = LeetCode647()

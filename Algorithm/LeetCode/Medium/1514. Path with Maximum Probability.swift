@@ -12,7 +12,7 @@ final class LeetCode1514 {
     _ edges: [[Int]],
     _ succProb: [Double],
     _ startNode: Int,
-    _ endNode: Int
+    _ endNode: Int,
   ) -> Double {
     var distances: [Double] = .init(repeating: 0, count: n)
     distances[startNode] = 1

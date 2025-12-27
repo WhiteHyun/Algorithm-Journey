@@ -10,7 +10,7 @@ final class LeetCode200 {
   func numIslands(_ grid: [[Character]]) -> Int {
     var visited: [[Bool]] = .init(
       repeating: .init(repeating: false, count: grid[0].count),
-      count: grid.count
+      count: grid.count,
     )
     var islands = 0
 
@@ -29,7 +29,7 @@ final class LeetCode200 {
     _ grid: [[Character]],
     _ visited: inout [[Bool]],
     _ x: Int,
-    _ y: Int
+    _ y: Int,
   ) {
     for (dx, dy) in [(-1, 0), (1, 0), (0, -1), (0, 1)] {
       let nx = dx + x

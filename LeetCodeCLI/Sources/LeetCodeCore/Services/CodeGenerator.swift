@@ -89,7 +89,7 @@ struct CodeGenerator {
   private func generateParameterizedTest(
     examples: [ParsedExample],
     methodName: String,
-    metaData: MetaData?
+    metaData: MetaData?,
   ) -> String {
     let params = metaData?.params ?? []
     let outputType = TypeConverter.outputType(from: metaData)

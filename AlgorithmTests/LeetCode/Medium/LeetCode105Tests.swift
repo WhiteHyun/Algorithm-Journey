@@ -9,7 +9,7 @@ import Testing
 
 @Suite(
   "105. Construct Binary Tree from Preorder and Inorder Traversal",
-  .tags(.tree)
+  .tags(.tree),
 )
 struct LeetCode105Tests {
   private let problem = LeetCode105()

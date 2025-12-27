@@ -4,7 +4,7 @@ import LeetCodeCore
 struct FetchCommand: AsyncParsableCommand {
   static let configuration = CommandConfiguration(
     commandName: "fetch",
-    abstract: "Fetch a specific LeetCode problem"
+    abstract: "Fetch a specific LeetCode problem",
   )
 
   @Argument(help: "Problem slug or URL (e.g., 'two-sum' or 'https://leetcode.com/problems/two-sum/')")

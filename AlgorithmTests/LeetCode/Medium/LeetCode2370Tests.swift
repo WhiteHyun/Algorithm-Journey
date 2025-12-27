@@ -16,7 +16,7 @@ import Testing
       ("abcd", 3, 4),
       ("acfgbd", 5, 6),
       ("eduktdb", 15, 5),
-    ]
+    ],
   )
   func longestIdealString(input: (String, Int, Int)) {
     let result = problem.longestIdealString(input.0, input.1)

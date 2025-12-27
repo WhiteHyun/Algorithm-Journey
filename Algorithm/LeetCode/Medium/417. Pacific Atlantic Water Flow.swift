@@ -21,7 +21,7 @@ final class LeetCode417 {
   private func isValid(_ i: Int, _ j: Int, _ heights: [[Int]]) -> Bool {
     var visited: [[Bool]] = .init(
       repeating: .init(repeating: false, count: heights[i].count),
-      count: heights.count
+      count: heights.count,
     )
     visited[i][j] = true
     var pacificOceanFlag = i == 0 || j == 0

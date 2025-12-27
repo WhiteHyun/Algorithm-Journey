@@ -16,7 +16,7 @@ struct LeetCode39Tests {
     let result = problem.combinationSum([2, 3, 6, 7], 7)
     #expect(
       result == [[2, 2, 3], [7]],
-      #"Expected '[[2, 2, 3], [7]]', but got '\#(result)'"#
+      #"Expected '[[2, 2, 3], [7]]', but got '\#(result)'"#,
     )
   }
 
@@ -25,7 +25,7 @@ struct LeetCode39Tests {
     let result = problem.combinationSum([2, 3, 5], 8)
     #expect(
       areEquivalent(result, [[2, 2, 2, 2], [2, 3, 3], [3, 5]]),
-      #"Expected '[[2, 2, 2, 2], [2, 3, 3], [3, 5]]', but got '\#(result)'"#
+      #"Expected '[[2, 2, 2, 2], [2, 3, 3], [3, 5]]', but got '\#(result)'"#,
     )
   }
 

@@ -19,7 +19,7 @@ struct LeetCode200Tests {
         ["1", "1", "0", "1", "0"],
         ["1", "1", "0", "0", "0"],
         ["0", "0", "0", "0", "0"],
-      ]
+      ],
     )
     #expect(result == 1, #"Expected '1', but got '\#(result)'"#)
   }
@@ -32,7 +32,7 @@ struct LeetCode200Tests {
         ["1", "1", "0", "0", "0"],
         ["0", "0", "1", "0", "0"],
         ["0", "0", "0", "1", "1"],
-      ]
+      ],
     )
     #expect(result == 3, #"Expected '3', but got '\#(result)'"#)
   }

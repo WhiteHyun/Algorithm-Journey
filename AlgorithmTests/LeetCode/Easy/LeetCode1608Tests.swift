@@ -15,7 +15,7 @@ import Testing
       ([3, 5], 2),
       ([0, 0], -1),
       ([0, 4, 3, 0, 4], 3),
-    ]
+    ],
   )
   func specialArray(input: ([Int], Int)) {
     let result = problem.specialArray(input.0)
