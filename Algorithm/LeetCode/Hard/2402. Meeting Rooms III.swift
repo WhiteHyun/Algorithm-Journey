@@ -6,6 +6,8 @@
 //  Created by 홍승현 on 2025/12/27.
 //
 
+// MARK: - LeetCode2402
+
 final class LeetCode2402 {
   func mostBooked(_ n: Int, _ meetings: [[Int]]) -> Int {
     var meetingCounts = Array(repeating: 0, count: n)
@@ -96,7 +98,7 @@ private extension LeetCode2402 {
       return removeElement
     }
 
-    mutating private func siftUp(from index: Int) {
+    private mutating func siftUp(from index: Int) {
       guard index > 0 else { return }
 
       let parent = parentIndex(of: index)
@@ -106,7 +108,7 @@ private extension LeetCode2402 {
       }
     }
 
-    mutating private func siftDown(from index: Int) {
+    private mutating func siftDown(from index: Int) {
       let left = leftChildIndex(of: index)
       let right = rightChildIndex(of: index)
 
