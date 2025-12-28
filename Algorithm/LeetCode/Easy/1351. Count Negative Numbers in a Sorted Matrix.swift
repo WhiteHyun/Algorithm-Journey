@@ -9,21 +9,20 @@
 final class LeetCode1351 {
   func countNegatives(_ grid: [[Int]]) -> Int {
     var count = 0
+    let m = grid.count
     let n = grid[0].count
 
-    for i in grid.indices {
-      var left = 0
-      var right = n
-      while left < right {
-        let mid = (left + right) / 2
-        if grid[i][mid] < 0 {
-          right = mid
-        } else {
-          left = mid + 1
-        }
+    var row = m - 1
+    var col = 0
+
+    while row >= 0 && col < n {
+      if grid[row][col] < 0 {
+        count += n - col
+        row -= 1
+        continue
       }
 
-      count += n - left
+      col += 1
     }
 
     return count
