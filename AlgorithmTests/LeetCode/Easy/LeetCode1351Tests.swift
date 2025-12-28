@@ -20,6 +20,11 @@ struct LeetCode1351Tests {
   @Test(arguments: [
     TestCase(grid: [[4, 3, 2, -1], [3, 2, 1, -1], [1, 1, -1, -2], [-1, -1, -2, -3]], expected: 8),
     TestCase(grid: [[3, 2], [1, 0]], expected: 0),
+    TestCase(grid: [[5]], expected: 0),
+    TestCase(grid: [[-1]], expected: 1),
+    TestCase(grid: [[-1, -2], [-3, -4]], expected: 4),
+    TestCase(grid: [[3, 2, -1, -2]], expected: 2),
+    TestCase(grid: [[4], [2], [-1], [-3]], expected: 2),
   ])
   func test(_ testCase: TestCase) {
     let result = problem.countNegatives(testCase.grid)
