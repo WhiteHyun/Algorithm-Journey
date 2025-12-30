@@ -15,7 +15,7 @@ final class LeetCode1351 {
     var row = m - 1
     var col = 0
 
-    while row >= 0 && col < n {
+    while row >= 0, col < n {
       if grid[row][col] < 0 {
         count += n - col
         row -= 1
