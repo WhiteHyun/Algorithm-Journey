@@ -15,7 +15,9 @@ struct LeetCode2486Tests {
     let s1: String
     let s2: String
     let expected: Int
-    var testDescription: String { "s1: \(s1), s2: \(s2) → \(expected)" }
+    var testDescription: String {
+      "s1: \(s1), s2: \(s2) → \(expected)"
+    }
   }
 
   @Test(arguments: [

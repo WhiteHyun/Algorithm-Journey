@@ -15,7 +15,9 @@ struct BOJ2110Tests {
     let houses: [Int]
     let c: Int
     let expected: Int
-    var testDescription: String { "houses: \(houses), c: \(c) → \(expected)" }
+    var testDescription: String {
+      "houses: \(houses), c: \(c) → \(expected)"
+    }
   }
 
   @Test(arguments: [

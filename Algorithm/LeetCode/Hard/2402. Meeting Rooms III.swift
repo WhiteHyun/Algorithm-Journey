@@ -78,11 +78,17 @@ private extension LeetCode2402 {
       self.priorityFunction = priorityFunction
     }
 
-    var peek: Element? { elements.first }
+    var peek: Element? {
+      elements.first
+    }
 
-    var count: Int { elements.count }
+    var count: Int {
+      elements.count
+    }
 
-    var isEmpty: Bool { elements.isEmpty }
+    var isEmpty: Bool {
+      elements.isEmpty
+    }
 
     mutating func insert(_ element: Element) {
       elements.append(element)

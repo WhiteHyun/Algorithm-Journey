@@ -15,7 +15,9 @@ struct BOJ2293Tests {
     let target: Int
     let coins: [Int]
     let expected: Int
-    var testDescription: String { "target: \(target), coins: \(coins) → \(expected)" }
+    var testDescription: String {
+      "target: \(target), coins: \(coins) → \(expected)"
+    }
   }
 
   @Test(arguments: [

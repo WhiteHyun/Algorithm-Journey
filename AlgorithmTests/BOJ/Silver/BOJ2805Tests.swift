@@ -15,7 +15,9 @@ struct BOJ2805Tests {
     let trees: [Int]
     let length: Int
     let expected: Int
-    var testDescription: String { "trees: \(trees), length: \(length) → \(expected)" }
+    var testDescription: String {
+      "trees: \(trees), length: \(length) → \(expected)"
+    }
   }
 
   @Test(arguments: [

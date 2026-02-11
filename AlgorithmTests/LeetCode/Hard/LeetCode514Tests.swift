@@ -15,7 +15,9 @@ struct LeetCode514Tests {
     let ring: String
     let key: String
     let expected: Int
-    var testDescription: String { "ring: \(ring), key: \(key) → \(expected)" }
+    var testDescription: String {
+      "ring: \(ring), key: \(key) → \(expected)"
+    }
   }
 
   @Test(arguments: [

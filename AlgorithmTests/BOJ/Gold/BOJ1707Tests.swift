@@ -15,7 +15,9 @@ struct BOJ1707Tests {
     let v: Int
     let edges: [(Int, Int)]
     let expected: Bool
-    var testDescription: String { "v: \(v), edges: \(edges) → \(expected)" }
+    var testDescription: String {
+      "v: \(v), edges: \(edges) → \(expected)"
+    }
   }
 
   @Test(arguments: [

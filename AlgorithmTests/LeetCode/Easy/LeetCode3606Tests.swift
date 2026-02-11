@@ -16,7 +16,9 @@ struct LeetCode3606Tests {
     let categories: [String]
     let validDates: [Bool]
     let expected: [String]
-    var testDescription: String { "codes: \(codes), categories: \(categories), validDates: \(validDates) → \(expected)" }
+    var testDescription: String {
+      "codes: \(codes), categories: \(categories), validDates: \(validDates) → \(expected)"
+    }
   }
 
   @Test(arguments: [

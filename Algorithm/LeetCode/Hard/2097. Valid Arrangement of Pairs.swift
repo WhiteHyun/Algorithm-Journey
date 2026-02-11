@@ -34,7 +34,7 @@ final class LeetCode2097 {
 
     var result: [[Int]] = []
 
-    // DFS로 오일러 경로 찾기
+    /// DFS로 오일러 경로 찾기
     func dfs(_ node: Int) {
       while let next = graph[node]?.popLast() {
         dfs(next)

@@ -13,9 +13,13 @@ import Foundation
 private struct MinHeap<Element: Comparable> {
   private var elements: [Element] = []
 
-  var isEmpty: Bool { elements.isEmpty }
+  var isEmpty: Bool {
+    elements.isEmpty
+  }
 
-  var count: Int { elements.count }
+  var count: Int {
+    elements.count
+  }
 
   mutating func insert(_ element: Element) {
     elements.append(element)

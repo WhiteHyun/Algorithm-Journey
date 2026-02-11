@@ -14,7 +14,9 @@ struct BOJ1894Tests {
   struct TestCase: CustomTestStringConvertible {
     let input: [Double]
     let expected: String
-    var testDescription: String { "input: \(input) → \(expected)" }
+    var testDescription: String {
+      "input: \(input) → \(expected)"
+    }
   }
 
   @Test(arguments: [

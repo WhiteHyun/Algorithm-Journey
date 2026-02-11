@@ -16,7 +16,9 @@ struct BOJ2212Tests {
     let k: Int
     let sensors: [Int]
     let expected: Int
-    var testDescription: String { "n: \(n), k: \(k), sensors: \(sensors) → \(expected)" }
+    var testDescription: String {
+      "n: \(n), k: \(k), sensors: \(sensors) → \(expected)"
+    }
   }
 
   @Test(arguments: [

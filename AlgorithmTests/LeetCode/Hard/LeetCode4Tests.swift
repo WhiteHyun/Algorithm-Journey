@@ -15,7 +15,9 @@ struct LeetCode4Tests {
     let nums1: [Int]
     let nums2: [Int]
     let expected: Double
-    var testDescription: String { "nums1: \(nums1), nums2: \(nums2) → \(expected)" }
+    var testDescription: String {
+      "nums1: \(nums1), nums2: \(nums2) → \(expected)"
+    }
   }
 
   @Test(arguments: [

@@ -14,7 +14,9 @@ struct LeetCode66Tests {
   struct TestCase: CustomTestStringConvertible {
     let digits: [Int]
     let expected: [Int]
-    var testDescription: String { "digits: \(digits) → \(expected)" }
+    var testDescription: String {
+      "digits: \(digits) → \(expected)"
+    }
   }
 
   @Test(arguments: [

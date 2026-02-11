@@ -12,7 +12,7 @@ final class LeetCode1105 {
     // 키: 책의 위치, 값: 해당 위치에서 시작했을 때의 최소 높이
     var cache: [Int: Int] = [:]
 
-    // 재귀 함수: 주어진 위치에서 시작하여 모든 책을 배치했을 때의 최소 높이를 반환합니다.
+    /// 재귀 함수: 주어진 위치에서 시작하여 모든 책을 배치했을 때의 최소 높이를 반환합니다.
     func recursion(_ position: Int) -> Int {
       // 책이 남아있지 않는 경우
       if position == books.count {

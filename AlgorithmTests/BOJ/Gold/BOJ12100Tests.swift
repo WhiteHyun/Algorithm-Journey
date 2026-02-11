@@ -15,7 +15,9 @@ struct BOJ12100Tests {
     let n: Int
     let board: [[Int]]
     let expected: Int
-    var testDescription: String { "n: \(n), board: \(board) → \(expected)" }
+    var testDescription: String {
+      "n: \(n), board: \(board) → \(expected)"
+    }
   }
 
   @Test(arguments: [

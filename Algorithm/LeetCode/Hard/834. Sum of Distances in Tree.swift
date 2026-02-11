@@ -21,7 +21,7 @@ final class LeetCode834 {
       graph[v].append(u)
     }
 
-    // DFS 함수
+    /// DFS 함수
     func dfs(_ node: Int, _ parent: Int) {
       for child in graph[node] where child != parent {
         dfs(child, node)
@@ -30,7 +30,7 @@ final class LeetCode834 {
       }
     }
 
-    // 결과 업데이트 함수
+    /// 결과 업데이트 함수
     func updateDistances(_ node: Int, _ parent: Int) {
       for child in graph[node] where child != parent {
         distances[child] = distances[node] - subtreeSizes[child] + (n - subtreeSizes[child])

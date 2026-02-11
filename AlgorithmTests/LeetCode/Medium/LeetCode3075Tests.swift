@@ -15,7 +15,9 @@ struct LeetCode3075Tests {
     let happiness: [Int]
     let k: Int
     let expected: Int
-    var testDescription: String { "happiness: \(happiness), k: \(k) → \(expected)" }
+    var testDescription: String {
+      "happiness: \(happiness), k: \(k) → \(expected)"
+    }
   }
 
   @Test(arguments: [

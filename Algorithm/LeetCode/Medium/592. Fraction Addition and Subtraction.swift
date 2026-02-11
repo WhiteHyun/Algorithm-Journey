@@ -31,7 +31,9 @@ private struct Fraction: CustomStringConvertible {
   let numerator: Int
   let denominator: Int
 
-  var description: String { "\(numerator)/\(denominator)" }
+  var description: String {
+    "\(numerator)/\(denominator)"
+  }
 
   static func + (lhs: Fraction, rhs: Fraction) -> Fraction {
     let _lcm = lcm(lhs.denominator, rhs.denominator)

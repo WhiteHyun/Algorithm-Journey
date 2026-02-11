@@ -11,8 +11,13 @@
 private struct AbsoluteHeap<Element: Comparable & Equatable & SignedNumeric> {
   private var elements: [Element] = .init()
 
-  var isEmpty: Bool { elements.isEmpty }
-  var count: Int { elements.count }
+  var isEmpty: Bool {
+    elements.isEmpty
+  }
+
+  var count: Int {
+    elements.count
+  }
 
   mutating func insert(_ element: Element) {
     elements.append(element)

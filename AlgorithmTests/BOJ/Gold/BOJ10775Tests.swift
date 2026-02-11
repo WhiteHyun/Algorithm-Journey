@@ -15,7 +15,9 @@ struct BOJ10775Tests {
     let g: Int
     let planes: [Int]
     let expected: Int
-    var testDescription: String { "g: \(g), planes: \(planes) → \(expected)" }
+    var testDescription: String {
+      "g: \(g), planes: \(planes) → \(expected)"
+    }
   }
 
   @Test(arguments: [

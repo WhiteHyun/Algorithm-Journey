@@ -15,7 +15,7 @@ struct LeetCode105Tests {
   private let problem = LeetCode105()
 
   @Test(.timeLimit(.minutes(1)))
-  func example1() async {
+  func example1() {
     let result = problem.buildTree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7])
     #expect(result == [3, 9, 20, nil, nil, 15, 7], #"Expected '[3, 9, 20, nil, nil, 15, 7]', but got '\#(String(describing: result))'"#)
   }

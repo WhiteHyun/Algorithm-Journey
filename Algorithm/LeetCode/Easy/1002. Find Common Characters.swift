@@ -19,12 +19,10 @@ final class LeetCode1002 {
         $0.intersection($1)
       }
 
-    let answer: [String] = targetWords
+    return targetWords
       .flatMap { character in
         let count = counters.map { $0[character, default: 0] }.min() ?? 0
         return Array(repeating: String(character), count: count)
       }
-
-    return answer
   }
 }

@@ -15,7 +15,9 @@ struct LeetCode756Tests {
     let bottom: String
     let allowed: [String]
     let expected: Bool
-    var testDescription: String { "bottom: \(bottom), allowed: \(allowed) → \(expected)" }
+    var testDescription: String {
+      "bottom: \(bottom), allowed: \(allowed) → \(expected)"
+    }
   }
 
   @Test(arguments: [
