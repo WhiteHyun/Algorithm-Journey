@@ -1,6 +1,6 @@
 .PHONY: build clean daily fetch help
 
-CLI_DIR := LeetCodeCLI
+CLI_DIR := tools/leetcode-cli
 CLI_PATH := $(CLI_DIR)/.build/debug/leetcode
 
 # Build CLI in debug mode (only if binary doesn't exist)
