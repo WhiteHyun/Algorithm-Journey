@@ -37,6 +37,8 @@ public enum LanguageGeneratorFactory {
     switch languageSlug.lowercased() {
     case "swift", "":
       SwiftLanguageGenerator(config: config)
+    case "go", "golang":
+      GoLanguageGenerator(config: config)
     default:
       SwiftLanguageGenerator(config: config)
     }

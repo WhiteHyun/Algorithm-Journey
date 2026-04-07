@@ -63,6 +63,8 @@ XCODE_ROOT=swift
 XCODE_PROJECT_NAME=Algorithm
 XCODE_MAIN_FOLDER=Algorithm
 XCODE_UNIT_TEST_FOLDER=AlgorithmTests
+GO_ROOT=go
+GO_MODULE_PATH=github.com/whitehyun/algorithm-journey/go
 ```
 
 ## 생성되는 파일 예시
