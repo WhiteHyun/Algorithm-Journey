@@ -4,17 +4,20 @@ import Foundation
 
 public struct Configuration {
   public let nickname: String
+  public let xcodeRoot: String
   public let xcodeProjectName: String
   public let xcodeMainFolder: String
   public let xcodeUnitTestFolder: String
 
   public init(
     nickname: String,
+    xcodeRoot: String = "",
     xcodeProjectName: String,
     xcodeMainFolder: String,
     xcodeUnitTestFolder: String,
   ) {
     self.nickname = nickname
+    self.xcodeRoot = xcodeRoot
     self.xcodeProjectName = xcodeProjectName
     self.xcodeMainFolder = xcodeMainFolder
     self.xcodeUnitTestFolder = xcodeUnitTestFolder
@@ -47,6 +50,7 @@ public struct Configuration {
 
     return Configuration(
       nickname: nickname,
+      xcodeRoot: env["XCODE_ROOT"] ?? "",
       xcodeProjectName: projectName,
       xcodeMainFolder: mainFolder,
       xcodeUnitTestFolder: testFolder,

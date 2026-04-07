@@ -9,10 +9,13 @@ struct FileGenerator {
 
   init(
     config: Configuration,
-    baseDirectory: URL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath),
+    baseDirectory: URL? = nil,
   ) {
     self.config = config
-    self.baseDirectory = baseDirectory
+    let cwd = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+    self.baseDirectory = baseDirectory ?? (
+      config.xcodeRoot.isEmpty ? cwd : cwd.appendingPathComponent(config.xcodeRoot)
+    )
     codeGenerator = CodeGenerator(config: config)
   }
 
