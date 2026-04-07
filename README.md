@@ -44,28 +44,27 @@ make help
 Algorithm-Journey/
 ├── .env                      # 설정 파일
 ├── Makefile                  # Sugar API
-├── Algorithm.xcodeproj/      # Xcode 프로젝트
-├── Algorithm/                # 솔루션 파일
-│   ├── LeetCode/
-│   │   ├── Easy/
-│   │   ├── Medium/
-│   │   └── Hard/
-│   └── Base/                 # 공통 자료구조 (Heap, Queue 등)
-├── AlgorithmTests/           # 테스트 파일
-│   └── LeetCode/
-│       ├── Easy/
-│       ├── Medium/
-│       └── Hard/
-└── LeetCodeCLI/              # Swift CLI 도구
+├── swift/                    # Swift 워크스페이스
+│   ├── Algorithm.xcodeproj/
+│   ├── Algorithm/            # 솔루션 파일 (LeetCode/{Easy,Medium,Hard}, Base/)
+│   └── AlgorithmTests/
+├── go/                       # Go 워크스페이스 (module: github.com/whitehyun/algorithm-journey/go)
+│   ├── base/                 # 공통 자료구조 (ListNode, TreeNode 등)
+│   └── leetcode/{easy,medium,hard}/   # 문제별 개별 패키지 (pNNNN_slug)
+└── tools/
+    └── leetcode-cli/         # 문제 fetch/생성 CLI (Swift 구현)
 ```
 
 ## 설정 (.env)
 
 ```bash
 NICKNAME=홍승현
+XCODE_ROOT=swift
 XCODE_PROJECT_NAME=Algorithm
 XCODE_MAIN_FOLDER=Algorithm
 XCODE_UNIT_TEST_FOLDER=AlgorithmTests
+GO_ROOT=go
+GO_MODULE_PATH=github.com/whitehyun/algorithm-journey/go
 ```
 
 ## 생성되는 파일 예시

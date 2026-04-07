@@ -3,9 +3,16 @@ import Foundation
 // MARK: - Question Parsing Extensions
 
 public extension Question {
+  /// Returns the code snippet for the given LeetCode `langSlug`
+  /// (e.g. `"swift"`, `"golang"`). This is the language-agnostic hook that
+  /// language generators use to pick their target snippet.
+  func codeSnippet(forLangSlug langSlug: String) -> String? {
+    codeSnippets.first { $0.langSlug == langSlug }?.code
+  }
+
   /// Returns the Swift code snippet if available
   var swiftCodeSnippet: String? {
-    codeSnippets.first { $0.lang == "Swift" }?.code
+    codeSnippet(forLangSlug: "swift")
   }
 
   /// Returns the Swift code without the class wrapper

@@ -4,20 +4,29 @@ import Foundation
 
 public struct Configuration {
   public let nickname: String
+  public let xcodeRoot: String
   public let xcodeProjectName: String
   public let xcodeMainFolder: String
   public let xcodeUnitTestFolder: String
+  public let goRoot: String
+  public let goModulePath: String
 
   public init(
     nickname: String,
+    xcodeRoot: String = "",
     xcodeProjectName: String,
     xcodeMainFolder: String,
     xcodeUnitTestFolder: String,
+    goRoot: String = "go",
+    goModulePath: String = "",
   ) {
     self.nickname = nickname
+    self.xcodeRoot = xcodeRoot
     self.xcodeProjectName = xcodeProjectName
     self.xcodeMainFolder = xcodeMainFolder
     self.xcodeUnitTestFolder = xcodeUnitTestFolder
+    self.goRoot = goRoot
+    self.goModulePath = goModulePath
   }
 
   public static func load(from path: String = ".env") throws -> Configuration {
@@ -47,9 +56,12 @@ public struct Configuration {
 
     return Configuration(
       nickname: nickname,
+      xcodeRoot: env["XCODE_ROOT"] ?? "",
       xcodeProjectName: projectName,
       xcodeMainFolder: mainFolder,
       xcodeUnitTestFolder: testFolder,
+      goRoot: env["GO_ROOT"] ?? "go",
+      goModulePath: env["GO_MODULE_PATH"] ?? "",
     )
   }
 }
