@@ -1,7 +1,11 @@
 import Foundation
 
-/// Handles file generation and Xcode project integration for LeetCode problems
-struct FileGenerator {
+/// Generates Swift solution + test files and registers them with the Xcode
+/// project. Owns all Swift-specific behavior that used to live directly on
+/// `FileGenerator`.
+struct SwiftLanguageGenerator: LanguageGenerator {
+  let languageSlug = "swift"
+
   let config: Configuration
   let baseDirectory: URL
 
@@ -19,7 +23,7 @@ struct FileGenerator {
     codeGenerator = CodeGenerator(config: config)
   }
 
-  // MARK: - Public Methods
+  // MARK: - LanguageGenerator
 
   func generateFiles(for question: Question) throws {
     let solutionContent = codeGenerator.generateSolutionCode(for: question)
@@ -29,7 +33,19 @@ struct FileGenerator {
     try saveTestFile(question: question, content: testContent)
   }
 
-  func addToXcodeProject(question: Question) {
+  func postGenerate(question: Question, openIDE: Bool) {
+    print("Adding files to Xcode project...")
+    addToXcodeProject(question: question)
+
+    if openIDE {
+      print("Opening Xcode project...")
+      openXcodeProject()
+    }
+  }
+
+  // MARK: - Xcode Integration
+
+  private func addToXcodeProject(question: Question) {
     let difficulty = question.difficulty
     let solutionFileName = "\(question.questionFrontendId). \(question.title).swift"
     let testFileName = "LeetCode\(question.questionFrontendId)Tests.swift"
@@ -58,7 +74,7 @@ struct FileGenerator {
     }
   }
 
-  func openXcodeProject() {
+  private func openXcodeProject() {
     let projectPath = baseDirectory
       .appendingPathComponent("\(config.xcodeProjectName).xcodeproj")
       .path
@@ -69,7 +85,7 @@ struct FileGenerator {
     try? process.run()
   }
 
-  // MARK: - Private Methods
+  // MARK: - File Writing
 
   private func saveSolutionFile(question: Question, content: String) throws {
     let fileName = "\(question.questionFrontendId). \(question.title).swift"
