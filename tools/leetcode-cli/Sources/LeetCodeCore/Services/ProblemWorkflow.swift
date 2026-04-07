@@ -4,16 +4,18 @@ import Foundation
 public struct ProblemWorkflow {
   private let api: LeetCodeAPI
   private let config: Configuration
-  private let generator: FileGenerator
+  private let generator: LanguageGenerator
   private let options: Options
 
   public struct Options {
     public var openXcode: Bool
     public var debug: Bool
+    public var languageSlug: String
 
-    public init(openXcode: Bool = true, debug: Bool = false) {
+    public init(openXcode: Bool = true, debug: Bool = false, languageSlug: String = "swift") {
       self.openXcode = openXcode
       self.debug = debug
+      self.languageSlug = languageSlug
     }
 
     public static let `default` = Options()
@@ -22,7 +24,7 @@ public struct ProblemWorkflow {
   public init(config: Configuration, options: Options = .default) {
     api = LeetCodeAPI()
     self.config = config
-    generator = FileGenerator(config: config)
+    generator = LanguageGeneratorFactory.make(languageSlug: options.languageSlug, config: config)
     self.options = options
   }
 
@@ -56,14 +58,7 @@ public struct ProblemWorkflow {
     }
 
     try generator.generateFiles(for: question)
-
-    print("Adding files to Xcode project...")
-    generator.addToXcodeProject(question: question)
-
-    if options.openXcode {
-      print("Opening Xcode project...")
-      generator.openXcodeProject()
-    }
+    generator.postGenerate(question: question, openIDE: options.openXcode)
 
     print("Done!")
   }
