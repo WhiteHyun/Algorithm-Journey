@@ -1,5 +1,12 @@
 secrets/*
 
+### Go ###
+# Test binaries
+*.test
+*.out
+# Go workspace file
+go.work.sum
+
 
 ### macOS ###
 # General
