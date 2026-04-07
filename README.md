@@ -48,6 +48,9 @@ Algorithm-Journey/
 │   ├── Algorithm.xcodeproj/
 │   ├── Algorithm/            # 솔루션 파일 (LeetCode/{Easy,Medium,Hard}, Base/)
 │   └── AlgorithmTests/
+├── go/                       # Go 워크스페이스 (module: github.com/whitehyun/algorithm-journey/go)
+│   ├── base/                 # 공통 자료구조 (ListNode, TreeNode 등)
+│   └── leetcode/{easy,medium,hard}/   # 문제별 개별 패키지 (pNNNN_slug)
 └── tools/
     └── leetcode-cli/         # 문제 fetch/생성 CLI (Swift 구현)
 ```
