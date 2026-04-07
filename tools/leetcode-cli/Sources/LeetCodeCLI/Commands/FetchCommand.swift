@@ -16,9 +16,12 @@ struct FetchCommand: AsyncParsableCommand {
   @Flag(name: .long, help: "Print debug information")
   var debug: Bool = false
 
+  @Option(name: .long, help: "Target language: swift (default) or go")
+  var lang: String = "swift"
+
   func run() async throws {
     let config = try Configuration.load()
-    let options = ProblemWorkflow.Options(openXcode: !noOpen, debug: debug)
+    let options = ProblemWorkflow.Options(openXcode: !noOpen, debug: debug, languageSlug: lang)
     let workflow = ProblemWorkflow(config: config, options: options)
 
     try await workflow.fetch(problem: problem)
