@@ -1,5 +1,5 @@
 [tools]
-swiftformat = "0.59.1"
-swiftlint = "0.63.2"
+swiftformat = "latest"
+swiftlint = "latest"
 go = "1.26"
 golangci-lint = "2.1.6"
